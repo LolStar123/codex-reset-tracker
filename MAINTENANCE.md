@@ -19,7 +19,9 @@ No manual tweet editing or site redeployment is needed.
 - Leave the site available and the encrypted credential in place. Avoid copying
   the credential into messages, screenshots or a source repository.
 - No npm install, local development server or manual script start is required for
-  ordinary scheduled collection. The runner uses built-in Windows PowerShell.
+  ordinary scheduled collection. Keep the installed Python available: pythonw
+  launches built-in Windows PowerShell with CREATE_NO_WINDOW, preventing a console
+  from appearing even briefly. If Python moves or is replaced, rerun the installer.
 
 Latest receipt:
 `C:\Users\AtulS\AppData\Local\ResetMonitor\last-check.json`

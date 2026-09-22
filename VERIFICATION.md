@@ -243,3 +243,17 @@ interrupting the user's PC. MAINTENANCE.md documents normal upkeep and failures.
 
 Only local scheduler scripts, tests and documentation changed. The deployed
 collector endpoint and website code were reused without a site redeployment.
+
+## Console flash correction (22 September 2026)
+
+After the user reported recurring pop-ups, paused the collector and found its
+task launched powershell.exe directly with WindowStyle Hidden. That can allocate
+a console before hiding it; the reported pop-up type was not independently
+confirmed. Replaced the task entrypoint with pythonw.exe and run-collector.pyw.
+The launcher starts PowerShell with CREATE_NO_WINDOW and detached standard
+streams, waits for completion and propagates its exit code. Updated the installer
+and maintenance guide so task repair preserves the console-free route.
+
+Reinstalled and resumed the task. The real run at 11:50:29 UTC finished with exit
+code zero, a fresh successful source check, 65 retained posts and no consecutive
+failures. Verified Task Scheduler points to pythonw.exe rather than powershell.exe.
