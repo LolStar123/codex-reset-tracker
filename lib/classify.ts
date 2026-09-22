@@ -17,7 +17,8 @@ export function classify(raw:RawPost, parent?:RawPost):Post|null {
     if(!text) return null;
     const direct=resetWord.test(text), contextual=resetWord.test(context);
     const tokenHint=/\bburn (?:those |your )?tokens\b/i.test(text) && /\b(?:drop|reset|usage|left)\b/i.test(context);
-    const usageClarification=/\b(?:limits?|usage|credits?|consum\w*)\b/i.test(text) && /\b(?:limits?|usage|reset|banked)\b/i.test(context);
+    const standaloneUsage=/\b(?:codex|tokens?|weekly|daily|five.hour|5.hour)\b/i.test(text) && /\b(?:limits?|usage|credits?|allowance|quota)\b/i.test(text);
+    const usageClarification=standaloneUsage || /\b(?:limits?|usage|credits?|consum\w*)\b/i.test(text) && /\b(?:limits?|usage|reset|banked)\b/i.test(context);
     const contextualAnswer=contextual && (/\b(?:tomorrow|tonight|later|coming|tuesday|monday|wednesday|thursday|friday|saturday|sunday|yes|no|done|soon|everyone|all plans|plus|pro|banked|schedule|applied|delayed|cancelled)\b/i.test(text));
     const unrelatedAside=/neck tattoos|filmed this weekend|love this community|most folks have been very nice/i.test(text);
     if(unrelatedAside || (!direct&&!tokenHint&&!usageClarification&&!contextualAnswer&&!contextual)) return null;

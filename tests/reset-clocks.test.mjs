@@ -9,13 +9,20 @@ test('new banked confirmation does not restart the full-reset clock',()=>{
  const promise={id:'3',category:'scheduled',resetType:'regular',at:'2026-09-22T06:00:00Z'};
  assert.equal(lastResetOfType([promise,bank,full],'regular').id,'1');
  assert.equal(lastResetOfType([promise,bank,full],'banked').id,'2');
- assert.deepEqual(elapsedParts(bank.at,Date.parse('2026-09-13T13:42:00Z')),{days:1,hours:2,minutes:2});
+ assert.deepEqual(elapsedParts(bank.at,Date.parse('2026-09-13T13:42:00Z')),{days:1,hours:2,minutes:2,seconds:0});
 });
 test('combined confirmation updates both clocks; absent banked history stays absent',()=>{
  const both={id:'1',category:'confirmed',resetType:'both',at:'2026-09-12T11:40:00Z'};
  assert.equal(lastResetOfType([both],'regular'),both);
  assert.equal(lastResetOfType([both],'banked'),both);
  assert.equal(lastResetOfType([{...both,resetType:'regular'}],'banked'),undefined);
+});
+
+test('elapsed seconds roll into minutes and days without negative values',()=>{
+ const at='2026-09-22T00:00:00Z';
+ assert.deepEqual(elapsedParts(at,Date.parse(at)+59999),{days:0,hours:0,minutes:0,seconds:59});
+ assert.deepEqual(elapsedParts(at,Date.parse(at)+86400000),{days:1,hours:0,minutes:0,seconds:0});
+ assert.deepEqual(elapsedParts(at,Date.parse(at)-1000),{days:0,hours:0,minutes:0,seconds:0});
 });
 test('short banked delivery reply inherits reset type from parent context',()=>{
  const parent={id:'1',text:'Is a banked reset coming?',author:{screen_name:'reader'}};

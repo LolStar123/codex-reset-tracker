@@ -1,5 +1,22 @@
 # Verification
 
+## Seconds, sound and Tibo artwork, 22 September 2026
+
+- Full and banked clocks now tick once per second in an isolated component,
+  without rebuilding the calendar every second. Seconds roll into minutes/days.
+- Removed the personal name from the header. Added generated chibi fan art next
+  to the key and in the empty feed, plus Tibo's profile photo by the feed heading.
+- Replaced scaling press feedback with a keycap travelling into a fixed housing.
+  Gesture-only low thock sound and a persistent mute control are implemented.
+- Eleven focused browser checks passed: ticking seconds, removed name, loaded
+  images, at least 14px press travel, one sound per press, muted keyboard presses,
+  mute persistence, Space activation, 320px layout and reduced-motion hydration.
+- All eighteen existing browser checks passed. No runtime/hydration errors.
+- Fourteen classifier/clock tests passed, including standalone Codex allowance
+  updates without falsely declaring a reset. TypeScript and ESLint passed.
+- Shared collection remains server-side. No cloud schedule was registered;
+  unattended checks still use the existing Windows task. Access remains private.
+
 ## Second design pass, 22 September 2026
 
 - Replaced the monochrome layout with a personal Codex key, self-hosted display

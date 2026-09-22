@@ -1,0 +1,46 @@
+async (page)=>{
+ const checks=[];const errors=[];
+ const check=(name,ok)=>{if(!ok)throw Error(name);checks.push(name);};
+ await page.addInitScript(()=>{
+  if(window.__keySoundInstrumented)return;
+  window.__keySoundInstrumented=true;
+  window.__keySounds=0;
+  const original=AudioContext.prototype.createOscillator;
+  AudioContext.prototype.createOscillator=function(...args){window.__keySounds++;return original.apply(this,args);};
+ });
+ page.on('pageerror',error=>errors.push(error.message));
+ page.on('console',message=>{if(message.type()==='error')errors.push(message.text());});
+ await page.emulateMedia({reducedMotion:'no-preference'});
+ await page.setViewportSize({width:1440,height:1100});
+ await page.goto('http://localhost:5173/');
+ await page.waitForFunction(()=>!!document.documentElement.dataset.theme);
+ const key=page.getByRole('button',{name:'Check for new resets'});
+ const previous=await page.locator('.reset-clock.regular .clock-digits').getAttribute('aria-label');
+ await page.waitForFunction(old=>document.querySelector('.reset-clock.regular .clock-digits').getAttribute('aria-label')!==old,previous);
+ check('Seconds tick without reloading',true);
+ check('Personal name removed',!await page.locator('body').innerText().then(t=>t.toLowerCase().includes("atul's")));
+ await page.waitForFunction(()=>document.querySelector('.tibo-key-buddy').complete&&document.querySelector('.tibo-key-buddy').naturalWidth>0);
+ check('Chibi and profile assets load',await page.locator('.tibo-avatar img').evaluate(el=>el.complete&&el.naturalWidth>0));
+ const unmute=page.getByRole('button',{name:'Enable key sound'});if(await unmute.count())await unmute.click();
+ await page.mouse.move(0,0);const box=await key.boundingBox();await page.mouse.move(box.x+box.width/2,box.y+box.height/2);
+ await page.mouse.down();
+ await page.waitForFunction(()=>new DOMMatrix(getComputedStyle(document.querySelector('.reset-key')).transform).m42>14);
+ check('Keycap travels at least 14px into the base',true);
+ check('Pointer press produces one thock',await page.evaluate(()=>window.__keySounds===1));
+ await page.mouse.up();
+ await page.waitForFunction(()=>document.querySelector('.reset-key').dataset.pressed==='false'&&!document.querySelector('.reset-key').disabled);
+ await page.getByRole('button',{name:'Mute key sound'}).click();
+ await key.focus();await page.keyboard.press('Enter');
+ await page.waitForFunction(()=>!document.querySelector('.reset-key').disabled);
+ check('Muted keyboard press is silent',await page.evaluate(()=>window.__keySounds===1));
+ await page.reload();await page.getByRole('button',{name:'Enable key sound'}).waitFor();check('Mute preference survives reload',true);
+ await page.getByRole('button',{name:'Enable key sound'}).click();await key.focus();await page.keyboard.press('Space');
+ await page.waitForFunction(()=>!document.querySelector('.reset-key').disabled);
+ check('Space key produces one thock',await page.evaluate(()=>window.__keySounds===1));
+ await page.setViewportSize({width:320,height:800});
+ check('Seconds and mascot fit narrow mobile',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.emulateMedia({reducedMotion:'reduce'});await page.reload();await page.waitForFunction(()=>!!document.documentElement.dataset.theme);
+ check('Reduced motion keeps clocks readable',await page.locator('[role=timer]').count()===2);
+ check('No runtime or hydration errors',errors.length===0);
+ return {checks,errors};
+}

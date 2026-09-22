@@ -15,6 +15,13 @@ An open page updates its date every thirty seconds, including across year change
 The calendar expands its available years automatically. Older years stay selectable.
 Source failures preserve history and display delayed collection.
 
+All authorized visitors read the same database and filtered feed. An open visitor
+can trigger server-side collection even when the owner's PC is off; that PC is
+only required for the existing unattended polling task. This is a private Site,
+not an anonymously accessible public feed. No cloud cron is currently installed.
+The interface's two elapsed clocks now tick every second independently of the
+feed's one-minute polling and the collector's five-minute minimum interval.
+
 ## Account observations: researched, not connected
 
 On 22 September 2026, a read-only inspection of two recent local Codex session

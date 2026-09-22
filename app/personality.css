@@ -69,3 +69,25 @@ button:focus-visible,a:focus-visible,summary:focus-visible,[tabindex]:focus-visi
  .feed-section{margin-top:33px}.feed-heading h2{font-size:22px}.feed-tabs{height:35px!important}.feed-tabs button{font-size:12px!important;padding:4px 10px!important}.post-row{padding:21px 0;gap:12px}.post-icon{flex-basis:28px;width:28px;height:28px;border-radius:8px}.post-main h3{font-size:16px}.post-bottom{flex-wrap:wrap;gap:8px;font-size:11px}.badge,.post-top time{font-size:10px}.text-button{font-size:11px}.footer-top{align-items:flex-start;flex-direction:column;gap:13px}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.post-row:hover,.rare-cell:hover,.year-select:hover,.feed-tabs button:hover,.date-filter button:hover,.rare-cell:active,.year-select:active,.feed-tabs button:active{transform:none!important}}
+
+/* The keycap travels into a fixed lower housing, rather than shrinking. */
+.key-housing{position:relative;isolation:isolate}
+.key-housing::before{content:'';position:absolute;inset:14px -1px -18px;border:1px solid #6684bd;border-radius:34px;background:linear-gradient(150deg,#5874ad,#263b64);box-shadow:0 4px 0 #172b50,0 20px 30px #03091d55;z-index:-1}
+.reset-key{box-shadow:0 8px 0 #4569aa,0 9px 0 #809bd0,0 12px 10px #17284a50;transition:box-shadow .08s,filter .08s}
+.reset-key[data-pressed=true]{box-shadow:0 1px 0 #4569aa;filter:brightness(.96)}
+.is-pressed .key-float{animation-play-state:paused}
+.key-sound-toggle{position:absolute;bottom:0;right:10px;display:grid;place-items:center;width:30px;height:30px;border:1px solid var(--border);border-radius:50%;background:var(--card);color:var(--muted-foreground)}
+.clock-digits{gap:17px;font-variant-numeric:tabular-nums;letter-spacing:-1px}
+.clock-digits>.clock-days,.clock-digits>.clock-time{color:var(--foreground);font-size:inherit;margin:0;display:inline-flex;align-items:baseline}
+.clock-days small{font:12px var(--mono);color:var(--muted-foreground);margin-left:4px}
+.clock-time i{font-style:normal;color:var(--muted-foreground);opacity:.55;margin:0 3px}
+.clock-seconds{color:var(--green);font-size:inherit}.banked .clock-seconds{color:var(--bank)}
+.clock-source>span{display:inline-flex;align-items:center;gap:5px}
+@media(max-width:600px){.clock-source{display:flex;flex-direction:column;align-items:flex-start;gap:2px}.clock-source>span{white-space:nowrap}}
+@media(max-width:600px){.clock-digits{gap:9px;font-size:19px}.clock-time i{margin:0 1px}.clock-days small{font-size:10px;margin-left:2px}.key-housing::before{border-radius:23px;inset:10px -1px -18px}.reset-key{box-shadow:0 8px 0 #4569aa,0 9px 0 #809bd0}.key-sound-toggle{bottom:-8px;right:0;width:27px;height:27px}}
+.tibo-key-buddy{position:absolute;width:125px;height:auto;left:0;bottom:3px;z-index:3;pointer-events:none;filter:drop-shadow(0 7px 6px #050d211a);transform:rotate(-4deg)}
+.tibo-avatar{display:inline-flex;flex-shrink:0;width:36px;height:36px;border-radius:50%;overflow:hidden;border:2px solid var(--border);transform:rotate(-7deg);transition:transform .2s}
+.tibo-avatar:hover{transform:rotate(5deg)}.tibo-avatar img{width:100%;height:100%;object-fit:cover}
+.tibo-empty{display:block;width:77px;height:auto;margin:0 auto 12px}
+@media(max-width:850px){.tibo-key-buddy{width:104px;left:-10px;bottom:8px}}
+@media(max-width:600px){.tibo-key-buddy{width:62px;left:-32px;bottom:0}.tibo-avatar{width:29px;height:29px}.feed-heading h2{font-size:20px;gap:7px}}

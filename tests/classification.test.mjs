@@ -38,6 +38,13 @@ test('other authors and unrelated release chatter are excluded',()=>{
     assert.equal(classify(raw('We have reset usage',{author:{screen_name:'other'}})),null);
     assert.equal(classify(raw('We released a new model today')),null);
 });
+
+test('standalone Codex allowance updates are retained without inventing a reset',()=>{
+    for(const text of ['Codex weekly usage limits are increasing.','More credits for Codex users.','The weekly limit is higher now.']){
+        const post=classify(raw(text));assert.equal(post.category,'clarification');assert.equal(deriveEvents([post]).length,0);
+    }
+    assert.equal(classify(raw('The film credits are great.')),null);
+});
 test('a missed promise expires without becoming a confirmed event',()=>{
     const p=classify(raw('I promised a reset for Tuesday.'));
     assert.equal(awaitingConfirmation(p,Date.parse('2026-09-22T20:00:00Z')),false);
