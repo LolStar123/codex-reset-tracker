@@ -10,7 +10,8 @@ measurement of when a particular account received a reset.
 
 The existing Windows task requests the hosted monitor every five minutes while
 the user is logged in and the PC is awake. The server throttles source collection
-to a minimum five-minute interval; active pages request updates every minute.
+to roughly one check per minute; failed source calls back off for five minutes.
+Active pages request shared updates every thirty seconds and when made visible.
 An open page updates its date every thirty seconds, including across year changes.
 The calendar expands its available years automatically. Older years stay selectable.
 Source failures preserve history and display delayed collection.
@@ -53,3 +54,25 @@ For a future private account observer:
 
 No private-account observer, telemetry upload, reset redemption or new account
 authentication was enabled in this release.
+
+## Cloud scheduler prepared, activation pending
+
+`scheduler/worker.mjs` calls the private `/api/collect` endpoint every minute via
+Cloudflare Cron Triggers. The endpoint returns health metadata only. The same
+D1 lease prevents overlapping source collection from cloud calls and visitors.
+Successful runs preserve the last checked timestamp; failures keep the previous
+feed. The worker refuses redirects so its secret never follows another origin.
+Its credential belongs in a Cloudflare secret binding, never source control.
+
+The worker and cron configuration are implemented and tested, but are not yet
+installed: the existing Cloudflare API token has domain access but Workers calls
+return HTTP 403. Cloudflare browser sign-in was requested. The PC task remains
+active until a successful cloud run has been verified. No always-on claim is made
+before that verification.
+
+Polling is not a Twitter webhook. Public-source availability and provider cache
+can delay or omit tweets/replies. A source confirmation advances the calendar and
+clocks; a tweet promising a reset does not prove it has propagated to an account.
+
+Cloudflare scheduling reference:
+https://developers.cloudflare.com/workers/configuration/cron-triggers/

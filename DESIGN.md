@@ -24,3 +24,21 @@ key shrinks on mobile. The source feed, filters and coverage disclosures remain.
 
 Source confirmation is distinct from personal account verification. No account
 telemetry is uploaded or connected in this release.
+
+## Feed and key revision
+
+The feed is now a narrow UTC date rail with threaded source quotations. Actual
+post text replaces summary headings. Replies name the parent author, with the
+parent text one click away. Confirmations have a cobalt edge; incoming resets use
+amber metadata. Tabs have an uneven ink underline instead of pill containers.
+The rail condenses to 38px on mobile, preserving readable source text.
+
+The mascot is a flat pencil-and-ink chibi. A bounded burst of uneven rays, stars
+and squiggles appears for 520ms on a press and replays on another press. Reduced
+motion shows a static burst. Native pointer and keyboard input use the same
+recorded downstroke/upstroke pair, with a softer release and persistent mute.
+
+Acceptance checklist: readable source excerpts, linked parent context, working
+filters/calendar, no overflow at 320px, audible sample playback on gesture only,
+replayed/cleaned-up burst, reduced motion, independent seconds clocks, and no
+hydration errors. Solo rendered review passed the first visual round.

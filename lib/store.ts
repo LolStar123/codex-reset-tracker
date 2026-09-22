@@ -20,7 +20,9 @@ export async function readMonitor(refresh=true):Promise<Snapshot> {
         }
         const snapshot:Snapshot=JSON.parse(state.value);
         snapshot.posts=applyCorrections(snapshot.posts);snapshot.events=deriveEvents(snapshot.posts);
-        if(refresh&&(!snapshot.lastAttemptAt&&!snapshot.checkedAt||Date.now()-Date.parse(snapshot.lastAttemptAt??snapshot.checkedAt??'1970-01-01')>300000)) {
+        // A failed upstream call backs off; healthy collectors can check each minute.
+        const retryAfter=snapshot.lastAttemptAt&&snapshot.lastAttemptAt!==snapshot.checkedAt?300000:55000;
+        if(refresh&&(!snapshot.lastAttemptAt&&!snapshot.checkedAt||Date.now()-Date.parse(snapshot.lastAttemptAt??snapshot.checkedAt??'1970-01-01')>retryAfter)) {
             if(!active)active=syncMonitor(snapshot).finally(()=>{active=null;});
             await active;
             const current=await db.prepare('SELECT value FROM monitor_state WHERE key = ?').bind('snapshot').first<{value:string}>();

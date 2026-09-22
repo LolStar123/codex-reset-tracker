@@ -104,3 +104,31 @@ if unattended collection while this PC is off becomes necessary.
 Writing audit: factual checks and limitations replace prose-style quotas in this
 technical report. Rejected generic phrases: “seamless experience”, “powerful
 insights”, “cutting-edge dashboard”.
+
+## Scribble, sound, feed and collection revision (22 September 2026)
+
+- Eighteen existing rendered-page checks passed after replacing the feed layout.
+- Seventeen focused checks passed for seconds clocks, loaded illustrations,
+  at least 14px of key travel, one recorded downstroke and one quieter upstroke,
+  muted keyboard input, mute persistence, replayed/removed splash, 320px layout,
+  and a static reduced-motion burst. No hydration or runtime errors were observed.
+- Four browser checks with an intercepted new source confirmation passed:
+  automatic polling inserts the post, advances the full-reset clock, lights its
+  calendar date, and renders one copy without a user click. This is simulated
+  incoming data, not evidence of a new real-world reset.
+- Three cloud-worker tests passed for private requests, health-only logging,
+  rejected redirects/auth failures, stale source detection and missing secrets.
+- TypeScript, application ESLint and the production build passed.
+- Inspected desktop dark, mobile dark, and pressed-key burst screenshots.
+  The new WebP retains alpha. Keyboard sound is now a 71.497ms recorded switch
+  sample; automated checks verify playback, not a subjective listening test.
+- The automatic-refresh test initially installed its fake clock after the page
+  had registered real timers. Moving clock installation before navigation fixed
+  the test; no application timer change was needed for that failure.
+- Cloud activation is blocked by Workers HTTP 403 from the existing API token.
+  Cloudflare sign-in is pending; the tested worker has not been deployed there.
+  Existing PC polling remains until an independent cloud run is confirmed.
+
+Writing audit: this technical record states measured checks and the remaining
+activation dependency. Prose quotas would add irrelevant detail, so they are not
+padded. Rejected phrases: seamless monitoring, powerful insights, next-gen feed.
