@@ -209,9 +209,15 @@ body::before{display:none}
 .clock-digits>.clock-time{font:18px var(--mono);letter-spacing:-.6px;gap:0;margin-left:4px}
 .clock-time i{margin:0 3px;font-size:inherit}
 .hero>.reset-toy{grid-column:2;grid-row:1;height:177px;margin:0}
-.hero .reset-key{width:141px;height:145px;border-radius:29px;padding:9px 10px 17px}
-.hero .key-face{border-radius:20px;padding:10px 12px 9px}.hero .key-face>svg{width:48px;height:48px}.hero .key-label{font-size:13px}
-.hero .key-housing::before{border-radius:29px}.hero .key-shadow{top:150px;width:130px}
+.hero .key-float{animation:none;transform:perspective(650px) rotateX(16deg) rotateZ(-8deg)}
+.hero .reset-key{width:141px;height:145px;border-radius:8px;padding:9px 13px 25px;border-color:#91b0e9;background:conic-gradient(from 38deg at 50% 36%,#86a7e2 0deg 103deg,#5276b8 105deg 181deg,#7497d3 183deg 275deg,#b0c8f2 277deg);box-shadow:0 9px 0 #36558b,0 10px 0 #19304f,0 13px 8px #050b1740}
+.hero .reset-key[data-pressed=true]{box-shadow:0 1px 0 #36558b;filter:brightness(.96)}
+.hero .key-face{position:relative;border-radius:5px 5px 9px 9px;padding:10px 10px 8px;background:radial-gradient(ellipse at 50% 25%,#93b3eb,#a6c1ee 72%,#bdd2f5);box-shadow:inset 0 2px 4px #496fac40,inset 0 -2px 1px #e0eaff90,0 1px 2px #37558280;color:#1b3561;align-items:flex-start}
+.hero .key-face>svg{width:31px;height:31px;align-self:flex-start;stroke-width:2}.hero .key-label{font-size:14px;font-weight:600;text-shadow:0 1px 0 #dbe8ff70}
+.hero .key-code{font-size:10px;align-self:flex-end;opacity:.65}
+.hero .key-housing::before{inset:17px -4px -22px;border-radius:9px;border:2px solid #455169;background:linear-gradient(135deg,#1f2b40,#101725);box-shadow:inset 0 0 0 3px #131c2c,0 4px 0 #0b1220,0 15px 20px #03091d55}
+.hero .key-housing::after{content:'';position:absolute;z-index:-1;left:40%;right:40%;bottom:-15px;height:20px;border:2px solid #dbc5ac;border-radius:3px;background:#eacaaa;box-shadow:inset 0 0 0 3px #f4e4d6}
+.hero .key-shadow{top:164px;width:130px;animation:none}
 .hero .tibo-key-buddy{width:84px;left:-30px;bottom:-4px}.hero .key-sound-toggle{right:-5px;bottom:-9px}
 .hero-info>.reset-brief{position:relative;isolation:isolate;width:fit-content;max-width:100%;min-height:34px;margin:22px 0 0;padding:7px 11px;gap:8px;font:12px/1.6 var(--mono);color:var(--foreground);transform:rotate(.7deg)}
 .hero-info>.reset-brief::before{content:'';position:absolute;inset:0;z-index:-1;background:color-mix(in srgb,var(--green) 17%,var(--card));clip-path:polygon(0 3%,99% 0,100% 95%,1% 100%)}
@@ -228,8 +234,8 @@ body::before{display:none}
  .clock-digits>.clock-days,.clock-days small{font-size:clamp(40px,12vw,62px);letter-spacing:-2.1px}.clock-digits>.clock-days{gap:9px;padding:0 4px 3px}
  .clock-digits>.clock-time{font-size:18px;margin-left:0}.clock-time i{margin:0 2px}
  .hero>.reset-toy{position:absolute;right:17px;top:121px;bottom:auto;width:88px;height:93px;margin:0}
- .hero .reset-key{width:77px;height:82px;padding:5px 6px 11px;border-radius:17px}.hero .key-face{padding:5px 7px 4px;border-radius:11px}.hero .key-face>svg{width:26px;height:26px}.hero .key-code{font-size:8px}.hero .key-label{font-size:9px}.hero .key-label>span{font-size:11px}
- .hero .key-housing::before{border-radius:17px;inset:8px -1px -16px}.hero .key-shadow{width:70px;top:86px}.hero .tibo-key-buddy{width:53px;left:-26px;bottom:-10px}
+ .hero .reset-key{width:77px;height:82px;padding:5px 7px 14px;border-radius:5px}.hero .key-face{padding:4px 5px 4px;border-radius:3px 3px 5px 5px}.hero .key-face>svg{width:18px;height:18px}.hero .key-code{font-size:6px}.hero .key-label{font-size:9px}.hero .key-label>span{font-size:10px}
+ .hero .key-housing::before{border-radius:6px;inset:9px -3px -21px}.hero .key-housing::after{bottom:-15px;height:17px}.hero .key-shadow{width:70px;top:96px}.hero .tibo-key-buddy{width:53px;left:-26px;bottom:-10px}
  .hero .key-sound-toggle{width:23px;height:23px;right:-10px;bottom:-10px}.hero .key-sound-toggle svg{width:12px}
  .hero .key-splash{width:155px;height:160px}.hero .key-splash-stage{inset:-20px -12px}
  .hero-info>.reset-brief{margin-top:88px;min-height:34px;font-size:11px;padding:7px 9px}

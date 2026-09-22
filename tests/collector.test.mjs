@@ -1,6 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {collectTimeline,getJson} from '../lib/collector.ts';
+import {resetBrief} from '../lib/reset-brief.ts';
 const raw=(id,text,author='thsottiaux',extra={})=>({id,text,url:`https://x.com/${author}/status/${id}`,created_at:'2026-09-22T04:00:00Z',author:{screen_name:author},...extra});
 test('collector includes replies, retrieves missing context and resumes pagination',async()=>{
     const original=globalThis.fetch;const urls=[];
@@ -26,4 +27,16 @@ test('an unavailable parent stays explicitly missing',async()=>{
     const original=globalThis.fetch;
     globalThis.fetch=async url=>String(url).includes('/2/status/')?new Response('',{status:404}):Response.json({code:200,results:[raw('100','Maybe a reset tomorrow','thsottiaux',{replying_to:{status:'99'}})],cursor:{bottom:null}});
     try{const result=await collectTimeline(null,1);assert.equal(result.posts[0].parentMissing,true);assert.equal(result.posts[0].category,'hint');}finally{globalThis.fetch=original;}
+});
+test('a newly collected delay reply changes the forecast without manual editing',async()=>{
+    const original=globalThis.fetch;
+    const parent=raw('200','The Codex reset is coming Tuesday.');
+    const delay=raw('201','It is delayed until tomorrow.','thsottiaux',{replying_to:{status:'200'},created_at:'2026-09-22T09:00:00Z'});
+    globalThis.fetch=async url=>String(url).includes('/2/status/')?Response.json({code:200,status:parent}):Response.json({code:200,results:[delay],cursor:{bottom:null}});
+    try {
+        const result=await collectTimeline('2026-09-22T08:00:00Z');
+        assert.equal(result.posts[0].id,'201');
+        assert.equal(result.posts[0].category,'correction');
+        assert.deepEqual(resetBrief(result.posts,Date.parse('2026-09-22T09:01:00Z')),{text:'reset expected wednesday',url:delay.url});
+    }finally{globalThis.fetch=original;}
 });

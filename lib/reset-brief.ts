@@ -8,11 +8,15 @@ const kinds=(post:Post)=>post.resetType==='both'?['regular','banked']:[post.rese
 export function resetBrief(posts:Post[],now:number,stale=false):{text:string;url?:string} {
     if(stale)return {text:'source check delayed'};
     const ordered=[...posts].sort((a,b)=>b.at.localeCompare(a.at));
-    const pending=ordered.find(p=>p.category==='scheduled'&&!kinds(p).every(kind=>ordered.some(c=>c.category==='confirmed'&&c.at>=p.at&&kinds(c).includes(kind))));
+    const pending=ordered.find(p=>(p.category==='scheduled'||p.category==='correction')&&!kinds(p).every(kind=>ordered.some(c=>c.category==='confirmed'&&c.at>=p.at&&kinds(c).includes(kind))));
     if(!pending)return {text:'next reset undetermined'};
-    const correction=ordered.find(p=>p.category==='correction'&&p.at>pending.at&&kinds(p).some(k=>kinds(pending).includes(k)));
-    if(correction)return {text:/cancelled|canceled|not happening|no reset|won.t|will not/i.test(correction.text)?'reset cancelled':'reset timing undetermined',url:correction.url};
-    const text=pending.text.toLowerCase();
+    const correction=pending.category==='correction';
+    const wording=pending.text.toLowerCase();
+    // A replacement date belongs to the correction, never to its older parent.
+    const replacement=wording.match(/\b(?:delayed|postponed|moved|rescheduled|pushed(?: back)?)\b[^.!?]*?\b(?:to|until|for)\s+([^.!?]+)/)?.[1];
+    if(correction&&!replacement&&/\b(?:cancelled|canceled|not happening|no reset|won.t|will not)\b/.test(wording))return {text:'reset cancelled',url:pending.url};
+    if(correction&&/\b(?:might|maybe|perhaps|hope|possibly|could)\b/.test(wording))return {text:'reset timing undetermined',url:pending.url};
+    const text=replacement??wording;
     const at=Date.parse(pending.at);
     const subject=pending.resetType==='banked'?'banked reset':'reset';
     const hours=text.match(/\b(?:within|in(?: the)? next)\s+(\d+(?:\.\d+)?)\s+hours?\b/);
@@ -21,7 +25,8 @@ export function resetBrief(posts:Post[],now:number,stale=false):{text:string;url
         return {text:left>0?`${subject} expected within ${Math.ceil(left/3600000)}h`:'awaiting reset confirmation',url:pending.url};
     }
     const sourceDay=new Date(at);sourceDay.setUTCHours(0,0,0,0);
-    const weekday=weekdays.findIndex(day=>new RegExp(`\\b${day}\\b`).test(text));
+    const mentionedDays=[...text.matchAll(/\b(sunday|monday|tuesday|wednesday|thursday|friday|saturday)\b/g)];
+    const weekday=weekdays.indexOf(mentionedDays.at(-1)?.[1]??'');
     const offset=/\btomorrow\b/.test(text)?1:/\b(?:today|tonight)\b/.test(text)?0:weekday>=0?(weekday-sourceDay.getUTCDay()+7)%7:null;
     if(offset!==null) {
         const date=sourceDay.getTime()+offset*DAY;
@@ -30,5 +35,5 @@ export function resetBrief(posts:Post[],now:number,stale=false):{text:string;url
         return {text:`${subject} expected ${day}`,url:pending.url};
     }
     if(now-at>7*DAY)return {text:'awaiting reset confirmation',url:pending.url};
-    return {text:`${subject} expected, timing undetermined`,url:pending.url};
+    return {text:correction?'reset timing undetermined':`${subject} expected, timing undetermined`,url:pending.url};
 }

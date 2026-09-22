@@ -24,7 +24,7 @@ export function classify(raw:RawPost, parent?:RawPost):Post|null {
     if(unrelatedAside || (!direct&&!tokenHint&&!usageClarification&&!contextualAnswer&&!contextual)) return null;
     // Replies containing no new reset information do not inherit the parent's claim.
     let category:Category='hint';
-    if(/\b(?:cancelled|canceled|postponed|delayed|not happening|no reset|won't (?:be )?reset|will not reset|correction)\b/i.test(text)) category='correction';
+    if(/\b(?:cancelled|canceled|postponed|delayed|rescheduled|moved (?:to|from)|pushed (?:back|to)|not happening|no reset|won't (?:be )?reset|will not reset|correction)\b/i.test(text)) category='correction';
     else if((direct||contextual) && (delivery.test(text) || contextual && /^(?:yes[,.!]?\s*)?(?:done|it is done|it's done|it’s done)[.!]?$/i.test(text)) && !denials.test(text.split(/[.!?]/)[0])) category='confirmed';
     else if((direct||contextual) && future.test(text) && /\b(?:will|promis\w*|coming|lands?|landing|tomorrow|tonight|tuesday|monday|wednesday|thursday|friday|saturday|sunday)\b/i.test(text) && !/\b(?:might|maybe|perhaps|hope|wish|could|would|not|no)\b/i.test(text)) category='scheduled';
     else if(usageClarification || /\b(?:schedule|eligible|expiry|expire|affected|applying|applied|another one|only|credits)\b/i.test(text)) category='clarification';

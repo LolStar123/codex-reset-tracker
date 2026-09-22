@@ -9,6 +9,8 @@ The main slate box says last reset was, followed by a large cobalt-highlighted
 number of days. HH:MM:SS ticks underneath. A single clock uses the newest
 confirmed reset of any type. Its source link exposes the exact type/date on hover.
 The smaller mechanical check key and abstract Tibo occupy the right corner.
+The keycap has angular sloping walls, a concave top, an exposed cream switch stem
+and a dark socket. It sits still until interaction, with the existing 17px press.
 
 One short source-based outlook types inside a crooked tinted rectangle in the
 main box, with a blinking underscore. Unknown timing says next reset undetermined.

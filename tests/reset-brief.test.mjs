@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { resetBrief } from '../lib/reset-brief.ts';
 import { lastReset } from '../lib/reset-clocks.ts';
+import { classify } from '../lib/classify.ts';
 
 const at='2026-09-22T06:00:00.000Z';
 const now=Date.parse('2026-09-22T08:10:00Z');
@@ -31,4 +32,25 @@ test('corrections and collection failure take precedence over optimistic wording
  const cancellation={...promise,id:'cancel',category:'correction',at:'2026-09-22T07:00:00Z',text:'The reset is cancelled.'};
  assert.equal(resetBrief([cancellation,promise],now).text,'reset cancelled');
  assert.match(resetBrief([promise],now,true).text,/source check delayed/);
+});
+
+test('a new delay reply replaces the old date and retains its own source',()=>{
+ const parent={id:'parent',text:'The Codex reset is coming Tuesday.',url:promise.url,created_at:at,author:{screen_name:'thsottiaux'}};
+ const delay=classify({id:'delay',text:'It is delayed until tomorrow.',url:'https://x.com/thsottiaux/status/delay',created_at:'2026-09-22T08:00:00Z',author:{screen_name:'thsottiaux'},replying_to:{status:'parent'}},parent);
+ assert.equal(delay.category,'correction');
+ assert.deepEqual(resetBrief([delay,promise],now),{text:'reset expected wednesday',url:delay.url});
+ assert.equal(resetBrief([delay],now).text,'reset expected wednesday');
+ assert.equal(resetBrief([delay,promise],Date.parse('2026-09-23T12:00:00Z')).text,'reset expected wednesday');
+ assert.equal(resetBrief([delay,promise],Date.parse('2026-09-24T12:00:00Z')).text,'awaiting reset confirmation');
+ const delivered={...delay,id:'done',category:'confirmed',at:'2026-09-23T09:00:00Z'};
+ assert.equal(resetBrief([delivered,delay,promise],Date.parse(delivered.at)).text,'next reset undetermined');
+});
+test('replacement dates, uncertain delays and later cancellations stay distinct',()=>{
+ const delay={...promise,id:'delay',category:'correction',at:'2026-09-22T08:00:00Z'};
+ assert.equal(resetBrief([{...delay,text:'Reset moved from Tuesday to Wednesday.'},promise],now).text,'reset expected wednesday');
+ assert.equal(resetBrief([{...delay,text:'Reset delayed, maybe until tomorrow.'},promise],now).text,'reset timing undetermined');
+ assert.equal(resetBrief([{...delay,text:'Reset delayed. No new date yet.'},promise],now).text,'reset timing undetermined');
+ const cancelled={...delay,id:'cancel',at:'2026-09-22T08:05:00Z',text:'Reset cancelled.'};
+ assert.equal(resetBrief([cancelled,{...delay,text:'Reset delayed until tomorrow.'},promise],now).text,'reset cancelled');
+ assert.equal(resetBrief([{...promise,id:'new',at:'2026-09-22T08:09:00Z',text:'Reset coming Thursday.'},cancelled],now).text,'reset expected thursday');
 });

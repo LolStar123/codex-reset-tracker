@@ -191,3 +191,27 @@ The recorded switch sound is unchanged. No runtime or hydration errors occurred.
 The existing shared polling/PC collector remains unchanged. Cloudflare is still
 at sign-in; the prepared cloud scheduler has not been activated. Source reporting
 still cannot prove that a reset reached every individual account.
+
+## Mechanical key and automatic delay updates (22 September 2026)
+
+Replaced rounded floating key styling with a sculpted cap, sloping sidewalls and
+visible switch/socket. Kept recorded audio, pointer/keyboard operation and deep
+press. Inspected dark desktop and 320px mobile renders.
+
+Fixed the outlook discarding explicit dates in corrections. Incoming delay replies
+now replace the old promised day using the correction's UTC timestamp and source.
+Uncertain delays remain undetermined; cancellations and subsequent confirmations
+supersede the old expectation. A delay never creates a calendar reset event.
+
+Passed 21 classification/clock/outlook tests and four bundled collector tests,
+including missing-parent lookup followed by delay classification and forecast.
+Seventeen key/clock checks and seven hero checks passed. Six simulated live-update
+checks verified automatic polling inserts the delay, changes the forecast source
+and date without restarting the clock, then applies a later confirmation to the
+clock and calendar. These injected browser fixtures are not proof of provider recall.
+TypeScript and ESLint passed with no runtime or hydration errors in key checks.
+
+Changed the existing Windows task repetition from five minutes to one minute.
+Its latest pre-change scheduled run succeeded at 11:00 UTC with 65 posts and no
+collection error. Always-on cloud scheduling still needs Workers authorization;
+the prior Cloudflare sign-in tab has been closed. No credentials were broadened.

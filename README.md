@@ -1,8 +1,9 @@
 # Reset Monitor
 
 A small Codex reset monitor with Rare UI's GitHub Activity component, a chronological
-feed of posts and replies, parent context, full/banked reset history, and light/dark themes. The refresh key and controls use spring motion; full and
-banked reset clocks track separate source confirmations.
+feed of posts and replies, parent context, full/banked reset history, and light/dark themes.
+One clock tracks the latest source confirmation. The mechanical check key keeps its
+recorded switch sound, deep travel and ink splash.
 
 ## Run
 
@@ -21,15 +22,22 @@ History comes from https://codex-resets.com/api/v1/resets with linked attributio
 D1 stores raw posts, classified posts, reset events, collection runs and a cached
 snapshot. A database lease prevents parallel ingestion; unfinished catch-up cursors
 survive restarts. Source failures preserve previously collected records and show delay.
-The public feed automatically requests fresh data while open. The recurring hosted
+Open pages request the shared snapshot every 30 seconds. Healthy source collection
+runs at most once per 55 seconds. The once-per-minute recurring hosted
 check is installed separately in Windows Task Scheduler because the Sites publishing
 connector does not expose a cloud cron registration operation. The scheduler depends
-on this PC remaining on; the hosted website itself does not.
+on this PC remaining awake and the user logged in; the hosted website itself does not.
+The cloud cron in scheduler/ is prepared but not activated: Cloudflare Workers
+authorization is still required. Existing access only covers DNS.
 
 Classification is deterministic and conservative, not an unverified paid model call.
 It records source text instead of generating unsupported facts. Public-provider recall
 is not guaranteed; source coverage and missing context are disclosed in the interface.
 Expired promises remain awaiting confirmation and never become automatic reset events.
+New corrections replace older promises in the outlook. Explicit delay dates, including
+tomorrow, use the correction's timestamp in UTC. Unknown or tentative timing remains
+undetermined; cancellations do not start the last-reset clock. No click or redeploy is
+needed for newly collected source posts to update the feed and outlook.
 
 `node scripts/correct.mjs POST_ID CATEGORY REASON` records a reviewed classification
 change (or `hidden`) in `data/overrides.json`. Validate and redeploy to publish it.
