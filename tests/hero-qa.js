@@ -1,0 +1,32 @@
+async(page)=>{
+ const checks=[];
+ const check=(name,ok)=>{if(!ok)throw Error(name);checks.push(name);};
+ await page.emulateMedia({reducedMotion:'no-preference'});
+ await page.setViewportSize({width:1440,height:1050});
+ await page.goto('http://localhost:5173/');
+ await page.waitForFunction(()=>!!document.documentElement.dataset.theme);
+ const dark=page.getByRole('button',{name:'Switch to dark theme'});
+ if(await dark.count())await dark.click();
+ await page.waitForFunction(()=>document.querySelector('.reset-brief p>span[aria-hidden=true]').textContent===document.querySelector('.reset-brief .sr-only').textContent+'_');
+ const days=page.locator('.clock-days');
+ await days.hover();
+ await page.waitForFunction(()=>new DOMMatrix(getComputedStyle(document.querySelector('.clock-days')).transform).m42<-5);
+ check('Days lift on hover',true);
+ await page.mouse.move(0,0);
+ await page.waitForFunction(()=>Math.abs(new DOMMatrix(getComputedStyle(document.querySelector('.clock-days')).transform).m42)<.1);
+ check('Days settle back after hover',true);
+ check('Outlook is inside the hero',await page.locator('.hero .reset-brief').count()===1);
+ check('Dark Tibo has a thin outline',await page.locator('.tibo-key-buddy').evaluate(el=>getComputedStyle(el).filter.includes('drop-shadow')));
+ await page.screenshot({path:'output/playwright/tracker-dark-desktop.png',fullPage:true});
+ await page.setViewportSize({width:320,height:800});
+ const key=await page.locator('.reset-key').boundingBox(),brief=await page.locator('.reset-brief').boundingBox();
+ check('Mobile outlook clears the key',brief.y>key.y+key.height+10);
+ check('No mobile overflow',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.screenshot({path:'output/playwright/tracker-dark-mobile.png',fullPage:true});
+ await page.emulateMedia({reducedMotion:'reduce'});
+ await page.reload();
+ await page.waitForFunction(()=>!!document.documentElement.dataset.theme);
+ await page.locator('.clock-days').hover();
+ check('Reduced motion does not lift the days',await page.locator('.clock-days').evaluate(el=>Math.abs(new DOMMatrix(getComputedStyle(el).transform).m42)<.1));
+ return {checks};
+}

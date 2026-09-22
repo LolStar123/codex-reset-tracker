@@ -173,3 +173,21 @@ this visual revision makes no new claim about always-on collection.
 Writing audit: the short labels avoid promotional copy. Remaining uncertainty is
 public-source completeness and cloud activation, not a fabricated countdown.
 Rejected phrases: every reset, tuned in to, straight from his keyboard.
+
+
+## Tracker header and panel refinement (22 September 2026)
+
+Changed header to codex reset tracker. Moved the source-based outlook into a
+crooked label within the main panel, shortened its wording and retained explicit
+unknown/delayed/awaiting-confirmation states. Added a spring hover to the day
+count and a thin warm CSS outline around the unchanged abstract Tibo artwork.
+
+Nineteen classification/clock/outlook assertions, TypeScript and ESLint passed.
+Nine minimal-layout, seven focused hero and seventeen existing key/clock browser
+checks passed. Inspected dark desktop and 320px mobile screenshots; adjusted the
+mobile label to clear the mechanical key. Reduced motion disables the hover lift.
+The recorded switch sound is unchanged. No runtime or hydration errors occurred.
+
+The existing shared polling/PC collector remains unchanged. Cloudflare is still
+at sign-in; the prepared cloud scheduler has not been activated. Source reporting
+still cannot prove that a reset reached every individual account.

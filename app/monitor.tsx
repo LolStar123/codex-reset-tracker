@@ -105,12 +105,11 @@ export default function Monitor({ initial, renderedAt }: { initial: Snapshot; re
     function selectDay(day:string) { setSelected(selected===day?null:day);setFilter('all');setCount(3); }
     function toggleTheme() { setDark(!dark);document.documentElement.dataset.theme=!dark?'dark':'light';localStorage.setItem('reset-monitor-theme',!dark?'dark':'light'); }
     return <TooltipProvider delayDuration={100}><main className="monitor-shell">
-        <header className="site-header"><Link className="wordmark" href="/" aria-label="Reset Monitor home"><span className="logo"><Terminal size={20}/></span><span>codex</span></Link><div className="header-actions"><BounceButton className="icon-button" onClick={toggleTheme} aria-label={dark?'Switch to light theme':'Switch to dark theme'}>{dark?<Sun size={19}/>:<Moon size={19}/>}</BounceButton></div></header>
+        <header className="site-header"><Link className="wordmark" href="/" aria-label="Codex reset tracker home"><span className="logo"><Terminal size={20}/></span><span>codex <small className="tracker-name">reset tracker</small></span></Link><div className="header-actions"><BounceButton className="icon-button" onClick={toggleTheme} aria-label={dark?'Switch to light theme':'Switch to dark theme'}>{dark?<Sun size={19}/>:<Moon size={19}/>}</BounceButton></div></header>
         <section className="hero" aria-label="Reset Monitor">
-            <h1 className="sr-only">Reset Monitor</h1><ResetClocks posts={data.posts} renderedAt={renderedAt}/>
+            <h1 className="sr-only">Codex reset tracker</h1><div className="hero-info"><ResetClocks posts={data.posts} renderedAt={renderedAt}/><ResetBrief text={brief.text} url={brief.url}/></div>
             <ResetKey checking={refreshing} failed={refreshError} onCheck={refresh}/>
         </section>
-        <ResetBrief text={brief.text} url={brief.url}/>
         <section className="activity-section" aria-labelledby="activity-title"><div className="section-heading"><h2 id="activity-title">activity</h2><Select value={year} onValueChange={v=>{setYear(v);setSelected(null);}}><SelectTrigger aria-label="Activity period" className="year-select"><SelectValue>{year==='recent'?'Past year':year}</SelectValue></SelectTrigger><SelectContent>{['recent',...years].map(y=><SelectItem key={y} value={y}>{y==='recent'?'Past year':y}</SelectItem>)}</SelectContent></Select></div>
             <div className="calendar-frame"><div className="day-labels" aria-hidden="true"><span>Mon</span><span>Wed</span><span>Fri</span></div><div className="calendar-scroll" ref={scroll} tabIndex={0} aria-label="Reset calendar, scroll to see older dates">
                 <GitHubActivity className="reset-activity" hideHeading showMonths months={13} cellSize={12} selectedDate={selected} onDayClick={selectDay} accent="var(--green-fill)" contributions={days.map(day=>{

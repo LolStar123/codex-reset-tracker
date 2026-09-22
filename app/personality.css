@@ -200,7 +200,7 @@ body::before{display:none}
 /* The last reset is the headline, following the original tracker's hierarchy. */
 .hero{position:relative;grid-template-columns:minmax(0,1fr) 190px;gap:24px;margin:27px 0 0;padding:27px 31px;min-height:237px;border:1px solid var(--border);border-radius:8px 11px 7px 10px;background:var(--card)}
 .hero h1.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
-.hero>.reset-clocks{grid-column:1;grid-row:1}
+.hero-info{grid-column:1;grid-row:1;min-width:0}
 .clock-label .clock-source{font-size:13px;color:var(--muted-foreground)}
 .clock-digits{display:flex;flex-direction:column;align-items:flex-start;gap:17px;margin:12px 0 0;letter-spacing:0}
 .clock-digits>.clock-days{position:relative;isolation:isolate;color:var(--primary-foreground);font:700 clamp(52px,5.7vw,78px)/1.16 var(--display);letter-spacing:-4px;padding:0 9px 3px;gap:14px;white-space:nowrap;transform:rotate(-1deg)}
@@ -213,18 +213,25 @@ body::before{display:none}
 .hero .key-face{border-radius:20px;padding:10px 12px 9px}.hero .key-face>svg{width:48px;height:48px}.hero .key-label{font-size:13px}
 .hero .key-housing::before{border-radius:29px}.hero .key-shadow{top:150px;width:130px}
 .hero .tibo-key-buddy{width:84px;left:-30px;bottom:-4px}.hero .key-sound-toggle{right:-5px;bottom:-9px}
-.monitor-shell>.reset-brief{margin:17px 0 21px;min-height:28px;max-width:100%;padding:0 3px;font-size:13px}
-.activity-section{border-top:0;padding-top:8px}
+.hero-info>.reset-brief{position:relative;isolation:isolate;width:fit-content;max-width:100%;min-height:34px;margin:22px 0 0;padding:7px 11px;gap:8px;font:12px/1.6 var(--mono);color:var(--foreground);transform:rotate(.7deg)}
+.hero-info>.reset-brief::before{content:'';position:absolute;inset:0;z-index:-1;background:color-mix(in srgb,var(--green) 17%,var(--card));clip-path:polygon(0 3%,99% 0,100% 95%,1% 100%)}
+.hero-info .brief-source{color:inherit;align-self:center}
+.hero-info .brief-cursor{color:inherit}
+.wordmark .tracker-name{font:12px var(--mono);letter-spacing:-.4px;color:var(--muted-foreground)}
+.hero .tibo-key-buddy{filter:drop-shadow(1px 0 0 #ede6dcb3) drop-shadow(-1px 0 0 #ede6dc99) drop-shadow(0 1px 0 #ede6dc99) drop-shadow(0 -1px 0 #ede6dc80)}
+[data-theme="light"] .hero .tibo-key-buddy{filter:drop-shadow(0 1px 1px #17213a26)}
+.activity-section{border-top:0;padding-top:23px}
 @media(max-width:850px) and (min-width:601px){.hero{grid-template-columns:minmax(0,1fr) 150px;gap:20px;padding:26px;min-height:224px}.clock-digits>.clock-days,.clock-days small{font-size:54px;letter-spacing:-3px}.hero .reset-key{width:120px;height:125px}.hero .tibo-key-buddy{width:74px;left:-30px}.hero .key-sound-toggle{right:-8px}}
 @media(max-width:600px){
  .hero{display:block;margin-top:23px;padding:21px 18px 25px;min-height:235px;border-radius:8px 11px 7px 10px}
  .clock-label .clock-source{font-size:12px}.clock-digits{margin-top:13px;gap:27px}
  .clock-digits>.clock-days,.clock-days small{font-size:clamp(40px,12vw,62px);letter-spacing:-2.1px}.clock-digits>.clock-days{gap:9px;padding:0 4px 3px}
  .clock-digits>.clock-time{font-size:18px;margin-left:0}.clock-time i{margin:0 2px}
- .hero>.reset-toy{position:absolute;right:17px;bottom:15px;width:88px;height:93px;margin:0}
+ .hero>.reset-toy{position:absolute;right:17px;top:121px;bottom:auto;width:88px;height:93px;margin:0}
  .hero .reset-key{width:77px;height:82px;padding:5px 6px 11px;border-radius:17px}.hero .key-face{padding:5px 7px 4px;border-radius:11px}.hero .key-face>svg{width:26px;height:26px}.hero .key-code{font-size:8px}.hero .key-label{font-size:9px}.hero .key-label>span{font-size:11px}
  .hero .key-housing::before{border-radius:17px;inset:8px -1px -16px}.hero .key-shadow{width:70px;top:86px}.hero .tibo-key-buddy{width:53px;left:-26px;bottom:-10px}
  .hero .key-sound-toggle{width:23px;height:23px;right:-10px;bottom:-10px}.hero .key-sound-toggle svg{width:12px}
  .hero .key-splash{width:155px;height:160px}.hero .key-splash-stage{inset:-20px -12px}
- .monitor-shell>.reset-brief{margin:15px 0 22px;min-height:45px;padding:0;font-size:12px;line-height:1.8}
+ .hero-info>.reset-brief{margin-top:88px;min-height:34px;font-size:11px;padding:7px 9px}
+ .wordmark>span:last-child{gap:7px}.wordmark .tracker-name{font-size:10px}
 }

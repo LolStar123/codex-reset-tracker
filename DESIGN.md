@@ -2,7 +2,7 @@
 
 The last reset is the headline. The reference is codex-resets.com: borrow its
 single large elapsed-days panel and keep the secondary history below it. The
-header contains only the existing terminal mark and codex wordmark. There is no
+header contains the existing terminal mark and codex reset tracker wordmark. There is no
 separate hero title, tagline, audience label, monitoring badge or statistics row.
 
 The main slate box says last reset was, followed by a large cobalt-highlighted
@@ -10,7 +10,8 @@ number of days. HH:MM:SS ticks underneath. A single clock uses the newest
 confirmed reset of any type. Its source link exposes the exact type/date on hover.
 The smaller mechanical check key and abstract Tibo occupy the right corner.
 
-One short source-based outlook types below the box with a blinking underscore.
+One short source-based outlook types inside a crooked tinted rectangle in the
+main box, with a blinking underscore. Unknown timing says next reset undetermined.
 It is not an LLM-generated forecast: explicit hourly promises allow a remaining
 hours estimate; weekday-only promises retain the weekday with no invented time.
 Expired promises await confirmation. New banked delivery cannot erase a pending
@@ -26,6 +27,8 @@ The light theme retains the same roles. Space Grotesk supplies the large day
 count and post text; IBM Plex Mono supplies the brief, time and metadata. Fonts
 remain self-hosted with their package licenses. Maximum content width is 900px.
 
+The days label lifts and springs back on hover, respecting reduced motion.
+A thin warm contour makes Tibo visible against the dark background.
 Tibo is a sparse charcoal caricature with a split-profile face, angular nose,
 line limbs and a single blue laptop patch. The recorded press/release pair and
 520ms ink burst remain. Sound is gesture-only and mute persists locally. Keyboard

@@ -15,7 +15,7 @@ async(page)=>{
  check('Three notes by default',await page.locator('.post-row').count()===3);
  const body=await page.locator('body').innerText();
  check('Taglines and monitoring badge removed',!['Every reset. Even','tuned in to','Monitoring','since source confirmation','straight from his keyboard','Last full reset','Last banked reset'].some(t=>body.includes(t)));
- check('Header only says codex',await page.locator('.wordmark').innerText().then(t=>t.trim()==='codex'));
+ check('Header names the tracker',await page.locator('.wordmark').innerText().then(t=>t.replace(/\s+/g,' ').trim()==='codex reset tracker'));
  await page.waitForFunction(()=>document.querySelector('.tibo-key-buddy').complete&&document.querySelector('.tibo-key-buddy').naturalWidth>0);
  await page.screenshot({path:'output/playwright/minimal-desktop.png',fullPage:true});
  await page.setViewportSize({width:320,height:800});
