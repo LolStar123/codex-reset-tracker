@@ -24,11 +24,11 @@ async (page)=>{
  const unmute=page.getByRole('button',{name:'Enable key sound'});if(await unmute.count())await unmute.click();
  await page.mouse.move(0,0);const box=await key.boundingBox();await page.mouse.move(box.x+box.width/2,box.y+box.height/2);
  await page.mouse.down();
- await page.waitForFunction(()=>new DOMMatrix(getComputedStyle(document.querySelector('.reset-key')).transform).m42>14);
+ await page.waitForFunction(()=>new DOMMatrix(getComputedStyle(document.querySelector('.reset-key')).transform).m42>14&&!!document.querySelector('.key-splash'));
  check('Keycap travels at least 14px into the base',true);
+ check('Press draws the cartoon burst',true);
  await page.waitForFunction(()=>window.__keySounds===1);
  check('Pointer press plays one recorded downstroke',true);
- check('Press draws the cartoon burst',await page.locator('.key-splash').count()===1);
  await page.screenshot({path:'output/playwright/key-splash.png',animations:'allow'});
  await page.mouse.up();
  await page.waitForFunction(()=>window.__keySounds===2);

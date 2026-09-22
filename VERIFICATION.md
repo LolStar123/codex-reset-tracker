@@ -132,3 +132,11 @@ insights”, “cutting-edge dashboard”.
 Writing audit: this technical record states measured checks and the remaining
 activation dependency. Prose quotas would add irrelevant detail, so they are not
 padded. Rejected phrases: seamless monitoring, powerful insights, next-gen feed.
+
+Hosted follow-up: all seventeen focused checks passed on the published revision,
+including recorded downstroke/upstroke playback and burst replay. A first hosted
+check observed the burst too late after separate browser round trips; testing
+travel and burst presence in the same observation removed that timing race.
+The private collector returned status ok, 65 posts and 53 reset events, with
+checkedAt 2026-09-22T09:52:48.361Z and no collection error. Cloud activation remains
+pending authentication; this successful request was an explicit verification.
