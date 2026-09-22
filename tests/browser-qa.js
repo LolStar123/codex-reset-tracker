@@ -8,6 +8,9 @@ async (page) => {
     await page.goto('http://localhost:5173/');
     await page.locator('.post-row').first().waitFor();
     await page.waitForFunction(() => [...document.querySelectorAll('.rare-cell:not(.unavailable)')].every(el=>getComputedStyle(el).opacity==='1'));
+    await page.waitForFunction(() => document.documentElement.dataset.theme && document.querySelector('.icon-button')?.getAttribute('aria-label') === (document.documentElement.dataset.theme==='dark'?'Switch to light theme':'Switch to dark theme'));
+    await page.evaluate(()=>document.fonts.ready);
+    await page.locator('.activity-section').evaluate(el=>Promise.all(el.getAnimations().map(a=>a.finished)));
     const light = page.getByRole('button',{name:'Switch to dark theme'});
     if(await light.count())await light.click();
     await page.screenshot({path:'output/playwright/desktop-verified.png',fullPage:true});

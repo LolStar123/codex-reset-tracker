@@ -1,5 +1,21 @@
 # Verification
 
+## Second design pass, 22 September 2026
+
+- Replaced the monochrome layout with a personal Codex key, self-hosted display
+  and mono fonts, cobalt full resets and amber banked resets.
+- Twelve classification/clock tests passed, including independent reset clocks,
+  combined resets and keyword-free banked confirmation replies.
+- Eighteen existing browser checks passed with no runtime or hydration errors.
+  Six additional checks passed for key hover, rapid presses, independent source
+  links, 320px layout, reduced motion and automatic calendar rollover into 2027.
+- Desktop dark and mobile dark/light screenshots were inspected. Fixed one-pixel
+  mobile orbit overflow and reduced-motion button tab-index hydration differences.
+- TypeScript, application ESLint and the production build passed.
+- Account telemetry is researched but not enabled; see MONITORING.md.
+
+## First publication
+
 Local verification, 22 September 2026:
 
 - Nine classification tests passed: contextual replies, confirmation evidence,

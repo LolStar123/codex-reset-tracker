@@ -27,8 +27,9 @@ export function classify(raw:RawPost, parent?:RawPost):Post|null {
     else if((direct||contextual) && (delivery.test(text) || contextual && /^(?:yes[,.!]?\s*)?(?:done|it is done|it's done|it’s done)[.!]?$/i.test(text)) && !denials.test(text.split(/[.!?]/)[0])) category='confirmed';
     else if((direct||contextual) && future.test(text) && /\b(?:will|promis\w*|coming|lands?|landing|tomorrow|tonight|tuesday|monday|wednesday|thursday|friday|saturday|sunday)\b/i.test(text) && !/\b(?:might|maybe|perhaps|hope|wish|could|would|not|no)\b/i.test(text)) category='scheduled';
     else if(usageClarification || /\b(?:schedule|eligible|expiry|expire|affected|applying|applied|another one|only|credits)\b/i.test(text)) category='clarification';
-    const banked=/\bbanked|reset bank\b/i.test(text);
-    const both=banked&&/\b(?:full reset|hard reset|double reset|also.*reset|not only)\b/i.test(text);
+    const typeText=/\bbanked|full reset|hard reset|double reset\b/i.test(text)?text:contextual?context:text;
+    const banked=/\bbanked|reset bank\b/i.test(typeText);
+    const both=banked&&/\b(?:full reset|hard reset|double reset|also.*reset|not only)\b/i.test(typeText);
     const scopeMatch=text.match(/\ball (?:paid (?:users|plans|subscriptions)|users|accounts)|\b(?:Plus,? Pro and Business|plus (?:and|&) pro)\b/i);
     const weekday=text.match(/\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\b/i)?.[0];
     const timing=category==='scheduled' ? weekday ? `${weekday[0].toUpperCase()+weekday.slice(1).toLowerCase()}. Reset incoming.` : /tomorrow/i.test(text)?'Reset expected tomorrow':/tonight/i.test(text)?'Reset expected tonight':undefined : undefined;

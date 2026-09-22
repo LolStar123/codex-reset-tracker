@@ -1,7 +1,8 @@
 # Reset Monitor
 
 A small Codex reset monitor with Rare UI's GitHub Activity component, a chronological
-feed of posts and replies, parent context, full/banked reset history, and light/dark themes.
+feed of posts and replies, parent context, full/banked reset history, and light/dark themes. The refresh key and controls use spring motion; full and
+banked reset clocks track separate source confirmations.
 
 ## Run
 

@@ -1,3 +1,5 @@
+import '@fontsource-variable/space-grotesk';
+import '@fontsource/ibm-plex-mono/400.css';
 import type { Metadata } from "next";
 import "./globals.css";
 

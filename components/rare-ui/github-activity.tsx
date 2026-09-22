@@ -394,7 +394,8 @@ const ContributionGrid = ({
                 }}
                 key={day.date}
                 onPointerEnter={hover(day)}
-                className={cn("rare-cell shrink-0 rounded-[3px] bg-foreground/[0.08]", day.banked && "banked", selectedDate===day.date && "selected", day.unavailable && "unavailable")}
+                tabIndex={0}
+                  className={cn("rare-cell shrink-0 rounded-[3px] bg-foreground/[0.08]", day.banked && "banked", selectedDate===day.date && "selected", day.unavailable && "unavailable")}
                 style={{ width: cellSize, height: cellSize }}
                 initial={false}
                 animate={{ opacity: 1, scale: 1 }}

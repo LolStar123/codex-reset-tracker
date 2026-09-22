@@ -1,0 +1,36 @@
+async (page) => {
+    const checks=[];
+    const check=(name,value)=>{if(!value)throw Error(name);checks.push(name);};
+    await page.emulateMedia({reducedMotion:'no-preference'});
+    await page.setViewportSize({width:1440,height:1000});
+    await page.goto('http://localhost:5173/');
+    const key=page.getByRole('button',{name:'Check for new resets'});
+    await key.waitFor();
+    await page.waitForFunction(()=>!!document.documentElement.dataset.theme);
+    await page.mouse.move(0,0);
+    const box=await key.boundingBox();
+    await page.mouse.move(box.x+box.width/2,box.y+box.height/2);
+    await page.waitForFunction(()=>getComputedStyle(document.querySelector('.reset-key')).transform!=='none');
+    check('Reset key springs on hover',true);
+    const snapshot=await page.evaluate(async()=>(await fetch('/api/monitor')).json());
+    let requests=0;
+    await page.route('**/api/monitor',async route=>{requests++;await route.fulfill({json:snapshot});});
+    await key.evaluate(el=>{el.click();el.click();el.click();});
+    await page.waitForFunction(()=>!document.querySelector('.reset-key').disabled);
+    check('Rapid key presses do not duplicate collection',requests===1);
+    await page.unroute('**/api/monitor');
+    check('Full and banked clocks have independent source links',await page.locator('.reset-clock.regular a').getAttribute('href')!==await page.locator('.reset-clock.banked a').getAttribute('href'));
+    await page.setViewportSize({width:320,height:800});
+    check('No narrow-mobile overflow',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+    await page.emulateMedia({reducedMotion:'reduce'});
+    await page.reload();
+    await key.waitFor();
+    check('Reduced motion stops floating key',await page.locator('.key-float').evaluate(el=>getComputedStyle(el).animationName==='none'));
+    await page.clock.install({time:new Date('2027-01-01T00:00:01Z')});
+    await page.reload();
+    await page.waitForFunction(()=>!!document.documentElement.dataset.theme);
+    await page.clock.runFor(31000);
+    check('Calendar advances automatically across a new year',await page.getByRole('button',{name:'1 Jan 2027: No recorded reset',exact:true}).count()===1);
+    await page.clock.resume();
+    return {checks};
+}

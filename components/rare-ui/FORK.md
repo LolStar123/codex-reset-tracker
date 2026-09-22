@@ -11,3 +11,7 @@ Month-label calculation, colour scale and animated tooltip positioning remain fr
 Rare UI. Initial cell animations are disabled to keep SSR hydration consistent
 with reduced-motion preferences. No repository statistics are shown.
 This is a local component fork; no GitHub-hosted account fork was created.
+
+Second pass adds spring cell hover/press feedback and explicit keyboard tab stops
+so reduced-motion hydration preserves the same accessible markup. Banked reset
+cells receive an independent amber treatment in the application stylesheet.

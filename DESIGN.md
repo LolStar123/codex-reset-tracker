@@ -1,20 +1,26 @@
-# Reset Monitor
+# Reset Monitor: second design pass
 
-Reference: https://codex-resets.com/ inspected 22 September 2026.
-Preserve the centred status, activity grid, chronological feed order. Remove stats,
-advertising rails, large timer, speech bubbles and chunky shadows.
+The first layout was rejected as bland. This version treats the monitor as a
+personal Codex desk toy: a tactile refresh key is the signature, while the real
+status, separate reset clocks, activity and source feed remain the working surface.
 
-Neutral charcoal (#181818), slightly raised surface (#202020), soft white (#ececec),
-secondary grey (#a3a3a3), thin borders (#353535), muted green (#9bc4a8).
-System sans headings/body, system monospace dates; no font download or license dependency.
-816px maximum reading width, small 11px calendar cells, 4px grid spacing. Mobile calendar
-scrolls independently; article text never scrolls horizontally. Year switch, keyboard
-calendar navigation, date filtering, accessible tabs, expandable reply context.
-Dark and light themes; system default with persisted visitor preference. Reduced motion.
+Palette: ink #11151f, silver #edf1fa, cobalt #92b1ff, raised slate #1a202d,
+banked amber #ffbd86. A cool light theme retains the same visual identity.
+Self-hosted Space Grotesk Variable supplies headings and body; IBM Plex Mono
+supplies dates and clocks. Both packages retain their upstream font licenses.
 
-Acceptance: real sources; reply context; full/banked distinction; hints never confirm;
-no fabricated scheduled time; no duplicate reset events; empty/stale/error states;
-desktop/mobile/light/dark visual checks; source URLs and filters work; no overflow.
+A floating key checks the real feed. Spring hover/press feedback applies to main
+buttons and calendar cells. Expandable context opens with a short height/opacity
+transition. Keyboard controls remain native; reduced motion stops floating,
+bouncing and travel. The homepage enters in one short stagger.
 
-The original plan's separate React/Vite app is adapted to the Sites Vinext starter for
-managed hosting. Collection and records remain server-side; frontend remains React.
+Full-reset and banked-reset clocks use independently selected source confirmations.
+A combined reset updates both; a promise updates neither. The calendar uses blue
+for full resets and amber with an inset marker for banked resets. It remains the
+adapted RareUI component and keeps its original attribution.
+
+1000px maximum width; the mobile calendar scrolls within its own card. The reset
+key shrinks on mobile. The source feed, filters and coverage disclosures remain.
+
+Source confirmation is distinct from personal account verification. No account
+telemetry is uploaded or connected in this release.
