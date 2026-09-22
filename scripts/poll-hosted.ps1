@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop'
 $config = Get-Content -LiteralPath $ConfigPath -Raw | ConvertFrom-Json
 $receipt = @{ attemptedAt = [DateTime]::UtcNow.ToString('o'); success = $false }
 try {
-    $secret = Get-Content -LiteralPath $config.secretPath -Raw | ConvertTo-SecureString
+    $secret = (Get-Content -LiteralPath $config.secretPath -Raw).Trim() | ConvertTo-SecureString
     $pointer = [Runtime.InteropServices.Marshal]::SecureStringToBSTR($secret)
     try {
         $token = [Runtime.InteropServices.Marshal]::PtrToStringBSTR($pointer)

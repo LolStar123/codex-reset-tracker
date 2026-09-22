@@ -18,11 +18,29 @@ Local verification, 22 September 2026:
 - Rendered desktop dark, mobile dark/light and expanded context screenshots were
   inspected. Evidence is under ignored output/playwright/.
 
+## Hosted verification
+
+- Private publication succeeded at https://codex-reset-monitor.atulswaggalicious.chatgpt.site.
+- The same eighteen browser checks passed against the hosted site, with no
+  browser runtime or hydration errors.
+- The production API returned 65 posts and 53 reset-history entries, with no
+  collection error, at 08:24 UTC on 22 September 2026.
+- The Windows task ran automatically at 08:25:36 UTC with exit code zero. Its
+  five-minute trigger and next run were inspected. Credentials are encrypted
+  with current-user Windows DPAPI outside the source repository.
+- Three additional local browser checks passed: failed refresh preserves data,
+  an empty feed remains usable, and successful refresh restores monitoring.
+  The intentional HTTP 503 in this test produces an expected console message.
+
 ## Reproduction
 
 Use the commands in README.md. Apply local migrations with:
 
-`node node_modules/wrangler/bin/wrangler.js d1 migrations apply DB --local`
+After the first build, run each migration on a fresh local database:
+
+`node node_modules/wrangler/bin/wrangler.js d1 execute DB --config dist/server/wrangler.json --local --file drizzle/0000_wonderful_toxin.sql`
+
+`node node_modules/wrangler/bin/wrangler.js d1 execute DB --config dist/server/wrangler.json --local --file drizzle/0001_tiresome_mystique.sql`
 
 Run browser checks against a running local development server:
 
