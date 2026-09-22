@@ -13,8 +13,8 @@ async (page)=>{
  await page.clock.fastForward(31000);
  await page.locator('#post-qa-new-reset').waitFor();
  if(!polls)throw Error('No automatic poll');checks.push('New source confirmation appears without clicking or reloading');
- const clock=await page.locator('.reset-clock.regular .clock-source').getAttribute('href');
- if(clock!==post.url)throw Error('Clock did not use the new confirmation');checks.push('Full-reset clock advances to the new source');
+ const clock=await page.locator('.reset-clock .clock-source').getAttribute('href');
+ if(clock!==post.url)throw Error('Clock did not use the new confirmation');checks.push('Last-reset clock advances to the new source');
  const date=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(at));
  if(!await page.getByRole('button',{name:`${date}: Full reset`,exact:true}).count())throw Error('Calendar did not update');
  checks.push('New confirmation lights up its calendar day');

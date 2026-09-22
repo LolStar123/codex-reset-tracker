@@ -4,8 +4,8 @@
 
 The hosted collector reads public posts and replies plus historical reset records.
 An explicit source statement of delivery can create a confirmed calendar event.
-Hints and scheduled promises cannot. Full and banked clocks use separate source
-timestamps; a combined confirmation advances both. These timestamps are not a
+Hints and scheduled promises cannot. The single last-reset clock uses the newest confirmed source timestamp, whether
+full, banked or both. These timestamps are not a
 measurement of when a particular account received a reset.
 
 The existing Windows task requests the hosted monitor every five minutes while
@@ -20,8 +20,9 @@ All authorized visitors read the same database and filtered feed. An open visito
 can trigger server-side collection even when the owner's PC is off; that PC is
 only required for the existing unattended polling task. This is a private Site,
 not an anonymously accessible public feed. No cloud cron is currently installed.
-The interface's two elapsed clocks now tick every second independently of the
-feed's one-minute polling and the collector's five-minute minimum interval.
+The interface's single elapsed clock ticks every second. Active pages poll the
+shared feed every thirty seconds; healthy source collection is throttled to
+roughly once a minute, with a five-minute backoff after a failed source check.
 
 ## Account observations: researched, not connected
 

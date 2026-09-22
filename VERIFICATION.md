@@ -140,3 +140,36 @@ travel and burst presence in the same observation removed that timing race.
 The private collector returned status ok, 65 posts and 53 reset events, with
 checkedAt 2026-09-22T09:52:48.361Z and no collection error. Cloud activation remains
 pending authentication; this successful request was an explicit verification.
+
+## Minimal reset panel revision (22 September 2026)
+
+The latest-reset box is the primary content, following the visual hierarchy of
+codex-resets.com. The separate hero title, taglines, status card and second reset
+clock were removed. One clock chooses the newest confirmation of any reset type;
+three source notes appear initially. The source-based typed outlook does not
+invent a deadline from a weekday-only promise.
+
+Validation:
+- Nineteen classification/clock/outlook assertions passed; the five new outlook
+  cases were rerun after final wording changed to no next reset announced.
+- Eighteen existing browser checks passed for history, filters, context, source
+  links, year navigation, theme persistence and responsive layout.
+- Seventeen keyboard/seconds/splash checks passed after shrinking the key inside
+  the reset panel. Sound remains the same recorded switch pair.
+- Nine minimal-layout checks passed: typing, complete outlook, one clock, three
+  notes, removed copy, codex-only header, 320px width, reduced motion and no
+  hydration/runtime errors.
+- Four simulated incoming-update checks passed for automatic insertion, the
+  single clock's new source, calendar marking and deduplication.
+- TypeScript and application/component ESLint passed. Production build passed.
+- Inspected final desktop dark and 320px mobile light screenshots. Fixed inherited
+  muted text color on days ago so it matches the number. Final measured desktop
+  page height is 1277px at 1440px width; mobile has no horizontal overflow.
+
+Asset provenance and full built-in generation prompt are in ASSETS.md. Cloud
+scheduler activation is still pending the previously requested Cloudflare login;
+this visual revision makes no new claim about always-on collection.
+
+Writing audit: the short labels avoid promotional copy. Remaining uncertainty is
+public-source completeness and cloud activation, not a fabricated countdown.
+Rejected phrases: every reset, tuned in to, straight from his keyboard.

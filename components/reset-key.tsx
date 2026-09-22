@@ -1,7 +1,7 @@
 'use client';
 import { motion, useReducedMotion, type HTMLMotionProps } from 'motion/react';
 import { useEffect, useRef, useState } from 'react';
-import { RotateCcw, ArrowDownLeft, Volume2, VolumeX } from 'lucide-react';
+import { RotateCcw, Volume2, VolumeX } from 'lucide-react';
 import { playKeyThock, preloadKeySound } from '@/lib/key-sound';
 
 export function BounceButton(props: HTMLMotionProps<'button'>) {
@@ -45,8 +45,7 @@ export function ResetKey({ checking, failed, onCheck }: { checking: boolean; fai
     }
     function toggleSound() {setMuted(!muted);localStorage.setItem('reset-monitor-muted',String(!muted));}
     return <div className={`reset-toy ${checking ? 'is-checking' : ''} ${pressed?'is-pressed':''}`}>
-        <img className="tibo-key-buddy" src="/images/tibo-doodle.webp" alt="Scribbly cartoon Tibo with his laptop" width={400} height={600}/>
-        <div className="key-orbit" aria-hidden="true"><i/><i/><i/><i/></div>
+        <img className="tibo-key-buddy" src="/images/tibo-scribble.webp" alt="Abstract ink sketch of Tibo" width={400} height={600}/>
         <div className="key-shadow" aria-hidden="true"/>
         {burst>0&&<div className="key-splash-stage" aria-hidden="true"><svg key={burst} data-burst={burst} className="key-splash" viewBox="0 0 320 300" fill="none" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round">
             <g className="splash-rays"><path d="m70 80-12-20m23 15-2-23M49 130l-20-5m24 17-13 5M236 76l9-20m2 30 22-14M263 136l24-8m-20 20 16 3M246 216l20 13m-28-3 5 18M80 228l-10 21m-1-30-20 11"/></g>
@@ -60,14 +59,13 @@ export function ResetKey({ checking, failed, onCheck }: { checking: boolean; fai
                 onPointerUp={release} onPointerCancel={release} onBlur={release}
                 onKeyDown={event=>{if((event.key===' '||event.key==='Enter')&&!event.repeat)press();}}
                 onKeyUp={event=>{if(event.key===' '||event.key==='Enter')release();}}
-                aria-label="Check for new resets" aria-busy={checking}
+                aria-label="Check for new resets" aria-busy={checking} title={failed?'Check failed. Press to retry.':'Check for new resets'}
                 animate={{y:!reduce&&pressed?17:0}}
                 whileHover={reduce||pressed ? undefined : { y: -2 }}
                 transition={pressed?{duration:.065,ease:'easeOut'}:{type:'spring',stiffness:520,damping:24,mass:.75}}>
                 <span className="key-face"><span className="key-code">&gt;_</span><RotateCcw className={checking ? 'spinning' : ''} size={66} strokeWidth={1.5}/><span className="key-label">check<span>↵</span></span></span>
             </motion.button>
         </div></div>
-        <span className="key-note"><ArrowDownLeft size={25}/>{checking ? 'checking the replies…' : failed ? 'try that again' : 'give it a press'}</span>
         <BounceButton className="key-sound-toggle" onClick={toggleSound} aria-label={muted?'Enable key sound':'Mute key sound'} aria-pressed={!muted}>{muted?<VolumeX size={15}/>:<Volume2 size={15}/>}</BounceButton>
     </div>;
 }

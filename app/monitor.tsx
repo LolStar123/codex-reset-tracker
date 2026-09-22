@@ -3,8 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import { BounceButton, ResetKey } from '@/components/reset-key';
-import { lastResetOfType } from '@/lib/reset-clocks';
-import { ArrowUpRight, ChevronDown, Clock3, CornerDownRight, Moon, Sun, Terminal, X, RefreshCw, CircleHelp, Radio, CalendarDays, ArrowDown } from 'lucide-react';
+import { ArrowUpRight, ChevronDown, Moon, Sun, Terminal, X, CircleHelp } from 'lucide-react';
 import { clean } from '@/lib/classify';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -12,9 +11,10 @@ import { TooltipProvider } from '@/components/ui/tooltip';
 import { GitHubActivity, type Contribution } from '@/components/rare-ui/github-activity';
 import { ResetClocks } from '@/components/reset-clocks';
 import type { Post, Snapshot } from '@/lib/types';
-import { awaitingConfirmation } from '@/lib/status';
+import { resetBrief } from '@/lib/reset-brief';
+import { ResetBrief } from '@/components/reset-brief';
 
-const LABELS = { confirmed: 'Reset confirmed', scheduled: 'Reset incoming', hint: 'Trickle', clarification: 'Clarification', correction: 'Correction' };
+const LABELS = { confirmed: 'Reset', scheduled: 'Incoming', hint: 'Trickle', clarification: 'Note', correction: 'Correction' };
 const DAY = 86400000;
 function dateLabel(value: string, full = false) {
     return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', ...(full ? { year: 'numeric' } : {}), timeZone: 'UTC' }).format(new Date(value));
@@ -27,12 +27,11 @@ function PostRow({ post, now }: { post: Post; now: number }) {
     const [expanded, setExpanded] = useState(false);
     const reduce = useReducedMotion();
     return <article className={`post-row ${post.category}${post.parentId?' is-reply':''}`} id={`post-${post.id}`}>
-        <div className="post-stamp" aria-hidden="true"><span>{new Date(post.at).getUTCDate().toString().padStart(2,'0')}</span><small>{new Intl.DateTimeFormat('en-GB',{month:'short',timeZone:'UTC'}).format(new Date(post.at))}</small><i>{new Date(post.at).toISOString().slice(11,16)}</i></div>
+        <div className="post-stamp" aria-hidden="true"><span>{new Date(post.at).getUTCDate().toString().padStart(2,'0')}</span><small>{new Intl.DateTimeFormat('en-GB',{month:'short',timeZone:'UTC'}).format(new Date(post.at))}</small></div>
         <div className="post-main">
             <div className="post-top"><span className={`badge ${post.category}`}>{LABELS[post.category]}{post.resetType==='banked'?' / banked':post.resetType==='both'?' / full + banked':''}</span><time dateTime={post.at} title={`${dateLabel(post.at,true)} · ${new Date(post.at).toISOString().slice(11,16)} UTC`}>{relative(post.at,now)}</time></div>
-            {post.parentId&&<div className="reply-caption"><CornerDownRight size={14}/>{post.parent?`reply to @${post.parent.author}`:'from the replies'}</div>}
             <h3 className={expanded?'post-quote expanded':'post-quote'}>{clean(post.text)}</h3>
-            <div className="post-bottom"><span className="post-byline">@{post.author}</span><BounceButton className="text-button" onClick={() => setExpanded(!expanded)} aria-expanded={expanded} aria-controls={`detail-${post.id}`}>{expanded ? 'Less' : post.parentId ? 'View context' : 'Read post'}<ChevronDown size={13} className={expanded ? 'turned' : ''}/></BounceButton><a href={post.url} target="_blank" rel="noreferrer" className="source-link" aria-label={`Open ${LABELS[post.category].toLowerCase()} on X`}>on X<ArrowUpRight size={14}/></a></div>
+            <div className="post-bottom"><BounceButton className="text-button" onClick={() => setExpanded(!expanded)} aria-expanded={expanded} aria-controls={`detail-${post.id}`}>{expanded ? 'Less' : post.parentId ? 'View context' : 'Read post'}<ChevronDown size={13} className={expanded ? 'turned' : ''}/></BounceButton><a href={post.url} target="_blank" rel="noreferrer" className="source-link" aria-label={`Open ${LABELS[post.category].toLowerCase()} on X`}>on X<ArrowUpRight size={14}/></a></div>
             <AnimatePresence initial={false}>{expanded && <motion.div initial={{height:0,opacity:0}} animate={{height:"auto",opacity:1}} exit={{height:0,opacity:0}} transition={{duration:reduce?0:.22}} className="post-detail" id={`detail-${post.id}`}>
                 {post.parent && <blockquote><span>Replying to @{post.parent.author}</span><p>{post.parent.text}</p><a href={post.parent.url} target="_blank" rel="noreferrer">Parent post <ArrowUpRight size={12}/></a></blockquote>}
                 {post.parentMissing && <p className="context-missing">The parent post is unavailable. Context is incomplete.</p>}
@@ -49,7 +48,7 @@ export default function Monitor({ initial, renderedAt }: { initial: Snapshot; re
     const [filter,setFilter] = useState('all');
     const [year,setYear] = useState('recent');
     const [selected,setSelected] = useState<string|null>(null);
-    const [count,setCount] = useState(8);
+    const [count,setCount] = useState(3);
     const [refreshing,setRefreshing] = useState(false);
     const [refreshError,setRefreshError] = useState(false);
     const scroll = useRef<HTMLDivElement>(null);
@@ -82,12 +81,8 @@ export default function Monitor({ initial, renderedAt }: { initial: Snapshot; re
         position();const observer=new ResizeObserver(position);observer.observe(el);
         return()=>observer.disconnect();
     },[year]);
-    const latest = lastResetOfType(data.posts,'regular');
-    const upcoming = data.posts.find(p => p.category === 'scheduled' && (!latest || p.at > latest.at));
-    const correction = data.posts.find(p => p.category === 'correction' && upcoming && p.at > upcoming.at);
-    const activeUpcoming = correction ?? upcoming;
-    const awaiting = activeUpcoming ? awaitingConfirmation(activeUpcoming,now) : false;
     const stale = !data.checkedAt || now-Date.parse(data.checkedAt)>20*60000 || !!data.error || refreshError;
+    const brief=resetBrief(data.posts,now,stale);
     const eventsByDay = useMemo(() => {
         const map = new Map<string,typeof data.events>();
         for(const e of data.events) map.set(e.date,[...(map.get(e.date)??[]),e]);
@@ -107,22 +102,16 @@ export default function Monitor({ initial, renderedAt }: { initial: Snapshot; re
         if(selected && !p.at.startsWith(selected) && !(eventsByDay.get(selected)??[]).some(e=>e.postIds.includes(p.id))) return false;
         return filter==='all' || (filter==='resets' ? ['confirmed','scheduled'].includes(p.category) : !['confirmed','scheduled'].includes(p.category));
     });
-    function selectDay(day:string) { setSelected(selected===day?null:day);setFilter('all');setCount(8); }
+    function selectDay(day:string) { setSelected(selected===day?null:day);setFilter('all');setCount(3); }
     function toggleTheme() { setDark(!dark);document.documentElement.dataset.theme=!dark?'dark':'light';localStorage.setItem('reset-monitor-theme',!dark?'dark':'light'); }
     return <TooltipProvider delayDuration={100}><main className="monitor-shell">
-        <header className="site-header"><Link className="wordmark" href="/" aria-label="Reset Monitor home"><span className="logo"><Terminal size={20}/></span><span>codex<span className="brand-product">reset monitor</span></span></Link><div className="header-actions"><BounceButton className="icon-button" onClick={toggleTheme} aria-label={dark?'Switch to light theme':'Switch to dark theme'}>{dark?<Sun size={19}/>:<Moon size={19}/>}</BounceButton></div></header>
+        <header className="site-header"><Link className="wordmark" href="/" aria-label="Reset Monitor home"><span className="logo"><Terminal size={20}/></span><span>codex</span></Link><div className="header-actions"><BounceButton className="icon-button" onClick={toggleTheme} aria-label={dark?'Switch to light theme':'Switch to dark theme'}>{dark?<Sun size={19}/>:<Moon size={19}/>}</BounceButton></div></header>
         <section className="hero" aria-label="Reset Monitor">
-            <div className="hero-copy"><span className="hero-kicker"><Radio size={14}/> tuned in to @thsottiaux</span><h1>reset<br/><span>monitor<span className="cursor-mark" aria-hidden="true">_</span></span></h1><p>Every reset. Even the ones buried in replies.</p><a className="feed-shortcut" href="#updates-title">Catch the latest <span><ArrowDown size={16}/></span></a></div>
+            <h1 className="sr-only">Reset Monitor</h1><ResetClocks posts={data.posts} renderedAt={renderedAt}/>
             <ResetKey checking={refreshing} failed={refreshError} onCheck={refresh}/>
         </section>
-        <section className="status-panel" aria-label="Current reset status">
-            <div className="status-heading"><span className="eyebrow"><Clock3 size={14}/>{activeUpcoming ? activeUpcoming.category==='correction'?'Latest correction':'Up next':'Latest reset'}</span><span className="tracking"><span className={stale?'status-dot stale':'status-dot'}/>{stale?'Updates delayed':'Monitoring'}</span></div>
-            <h2>{awaiting ? 'Awaiting confirmation.' : activeUpcoming ? activeUpcoming.timing || (activeUpcoming.category==='correction'?'Reset update':'Reset announced') : latest?'Limits reset.':'Checking for resets'}</h2>
-            <p className="status-description">{activeUpcoming ? activeUpcoming.summary : latest ? latest.summary : 'Confirmed resets and replies will appear here.'}</p>
-            {activeUpcoming && <a className="status-source" href={activeUpcoming.url} target="_blank" rel="noreferrer">@{activeUpcoming.author}<span>·</span>{dateLabel(activeUpcoming.at)}<ArrowUpRight size={14}/></a>}
-        </section>
-        <ResetClocks posts={data.posts} renderedAt={renderedAt}/>
-        <section className="activity-section" aria-labelledby="activity-title"><div className="section-heading"><h2 id="activity-title"><CalendarDays className="section-glyph" size={20} aria-hidden="true"/>Reset activity</h2><Select value={year} onValueChange={v=>{setYear(v);setSelected(null);}}><SelectTrigger aria-label="Activity period" className="year-select"><SelectValue>{year==='recent'?'Past year':year}</SelectValue></SelectTrigger><SelectContent>{['recent',...years].map(y=><SelectItem key={y} value={y}>{y==='recent'?'Past year':y}</SelectItem>)}</SelectContent></Select></div>
+        <ResetBrief text={brief.text} url={brief.url}/>
+        <section className="activity-section" aria-labelledby="activity-title"><div className="section-heading"><h2 id="activity-title">activity</h2><Select value={year} onValueChange={v=>{setYear(v);setSelected(null);}}><SelectTrigger aria-label="Activity period" className="year-select"><SelectValue>{year==='recent'?'Past year':year}</SelectValue></SelectTrigger><SelectContent>{['recent',...years].map(y=><SelectItem key={y} value={y}>{y==='recent'?'Past year':y}</SelectItem>)}</SelectContent></Select></div>
             <div className="calendar-frame"><div className="day-labels" aria-hidden="true"><span>Mon</span><span>Wed</span><span>Fri</span></div><div className="calendar-scroll" ref={scroll} tabIndex={0} aria-label="Reset calendar, scroll to see older dates">
                 <GitHubActivity className="reset-activity" hideHeading showMonths months={13} cellSize={12} selectedDate={selected} onDayClick={selectDay} accent="var(--green-fill)" contributions={days.map(day=>{
                     const events=eventsByDay.get(day)??[];
@@ -132,12 +121,12 @@ export default function Monitor({ initial, renderedAt }: { initial: Snapshot; re
                     return {date:day,count:events.length,level:events.length?4:0,banked,unavailable,label:`${dateLabel(day,true)}: ${unavailable?'outside recorded history':events.length?`${full?'Full reset':''}${banked?full?' and banked reset':'Banked reset':''}`:'No recorded reset'}`} as Contribution;
                 })}/>
             </div></div>
-            <div className="calendar-caption"><span>Confirmed resets · UTC</span><div className="calendar-legend"><span><i className="legend-cell"/>No reset</span><span><i className="legend-cell filled"/>Full</span><span><i className="legend-cell filled banked"/>Banked</span></div></div>
+            <div className="calendar-caption"><span>UTC</span><div className="calendar-legend"><span><i className="legend-cell"/>No reset</span><span><i className="legend-cell filled"/>Full</span><span><i className="legend-cell filled banked"/>Banked</span></div></div>
             {selected&&<div className="date-filter"><span>{dateLabel(selected,true)}</span><span>{visible.length} {visible.length===1?'update':'updates'}</span><button onClick={()=>setSelected(null)} aria-label="Clear date filter"><X size={14}/>Clear date</button></div>}
         </section>
-        <section className="feed-section" aria-labelledby="updates-title"><Tabs value={filter} onValueChange={v=>{setFilter(v);setCount(8);}}><div className="section-heading feed-heading"><h2 id="updates-title"><a className="tibo-avatar" href="https://x.com/thsottiaux" target="_blank" rel="noreferrer" aria-label="Tibo on X"><img src="/images/tibo-avatar.jpg" alt="" width={36} height={36}/></a>tibo.log<span className="feed-subtitle">straight from his keyboard</span></h2><TabsList className="feed-tabs"><TabsTrigger value="all">All</TabsTrigger><TabsTrigger value="resets">Resets</TabsTrigger><TabsTrigger value="trickles">Trickles</TabsTrigger></TabsList></div>
-            {['all','resets','trickles'].map(tab=><TabsContent value={tab} key={tab} className="feed-content"><div aria-live="polite">{visible.length?visible.slice(0,count).map(p=><PostRow key={p.id} post={p} now={now}/>):<div className="empty-state"><img className="tibo-empty" src="/images/tibo-doodle.webp" alt="Tibo with his laptop" width={400} height={600}/><h3>{selected?'Nothing recorded on this day.':'No updates here yet.'}</h3><p>{selected?'Choose another day or clear the date filter.':'Relevant replies and reset updates will appear as they are found.'}</p>{selected&&<BounceButton className="text-button" onClick={()=>setSelected(null)}>Clear date filter</BounceButton>}</div>}</div>{visible.length>count&&<BounceButton className="load-older" onClick={()=>setCount(c=>c+12)}>Load older updates<ChevronDown size={15}/></BounceButton>}</TabsContent>)}
+        <section className="feed-section" aria-labelledby="updates-title"><Tabs value={filter} onValueChange={v=>{setFilter(v);setCount(3);}}><div className="section-heading feed-heading"><h2 id="updates-title"><a className="tibo-avatar" href="https://x.com/thsottiaux" target="_blank" rel="noreferrer" aria-label="Tibo on X"><img src="/images/tibo-avatar.jpg" alt="" width={36} height={36}/></a>notes</h2><TabsList className="feed-tabs"><TabsTrigger value="all">All</TabsTrigger><TabsTrigger value="resets">Resets</TabsTrigger><TabsTrigger value="trickles">Trickles</TabsTrigger></TabsList></div>
+            {['all','resets','trickles'].map(tab=><TabsContent value={tab} key={tab} className="feed-content"><div aria-live="polite">{visible.length?visible.slice(0,count).map(p=><PostRow key={p.id} post={p} now={now}/>):<div className="empty-state"><img className="tibo-empty" src="/images/tibo-scribble.webp" alt="Tibo with his laptop" width={400} height={600}/><h3>{selected?'Nothing recorded on this day.':'No updates here yet.'}</h3><p>{selected?'Choose another day or clear the date filter.':'Relevant replies and reset updates will appear as they are found.'}</p>{selected&&<BounceButton className="text-button" onClick={()=>setSelected(null)}>Clear date filter</BounceButton>}</div>}</div>{visible.length>count&&<BounceButton className="load-older" onClick={()=>setCount(c=>c+6)} aria-label="Load older updates">more<ChevronDown size={15}/></BounceButton>}</TabsContent>)}
         </Tabs></section>
-        <footer className="site-footer"><div className="footer-top"><BounceButton className="refresh-button" onClick={refresh} disabled={refreshing}><RefreshCw size={12} className={refreshing?'spinning':''}/>{refreshing?'Checking':data.checkedAt?`Checked ${relative(data.checkedAt,now)}`:'Check for updates'}</BounceButton><span>Unofficial. Not affiliated with OpenAI.</span></div>{stale&&<p className="stale-note">{data.checkedAt?'Showing the last collected updates. Collection is delayed.':'Live collection is starting. History remains available.'}</p>}<details className="sources-details"><summary><CircleHelp size={12}/>Sources & coverage</summary><p>Posts and replies by <a href="https://x.com/thsottiaux" target="_blank" rel="noreferrer">@thsottiaux</a>, retrieved through <a href="https://docs.fxembed.com/api/introduction/" target="_blank" rel="noreferrer">FxEmbed</a>. Chibi illustration is unofficial fan art. Historical reset data from <a href="https://codex-resets.com" target="_blank" rel="noreferrer">Codex Resets</a>.</p><p>Calendar dates use the source announcement or confirmation date in UTC. Empty days mean no recorded reset, not proof that none happened. Hints never count as confirmed resets.</p><p>{data.replyCoverageStart?`Replies collected back to ${dateLabel(data.replyCoverageStart,true)}. `:''}Public-source coverage can be incomplete. Missing context is labelled. Confirmed means the source reports delivery. It does not verify your account balance. Full and banked clocks run independently from their source timestamps, not from a predicted reset schedule.</p></details></footer>
+        <footer className="site-footer"><span>unofficial</span><details className="sources-details"><summary><CircleHelp size={12}/>sources</summary><p>Posts and replies by <a href="https://x.com/thsottiaux" target="_blank" rel="noreferrer">@thsottiaux</a>, retrieved through <a href="https://docs.fxembed.com/api/introduction/" target="_blank" rel="noreferrer">FxEmbed</a>. Illustration is unofficial fan art. Not affiliated with OpenAI. Historical reset data from <a href="https://codex-resets.com" target="_blank" rel="noreferrer">Codex Resets</a>.</p><p>Calendar dates use the source announcement or confirmation date in UTC. Empty days mean no recorded reset, not proof that none happened. Hints never count as confirmed resets.</p><p>{data.replyCoverageStart?`Replies collected back to ${dateLabel(data.replyCoverageStart,true)}. `:''}Public-source coverage can be incomplete. Missing context is labelled. Confirmed means the source reports delivery. It does not verify your account balance. The last-reset clock uses the newest full or banked source confirmation. The outlook condenses source wording; an hourly estimate appears only when a source gives an explicit time window.</p></details></footer>
     </main></TooltipProvider>;
 }

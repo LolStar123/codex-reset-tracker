@@ -148,3 +148,83 @@ button:focus-visible,a:focus-visible,summary:focus-visible,[tabindex]:focus-visi
  .post-main h3.post-quote,.post-row.confirmed h3.post-quote{font-size:16px;line-height:1.65;letter-spacing:-.2px}.post-top{gap:7px}.badge{font-size:10px}.post-top time{font-size:10px}.reply-caption{font-size:10px;gap:4px}
  .post-bottom{gap:8px}.post-byline{font-size:10px}.post-bottom .text-button{font-size:11px}.post-bottom .source-link{font-size:10px}.post-detail blockquote{padding-left:10px}.post-detail blockquote p{font-size:14px}
 }
+
+/* Fewer things on the desk: one brief, one clock, three notes. */
+body::before{display:none}
+.monitor-shell{max-width:900px;padding-top:24px}
+.site-header{padding-bottom:17px}
+.hero{grid-template-columns:minmax(0,1fr) 290px;gap:30px;min-height:260px;padding:27px 0 30px}
+.hero h1{font-size:48px;line-height:1.12;letter-spacing:-2.8px;margin:0;font-weight:550}
+.title-stop{color:var(--green)}
+.reset-brief{display:flex;align-items:baseline;gap:7px;min-height:55px;margin:17px 0 18px;max-width:440px;font:14px/1.8 var(--mono);color:var(--muted-foreground)}
+.reset-brief p{margin:0;white-space:pre-wrap;text-wrap:pretty}
+.brief-cursor{color:var(--green);animation:cursor-blink 1s steps(2,jump-none) infinite}
+.brief-source{flex-shrink:0;color:var(--muted-foreground)}.brief-source:hover{color:var(--green)}
+.reset-clocks{display:block;margin:0;animation:none}
+.reset-clock{border:0;padding:0}
+.clock-label{font:12px var(--mono);color:var(--muted-foreground)}
+.clock-label .clock-source{font:12px var(--mono);display:inline-flex;flex-direction:row;gap:5px}
+.clock-digits{font-size:29px;gap:14px;letter-spacing:-1px;margin:6px 0 0}
+.clock-days small{font-size:12px}
+.reset-toy{height:220px}.key-shadow{top:185px}
+.tibo-key-buddy{width:96px;left:-10px;bottom:0;filter:none;transform:rotate(-5deg)}
+.key-sound-toggle{right:13px;bottom:-5px}
+.activity-section{padding:20px 0 18px;border:0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);border-radius:0;background:transparent;box-shadow:none;animation:none}
+.section-heading h2{font:16px var(--mono);letter-spacing:-.5px}
+.year-select{box-shadow:none!important;border-radius:5px!important}
+.feed-section{margin-top:27px}.feed-heading{padding-bottom:12px}
+.feed-heading h2{font-size:18px;letter-spacing:-.5px}.tibo-avatar{width:28px;height:28px}
+.post-row{padding-top:19px;grid-template-columns:44px minmax(0,1fr);gap:22px}
+.post-row::before{left:52px}.post-row::after{left:48px;top:29px}
+.post-stamp{padding-left:0}.post-stamp>span{font-size:24px}.post-stamp small{font-size:10px}
+.post-main{padding-bottom:17px;padding-left:9px}.post-top{margin-bottom:6px}
+.post-main h3.post-quote,.post-row.confirmed h3.post-quote{font-size:17px;line-height:1.6;-webkit-line-clamp:2}
+.post-row.confirmed .post-main{padding-top:10px;padding-bottom:16px;margin-top:-5px}
+.post-bottom{margin-top:7px}.post-bottom .text-button{font-size:11px;min-height:25px}
+.load-older{margin-top:19px;padding:5px 15px;background:transparent;box-shadow:none;border-radius:5px;font:12px var(--mono)}
+.site-footer{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;margin-top:25px;padding-top:14px;font-size:11px;gap:10px}
+.sources-details{margin:0;max-width:none}.sources-details[open]{flex-basis:100%}.sources-details p{font-size:12px}
+.sources-details summary{font-size:11px}
+@media(max-width:850px) and (min-width:601px){.hero{grid-template-columns:minmax(0,1fr) 230px;gap:22px}.hero h1{font-size:39px;letter-spacing:-2px}.tibo-key-buddy{width:83px;left:-17px}.reset-brief{font-size:13px}}
+@media(max-width:600px){
+ .monitor-shell{padding-top:19px}.hero{grid-template-columns:minmax(0,1fr) 116px;gap:0 12px;padding:14px 0 23px;min-height:0;align-items:center}
+ .hero-copy{display:contents}.hero h1{grid-column:1;grid-row:1;font-size:clamp(30px,7.6vw,44px);letter-spacing:-1.8px;line-height:1.1;margin:0;max-width:215px}
+ .reset-toy{grid-column:2;grid-row:1;height:140px;margin:0}.key-shadow{top:116px}.tibo-key-buddy{width:62px;left:-22px;bottom:-2px}.key-sound-toggle{bottom:-4px;right:-1px}
+ .reset-brief{grid-column:1/-1;grid-row:2;min-height:50px;margin:15px 0 15px;font-size:13px;max-width:100%;line-height:1.8}
+ .reset-clocks{grid-column:1/-1;grid-row:3;margin:0}.clock-digits{font-size:27px;gap:13px}.clock-days small{font-size:12px}.clock-time i{margin:0 3px}.clock-label .clock-source{font-size:12px}
+ .activity-section{padding:16px 0}.section-heading h2{font-size:15px}.feed-section{margin-top:24px}.feed-heading h2{font-size:17px}
+ .post-row{grid-template-columns:32px minmax(0,1fr);gap:15px;padding-top:18px}.post-row::before{left:38px}.post-row::after{left:35px;top:27px}.post-stamp>span{font-size:21px}.post-stamp small{font-size:9px}
+ .post-main h3.post-quote,.post-row.confirmed h3.post-quote{font-size:16px}.post-main{padding-left:8px}.post-bottom{margin-top:7px}.post-top{gap:5px}
+}
+
+/* The last reset is the headline, following the original tracker's hierarchy. */
+.hero{position:relative;grid-template-columns:minmax(0,1fr) 190px;gap:24px;margin:27px 0 0;padding:27px 31px;min-height:237px;border:1px solid var(--border);border-radius:8px 11px 7px 10px;background:var(--card)}
+.hero h1.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.hero>.reset-clocks{grid-column:1;grid-row:1}
+.clock-label .clock-source{font-size:13px;color:var(--muted-foreground)}
+.clock-digits{display:flex;flex-direction:column;align-items:flex-start;gap:17px;margin:12px 0 0;letter-spacing:0}
+.clock-digits>.clock-days{position:relative;isolation:isolate;color:var(--primary-foreground);font:700 clamp(52px,5.7vw,78px)/1.16 var(--display);letter-spacing:-4px;padding:0 9px 3px;gap:14px;white-space:nowrap;transform:rotate(-1deg)}
+.clock-days::before{content:'';position:absolute;inset:-2px -5px 0;z-index:-1;background:var(--green);clip-path:polygon(1% 5%,98% 0,100% 94%,0 100%)}
+.clock-days small{font:inherit;letter-spacing:-4px;margin:0;color:inherit}
+.clock-digits>.clock-time{font:18px var(--mono);letter-spacing:-.6px;gap:0;margin-left:4px}
+.clock-time i{margin:0 3px;font-size:inherit}
+.hero>.reset-toy{grid-column:2;grid-row:1;height:177px;margin:0}
+.hero .reset-key{width:141px;height:145px;border-radius:29px;padding:9px 10px 17px}
+.hero .key-face{border-radius:20px;padding:10px 12px 9px}.hero .key-face>svg{width:48px;height:48px}.hero .key-label{font-size:13px}
+.hero .key-housing::before{border-radius:29px}.hero .key-shadow{top:150px;width:130px}
+.hero .tibo-key-buddy{width:84px;left:-30px;bottom:-4px}.hero .key-sound-toggle{right:-5px;bottom:-9px}
+.monitor-shell>.reset-brief{margin:17px 0 21px;min-height:28px;max-width:100%;padding:0 3px;font-size:13px}
+.activity-section{border-top:0;padding-top:8px}
+@media(max-width:850px) and (min-width:601px){.hero{grid-template-columns:minmax(0,1fr) 150px;gap:20px;padding:26px;min-height:224px}.clock-digits>.clock-days,.clock-days small{font-size:54px;letter-spacing:-3px}.hero .reset-key{width:120px;height:125px}.hero .tibo-key-buddy{width:74px;left:-30px}.hero .key-sound-toggle{right:-8px}}
+@media(max-width:600px){
+ .hero{display:block;margin-top:23px;padding:21px 18px 25px;min-height:235px;border-radius:8px 11px 7px 10px}
+ .clock-label .clock-source{font-size:12px}.clock-digits{margin-top:13px;gap:27px}
+ .clock-digits>.clock-days,.clock-days small{font-size:clamp(40px,12vw,62px);letter-spacing:-2.1px}.clock-digits>.clock-days{gap:9px;padding:0 4px 3px}
+ .clock-digits>.clock-time{font-size:18px;margin-left:0}.clock-time i{margin:0 2px}
+ .hero>.reset-toy{position:absolute;right:17px;bottom:15px;width:88px;height:93px;margin:0}
+ .hero .reset-key{width:77px;height:82px;padding:5px 6px 11px;border-radius:17px}.hero .key-face{padding:5px 7px 4px;border-radius:11px}.hero .key-face>svg{width:26px;height:26px}.hero .key-code{font-size:8px}.hero .key-label{font-size:9px}.hero .key-label>span{font-size:11px}
+ .hero .key-housing::before{border-radius:17px;inset:8px -1px -16px}.hero .key-shadow{width:70px;top:86px}.hero .tibo-key-buddy{width:53px;left:-26px;bottom:-10px}
+ .hero .key-sound-toggle{width:23px;height:23px;right:-10px;bottom:-10px}.hero .key-sound-toggle svg{width:12px}
+ .hero .key-splash{width:155px;height:160px}.hero .key-splash-stage{inset:-20px -12px}
+ .monitor-shell>.reset-brief{margin:15px 0 22px;min-height:45px;padding:0;font-size:12px;line-height:1.8}
+}

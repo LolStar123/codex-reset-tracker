@@ -1,5 +1,9 @@
 import type { Post } from './types';
 
+export function lastReset(posts: Post[]) {
+    return posts.filter(p => p.category === 'confirmed').sort((a,b) => b.at.localeCompare(a.at))[0];
+}
+
 export function lastResetOfType(posts: Post[], kind: 'regular' | 'banked') {
     return posts.filter(p => p.category === 'confirmed' &&
         (p.resetType === kind || p.resetType === 'both' || kind === 'regular' && !p.resetType))

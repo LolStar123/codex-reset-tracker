@@ -15,8 +15,8 @@ async (page)=>{
  await page.goto('http://localhost:5173/');
  await page.waitForFunction(()=>!!document.documentElement.dataset.theme);
  const key=page.getByRole('button',{name:'Check for new resets'});
- const previous=await page.locator('.reset-clock.regular .clock-digits').getAttribute('aria-label');
- await page.waitForFunction(old=>document.querySelector('.reset-clock.regular .clock-digits').getAttribute('aria-label')!==old,previous);
+ const previous=await page.locator('.reset-clock .clock-digits').getAttribute('aria-label');
+ await page.waitForFunction(old=>document.querySelector('.reset-clock .clock-digits').getAttribute('aria-label')!==old,previous);
  check('Seconds tick without reloading',true);
  check('Personal name removed',!await page.locator('body').innerText().then(t=>t.toLowerCase().includes("atul's")));
  await page.waitForFunction(()=>document.querySelector('.tibo-key-buddy').complete&&document.querySelector('.tibo-key-buddy').naturalWidth>0);
@@ -50,9 +50,9 @@ async (page)=>{
  check('A new press replays the burst',true);
  await page.keyboard.up('Space');
  await page.setViewportSize({width:320,height:800});
- check('Seconds and mascot fit narrow mobile',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ check('Clock and mascot fit narrow mobile',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  await page.emulateMedia({reducedMotion:'reduce'});await page.reload();await page.waitForFunction(()=>!!document.documentElement.dataset.theme);
- check('Reduced motion keeps clocks readable',await page.locator('[role=timer]').count()===2);
+ check('Reduced motion keeps the clock readable',await page.locator('[role=timer]').count()===1);
  await key.focus();await page.keyboard.down('Space');
  await page.waitForFunction(()=>!!document.querySelector('.key-splash'));
  check('Reduced-motion burst is static',await page.locator('.splash-rays').evaluate(el=>getComputedStyle(el).animationName==='none'));

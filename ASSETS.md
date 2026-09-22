@@ -68,3 +68,33 @@ Each file is 2,088 bytes. Downstroke is 71.497ms, mono, 44.1kHz.
 These replace the synthesized falling bass oscillator. There is no microphone
 access or autoplay; mute persists locally. Press and release play independently.
 The cartoon burst is local SVG geometry, not another generated bitmap.
+
+## Abstract ink revision, 22 September 2026
+
+Current website asset: `public/images/tibo-scribble.webp`, 400 by 600 pixels,
+54,038 bytes, with alpha. Built-in imagegen edit using the original Tibo portrait
+as identity reference and the rejected cartoon as a negative style reference.
+Original retained at `output/tibo-abstract-original.png` (ignored) and in the
+image-generation directory. This replaces the previous doodle at both placements.
+
+Final prompt:
+
+Create a radically simplified abstract scribble portrait of Tibo from the first
+photo. The second image is the OLD website mascot that the user REJECTED as too
+detailed, too cute, too AI generated: do NOT repeat its illustration style.
+New direction: extremely spare late Picasso ink drawing, spontaneous continuous-line
+cubist caricature, about twenty to thirty crooked charcoal pen strokes total.
+Head turned both front and profile at once, one tiny eye higher than the other,
+long angular triangular nose, a single lopsided smiling line, a few jagged loops
+suggesting his short dark hair. Simple black shirt as one rough angular shape,
+impossibly simple bent line arms and two legs, a tilted tiny blue rectangle
+suggesting a laptop with a white >_ mark. Witty, raw, abstract, unmistakably
+handmade, almost a stick person someone scribbled in five seconds. No huge
+polished anime eyes, no rosy cheeks, no teeth, no detailed hair, no pencil shading
+or colored-in texture, no detailed fingers/shoes, no gradients, no 3D, no cute
+commercial mascot. Very few marks, lots of blank space. Limit palette to dark
+charcoal ink, flat pale ivory face/body fill so visible on a dark website, and
+ONE little cobalt-blue laptop patch. True transparent background alpha, NO paper
+rectangle, no ground, no text, no frame. Full small seated person isolated,
+portrait aspect ratio. Make the abstraction and economy of line much more
+important than literal facial resemblance.

@@ -1,44 +1,39 @@
-# Reset Monitor: second design pass
+# Reset Monitor
 
-The first layout was rejected as bland. This version treats the monitor as a
-personal Codex desk toy: a tactile refresh key is the signature, while the real
-status, separate reset clocks, activity and source feed remain the working surface.
+The last reset is the headline. The reference is codex-resets.com: borrow its
+single large elapsed-days panel and keep the secondary history below it. The
+header contains only the existing terminal mark and codex wordmark. There is no
+separate hero title, tagline, audience label, monitoring badge or statistics row.
 
-Palette: ink #11151f, silver #edf1fa, cobalt #92b1ff, raised slate #1a202d,
-banked amber #ffbd86. A cool light theme retains the same visual identity.
-Self-hosted Space Grotesk Variable supplies headings and body; IBM Plex Mono
-supplies dates and clocks. Both packages retain their upstream font licenses.
+The main slate box says last reset was, followed by a large cobalt-highlighted
+number of days. HH:MM:SS ticks underneath. A single clock uses the newest
+confirmed reset of any type. Its source link exposes the exact type/date on hover.
+The smaller mechanical check key and abstract Tibo occupy the right corner.
 
-A floating key checks the real feed. Spring hover/press feedback applies to main
-buttons and calendar cells. Expandable context opens with a short height/opacity
-transition. Keyboard controls remain native; reduced motion stops floating,
-bouncing and travel. The homepage enters in one short stagger.
+One short source-based outlook types below the box with a blinking underscore.
+It is not an LLM-generated forecast: explicit hourly promises allow a remaining
+hours estimate; weekday-only promises retain the weekday with no invented time.
+Expired promises await confirmation. New banked delivery cannot erase a pending
+full reset. Reduced motion immediately reveals the whole sentence.
 
-Full-reset and banked-reset clocks use independently selected source confirmations.
-A combined reset updates both; a promise updates neither. The calendar uses blue
-for full resets and amber with an inset marker for banked resets. It remains the
-adapted RareUI component and keeps its original attribution.
+The GitHub-style RareUI activity grid remains. Three notes show initially, with
+older notes behind more. Repeated author labels, reply captions, extra timestamps
+and feed subtitles are removed. Source/context links and filters still work.
+Coverage details stay collapsed in the footer.
 
-1000px maximum width; the mobile calendar scrolls within its own card. The reset
-key shrinks on mobile. The source feed, filters and coverage disclosures remain.
+Palette: ink #11151f, silver #edf1fa, cobalt #92b1ff, slate #1a202d, amber #ffbd86.
+The light theme retains the same roles. Space Grotesk supplies the large day
+count and post text; IBM Plex Mono supplies the brief, time and metadata. Fonts
+remain self-hosted with their package licenses. Maximum content width is 900px.
 
-Source confirmation is distinct from personal account verification. No account
-telemetry is uploaded or connected in this release.
+Tibo is a sparse charcoal caricature with a split-profile face, angular nose,
+line limbs and a single blue laptop patch. The recorded press/release pair and
+520ms ink burst remain. Sound is gesture-only and mute persists locally. Keyboard
+activation is native. Reduced motion removes travel and shows a static burst.
 
-## Feed and key revision
+Acceptance: one clock including seconds, newest reset of any type, no removed
+copy, three notes by default, accurate short outlook with typing, no overflow at
+320px, intact source/history interactions, and no hydration/runtime errors.
 
-The feed is now a narrow UTC date rail with threaded source quotations. Actual
-post text replaces summary headings. Replies name the parent author, with the
-parent text one click away. Confirmations have a cobalt edge; incoming resets use
-amber metadata. Tabs have an uneven ink underline instead of pill containers.
-The rail condenses to 38px on mobile, preserving readable source text.
-
-The mascot is a flat pencil-and-ink chibi. A bounded burst of uneven rays, stars
-and squiggles appears for 520ms on a press and replays on another press. Reduced
-motion shows a static burst. Native pointer and keyboard input use the same
-recorded downstroke/upstroke pair, with a softer release and persistent mute.
-
-Acceptance checklist: readable source excerpts, linked parent context, working
-filters/calendar, no overflow at 320px, audible sample playback on gesture only,
-replayed/cleaned-up burst, reduced motion, independent seconds clocks, and no
-hydration errors. Solo rendered review passed the first visual round.
+Reference inspected in an isolated browser on 22 September 2026:
+https://codex-resets.com/
