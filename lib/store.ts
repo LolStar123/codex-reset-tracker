@@ -3,7 +3,7 @@ import { seedSnapshot } from './seed';
 import { collectTimeline, getJson } from './collector';
 import { deriveEvents, clean } from './classify';
 import type { Post, Snapshot } from './types';
-import { applyCorrections } from './overrides';
+import { reconcileArchive } from './archive';
 type HistoryResponse = {code?:number;data:{id:string;source:{url:string;author?:string};announced_at:string;text:string;reset_type:Post['resetType']}[];meta:{generated_at:string}};
 
 let active:Promise<void>|null=null;
@@ -18,20 +18,20 @@ export async function readMonitor(refresh=true):Promise<Snapshot> {
             await persist(seed);
             state={value:JSON.stringify(seed)};
         }
-        const snapshot:Snapshot=JSON.parse(state.value);
-        snapshot.posts=applyCorrections(snapshot.posts);snapshot.events=deriveEvents(snapshot.posts);
+        const snapshot=reconcileArchive(JSON.parse(state.value) as Snapshot);
         // A failed upstream call backs off; healthy collectors can check each minute.
         const retryAfter=snapshot.lastAttemptAt&&snapshot.lastAttemptAt!==snapshot.checkedAt?300000:55000;
         if(refresh&&(!snapshot.lastAttemptAt&&!snapshot.checkedAt||Date.now()-Date.parse(snapshot.lastAttemptAt??snapshot.checkedAt??'1970-01-01')>retryAfter)) {
             if(!active)active=syncMonitor(snapshot).finally(()=>{active=null;});
             await active;
             const current=await db.prepare('SELECT value FROM monitor_state WHERE key = ?').bind('snapshot').first<{value:string}>();
-            if(current){const next:Snapshot=JSON.parse(current.value);next.posts=applyCorrections(next.posts);next.events=deriveEvents(next.posts);return next;}
+            if(current)return reconcileArchive(JSON.parse(current.value) as Snapshot);
         }
         return snapshot;
     } catch(error) {console.error('Monitor read:',String(error));return {...seed,error:'Live data is unavailable. Showing the last bundled collection.'};}
 }
 async function persist(snapshot:Snapshot) {
+    snapshot=reconcileArchive(snapshot);
     const db=database();
     const statements=snapshot.posts.map(p=>db.prepare('INSERT INTO posts (id, published_at, category, value) VALUES (?, ?, ?, ?) ON CONFLICT(id) DO UPDATE SET published_at=excluded.published_at, category=excluded.category, value=excluded.value').bind(p.id,p.at,p.category,JSON.stringify(p)));
     statements.push(db.prepare('DELETE FROM reset_events'));
@@ -53,7 +53,10 @@ export async function syncMonitor(previous?:Snapshot) {
         const uniqueRaw=[...new Map(timeline.raw.map(p=>[p.id,p])).values()];
         for(let i=0;i<uniqueRaw.length;i+=50)await db.batch(uniqueRaw.slice(i,i+50).map(p=>db.prepare('INSERT INTO raw_posts (id,author,value,collected_at) VALUES (?,?,?,?) ON CONFLICT(id) DO UPDATE SET value=excluded.value,collected_at=excluded.collected_at').bind(p.id,p.author.screen_name,JSON.stringify(p),started)));
         const posts=new Map(before.posts.map(p=>[p.id,p]));
-        for(const p of timeline.posts){const old=posts.get(p.id);posts.set(p.id,old?.provenance==='history'?{...p,category:old.category,resetType:old.resetType}:p);}
+        for(const p of timeline.posts){
+            const old=posts.get(p.id);
+            posts.set(p.id,{...p,eventId:old?.eventId,eventBasis:old?.eventBasis});
+        }
         let historyTime=before.historyCheckedAt;let historyError=false;
         try {
             const history=await getJson<HistoryResponse>('https://codex-resets.com/api/v1/resets?limit=100');

@@ -5,6 +5,7 @@ export type Post = {
     parentMissing?: boolean; category: Category; summary: string;
     resetType?: 'regular' | 'banked' | 'both'; scope?: string;
     timing?: string; provenance: 'direct' | 'history'; eventId?: string;
+    eventBasis?: 'announcement' | 'confirmation';
 };
 export type ResetEvent = {
     id: string; date: string; type: 'regular' | 'banked' | 'both';

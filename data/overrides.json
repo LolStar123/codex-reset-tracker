@@ -1,1 +1,71 @@
-{}
+{
+  "2065468501750649006": {
+    "category": "clarification",
+    "reason": "Explains the newly launched bank, not another grant."
+  },
+  "2067399435009622521": {
+    "category": "confirmed",
+    "resetType": "both",
+    "eventBasis": "confirmation",
+    "reason": "Direct post explicitly describes a full reset plus one in the reset bank."
+  },
+  "2071381664853319742": {
+    "category": "confirmed",
+    "resetType": "regular",
+    "eventBasis": "confirmation",
+    "reason": "Hard reset; banked balances are previously stacked, not newly granted."
+  },
+  "2071740419030053227": {
+    "category": "scheduled",
+    "resetType": "both",
+    "eventBasis": "announcement",
+    "reason": "Announces a full reset in the next hour and one additional reset into the bank. Delivery time is not confirmed."
+  },
+  "2075956058942820790": {
+    "category": "clarification",
+    "resetType": "regular",
+    "reason": "Explains why preceding resets were automatic; does not announce another banked grant."
+  },
+  "2076365965915467978": {
+    "category": "scheduled",
+    "resetType": "regular",
+    "eventBasis": "announcement",
+    "reason": "Missing July 12 6M milestone reset announcement, landing in the next hour."
+  },
+  "2076418567143408112": {
+    "category": "confirmed",
+    "resetType": "banked",
+    "eventBasis": "confirmation",
+    "scope": "500k users who pressed reset during the affected window",
+    "reason": "Completed targeted banked grant; tomorrow's global grant is a separate event."
+  },
+  "2076735790567338203": {
+    "category": "confirmed",
+    "resetType": "banked",
+    "eventBasis": "confirmation",
+    "scope": "All ChatGPT Work and Codex accounts",
+    "reason": "Completed global banked grant for the 7M milestone."
+  },
+  "2090964822422949999": {
+    "category": "confirmed",
+    "resetType": "banked",
+    "eventBasis": "confirmation",
+    "reason": "The banked reset has landed. Follow-up to the August 21 announcement."
+  },
+  "2091688655828246890": {
+    "category": "confirmed",
+    "resetType": "regular",
+    "eventBasis": "confirmation",
+    "reason": "Direct propagation confirmation, not a future promise."
+  },
+  "2096035437299237298": {
+    "category": "scheduled",
+    "resetType": "banked",
+    "eventBasis": "announcement",
+    "reason": "Full banked reset means a banked grant, not an additional automatic full reset."
+  },
+  "2096035748130795560": {
+    "category": "hint",
+    "reason": "Team sleep message is not a new reset schedule."
+  }
+}
