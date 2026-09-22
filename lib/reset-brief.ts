@@ -30,5 +30,5 @@ export function resetBrief(posts:Post[],now:number,stale=false):{text:string;url
         return {text:`${subject} expected ${day}`,url:pending.url};
     }
     if(now-at>7*DAY)return {text:'awaiting reset confirmation',url:pending.url};
-    return {text:`${subject} expected ? timing undetermined`,url:pending.url};
+    return {text:`${subject} expected, timing undetermined`,url:pending.url};
 }
