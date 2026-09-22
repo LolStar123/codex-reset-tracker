@@ -27,8 +27,11 @@ runs at most once per 55 seconds. The once-per-minute recurring hosted
 check is installed separately in Windows Task Scheduler because the Sites publishing
 connector does not expose a cloud cron registration operation. The scheduler depends
 on this PC remaining awake and the user logged in; the hosted website itself does not.
-The cloud cron in scheduler/ is prepared but not activated: Cloudflare Workers
-authorization is still required. Existing access only covers DNS.
+This PC-driven mode is the selected setup. The optional independent cloud cron in
+scheduler/ is prepared but unused; it would need Cloudflare Workers authorization.
+See [MAINTENANCE.md](MAINTENANCE.md) for status checks, logs, pause/resume and repair.
+The PC runner uses POST /api/collect, records daily health logs for 30 days and
+rejects stale success responses. Its task runs once per minute and at login.
 
 Classification is deterministic and conservative, not an unverified paid model call.
 It records source text instead of generating unsupported facts. Public-provider recall

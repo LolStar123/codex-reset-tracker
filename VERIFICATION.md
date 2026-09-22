@@ -215,3 +215,31 @@ Changed the existing Windows task repetition from five minutes to one minute.
 Its latest pre-change scheduled run succeeded at 11:00 UTC with 65 posts and no
 collection error. Always-on cloud scheduling still needs Workers authorization;
 the prior Cloudflare sign-in tab has been closed. No credentials were broadened.
+
+## PC collector installation and logging (22 September 2026)
+
+The selected mode is now PC-driven collection, not a pending cloud migration.
+Upgraded poll-hosted.ps1 to call the existing authenticated POST /api/collect
+health endpoint instead of downloading the full snapshot. Added stale/future
+timestamp checks, explicit failure stages, last-success retention, consecutive
+failure counts, an atomic latest receipt, a local mutex and 30-day daily log
+retention. No credentials or tweet bodies are logged.
+
+The isolated PowerShell runner test exercised healthy empty results, stale
+results, partial collection, transport failure and successful recovery. All five
+scenarios passed; error text containing a fake credential did not reach the log.
+The test wrapper was corrected to propagate the child script's exit status.
+
+Installed the reproducible installer against the real Windows task. It creates
+one-minute and current-user login triggers, hidden PowerShell execution,
+StartWhenAvailable, battery operation, a three-minute execution limit and
+IgnoreNew for overlap. It does not wake the PC or change power settings.
+
+Live task runs returned exit code zero and health status ok with 65 retained posts
+and 53 reset events. Logs showed no collection error and zero consecutive
+failures. The readable status command returned OK. A real login/sleep cycle was
+not performed; those recovery settings were inspected rather than simulated by
+interrupting the user's PC. MAINTENANCE.md documents normal upkeep and failures.
+
+Only local scheduler scripts, tests and documentation changed. The deployed
+collector endpoint and website code were reused without a site redeployment.
