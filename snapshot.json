@@ -2591,12 +2591,12 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-09-23T16:28:57.708Z",
-  "lastAttemptAt": "2026-09-23T16:28:57.708Z",
+  "checkedAt": "2026-09-23T16:34:11.469Z",
+  "lastAttemptAt": "2026-09-23T16:34:11.469Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": null,
+  "error": "Historical source unavailable",
   "pendingCursor": null,
   "catchupBoundary": null
 }
