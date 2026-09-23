@@ -5,7 +5,9 @@ type ProviderEnvelope = { code?: number };
 type TimelinePage = ProviderEnvelope & { results: (RawPost | {type:'thread';statuses:RawPost[]})[]; cursor?:{bottom?:string} };
 type Lookup = ProviderEnvelope & {status?:RawPost};
 export async function getJson<T extends ProviderEnvelope>(url:string):Promise<T> {
-    const response=await fetch(url,{headers:{Accept:'application/json','User-Agent':'ResetMonitor/1.0'},signal:AbortSignal.timeout(20000)});
+    const headers:Record<string,string>={Accept:'application/json'};
+    if(typeof window==='undefined')headers['User-Agent']='ResetMonitor/1.0';
+    const response=await fetch(url,{headers,cache:'no-store',signal:AbortSignal.timeout(20000)});
     if(response.status===204) return {code:204,results:[]} as unknown as T;
     if(!response.ok) throw new Error(`Source returned ${response.status}`);
     const data=await response.json() as T;

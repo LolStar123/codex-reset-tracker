@@ -11,7 +11,8 @@ test('a banked grant being loaded is incoming, not a completed reset',async()=>{
         const result=await collectTimeline(null,1);
         assert.equal(result.posts[0].category,'scheduled');
         assert.equal(result.posts[0].resetType,'banked');
-        assert.equal(resetBrief(result.posts,Date.parse(post.created_at)).text,'banked reset expected, timing undetermined');
+        assert.equal(result.posts[0].eventBasis,'announcement');
+        assert.equal(resetBrief(result.posts,Date.parse(post.created_at)).text,'awaiting rollout confirmation');
     }finally{globalThis.fetch=original;}
 });
 test('collector includes replies, retrieves missing context and resumes pagination',async()=>{

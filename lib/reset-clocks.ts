@@ -1,7 +1,7 @@
 import type { Post } from './types';
 
 export function lastReset(posts: Post[]) {
-    return posts.filter(p => p.category === 'confirmed').sort((a,b) => b.at.localeCompare(a.at))[0];
+    return posts.filter(p => p.category === 'confirmed' || p.eventBasis === 'announcement').sort((a,b) => b.at.localeCompare(a.at))[0];
 }
 
 export function lastResetOfType(posts: Post[], kind: 'regular' | 'banked') {

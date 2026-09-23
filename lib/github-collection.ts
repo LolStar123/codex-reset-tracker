@@ -5,8 +5,9 @@ import type { Post, Snapshot } from './types';
 
 type History = {code?:number;data:{id:string;source:{url:string;author?:string};announced_at:string;text:string;reset_type:Post['resetType']}[];meta:{generated_at:string}};
 const defaults = { timeline: collectTimeline, history: () => getJson<History>('https://codex-resets.com/api/v1/resets?limit=100') };
+type Sources = {timeline:typeof collectTimeline;history?:()=>Promise<History>};
 
-export async function collectSnapshot(before: Snapshot, sources = defaults, started = new Date().toISOString()) {
+export async function collectSnapshot(before: Snapshot, sources:Sources = defaults, started = new Date().toISOString()) {
     const issues: string[] = [];
     try {
         const newest = await sources.timeline(before.checkedAt, 3);
@@ -20,11 +21,11 @@ export async function collectSnapshot(before: Snapshot, sources = defaults, star
         // Latest lookup wins if a post is also in the historical page.
         for (const p of [...(backlog?.posts ?? []), ...newest.posts]) {
             const old = posts.get(p.id);
-            posts.set(p.id, {...p, eventId: old?.eventId, eventBasis: old?.eventBasis});
+            posts.set(p.id, {...p, eventId: old?.eventId??p.eventId, eventBasis: p.eventBasis??(p.category==='confirmed'?'confirmation':old?.eventBasis)});
         }
         let historyCheckedAt = before.historyCheckedAt;
-        let historyError: string | null = null;
-        try {
+        let historyError: string | null = before.historyError??null;
+        if(sources.history)try {
             const history = await sources.history();
             if (!Array.isArray(history.data)) throw Error('Invalid history response');
             for (const r of history.data) {
@@ -32,6 +33,7 @@ export async function collectSnapshot(before: Snapshot, sources = defaults, star
                 if (!posts.has(id)) posts.set(id, {id,author:r.source.author ?? 'thsottiaux',at:r.announced_at,text:r.text,url:r.source.url,summary:clean(r.text).slice(0,240),category:'confirmed',resetType:r.reset_type,provenance:'history'});
             }
             historyCheckedAt = history.meta.generated_at;
+            historyError = null;
         } catch (error) { historyError = `Historical source unavailable: ${String(error).slice(0,150)}`; }
         const pendingCursor = backlogFailed ? null : backlog && !backlog.caughtUp ? backlog.cursor : !newest.caughtUp ? newest.cursor : null;
         const catchupBoundary = backlogFailed || pendingCursor ? before.catchupBoundary ?? before.checkedAt : null;

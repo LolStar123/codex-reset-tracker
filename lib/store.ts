@@ -55,7 +55,7 @@ export async function syncMonitor(previous?:Snapshot) {
         const posts=new Map(before.posts.map(p=>[p.id,p]));
         for(const p of timeline.posts){
             const old=posts.get(p.id);
-            posts.set(p.id,{...p,eventId:old?.eventId,eventBasis:old?.eventBasis});
+            posts.set(p.id,{...p,eventId:old?.eventId??p.eventId,eventBasis:p.eventBasis??(p.category==='confirmed'?'confirmation':old?.eventBasis)});
         }
         let historyTime=before.historyCheckedAt;let historyError=false;
         try {

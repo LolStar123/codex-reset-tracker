@@ -19,6 +19,7 @@ export function resetBrief(posts:Post[],now:number,stale=false):{text:string;url
     const text=replacement??wording;
     const at=Date.parse(pending.at);
     const subject=pending.resetType==='banked'?'banked reset':'reset';
+    if(pending.eventBasis==='announcement')return {text:'awaiting rollout confirmation',url:pending.url};
     const hours=text.match(/\b(?:within|in(?: the)? next)\s+(\d+(?:\.\d+)?)\s+hours?\b/);
     if(hours) {
         const left=at+Number(hours[1])*3600000-now;

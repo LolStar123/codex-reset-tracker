@@ -11,6 +11,12 @@ const delivery = /\b(?:have|has|had|just) (?:now )?reset\b|\b(?:I|we)['’]ve (?
 const future = /\b(?:will|going to|promis\w*|incoming|coming|tomorrow|tonight|later|next hour|next few hours|lands?|landing|tuesday|monday|wednesday|thursday|friday|saturday|sunday)\b/i;
 const denials = /\b(?:no|not|never|isn't|isn’t|wasn't|wasn’t|hasn't|hasn’t|haven't|haven’t|didn't|didn’t|won't|won’t)\b/i;
 
+function rolloutAnnounced(text:string) {
+    return text.split(/(?<=[.!?])\s+|\n+/).some(sentence=>
+        /\b(?:we are|we['’]re|I am|I['’]m) (?:loading|adding|granting) (?:a|one|another) banked reset\b/i.test(sentence)&&
+        !/\b(?:might|maybe|perhaps|hope|wish|could|would|not|no|if|tomorrow|next week)\b/i.test(sentence));
+}
+
 export function inferResetType(text:string):NonNullable<Post['resetType']> {
     const banked=/\bbanked\b|reset bank|reset into (?:your|the) bank/i.test(text);
     if(!banked)return 'regular';
@@ -68,7 +74,8 @@ export function classify(raw:RawPost, parent?:RawPost):Post|null {
     }
     return {id:raw.id,author:raw.author.screen_name,text:raw.text,url:raw.url,at:new Date(raw.created_timestamp?raw.created_timestamp*1000:raw.created_at).toISOString(),
         parentId:raw.replying_to?.status,parent:parent?{author:parent.author.screen_name,text:parent.text,url:parent.url}:raw.quote?{author:raw.quote.author.screen_name,text:raw.quote.text,url:raw.quote.url}:undefined,
-        parentMissing:!!raw.replying_to&&!parent,category,summary,resetType:inferResetType(typeText),scope:scopeMatch?.[0],timing,provenance:'direct'};
+        parentMissing:!!raw.replying_to&&!parent,category,summary,resetType:inferResetType(typeText),scope:scopeMatch?.[0],timing,provenance:'direct',
+        ...(category!=='correction'&&rolloutAnnounced(text)?{eventBasis:'announcement' as const}:{})};
 }
 
 export function deriveEvents(posts:Post[]):ResetEvent[] {

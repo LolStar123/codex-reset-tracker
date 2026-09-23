@@ -2,6 +2,7 @@
 declare const __MONITOR_BASE__: string | undefined;
 declare const __MONITOR_ENDPOINT__: string | undefined;
 export const assetBase = typeof __MONITOR_BASE__ === 'undefined' ? '/' : __MONITOR_BASE__;
+export const directChecks = typeof __MONITOR_ENDPOINT__ !== 'undefined';
 export function assetUrl(path: string) { return assetBase + path.replace(/^\//, ''); }
 export function monitorUrl() {
     const endpoint = typeof __MONITOR_ENDPOINT__ === 'undefined' ? '/api/monitor' : __MONITOR_ENDPOINT__;

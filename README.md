@@ -11,7 +11,8 @@ https://LolStar123.github.io/codex-reset-tracker/
 
 The site and collector run on GitHub. Your computer does not need to stay on.
 GitHub checks public posts and replies every five minutes; open pages fetch the
-shared result every 30 seconds. The feed, outlook and calendar follow collected
+shared result every 30 seconds. The check key fetches the live source directly,
+and visible pages do the same on arrival and every five minutes. The feed, outlook and calendar follow collected
 source updates. GitHub scheduling and the public source can introduce delays.
 
 See [GITHUB.md](GITHUB.md) for setup, logs, manual checks, repairs and limitations.

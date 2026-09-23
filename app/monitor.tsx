@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { assetBase, assetUrl, monitorUrl } from '@/lib/runtime';
+import { assetBase, assetUrl, monitorUrl, directChecks } from '@/lib/runtime';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import { BounceButton, ResetKey } from '@/components/reset-key';
 import { ArrowUpRight, ChevronDown, Moon, Sun, Terminal, X, CircleHelp } from 'lucide-react';
@@ -13,6 +13,7 @@ import { ResetClocks } from '@/components/reset-clocks';
 import type { Post, Snapshot } from '@/lib/types';
 import { resetBrief } from '@/lib/reset-brief';
 import { ResetBrief } from '@/components/reset-brief';
+import { checkLive, newestSnapshot } from '@/lib/browser-refresh';
 
 const LABELS = { confirmed: 'Reset', scheduled: 'Incoming', hint: 'Trickle', clarification: 'Note', correction: 'Correction' };
 const DAY = 86400000;
@@ -53,14 +54,35 @@ export default function Monitor({ initial, renderedAt }: { initial: Snapshot; re
     const [count,setCount] = useState(3);
     const [refreshing,setRefreshing] = useState(false);
     const [refreshError,setRefreshError] = useState(false);
+    const [checkMessage,setCheckMessage] = useState('');
+    const dataRef = useRef(initial);
+    const lastDirectAttempt = useRef(0);
     const scroll = useRef<HTMLDivElement>(null);
     const refreshLock = useRef(false);
-    async function refresh() {
+    async function refresh(live=false) {
         if (refreshLock.current) return;
         refreshLock.current = true; setRefreshing(true);
-        try { const r = await fetch(monitorUrl(),{cache:'no-store',signal:AbortSignal.timeout(15000)}); if(!r.ok) throw Error('Unavailable'); setData(await r.json()); setRefreshError(false); setNow(Date.now()); }
-        catch { setRefreshError(true); }
-        finally { refreshLock.current = false; setRefreshing(false); }
+        if(live)setCheckMessage('checking source?');
+        try {
+            let next:Snapshot;
+            if(live&&directChecks) {
+                lastDirectAttempt.current=Date.now();
+                next=await checkLive(dataRef.current);
+            } else {
+                const response=await fetch(monitorUrl(),{cache:'no-store',signal:AbortSignal.timeout(15000)});
+                if(!response.ok)throw Error('Shared snapshot unavailable');
+                next=newestSnapshot(dataRef.current,await response.json());
+            }
+            dataRef.current=next;setData(next);setRefreshError(false);setNow(Date.now());
+            if(live) {
+                const time=new Date(next.checkedAt??Date.now()).toLocaleTimeString('en-GB');
+                setCheckMessage(next.error?'checked, some replies unavailable':`source checked ${time}`);
+                try { localStorage.setItem('reset-monitor-snapshot',JSON.stringify(next)); } catch { /* Storage can be disabled. */ }
+            }
+        } catch {
+            setRefreshError(true);
+            if(live)setCheckMessage('source check failed ? try again');
+        } finally { refreshLock.current = false; setRefreshing(false); }
     }
     useEffect(() => {
         const saved = localStorage.getItem('reset-monitor-theme');
@@ -72,9 +94,15 @@ export default function Monitor({ initial, renderedAt }: { initial: Snapshot; re
         document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
         themeMedia.addEventListener('change',applyTheme);
         const clock = setInterval(() => setNow(Date.now()),30000);
-        const initialRefresh = requestAnimationFrame(() => { void refresh(); });
-        const poll = setInterval(() => { if(!document.hidden) void refresh(); },30000);
-        const onVisible=()=>{if(!document.hidden)void refresh();};
+        const initialRefresh = requestAnimationFrame(() => {
+            try {
+                const savedSnapshot=localStorage.getItem('reset-monitor-snapshot');
+                if(savedSnapshot) { const restored=newestSnapshot(dataRef.current,JSON.parse(savedSnapshot));dataRef.current=restored;setData(restored); }
+            } catch { /* An invalid local cache never replaces the bundled archive. */ }
+            void refresh().then(()=>{if(directChecks)void refresh(true);});
+        });
+        const poll = setInterval(() => { if(!document.hidden) void refresh(directChecks&&Date.now()-lastDirectAttempt.current>=300000); },30000);
+        const onVisible=()=>{if(!document.hidden)void refresh(directChecks&&Date.now()-lastDirectAttempt.current>=300000);};
         document.addEventListener('visibilitychange',onVisible);
         return () => { cancelAnimationFrame(themeFrame); cancelAnimationFrame(initialRefresh); themeMedia.removeEventListener('change',applyTheme); document.removeEventListener('visibilitychange',onVisible); clearInterval(clock); clearInterval(poll); };
     },[]);
@@ -111,7 +139,7 @@ export default function Monitor({ initial, renderedAt }: { initial: Snapshot; re
         <header className="site-header"><a className="wordmark" href={assetBase} aria-label="Codex reset tracker home"><span className="logo"><Terminal size={20}/></span><span>codex <small className="tracker-name">reset tracker</small></span></a><div className="header-actions"><BounceButton className="icon-button" onClick={toggleTheme} aria-label={dark?'Switch to light theme':'Switch to dark theme'}>{dark?<Sun size={19}/>:<Moon size={19}/>}</BounceButton></div></header>
         <section className="hero" aria-label="Reset Monitor">
             <h1 className="sr-only">Codex reset tracker</h1><div className="hero-info"><ResetClocks posts={data.posts} renderedAt={renderedAt}/><ResetBrief text={brief.text} url={brief.url}/></div>
-            <ResetKey checking={refreshing} failed={refreshError} onCheck={refresh}/>
+            <div className="check-control"><ResetKey checking={refreshing} failed={refreshError} onCheck={()=>void refresh(true)}/><p className="check-status" role="status" aria-live="polite">{checkMessage}</p></div>
         </section>
         <section className="activity-section" aria-labelledby="activity-title"><div className="section-heading"><h2 id="activity-title">activity</h2><Select value={year} onValueChange={v=>{setYear(v);setSelected(null);}}><SelectTrigger aria-label="Activity period" className="year-select"><SelectValue>{year==='recent'?'Past year':year}</SelectValue></SelectTrigger><SelectContent>{['recent',...years].map(y=><SelectItem key={y} value={y}>{y==='recent'?'Past year':y}</SelectItem>)}</SelectContent></Select></div>
             <div className="calendar-frame"><div className="day-labels" aria-hidden="true"><span>Mon</span><span>Wed</span><span>Fri</span></div><div className="calendar-scroll" ref={scroll} tabIndex={0} aria-label="Reset calendar, scroll to see older dates">
@@ -129,6 +157,6 @@ export default function Monitor({ initial, renderedAt }: { initial: Snapshot; re
         <section className="feed-section" aria-labelledby="updates-title"><Tabs value={filter} onValueChange={v=>{setFilter(v);setCount(3);}}><div className="section-heading feed-heading"><h2 id="updates-title"><a className="tibo-avatar" href="https://x.com/thsottiaux" target="_blank" rel="noreferrer" aria-label="Tibo on X"><img src={assetUrl("images/tibo-avatar.jpg")} alt="" width={36} height={36}/></a>notes</h2><TabsList className="feed-tabs"><TabsTrigger value="all">All</TabsTrigger><TabsTrigger value="resets">Resets</TabsTrigger><TabsTrigger value="trickles">Trickles</TabsTrigger></TabsList></div>
             {['all','resets','trickles'].map(tab=><TabsContent value={tab} key={tab} className="feed-content"><div aria-live="polite">{visible.length?visible.slice(0,count).map(p=><PostRow key={p.id} post={p} now={now}/>):<div className="empty-state"><img className="tibo-empty" src={assetUrl("images/tibo-scribble.webp")} alt="Tibo with his laptop" width={400} height={600}/><h3>{selected?'Nothing recorded on this day.':'No updates here yet.'}</h3><p>{selected?'Choose another day or clear the date filter.':'Relevant replies and reset updates will appear as they are found.'}</p>{selected&&<BounceButton className="text-button" onClick={()=>setSelected(null)}>Clear date filter</BounceButton>}</div>}</div>{visible.length>count&&<BounceButton className="load-older" onClick={()=>setCount(c=>c+6)} aria-label="Load older updates">more<ChevronDown size={15}/></BounceButton>}</TabsContent>)}
         </Tabs></section>
-        <footer className="site-footer"><span>unofficial</span><details className="sources-details"><summary><CircleHelp size={12}/>sources</summary><p>Posts and replies by <a href="https://x.com/thsottiaux" target="_blank" rel="noreferrer">@thsottiaux</a>, retrieved through <a href="https://docs.fxembed.com/api/introduction/" target="_blank" rel="noreferrer">FxEmbed</a>. Illustration is unofficial fan art. Not affiliated with OpenAI. The archive also includes the banked-reset launch from <a href="https://x.com/OpenAI/status/2065225362544726371" target="_blank" rel="noreferrer">@OpenAI</a>. Historical reset data from <a href="https://codex-resets.com" target="_blank" rel="noreferrer">Codex Resets</a>.</p><p>Calendar dates use the source announcement or confirmation date in UTC. Empty days mean no recorded reset, not proof that none happened. Hints never count as confirmed resets.</p><p>{data.replyCoverageStart?`Replies collected back to ${dateLabel(data.replyCoverageStart,true)}. `:''}Older June and July posts were checked individually; earlier reply history is incomplete. Public-source coverage can have gaps. Missing context is labelled. Confirmed means the source reports delivery. It does not verify your account balance. The last-reset clock uses the newest full or banked source confirmation. The outlook condenses source wording; an hourly estimate appears only when a source gives an explicit time window.</p></details></footer>
+        <footer className="site-footer"><span>unofficial</span><details className="sources-details"><summary><CircleHelp size={12}/>sources</summary><p>Posts and replies by <a href="https://x.com/thsottiaux" target="_blank" rel="noreferrer">@thsottiaux</a>, retrieved through <a href="https://docs.fxembed.com/api/introduction/" target="_blank" rel="noreferrer">FxEmbed</a>. Illustration is unofficial fan art. Not affiliated with OpenAI. The archive also includes the banked-reset launch from <a href="https://x.com/OpenAI/status/2065225362544726371" target="_blank" rel="noreferrer">@OpenAI</a>. Historical reset data from <a href="https://codex-resets.com" target="_blank" rel="noreferrer">Codex Resets</a>.</p><p>Calendar dates use the source announcement or confirmation date in UTC. Empty days mean no recorded reset, not proof that none happened. Hints never count as confirmed resets.</p><p>{data.replyCoverageStart?`Replies collected back to ${dateLabel(data.replyCoverageStart,true)}. `:''}Older June and July posts were checked individually; earlier reply history is incomplete. Public-source coverage can have gaps. Missing context is labelled. Confirmed means the source reports delivery. It does not verify your account balance. The clock uses the latest recorded full or banked reset. Active rollout announcements are labelled as announcements, not completed delivery. The outlook condenses source wording; an hourly estimate appears only when a source gives an explicit time window.</p></details></footer>
     </main></TooltipProvider>;
 }

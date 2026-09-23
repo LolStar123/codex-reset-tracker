@@ -208,7 +208,7 @@ body::before{display:none}
 .clock-days small{font:inherit;letter-spacing:-4px;margin:0;color:inherit}
 .clock-digits>.clock-time{font:18px var(--mono);letter-spacing:-.6px;gap:0;margin-left:4px}
 .clock-time i{margin:0 3px;font-size:inherit}
-.hero>.reset-toy{grid-column:2;grid-row:1;height:177px;margin:0}
+.hero .reset-toy{grid-column:2;grid-row:1;height:177px;margin:0}
 .hero .key-float{animation:none;transform:perspective(650px) rotateX(16deg) rotateZ(-8deg)}
 .hero .reset-key{width:141px;height:145px;border-radius:8px;padding:9px 13px 25px;border-color:#91b0e9;background:conic-gradient(from 38deg at 50% 36%,#86a7e2 0deg 103deg,#5276b8 105deg 181deg,#7497d3 183deg 275deg,#b0c8f2 277deg);box-shadow:0 9px 0 #36558b,0 10px 0 #19304f,0 13px 8px #050b1740}
 .hero .reset-key[data-pressed=true]{box-shadow:0 1px 0 #36558b;filter:brightness(.96)}
@@ -233,11 +233,18 @@ body::before{display:none}
  .clock-label .clock-source{font-size:12px}.clock-digits{margin-top:13px;gap:27px}
  .clock-digits>.clock-days,.clock-days small{font-size:clamp(40px,12vw,62px);letter-spacing:-2.1px}.clock-digits>.clock-days{gap:9px;padding:0 4px 3px}
  .clock-digits>.clock-time{font-size:18px;margin-left:0}.clock-time i{margin:0 2px}
- .hero>.reset-toy{position:absolute;right:17px;top:121px;bottom:auto;width:88px;height:93px;margin:0}
+ .hero .reset-toy{position:absolute;right:17px;top:121px;bottom:auto;width:88px;height:93px;margin:0}
  .hero .reset-key{width:77px;height:82px;padding:5px 7px 14px;border-radius:5px}.hero .key-face{padding:4px 5px 4px;border-radius:3px 3px 5px 5px}.hero .key-face>svg{width:18px;height:18px}.hero .key-code{font-size:6px}.hero .key-label{font-size:9px}.hero .key-label>span{font-size:10px}
  .hero .key-housing::before{border-radius:6px;inset:9px -3px -21px}.hero .key-housing::after{bottom:-15px;height:17px}.hero .key-shadow{width:70px;top:96px}.hero .tibo-key-buddy{width:53px;left:-26px;bottom:-10px}
  .hero .key-sound-toggle{width:23px;height:23px;right:-10px;bottom:-10px}.hero .key-sound-toggle svg{width:12px}
  .hero .key-splash{width:155px;height:160px}.hero .key-splash-stage{inset:-20px -12px}
  .hero-info>.reset-brief{margin-top:88px;min-height:34px;font-size:11px;padding:7px 9px}
  .wordmark>span:last-child{gap:7px}.wordmark .tracker-name{font-size:10px}
+}
+
+.check-control { position: relative; min-width: 0; grid-column: 2; grid-row: 1; }
+.check-status { min-height: 1.3em; margin: 32px 0 0; text-align: center; font: 10px var(--mono); color: var(--muted-foreground); }
+@media(max-width:600px) {
+ .check-control { position: static; }
+ .check-status { margin-top: 8px; }
 }
