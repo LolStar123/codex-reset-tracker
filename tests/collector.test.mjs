@@ -3,6 +3,17 @@ import assert from 'node:assert/strict';
 import {collectTimeline,getJson} from '../lib/collector.ts';
 import {resetBrief} from '../lib/reset-brief.ts';
 const raw=(id,text,author='thsottiaux',extra={})=>({id,text,url:`https://x.com/${author}/status/${id}`,created_at:'2026-09-22T04:00:00Z',author:{screen_name:author},...extra});
+test('a banked grant being loaded is incoming, not a completed reset',async()=>{
+    const original=globalThis.fetch;
+    const post=raw('loading','Not only are the models improved. We are loading a banked reset into all accounts of our Plus, Pro and Business users.');
+    globalThis.fetch=async()=>Response.json({code:200,results:[post],cursor:{bottom:null}});
+    try {
+        const result=await collectTimeline(null,1);
+        assert.equal(result.posts[0].category,'scheduled');
+        assert.equal(result.posts[0].resetType,'banked');
+        assert.equal(resetBrief(result.posts,Date.parse(post.created_at)).text,'banked reset expected, timing undetermined');
+    }finally{globalThis.fetch=original;}
+});
 test('collector includes replies, retrieves missing context and resumes pagination',async()=>{
     const original=globalThis.fetch;const urls=[];
     globalThis.fetch=async url=>{

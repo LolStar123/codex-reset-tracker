@@ -30,8 +30,9 @@ function delivered(text:string) {
 
 function scheduled(text:string,contextual:boolean) {
     return text.split(/(?<=[.!?])\s+|\n+/).some(sentence=>
-        (resetWord.test(sentence)||contextual)&&future.test(sentence)&&
-        /\b(?:will|promis\w*|coming|lands?|landing|tomorrow|tonight|tuesday|monday|wednesday|thursday|friday|saturday|sunday)\b/i.test(sentence)&&
+        (resetWord.test(sentence)||contextual)&&
+        (future.test(sentence)&&/\b(?:will|promis\w*|coming|lands?|landing|tomorrow|tonight|tuesday|monday|wednesday|thursday|friday|saturday|sunday)\b/i.test(sentence)||
+        /\b(?:we are|we['’]re|I am|I['’]m) (?:loading|adding|granting) (?:a|one|another) banked reset\b/i.test(sentence))&&
         !/\b(?:might|maybe|perhaps|hope|wish|could|would|not|no|previously)\b/i.test(sentence));
 }
 
