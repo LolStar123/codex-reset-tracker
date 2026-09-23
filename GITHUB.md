@@ -15,6 +15,8 @@ Repository: https://github.com/LolStar123/codex-reset-tracker
 - Every visitor reads that same snapshot on arrival and every 30 seconds while
   their page is visible. The check key fetches the latest published snapshot; it
   does not start a new scrape. The clock itself ticks every second locally.
+  GitHub's raw-file CDN can cache a snapshot for another five minutes after a
+  collection, so new information is not guaranteed to appear instantly.
 - Pushing changes to `main` tests and publishes the website automatically. Data
   checks do not rebuild the site, and failed source checks keep the last good data.
 
@@ -31,6 +33,8 @@ the timestamp, source status and counts. You can also open `monitor-data/runs.js
 `lastAttemptAt` includes failed checks. A failure never advances `checkedAt`.
 `historyError` reports a failure of the supplementary historical archive separately;
 it does not suppress fresh Tibo updates or make live timeline collection appear stale.
+At launch, that archive returned HTTP 403 to GitHub's runner. The imported 55-event
+history remains intact; new updates are collected directly from Tibo's timeline.
 
 For an immediate server check: **Actions > Collect reset updates > Run workflow**.
 Refreshing the site afterward picks up the published result. A red run needs a look;

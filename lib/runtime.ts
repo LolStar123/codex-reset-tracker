@@ -5,6 +5,6 @@ export const assetBase = typeof __MONITOR_BASE__ === 'undefined' ? '/' : __MONIT
 export function assetUrl(path: string) { return assetBase + path.replace(/^\//, ''); }
 export function monitorUrl() {
     const endpoint = typeof __MONITOR_ENDPOINT__ === 'undefined' ? '/api/monitor' : __MONITOR_ENDPOINT__;
-    // Raw GitHub caches responses. A shared 30-second bucket avoids stale browser/CDN entries.
+    // Rotate the browser request every 30 seconds. GitHub's upstream cache can still lag.
     return endpoint + (endpoint.includes('?') ? '&' : '?') + 'v=' + Math.floor(Date.now() / 30000);
 }
