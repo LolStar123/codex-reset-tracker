@@ -1,0 +1,4166 @@
+[
+  {
+    "type": "status",
+    "url": "https://x.com/PawelHuryn/status/2102479269335101504",
+    "id": "2102479269335101504",
+    "text": "So I tested Opus 5.5 (max) on real work. 2 repos. 105 planted bugs. Find and fix what you can.\n\nThe results:\nGPT-6 Astra (max): 45 for $33.03 (n=3)\nFable 5.1 (max): 43 for $77.55\nOpus 5.5 (max): 43 for $60.49\nOpus 5.0 (max): 27 for $51.33\nMuse Spark 1.3 (max): 32.2 for $18.11\n\nAnthropic is back in the game. More effort levels and attempts (n=3) dropping in this thread tonight 🧵",
+    "raw_text": {
+      "text": "So I tested Opus 5.5 (max) on real work. 2 repos. 105 planted bugs. Find and fix what you can.\n\nThe results:\nGPT-6 Astra (max): 45 for $33.03 (n=3)\nFable 5.1 (max): 43 for $77.55\nOpus 5.5 (max): 43 for $60.49\nOpus 5.0 (max): 27 for $51.33\nMuse Spark 1.3 (max): 32.2 for $18.11\n\nAnthropic is back in the game. More effort levels and attempts (n=3) dropping in this thread tonight 🧵",
+      "display_text_range": [
+        0,
+        381
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            277,
+            300
+          ],
+          "id": "2102479170957611008",
+          "display": "pic.x.com/VoWjiUEE4j",
+          "original": "https://t.co/VoWjiUEE4j",
+          "replacement": "https://x.com/PawelHuryn/status/2102479269335101504/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "PawelHuryn",
+      "url": "https://x.com/PawelHuryn",
+      "id": "1459767830623178755",
+      "followers": 132182,
+      "following": 430,
+      "likes": 6287,
+      "media_count": 2355,
+      "statuses": 9346,
+      "name": "Paweł Huryn",
+      "description": "AI PM | Deep research. I build, test, then teach. 130K+ subscribe → http://productcompass.pm",
+      "raw_description": {
+        "text": "AI PM | Deep research. I build, test, then teach. 130K+ subscribe → https://t.co/Tpe2QTFxY2",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              68,
+              91
+            ],
+            "original": "https://t.co/Tpe2QTFxY2",
+            "replacement": "http://productcompass.pm",
+            "display": "productcompass.pm"
+          }
+        ]
+      },
+      "location": "Newsletter: Join 130K+ →",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1459767830623178755/1773245900",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2049244285313359872/geQuKlQP_200x200.jpg",
+      "joined": "Sun Nov 14 06:19:25 +0000 2021",
+      "protected": false,
+      "website": {
+        "url": "https://www.productcompass.pm/",
+        "display_url": "productcompass.pm"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 132,
+    "reposts": 78,
+    "likes": 1406,
+    "bookmarks": 386,
+    "quotes": 21,
+    "embed_card": "summary_large_image",
+    "created_at": "Tue Sep 22 19:24:54 +0000 2026",
+    "created_timestamp": 1790105094,
+    "possibly_sensitive": false,
+    "views": 310235,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2102479170957611008",
+          "url": "https://pbs.twimg.com/media/HS2BqqSWEAAjvYd.png?name=orig",
+          "width": 2480,
+          "height": 2996
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2102479170957611008",
+          "url": "https://pbs.twimg.com/media/HS2BqqSWEAAjvYd.png?name=orig",
+          "width": 2480,
+          "height": 2996
+        }
+      ]
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102509629536346422",
+    "id": "2102509629536346422",
+    "text": "@PawelHuryn Interesting results!",
+    "raw_text": {
+      "text": "@PawelHuryn Interesting results!",
+      "display_text_range": [
+        12,
+        32
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            11
+          ],
+          "original": "PawelHuryn",
+          "id": "1459767830623178755"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 37,
+    "reposts": 1,
+    "likes": 440,
+    "bookmarks": 6,
+    "quotes": 0,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 21:25:33 +0000 2026",
+    "created_timestamp": 1790112333,
+    "views": 47319,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "PawelHuryn",
+      "status": "2102479269335101504",
+      "url": "https://x.com/PawelHuryn/status/2102479269335101504",
+      "profile_url": "https://x.com/PawelHuryn"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102509507415048245",
+    "id": "2102509507415048245",
+    "text": "Maybe our cutest launch so far. But still packing the biggest punch.",
+    "raw_text": {
+      "text": "Maybe our cutest launch so far. But still packing the biggest punch.",
+      "display_text_range": [
+        0,
+        68
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 1156,
+    "reposts": 160,
+    "likes": 7216,
+    "bookmarks": 304,
+    "quotes": 72,
+    "embed_card": "player",
+    "created_at": "Tue Sep 22 21:25:03 +0000 2026",
+    "created_timestamp": 1790112303,
+    "views": 866783,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "quote": {
+      "type": "status",
+      "url": "https://x.com/OpenAI/status/2102460975790137662",
+      "id": "2102460975790137662",
+      "text": "Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe.\n\nGPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale.\n\nWe’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional pricing.",
+      "raw_text": {
+        "text": "Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe.\n\nGPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale.\n\nWe’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional pricing.",
+        "display_text_range": [
+          0,
+          403
+        ],
+        "facets": [
+          {
+            "type": "media",
+            "indices": [
+              280,
+              303
+            ],
+            "id": "2102460948430966784",
+            "display": "pic.x.com/5LiVE4rbFt",
+            "original": "https://t.co/5LiVE4rbFt",
+            "replacement": "https://x.com/OpenAI/status/2102460975790137662/video/1"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "OpenAI",
+        "url": "https://x.com/OpenAI",
+        "id": "4398626122",
+        "followers": 5369497,
+        "following": 4,
+        "likes": 2477,
+        "media_count": 721,
+        "statuses": 2137,
+        "name": "OpenAI",
+        "description": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+        "raw_description": {
+          "text": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+          "facets": [
+            {
+              "type": "url",
+              "indices": [
+                107,
+                130
+              ],
+              "original": "https://t.co/dJGr6LgzPA",
+              "replacement": "http://openai.com/jobs",
+              "display": "openai.com/jobs"
+            }
+          ]
+        },
+        "location": "",
+        "banner_url": "https://pbs.twimg.com/profile_banners/4398626122/1777662919",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+        "joined": "Sun Dec 06 22:51:08 +0000 2015",
+        "protected": false,
+        "website": {
+          "url": "https://openai.com",
+          "display_url": "openai.com"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "organization"
+        },
+        "type": "profile"
+      },
+      "replies": 2031,
+      "reposts": 5114,
+      "likes": 51403,
+      "bookmarks": 6270,
+      "quotes": 2935,
+      "embed_card": "player",
+      "created_at": "Tue Sep 22 18:12:13 +0000 2026",
+      "created_timestamp": 1790100733,
+      "possibly_sensitive": false,
+      "views": 8253474,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "media": {
+        "all": [
+          {
+            "id": "2102460948430966784",
+            "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/1920x1080/2aqucgwb6tQ7xZ6U.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102460948430966784/img/AtB4MxYZuAKgOLey.jpg",
+            "duration": 8,
+            "width": 1920,
+            "height": 1080,
+            "format": "video/mp4",
+            "type": "video",
+            "formats": [
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/pl/UTl9st5iPdDzOCkt.m3u8?tag=29",
+                "container": "m3u8"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/480x270/eo4l1DJDg7oc9oi_.mp4?tag=29",
+                "bitrate": 256000,
+                "container": "mp4",
+                "codec": "h264"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/640x360/6Kw-N9pWiW4q-mk2.mp4?tag=29",
+                "bitrate": 832000,
+                "container": "mp4",
+                "codec": "h264"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/1280x720/gqzz2LNVazB_c_-G.mp4?tag=29",
+                "bitrate": 2176000,
+                "container": "mp4",
+                "codec": "h264"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/1920x1080/2aqucgwb6tQ7xZ6U.mp4?tag=29",
+                "bitrate": 10368000,
+                "container": "mp4",
+                "codec": "h264"
+              }
+            ],
+            "publisher": null
+          }
+        ],
+        "videos": [
+          {
+            "id": "2102460948430966784",
+            "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/1920x1080/2aqucgwb6tQ7xZ6U.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102460948430966784/img/AtB4MxYZuAKgOLey.jpg",
+            "duration": 8,
+            "width": 1920,
+            "height": 1080,
+            "format": "video/mp4",
+            "type": "video",
+            "formats": [
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/pl/UTl9st5iPdDzOCkt.m3u8?tag=29",
+                "container": "m3u8"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/480x270/eo4l1DJDg7oc9oi_.mp4?tag=29",
+                "bitrate": 256000,
+                "container": "mp4",
+                "codec": "h264"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/640x360/6Kw-N9pWiW4q-mk2.mp4?tag=29",
+                "bitrate": 832000,
+                "container": "mp4",
+                "codec": "h264"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/1280x720/gqzz2LNVazB_c_-G.mp4?tag=29",
+                "bitrate": 2176000,
+                "container": "mp4",
+                "codec": "h264"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/1920x1080/2aqucgwb6tQ7xZ6U.mp4?tag=29",
+                "bitrate": 10368000,
+                "container": "mp4",
+                "codec": "h264"
+              }
+            ],
+            "publisher": null
+          }
+        ]
+      },
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/weswinder/status/2102475647562195050",
+    "id": "2102475647562195050",
+    "text": "gpt-6 sol is worse than gpt-5.6 sol on deepswe\n\ni get that it's cheaper\n\nbut it's really weird having a new model that isn't better than the old model on every metric\n\nseems like they are trying to bury this benchmark",
+    "raw_text": {
+      "text": "gpt-6 sol is worse than gpt-5.6 sol on deepswe\n\ni get that it's cheaper\n\nbut it's really weird having a new model that isn't better than the old model on every metric\n\nseems like they are trying to bury this benchmark https://t.co/bG9zEJBZeI",
+      "display_text_range": [
+        0,
+        217
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            218,
+            241
+          ],
+          "id": "2102475208506347520",
+          "display": "pic.x.com/bG9zEJBZeI",
+          "original": "https://t.co/bG9zEJBZeI",
+          "replacement": "https://x.com/weswinder/status/2102475647562195050/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "weswinder",
+      "url": "https://x.com/weswinder",
+      "id": "120853324",
+      "followers": 13531,
+      "following": 1014,
+      "likes": 148123,
+      "media_count": 849,
+      "statuses": 25099,
+      "name": "Wes Winder",
+      "description": "Building http://mvp.new, http://thumbnailmaker.ai, and http://codingpets.com. 12+ years of software dev experience. Founder of the #1 vibe coding community on X. Toronto 🇨🇦",
+      "raw_description": {
+        "text": "Building https://t.co/orUEVDm2OZ, https://t.co/eKQTlsdfno, and https://t.co/7XVkYUkcn9. 12+ years of software dev experience. Founder of the #1 vibe coding community on X. Toronto 🇨🇦",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              9,
+              32
+            ],
+            "original": "https://t.co/orUEVDm2OZ",
+            "replacement": "http://mvp.new",
+            "display": "mvp.new"
+          },
+          {
+            "type": "url",
+            "indices": [
+              34,
+              57
+            ],
+            "original": "https://t.co/eKQTlsdfno",
+            "replacement": "http://thumbnailmaker.ai",
+            "display": "thumbnailmaker.ai"
+          },
+          {
+            "type": "url",
+            "indices": [
+              63,
+              86
+            ],
+            "original": "https://t.co/7XVkYUkcn9",
+            "replacement": "http://codingpets.com",
+            "display": "codingpets.com"
+          }
+        ]
+      },
+      "location": "join my vibe coding discord 👉",
+      "banner_url": "https://pbs.twimg.com/profile_banners/120853324/1763409431",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1715989128511152128/2TCTGz2K_200x200.jpg",
+      "joined": "Sun Mar 07 19:33:14 +0000 2010",
+      "protected": false,
+      "website": {
+        "url": "https://discord.gg/UqMM92CdxE",
+        "display_url": "discord.gg/UqMM92CdxE"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 132,
+    "reposts": 20,
+    "likes": 1012,
+    "bookmarks": 121,
+    "quotes": 16,
+    "embed_card": "summary_large_image",
+    "created_at": "Tue Sep 22 19:10:31 +0000 2026",
+    "created_timestamp": 1790104231,
+    "possibly_sensitive": false,
+    "views": 361485,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2102475208506347520",
+          "url": "https://pbs.twimg.com/media/HS1-EBAWEAA6rol.jpg?name=orig",
+          "width": 1380,
+          "height": 1294
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2102475208506347520",
+          "url": "https://pbs.twimg.com/media/HS1-EBAWEAA6rol.jpg?name=orig",
+          "width": 1380,
+          "height": 1294
+        }
+      ]
+    },
+    "quote": {
+      "type": "status",
+      "url": "https://x.com/OpenAI/status/2102460975790137662",
+      "id": "2102460975790137662",
+      "text": "Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe.\n\nGPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale.\n\nWe’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional pricing.",
+      "raw_text": {
+        "text": "Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe.\n\nGPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale.\n\nWe’ve also made caching and inference more efficient, and we’re passing the savings directly to you: 50% lower API prices for Sol and Luna compared with GPT‑5.6 promotional pricing.",
+        "display_text_range": [
+          0,
+          403
+        ],
+        "facets": [
+          {
+            "type": "media",
+            "indices": [
+              280,
+              303
+            ],
+            "id": "2102460948430966784",
+            "display": "pic.x.com/5LiVE4rbFt",
+            "original": "https://t.co/5LiVE4rbFt",
+            "replacement": "https://x.com/OpenAI/status/2102460975790137662/video/1"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "OpenAI",
+        "url": "https://x.com/OpenAI",
+        "id": "4398626122",
+        "followers": 5369497,
+        "following": 4,
+        "likes": 2477,
+        "media_count": 721,
+        "statuses": 2137,
+        "name": "OpenAI",
+        "description": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+        "raw_description": {
+          "text": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+          "facets": [
+            {
+              "type": "url",
+              "indices": [
+                107,
+                130
+              ],
+              "original": "https://t.co/dJGr6LgzPA",
+              "replacement": "http://openai.com/jobs",
+              "display": "openai.com/jobs"
+            }
+          ]
+        },
+        "location": "",
+        "banner_url": "https://pbs.twimg.com/profile_banners/4398626122/1777662919",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+        "joined": "Sun Dec 06 22:51:08 +0000 2015",
+        "protected": false,
+        "website": {
+          "url": "https://openai.com",
+          "display_url": "openai.com"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "organization"
+        },
+        "type": "profile"
+      },
+      "replies": 2031,
+      "reposts": 5114,
+      "likes": 51403,
+      "bookmarks": 6270,
+      "quotes": 2935,
+      "embed_card": "player",
+      "created_at": "Tue Sep 22 18:12:13 +0000 2026",
+      "created_timestamp": 1790100733,
+      "possibly_sensitive": false,
+      "views": 8253474,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "media": {
+        "all": [
+          {
+            "id": "2102460948430966784",
+            "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/1920x1080/2aqucgwb6tQ7xZ6U.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102460948430966784/img/AtB4MxYZuAKgOLey.jpg",
+            "duration": 8,
+            "width": 1920,
+            "height": 1080,
+            "format": "video/mp4",
+            "type": "video",
+            "formats": [
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/pl/UTl9st5iPdDzOCkt.m3u8?tag=29",
+                "container": "m3u8"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/480x270/eo4l1DJDg7oc9oi_.mp4?tag=29",
+                "bitrate": 256000,
+                "container": "mp4",
+                "codec": "h264"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/640x360/6Kw-N9pWiW4q-mk2.mp4?tag=29",
+                "bitrate": 832000,
+                "container": "mp4",
+                "codec": "h264"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/1280x720/gqzz2LNVazB_c_-G.mp4?tag=29",
+                "bitrate": 2176000,
+                "container": "mp4",
+                "codec": "h264"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/1920x1080/2aqucgwb6tQ7xZ6U.mp4?tag=29",
+                "bitrate": 10368000,
+                "container": "mp4",
+                "codec": "h264"
+              }
+            ],
+            "publisher": null
+          }
+        ],
+        "videos": [
+          {
+            "id": "2102460948430966784",
+            "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/1920x1080/2aqucgwb6tQ7xZ6U.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102460948430966784/img/AtB4MxYZuAKgOLey.jpg",
+            "duration": 8,
+            "width": 1920,
+            "height": 1080,
+            "format": "video/mp4",
+            "type": "video",
+            "formats": [
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/pl/UTl9st5iPdDzOCkt.m3u8?tag=29",
+                "container": "m3u8"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/480x270/eo4l1DJDg7oc9oi_.mp4?tag=29",
+                "bitrate": 256000,
+                "container": "mp4",
+                "codec": "h264"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/640x360/6Kw-N9pWiW4q-mk2.mp4?tag=29",
+                "bitrate": 832000,
+                "container": "mp4",
+                "codec": "h264"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/1280x720/gqzz2LNVazB_c_-G.mp4?tag=29",
+                "bitrate": 2176000,
+                "container": "mp4",
+                "codec": "h264"
+              },
+              {
+                "url": "https://video.twimg.com/amplify_video/2102460948430966784/vid/avc1/1920x1080/2aqucgwb6tQ7xZ6U.mp4?tag=29",
+                "bitrate": 10368000,
+                "container": "mp4",
+                "codec": "h264"
+              }
+            ],
+            "publisher": null
+          }
+        ]
+      },
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102501670647472147",
+    "id": "2102501670647472147",
+    "text": "@weswinder No benchmaxxing here, just a better model all around.",
+    "raw_text": {
+      "text": "@weswinder No benchmaxxing here, just a better model all around.",
+      "display_text_range": [
+        11,
+        64
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            10
+          ],
+          "original": "weswinder",
+          "id": "120853324"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 154,
+    "reposts": 18,
+    "likes": 2657,
+    "bookmarks": 54,
+    "quotes": 8,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 20:53:55 +0000 2026",
+    "created_timestamp": 1790110435,
+    "views": 140140,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "weswinder",
+      "status": "2102475647562195050",
+      "url": "https://x.com/weswinder/status/2102475647562195050",
+      "profile_url": "https://x.com/weswinder"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/theo/status/2102465196514300061",
+    "id": "2102465196514300061",
+    "text": "Opus 5.5, GPT-6 Sol and GPT-6 Luna all in a day?? Damn",
+    "raw_text": {
+      "text": "Opus 5.5, GPT-6 Sol and GPT-6 Luna all in a day?? Damn",
+      "display_text_range": [
+        0,
+        54
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "theo",
+      "url": "https://x.com/theo",
+      "id": "786375418685165568",
+      "followers": 390870,
+      "following": 4269,
+      "likes": 383141,
+      "media_count": 9173,
+      "statuses": 67417,
+      "name": "Theo - t3.gg",
+      "description": "Full time CEO @t3dotcodes & @t3dotchat. Part time YouTuber, investor, and developer",
+      "raw_description": {
+        "text": "Full time CEO @t3dotcodes & @t3dotchat. Part time YouTuber, investor, and developer",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              14,
+              25
+            ],
+            "original": "t3dotcodes",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              28,
+              38
+            ],
+            "original": "t3dotchat",
+            "id": ""
+          }
+        ]
+      },
+      "location": "San Francisco, CA",
+      "banner_url": "https://pbs.twimg.com/profile_banners/786375418685165568/1777524726",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1909353910130950147/EeSGdgA5_200x200.jpg",
+      "joined": "Thu Oct 13 01:18:04 +0000 2016",
+      "protected": false,
+      "website": {
+        "url": "https://t3.gg",
+        "display_url": "t3.gg"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 295,
+    "reposts": 157,
+    "likes": 5854,
+    "bookmarks": 133,
+    "quotes": 54,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 18:28:59 +0000 2026",
+    "created_timestamp": 1790101739,
+    "views": 215472,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102501432884891720",
+    "id": "2102501432884891720",
+    "text": "@theo It’s a good day sir",
+    "raw_text": {
+      "text": "@theo It’s a good day sir",
+      "display_text_range": [
+        6,
+        25
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            5
+          ],
+          "original": "theo",
+          "id": "786375418685165568"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 69,
+    "reposts": 8,
+    "likes": 985,
+    "bookmarks": 10,
+    "quotes": 0,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 20:52:58 +0000 2026",
+    "created_timestamp": 1790110378,
+    "views": 60345,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "theo",
+      "status": "2102465196514300061",
+      "url": "https://x.com/theo/status/2102465196514300061",
+      "profile_url": "https://x.com/theo"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/viticci/status/2102463157029495285",
+    "id": "2102463157029495285",
+    "text": "I want Grok Bot, but with GPT-6 models, and with Claude's taste, and with Muse's speed, and with GPT-Live voice \n\nis that too much to ask these days",
+    "raw_text": {
+      "text": "I want Grok Bot, but with GPT-6 models, and with Claude's taste, and with Muse's speed, and with GPT-Live voice \n\nis that too much to ask these days",
+      "display_text_range": [
+        0,
+        148
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "viticci",
+      "url": "https://x.com/viticci",
+      "id": "20904050",
+      "followers": 84003,
+      "following": 1266,
+      "likes": 19419,
+      "media_count": 7415,
+      "statuses": 114009,
+      "name": "Federico Viticci",
+      "description": "Founder and Editor-in-Chief @MacStoriesNet. Writer, podcaster, and builder. I write about Apple and AI.\n\nGet more MacStories: https://www.macstories.net/club/",
+      "raw_description": {
+        "text": "Founder and Editor-in-Chief @MacStoriesNet. Writer, podcaster, and builder. I write about Apple and AI.\n\nGet more MacStories: https://t.co/A6p4iMU0js",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              28,
+              42
+            ],
+            "original": "MacStoriesNet",
+            "id": ""
+          },
+          {
+            "type": "url",
+            "indices": [
+              126,
+              149
+            ],
+            "original": "https://t.co/A6p4iMU0js",
+            "replacement": "https://www.macstories.net/club/",
+            "display": "macstories.net/club/"
+          }
+        ]
+      },
+      "location": "Rome, Italy",
+      "banner_url": "https://pbs.twimg.com/profile_banners/20904050/1492522863",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2087452075915345920/JkXzbqYV_200x200.jpg",
+      "joined": "Sun Feb 15 10:52:33 +0000 2009",
+      "protected": false,
+      "website": {
+        "url": "https://www.macstories.net/",
+        "display_url": "macstories.net"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 88,
+    "reposts": 16,
+    "likes": 1062,
+    "bookmarks": 88,
+    "quotes": 10,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 18:20:53 +0000 2026",
+    "created_timestamp": 1790101253,
+    "views": 101761,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102497184805720459",
+    "id": "2102497184805720459",
+    "text": "@viticci It’s good to want it all",
+    "raw_text": {
+      "text": "@viticci It’s good to want it all",
+      "display_text_range": [
+        9,
+        33
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            8
+          ],
+          "original": "viticci",
+          "id": "20904050"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 101,
+    "reposts": 19,
+    "likes": 1721,
+    "bookmarks": 39,
+    "quotes": 7,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 20:36:06 +0000 2026",
+    "created_timestamp": 1790109366,
+    "views": 107232,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "viticci",
+      "status": "2102463157029495285",
+      "url": "https://x.com/viticci/status/2102463157029495285",
+      "profile_url": "https://x.com/viticci"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102484207163584745",
+    "id": "2102484207163584745",
+    "text": "@amorriscode u2!",
+    "raw_text": {
+      "text": "@amorriscode u2!",
+      "display_text_range": [
+        13,
+        16
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            12
+          ],
+          "original": "amorriscode",
+          "id": "73253803"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 44,
+    "reposts": 0,
+    "likes": 408,
+    "bookmarks": 4,
+    "quotes": 2,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 19:44:31 +0000 2026",
+    "created_timestamp": 1790106271,
+    "views": 130159,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": null,
+    "replying_to": {
+      "screen_name": "amorriscode",
+      "status": "2102465453029236813",
+      "url": "https://x.com/amorriscode/status/2102465453029236813",
+      "profile_url": "https://x.com/amorriscode"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102466463156285686",
+    "id": "2102466463156285686",
+    "text": "@omarbnjl pizza plutot",
+    "raw_text": {
+      "text": "@omarbnjl pizza plutot",
+      "display_text_range": [
+        10,
+        22
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            9
+          ],
+          "original": "omarbnjl",
+          "id": "3365725059"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 89,
+    "reposts": 7,
+    "likes": 901,
+    "bookmarks": 15,
+    "quotes": 2,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 18:34:01 +0000 2026",
+    "created_timestamp": 1790102041,
+    "views": 64490,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "sv",
+    "replying_to": {
+      "screen_name": "omarbnjl",
+      "status": "2102466285804085362",
+      "url": "https://x.com/omarbnjl/status/2102466285804085362",
+      "profile_url": "https://x.com/omarbnjl"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102466361398378912",
+    "id": "2102466361398378912",
+    "text": "@TokenGremlin @sama Models are out\n\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "raw_text": {
+      "text": "@TokenGremlin @sama Models are out\n\nhttps://t.co/vw3f1inwJu",
+      "display_text_range": [
+        20,
+        59
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            13
+          ],
+          "original": "TokenGremlin",
+          "id": "1499460382158725120"
+        },
+        {
+          "type": "mention",
+          "indices": [
+            14,
+            19
+          ],
+          "original": "sama",
+          "id": "1605"
+        },
+        {
+          "type": "url",
+          "indices": [
+            36,
+            59
+          ],
+          "original": "https://t.co/vw3f1inwJu",
+          "replacement": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+          "display": "openai.com/index/introduc…"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 103,
+    "reposts": 27,
+    "likes": 1237,
+    "bookmarks": 27,
+    "quotes": 7,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 18:33:37 +0000 2026",
+    "created_timestamp": 1790102017,
+    "possibly_sensitive": false,
+    "views": 78520,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "TokenGremlin",
+      "status": "2102451639437398080",
+      "url": "https://x.com/TokenGremlin/status/2102451639437398080",
+      "profile_url": "https://x.com/TokenGremlin"
+    },
+    "media": {},
+    "card": {
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "domain": "openai.com",
+      "image": {
+        "width": 800,
+        "height": 419,
+        "url": "https://pbs.twimg.com/card_img/2102532885429596160/bVBep6k-?format=jpg&name=800x419",
+        "alt": "GPT-6 Sol and Luna, with a glowing sun and crescent moon against a dark star-filled sky."
+      }
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/haydenderrico/status/2102464519608156301",
+    "id": "2102464519608156301",
+    "text": "Does anyone know how 6 Luna compares to 5.6 Luna?",
+    "raw_text": {
+      "text": "Does anyone know how 6 Luna compares to 5.6 Luna?",
+      "display_text_range": [
+        0,
+        49
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "haydenderrico",
+      "url": "https://x.com/haydenderrico",
+      "id": "1909086360516055040",
+      "followers": 5,
+      "following": 31,
+      "likes": 13,
+      "media_count": 0,
+      "statuses": 7,
+      "name": "Hayden",
+      "description": "@OpenAI Loyalist | Finance and Math at @McGillU",
+      "raw_description": {
+        "text": "@OpenAI Loyalist | Finance and Math at @McGillU",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              0,
+              7
+            ],
+            "original": "OpenAI",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              39,
+              47
+            ],
+            "original": "McGillU",
+            "id": ""
+          }
+        ]
+      },
+      "location": "Montreal, QC",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1909086360516055040/1780811882",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2088896617625661440/7-RHOZUF_200x200.jpg",
+      "joined": "Mon Apr 07 03:31:23 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": false,
+        "verified_at": null,
+        "type": null
+      },
+      "type": "profile"
+    },
+    "replies": 24,
+    "reposts": 1,
+    "likes": 376,
+    "bookmarks": 14,
+    "quotes": 0,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 18:26:18 +0000 2026",
+    "created_timestamp": 1790101578,
+    "views": 173931,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "quote": {
+      "type": "status",
+      "url": "https://x.com/thsottiaux/status/2102463847714247142",
+      "id": "2102463847714247142",
+      "text": "GPT-6 Sol and Luna are out. Not only are they a very significant improvement across the board, but also in writing and general \"you know when you try it\" quality. \n\nWe are also permanently reducing the API price by 50% making both of them viable for a ton of new usecases and making your usage go further too, even on the subscriptions.\n\nAnd one more thing. We are loading a banked reset into all accounts of our Plus, Pro and Business users. Let's go!\n\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "raw_text": {
+        "text": "GPT-6 Sol and Luna are out. Not only are they a very significant improvement across the board, but also in writing and general \"you know when you try it\" quality. \n\nWe are also permanently reducing the API price by 50% making both of them viable for a ton of new usecases and making your usage go further too, even on the subscriptions.\n\nAnd one more thing. We are loading a banked reset into all accounts of our Plus, Pro and Business users. Let's go!\n\nhttps://t.co/00DRh1sRrO",
+        "display_text_range": [
+          0,
+          477
+        ],
+        "facets": [
+          {
+            "type": "bold",
+            "indices": [
+              375,
+              387
+            ]
+          },
+          {
+            "type": "url",
+            "indices": [
+              454,
+              477
+            ],
+            "original": "https://t.co/00DRh1sRrO",
+            "replacement": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+            "display": "openai.com/index/introduc…"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "thsottiaux",
+        "url": "https://x.com/thsottiaux",
+        "id": "1953337039510003712",
+        "followers": 732523,
+        "following": 72,
+        "likes": 9890,
+        "media_count": 138,
+        "statuses": 3022,
+        "name": "Tibo",
+        "description": "Codex & ChatGPT @OpenAI",
+        "raw_description": {
+          "text": "Codex & ChatGPT @OpenAI",
+          "facets": [
+            {
+              "type": "mention",
+              "indices": [
+                16,
+                23
+              ],
+              "original": "OpenAI",
+              "id": ""
+            }
+          ]
+        },
+        "location": "",
+        "banner_url": "",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+        "joined": "Thu Aug 07 06:07:07 +0000 2025",
+        "protected": false,
+        "website": null,
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "type": "profile"
+      },
+      "replies": 2962,
+      "reposts": 1589,
+      "likes": 24690,
+      "bookmarks": 1592,
+      "quotes": 936,
+      "embed_card": "tweet",
+      "created_at": "Tue Sep 22 18:23:37 +0000 2026",
+      "created_timestamp": 1790101417,
+      "views": 2821205,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "media": {},
+      "quote": {
+        "type": "tombstone",
+        "provider": "twitter",
+        "reason": "unavailable",
+        "message": "This post is unavailable",
+        "id": "2102440619616682120",
+        "url": "https://x.com/i/status/2102440619616682120"
+      },
+      "card": {
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+        "title": "Introducing GPT-6 Sol and Luna",
+        "description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+        "domain": "openai.com",
+        "image": {
+          "width": 800,
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2102532885429596160/bVBep6k-?format=jpg&name=800x419",
+          "alt": "GPT-6 Sol and Luna, with a glowing sun and crescent moon against a dark star-filled sky."
+        }
+      },
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102464575790854290",
+    "id": "2102464575790854290",
+    "text": "@haydenderrico Luna, but better",
+    "raw_text": {
+      "text": "@haydenderrico Luna, but better",
+      "display_text_range": [
+        15,
+        31
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            14
+          ],
+          "original": "haydenderrico",
+          "id": "1909086360516055040"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 107,
+    "reposts": 6,
+    "likes": 1718,
+    "bookmarks": 23,
+    "quotes": 2,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 18:26:31 +0000 2026",
+    "created_timestamp": 1790101591,
+    "views": 93151,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "haydenderrico",
+      "status": "2102464519608156301",
+      "url": "https://x.com/haydenderrico/status/2102464519608156301",
+      "profile_url": "https://x.com/haydenderrico"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102463847714247142",
+    "id": "2102463847714247142",
+    "text": "GPT-6 Sol and Luna are out. Not only are they a very significant improvement across the board, but also in writing and general \"you know when you try it\" quality. \n\nWe are also permanently reducing the API price by 50% making both of them viable for a ton of new usecases and making your usage go further too, even on the subscriptions.\n\nAnd one more thing. We are loading a banked reset into all accounts of our Plus, Pro and Business users. Let's go!\n\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "raw_text": {
+      "text": "GPT-6 Sol and Luna are out. Not only are they a very significant improvement across the board, but also in writing and general \"you know when you try it\" quality. \n\nWe are also permanently reducing the API price by 50% making both of them viable for a ton of new usecases and making your usage go further too, even on the subscriptions.\n\nAnd one more thing. We are loading a banked reset into all accounts of our Plus, Pro and Business users. Let's go!\n\nhttps://t.co/00DRh1sRrO",
+      "display_text_range": [
+        0,
+        477
+      ],
+      "facets": [
+        {
+          "type": "bold",
+          "indices": [
+            375,
+            387
+          ]
+        },
+        {
+          "type": "url",
+          "indices": [
+            454,
+            477
+          ],
+          "original": "https://t.co/00DRh1sRrO",
+          "replacement": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+          "display": "openai.com/index/introduc…"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 2962,
+    "reposts": 1589,
+    "likes": 24690,
+    "bookmarks": 1592,
+    "quotes": 936,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 18:23:37 +0000 2026",
+    "created_timestamp": 1790101417,
+    "views": 2821205,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "quote": {
+      "type": "status",
+      "url": "https://x.com/thsottiaux/status/2102440619616682120",
+      "id": "2102440619616682120",
+      "text": "We have been focusing on efficiency and intelligence for all. \n\nVery proud of the team. Only possible when you have incredible models at the top end of the capability that you can then use to make a big difference in everything else.",
+      "raw_text": {
+        "text": "We have been focusing on efficiency and intelligence for all. \n\nVery proud of the team. Only possible when you have incredible models at the top end of the capability that you can then use to make a big difference in everything else.",
+        "display_text_range": [
+          0,
+          233
+        ],
+        "facets": []
+      },
+      "author": {
+        "screen_name": "thsottiaux",
+        "url": "https://x.com/thsottiaux",
+        "id": "1953337039510003712",
+        "followers": 732523,
+        "following": 72,
+        "likes": 9890,
+        "media_count": 138,
+        "statuses": 3022,
+        "name": "Tibo",
+        "description": "Codex & ChatGPT @OpenAI",
+        "raw_description": {
+          "text": "Codex & ChatGPT @OpenAI",
+          "facets": [
+            {
+              "type": "mention",
+              "indices": [
+                16,
+                23
+              ],
+              "original": "OpenAI",
+              "id": ""
+            }
+          ]
+        },
+        "location": "",
+        "banner_url": "",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+        "joined": "Thu Aug 07 06:07:07 +0000 2025",
+        "protected": false,
+        "website": null,
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "type": "profile"
+      },
+      "replies": 1740,
+      "reposts": 327,
+      "likes": 13089,
+      "bookmarks": 461,
+      "quotes": 203,
+      "embed_card": "tweet",
+      "created_at": "Tue Sep 22 16:51:19 +0000 2026",
+      "created_timestamp": 1790095879,
+      "views": 3103869,
+      "is_note_tweet": false,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "media": {},
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "card": {
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "domain": "openai.com",
+      "image": {
+        "width": 800,
+        "height": 419,
+        "url": "https://pbs.twimg.com/card_img/2102532885429596160/bVBep6k-?format=jpg&name=800x419",
+        "alt": "GPT-6 Sol and Luna, with a glowing sun and crescent moon against a dark star-filled sky."
+      }
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102440619616682120",
+    "id": "2102440619616682120",
+    "text": "We have been focusing on efficiency and intelligence for all. \n\nVery proud of the team. Only possible when you have incredible models at the top end of the capability that you can then use to make a big difference in everything else.",
+    "raw_text": {
+      "text": "We have been focusing on efficiency and intelligence for all. \n\nVery proud of the team. Only possible when you have incredible models at the top end of the capability that you can then use to make a big difference in everything else.",
+      "display_text_range": [
+        0,
+        233
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 1740,
+    "reposts": 327,
+    "likes": 13089,
+    "bookmarks": 461,
+    "quotes": 203,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 16:51:19 +0000 2026",
+    "created_timestamp": 1790095879,
+    "views": 3103869,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/steipete/status/2102049706830647467",
+    "id": "2102049706830647467",
+    "text": "Proud to say that we did our homework. They found nothing critical.",
+    "raw_text": {
+      "text": "Proud to say that we did our homework. They found nothing critical.",
+      "display_text_range": [
+        0,
+        67
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "steipete",
+      "url": "https://x.com/steipete",
+      "id": "25401953",
+      "followers": 591623,
+      "following": 2476,
+      "likes": 63940,
+      "media_count": 8651,
+      "statuses": 142506,
+      "name": "Peter Steinberger 🦞",
+      "description": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "raw_description": {
+        "text": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              110,
+              119
+            ],
+            "original": "OpenClaw",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              123,
+              130
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "Vienna & London",
+      "banner_url": "https://pbs.twimg.com/profile_banners/25401953/1773684932",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1131851609774985216/OcsssQ9J_200x200.png",
+      "joined": "Thu Mar 19 22:54:05 +0000 2009",
+      "protected": false,
+      "website": {
+        "url": "https://steipete.me",
+        "display_url": "steipete.me"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 38,
+    "reposts": 23,
+    "likes": 848,
+    "bookmarks": 49,
+    "quotes": 1,
+    "embed_card": "tweet",
+    "created_at": "Mon Sep 21 14:57:58 +0000 2026",
+    "created_timestamp": 1790002678,
+    "views": 330051,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "quote": {
+      "type": "status",
+      "url": "https://x.com/joshavant/status/2102036150739169745",
+      "id": "2102036150739169745",
+      "text": "Excited to have had the chance to work with @trailofbits via the @OpenAI Patch the Planet initiative to do a security audit on OpenClaw!\n\nSecurity is paramount at @openclaw 🔒\nhttps://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap",
+      "raw_text": {
+        "text": "Excited to have had the chance to work with @trailofbits via the @OpenAI Patch the Planet initiative to do a security audit on OpenClaw!\n\nSecurity is paramount at @openclaw 🔒\nhttps://t.co/kAsy5IFIf0",
+        "display_text_range": [
+          0,
+          198
+        ],
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              44,
+              56
+            ],
+            "original": "trailofbits",
+            "id": "127289989"
+          },
+          {
+            "type": "mention",
+            "indices": [
+              65,
+              72
+            ],
+            "original": "OpenAI",
+            "id": "4398626122"
+          },
+          {
+            "type": "mention",
+            "indices": [
+              163,
+              172
+            ],
+            "original": "openclaw",
+            "id": "1995710751097659392"
+          },
+          {
+            "type": "url",
+            "indices": [
+              175,
+              198
+            ],
+            "original": "https://t.co/kAsy5IFIf0",
+            "replacement": "https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap",
+            "display": "openclaw.ai/blog/openclaw-…"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "joshavant",
+        "url": "https://x.com/joshavant",
+        "id": "123978606",
+        "followers": 4577,
+        "following": 1037,
+        "likes": 10449,
+        "media_count": 681,
+        "statuses": 13485,
+        "name": "josh avant",
+        "description": "member of technical staff @openclaw 🦞\n100% human-written tweets\nprev ¬  @Apple, @Microsoft, @Google, @Tinder",
+        "raw_description": {
+          "text": "member of technical staff @openclaw 🦞\n100% human-written tweets\nprev ¬  @Apple, @Microsoft, @Google, @Tinder",
+          "facets": [
+            {
+              "type": "mention",
+              "indices": [
+                26,
+                35
+              ],
+              "original": "openclaw",
+              "id": ""
+            },
+            {
+              "type": "mention",
+              "indices": [
+                72,
+                78
+              ],
+              "original": "Apple",
+              "id": ""
+            },
+            {
+              "type": "mention",
+              "indices": [
+                80,
+                90
+              ],
+              "original": "Microsoft",
+              "id": ""
+            },
+            {
+              "type": "mention",
+              "indices": [
+                92,
+                99
+              ],
+              "original": "Google",
+              "id": ""
+            },
+            {
+              "type": "mention",
+              "indices": [
+                101,
+                108
+              ],
+              "original": "Tinder",
+              "id": ""
+            }
+          ]
+        },
+        "location": "austin",
+        "banner_url": "https://pbs.twimg.com/profile_banners/123978606/1780743308",
+        "avatar_url": "https://pbs.twimg.com/profile_images/739574892727697408/yjGkKL_W_200x200.jpg",
+        "joined": "Wed Mar 17 21:09:30 +0000 2010",
+        "protected": false,
+        "website": {
+          "url": "https://joshavant.com",
+          "display_url": "joshavant.com"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "type": "profile"
+      },
+      "replies": 9,
+      "reposts": 9,
+      "likes": 150,
+      "bookmarks": 41,
+      "quotes": 7,
+      "embed_card": "tweet",
+      "created_at": "Mon Sep 21 14:04:06 +0000 2026",
+      "created_timestamp": 1789999446,
+      "possibly_sensitive": false,
+      "views": 439678,
+      "is_note_tweet": false,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "media": {},
+      "card": {
+        "url": "https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap",
+        "title": "OpenClaw Completes Security Audit Through OpenAI’s Patch the Planet Initiative - OpenClaw Blog",
+        "description": "What OpenClaw learned from a broad Trail of Bits security audit through OpenAI's Patch the Planet initiative.",
+        "domain": "openclaw.ai",
+        "image": {
+          "width": 800,
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2102035450810486784/PP2YuJ25?format=jpg&name=800x419"
+        }
+      },
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102292452329820272",
+    "id": "2102292452329820272",
+    "text": "@steipete Huge!!",
+    "raw_text": {
+      "text": "@steipete Huge!!",
+      "display_text_range": [
+        10,
+        16
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            9
+          ],
+          "original": "steipete",
+          "id": "25401953"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 70,
+    "reposts": 2,
+    "likes": 443,
+    "bookmarks": 8,
+    "quotes": 0,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 07:02:33 +0000 2026",
+    "created_timestamp": 1790060553,
+    "views": 159664,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "steipete",
+      "status": "2102049706830647467",
+      "url": "https://x.com/steipete/status/2102049706830647467",
+      "profile_url": "https://x.com/steipete"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/FintechKristen/status/2102103441355268518",
+    "id": "2102103441355268518",
+    "text": "Excellent. Let’s go go go!\n\nAnd only a couple weeks after Muse launched. Velocity wins.",
+    "raw_text": {
+      "text": "Excellent. Let’s go go go!\n\nAnd only a couple weeks after Muse launched. Velocity wins.",
+      "display_text_range": [
+        0,
+        87
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "FintechKristen",
+      "url": "https://x.com/FintechKristen",
+      "id": "2202027271",
+      "followers": 30102,
+      "following": 750,
+      "likes": 9412,
+      "media_count": 1021,
+      "statuses": 5779,
+      "name": "Kristen Anderson",
+      "description": "(Soon) Product Lead @ Shopify. Making things people want. Writing things with Skeptical Optimism. Opinions my own, but could become yours if you're not careful.",
+      "raw_description": {
+        "text": "(Soon) Product Lead @ Shopify. Making things people want. Writing things with Skeptical Optimism. Opinions my own, but could become yours if you're not careful.",
+        "facets": []
+      },
+      "location": "San Francisco, CA",
+      "banner_url": "https://pbs.twimg.com/profile_banners/2202027271/1780974867",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2064184321335070721/EHUfxBuu_200x200.jpg",
+      "joined": "Mon Nov 18 21:42:29 +0000 2013",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 5,
+    "reposts": 0,
+    "likes": 44,
+    "bookmarks": 2,
+    "quotes": 0,
+    "embed_card": "summary_large_image",
+    "created_at": "Mon Sep 21 18:31:30 +0000 2026",
+    "created_timestamp": 1790015490,
+    "views": 24218,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "quote": {
+      "type": "status",
+      "url": "https://x.com/tobi/status/2102090718546198790",
+      "id": "2102090718546198790",
+      "text": "We are excited to announce we are partnering deeply with Muse to enable agentic checkout with Shop Pay on all Shopify stores, offering people an easy and delightful way to shop and check out with Muse.",
+      "raw_text": {
+        "text": "We are excited to announce we are partnering deeply with Muse to enable agentic checkout with Shop Pay on all Shopify stores, offering people an easy and delightful way to shop and check out with Muse. https://t.co/KmRlKjoLoq",
+        "display_text_range": [
+          0,
+          201
+        ],
+        "facets": [
+          {
+            "type": "media",
+            "indices": [
+              202,
+              225
+            ],
+            "id": "2102090713680707584",
+            "display": "pic.x.com/KmRlKjoLoq",
+            "original": "https://t.co/KmRlKjoLoq",
+            "replacement": "https://x.com/tobi/status/2102090718546198790/photo/1"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "tobi",
+        "url": "https://x.com/tobi",
+        "id": "676573",
+        "followers": 512524,
+        "following": 2241,
+        "likes": 7994,
+        "media_count": 548,
+        "statuses": 9672,
+        "name": "tobi lutke",
+        "description": "Shopify CEO by day, Dad in evening, hacker at night, Aspiring comprehensivist. \n+ qmd !",
+        "raw_description": {
+          "text": "Shopify CEO by day, Dad in evening, hacker at night, Aspiring comprehensivist. \n+ qmd !",
+          "facets": []
+        },
+        "location": "Canada",
+        "banner_url": "https://pbs.twimg.com/profile_banners/676573/1765329317",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1999293930936909824/_HWYanot_200x200.jpg",
+        "joined": "Sun Jan 21 20:23:15 +0000 2007",
+        "protected": false,
+        "website": {
+          "url": "https://changelog.shopify.com/",
+          "display_url": "changelog.shopify.com"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "type": "profile"
+      },
+      "replies": 387,
+      "reposts": 336,
+      "likes": 7912,
+      "bookmarks": 837,
+      "quotes": 403,
+      "embed_card": "summary_large_image",
+      "created_at": "Mon Sep 21 17:40:56 +0000 2026",
+      "created_timestamp": 1790012456,
+      "possibly_sensitive": false,
+      "views": 1920053,
+      "is_note_tweet": false,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "media": {
+        "all": [
+          {
+            "type": "photo",
+            "id": "2102090713680707584",
+            "url": "https://pbs.twimg.com/media/HSwgXeKWAAAV6nN.jpg?name=orig",
+            "width": 1254,
+            "height": 1254
+          }
+        ],
+        "photos": [
+          {
+            "type": "photo",
+            "id": "2102090713680707584",
+            "url": "https://pbs.twimg.com/media/HSwgXeKWAAAV6nN.jpg?name=orig",
+            "width": 1254,
+            "height": 1254
+          }
+        ]
+      },
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/FintechKristen/status/2102122736852357462",
+    "id": "2102122736852357462",
+    "text": "@ajambrosino Plenty of payment APIs to go around 😘",
+    "raw_text": {
+      "text": "@ajambrosino Plenty of payment APIs to go around 😘",
+      "display_text_range": [
+        13,
+        50
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            12
+          ],
+          "original": "ajambrosino",
+          "id": "58865213"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "FintechKristen",
+      "url": "https://x.com/FintechKristen",
+      "id": "2202027271",
+      "followers": 30102,
+      "following": 750,
+      "likes": 9412,
+      "media_count": 1021,
+      "statuses": 5779,
+      "name": "Kristen Anderson",
+      "description": "(Soon) Product Lead @ Shopify. Making things people want. Writing things with Skeptical Optimism. Opinions my own, but could become yours if you're not careful.",
+      "raw_description": {
+        "text": "(Soon) Product Lead @ Shopify. Making things people want. Writing things with Skeptical Optimism. Opinions my own, but could become yours if you're not careful.",
+        "facets": []
+      },
+      "location": "San Francisco, CA",
+      "banner_url": "https://pbs.twimg.com/profile_banners/2202027271/1780974867",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2064184321335070721/EHUfxBuu_200x200.jpg",
+      "joined": "Mon Nov 18 21:42:29 +0000 2013",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 2,
+    "reposts": 0,
+    "likes": 31,
+    "bookmarks": 1,
+    "quotes": 0,
+    "embed_card": "tweet",
+    "created_at": "Mon Sep 21 19:48:10 +0000 2026",
+    "created_timestamp": 1790020090,
+    "views": 91447,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "ajambrosino",
+      "status": "2102122313651245062",
+      "url": "https://x.com/ajambrosino/status/2102122313651245062",
+      "profile_url": "https://x.com/ajambrosino"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102290126344974551",
+    "id": "2102290126344974551",
+    "text": "@FintechKristen @ajambrosino Negroni is on you",
+    "raw_text": {
+      "text": "@FintechKristen @ajambrosino Negroni is on you",
+      "display_text_range": [
+        29,
+        46
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            15
+          ],
+          "original": "FintechKristen",
+          "id": "2202027271"
+        },
+        {
+          "type": "mention",
+          "indices": [
+            16,
+            28
+          ],
+          "original": "ajambrosino",
+          "id": "58865213"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 17,
+    "reposts": 1,
+    "likes": 97,
+    "bookmarks": 3,
+    "quotes": 0,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 06:53:19 +0000 2026",
+    "created_timestamp": 1790059999,
+    "views": 89238,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "FintechKristen",
+      "status": "2102122736852357462",
+      "url": "https://x.com/FintechKristen/status/2102122736852357462",
+      "profile_url": "https://x.com/FintechKristen"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/matteing/status/2102226202467721469",
+    "id": "2102226202467721469",
+    "text": "The team is cooking crazy right now. The levels are unreal.",
+    "raw_text": {
+      "text": "The team is cooking crazy right now. The levels are unreal.",
+      "display_text_range": [
+        0,
+        59
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "matteing",
+      "url": "https://x.com/matteing",
+      "id": "727184556499988480",
+      "followers": 8684,
+      "following": 914,
+      "likes": 29556,
+      "media_count": 272,
+      "statuses": 4706,
+      "name": "Sergio Mattei",
+      "description": "Building joyfully⋅ Codex App @OpenAI 🇵🇷",
+      "raw_description": {
+        "text": "Building joyfully⋅ Codex App @OpenAI 🇵🇷",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              29,
+              36
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "SFO",
+      "banner_url": "https://pbs.twimg.com/profile_banners/727184556499988480/1789678183",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2090526086442766337/khLF0-Fd_200x200.jpg",
+      "joined": "Mon May 02 17:14:43 +0000 2016",
+      "protected": false,
+      "website": {
+        "url": "http://matte.ing",
+        "display_url": "matte.ing"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 44,
+    "reposts": 6,
+    "likes": 901,
+    "bookmarks": 37,
+    "quotes": 0,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 02:39:18 +0000 2026",
+    "created_timestamp": 1790044758,
+    "views": 181269,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102289624945352906",
+    "id": "2102289624945352906",
+    "text": "@matteing Sergio is indeed on fire",
+    "raw_text": {
+      "text": "@matteing Sergio is indeed on fire",
+      "display_text_range": [
+        10,
+        34
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            9
+          ],
+          "original": "matteing",
+          "id": "727184556499988480"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 33,
+    "reposts": 3,
+    "likes": 425,
+    "bookmarks": 6,
+    "quotes": 3,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 06:51:19 +0000 2026",
+    "created_timestamp": 1790059879,
+    "views": 154102,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "matteing",
+      "status": "2102226202467721469",
+      "url": "https://x.com/matteing/status/2102226202467721469",
+      "profile_url": "https://x.com/matteing"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thdxr/status/2102008397306695887",
+    "id": "2102008397306695887",
+    "text": "we've made some significant breakthroughs and now have a pathway to becoming the best inference provider outside of openai and anthropic\n\na true provider, not passing through to others\n\ngonna take longer than i'd like but it's going to be worth the effort",
+    "raw_text": {
+      "text": "we've made some significant breakthroughs and now have a pathway to becoming the best inference provider outside of openai and anthropic\n\na true provider, not passing through to others\n\ngonna take longer than i'd like but it's going to be worth the effort",
+      "display_text_range": [
+        0,
+        255
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "thdxr",
+      "url": "https://x.com/thdxr",
+      "id": "2870102861",
+      "followers": 172948,
+      "following": 482,
+      "likes": 90790,
+      "media_count": 2823,
+      "statuses": 44853,
+      "name": "dax",
+      "description": "building @opencode at @anomalyco\nnot the ceo",
+      "raw_description": {
+        "text": "building @opencode at @anomalyco\nnot the ceo",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              9,
+              18
+            ],
+            "original": "opencode",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              22,
+              32
+            ],
+            "original": "anomalyco",
+            "id": ""
+          }
+        ]
+      },
+      "location": "Miami, FL",
+      "banner_url": "https://pbs.twimg.com/profile_banners/2870102861/1787203427",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1602333093485891584/mmVqjFNI_200x200.jpg",
+      "joined": "Mon Nov 10 04:50:37 +0000 2014",
+      "protected": false,
+      "website": {
+        "url": "https://thdxr.com",
+        "display_url": "thdxr.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 202,
+    "reposts": 70,
+    "likes": 5164,
+    "bookmarks": 342,
+    "quotes": 25,
+    "embed_card": "tweet",
+    "created_at": "Mon Sep 21 12:13:50 +0000 2026",
+    "created_timestamp": 1789992830,
+    "views": 378566,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102289383068180659",
+    "id": "2102289383068180659",
+    "text": "@thdxr ah yes, that elusive and unlimited ambient inference that they don’t want to know you about",
+    "raw_text": {
+      "text": "@thdxr ah yes, that elusive and unlimited ambient inference that they don’t want to know you about",
+      "display_text_range": [
+        7,
+        98
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            6
+          ],
+          "original": "thdxr",
+          "id": "2870102861"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 49,
+    "reposts": 3,
+    "likes": 509,
+    "bookmarks": 29,
+    "quotes": 2,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 06:50:22 +0000 2026",
+    "created_timestamp": 1790059822,
+    "views": 142970,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "thdxr",
+      "status": "2102008397306695887",
+      "url": "https://x.com/thdxr/status/2102008397306695887",
+      "profile_url": "https://x.com/thdxr"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/Cch_Chichieh/status/2102284470418391186",
+    "id": "2102284470418391186",
+    "text": "i still have 50% left lmao, need to burn through it before the drop",
+    "raw_text": {
+      "text": "i still have 50% left lmao, need to burn through it before the drop",
+      "display_text_range": [
+        0,
+        67
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "Cch_Chichieh",
+      "url": "https://x.com/Cch_Chichieh",
+      "id": "1903115956643397633",
+      "followers": 70,
+      "following": 249,
+      "likes": 90,
+      "media_count": 3,
+      "statuses": 326,
+      "name": "J Huang",
+      "description": "founder at http://cairn.ink / @appworks 31\nwriting public notes on agent memories and runtime",
+      "raw_description": {
+        "text": "founder at https://t.co/1o2L5WJQxX / @appworks 31\nwriting public notes on agent memories and runtime",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              11,
+              34
+            ],
+            "original": "https://t.co/1o2L5WJQxX",
+            "replacement": "http://cairn.ink",
+            "display": "cairn.ink"
+          },
+          {
+            "type": "mention",
+            "indices": [
+              37,
+              46
+            ],
+            "original": "appworks",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1903115956643397633/1790097431",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2076666996851453953/QdGg8bC-_200x200.jpg",
+      "joined": "Fri Mar 21 16:06:33 +0000 2025",
+      "protected": false,
+      "website": {
+        "url": "https://cairn.ink/",
+        "display_url": "cairn.ink"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 30,
+    "reposts": 8,
+    "likes": 637,
+    "bookmarks": 20,
+    "quotes": 3,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 06:30:50 +0000 2026",
+    "created_timestamp": 1790058650,
+    "views": 327422,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "quote": {
+      "type": "status",
+      "url": "https://x.com/thsottiaux/status/2102254445082116335",
+      "id": "2102254445082116335",
+      "text": "Ladies and gentlemen... start... your... ENGINES. We are almost Tuesday and I promised a reset for Tuesday. Among some other things. See you soon.",
+      "raw_text": {
+        "text": "Ladies and gentlemen... start... your... ENGINES. We are almost Tuesday and I promised a reset for Tuesday. Among some other things. See you soon.",
+        "display_text_range": [
+          0,
+          146
+        ],
+        "facets": []
+      },
+      "author": {
+        "screen_name": "thsottiaux",
+        "url": "https://x.com/thsottiaux",
+        "id": "1953337039510003712",
+        "followers": 732523,
+        "following": 72,
+        "likes": 9890,
+        "media_count": 138,
+        "statuses": 3022,
+        "name": "Tibo",
+        "description": "Codex & ChatGPT @OpenAI",
+        "raw_description": {
+          "text": "Codex & ChatGPT @OpenAI",
+          "facets": [
+            {
+              "type": "mention",
+              "indices": [
+                16,
+                23
+              ],
+              "original": "OpenAI",
+              "id": ""
+            }
+          ]
+        },
+        "location": "",
+        "banner_url": "",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+        "joined": "Thu Aug 07 06:07:07 +0000 2025",
+        "protected": false,
+        "website": null,
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "type": "profile"
+      },
+      "replies": 5568,
+      "reposts": 1362,
+      "likes": 27904,
+      "bookmarks": 1263,
+      "quotes": 1672,
+      "embed_card": "tweet",
+      "created_at": "Tue Sep 22 04:31:32 +0000 2026",
+      "created_timestamp": 1790051492,
+      "views": 5516840,
+      "is_note_tweet": false,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "media": {},
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102284586713522193",
+    "id": "2102284586713522193",
+    "text": "@Cch_Chichieh Burn those tokens",
+    "raw_text": {
+      "text": "@Cch_Chichieh Burn those tokens",
+      "display_text_range": [
+        14,
+        31
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            13
+          ],
+          "original": "Cch_Chichieh",
+          "id": "1903115956643397633"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 446,
+    "reposts": 61,
+    "likes": 2646,
+    "bookmarks": 66,
+    "quotes": 142,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 06:31:18 +0000 2026",
+    "created_timestamp": 1790058678,
+    "views": 562133,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "Cch_Chichieh",
+      "status": "2102284470418391186",
+      "url": "https://x.com/Cch_Chichieh/status/2102284470418391186",
+      "profile_url": "https://x.com/Cch_Chichieh"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/neogoose_btw/status/2102123930807148894",
+    "id": "2102123930807148894",
+    "text": "Career update: not anymore. \n\nI have joined OpenAI and I am starting my journey of working on Chatgpt and Codex core harness. Extremely excited and thrilled to start locking in!\n\nMy personal goal: make codex feel as fast and efficient as possible/reasonable.",
+    "raw_text": {
+      "text": "Career update: not anymore. \n\nI have joined OpenAI and I am starting my journey of working on Chatgpt and Codex core harness. Extremely excited and thrilled to start locking in!\n\nMy personal goal: make codex feel as fast and efficient as possible/reasonable. https://t.co/4SFxswG9Uq",
+      "display_text_range": [
+        0,
+        258
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            259,
+            282
+          ],
+          "id": "2102123919138545664",
+          "display": "pic.x.com/4SFxswG9Uq",
+          "original": "https://t.co/4SFxswG9Uq",
+          "replacement": "https://x.com/neogoose_btw/status/2102123930807148894/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "neogoose_btw",
+      "url": "https://x.com/neogoose_btw",
+      "id": "1018840293901328384",
+      "followers": 22118,
+      "following": 533,
+      "likes": 15586,
+      "media_count": 2867,
+      "statuses": 15758,
+      "name": "Dmitriy Kovalenko",
+      "description": "Goose, James Goose. vi/vim\n\nMembering technical stuff at @openai\nMade some open source software you might already be using.",
+      "raw_description": {
+        "text": "Goose, James Goose. vi/vim\n\nMembering technical stuff at @openai\nMade some open source software you might already be using.",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              57,
+              64
+            ],
+            "original": "openai",
+            "id": ""
+          }
+        ]
+      },
+      "location": "SF",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1018840293901328384/1776876426",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1875534938289627136/UINQoJ24_200x200.jpg",
+      "joined": "Mon Jul 16 12:50:29 +0000 2018",
+      "protected": false,
+      "website": {
+        "url": "https://dmtrkovalenko.dev",
+        "display_url": "dmtrkovalenko.dev"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 370,
+    "reposts": 66,
+    "likes": 4614,
+    "bookmarks": 310,
+    "quotes": 19,
+    "embed_card": "summary_large_image",
+    "created_at": "Mon Sep 21 19:52:55 +0000 2026",
+    "created_timestamp": 1790020375,
+    "possibly_sensitive": false,
+    "views": 344280,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2102123919138545664",
+          "url": "https://pbs.twimg.com/media/HSw-kSIa4AA_RON.jpg?name=orig",
+          "width": 2048,
+          "height": 1685
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2102123919138545664",
+          "url": "https://pbs.twimg.com/media/HSw-kSIa4AA_RON.jpg?name=orig",
+          "width": 2048,
+          "height": 1685
+        }
+      ]
+    },
+    "quote": {
+      "type": "status",
+      "url": "https://x.com/neogoose_btw/status/2080850520793850033",
+      "id": "2080850520793850033",
+      "text": "Officially jobless.",
+      "raw_text": {
+        "text": "Officially jobless.",
+        "display_text_range": [
+          0,
+          19
+        ],
+        "facets": []
+      },
+      "author": {
+        "screen_name": "neogoose_btw",
+        "url": "https://x.com/neogoose_btw",
+        "id": "1018840293901328384",
+        "followers": 22118,
+        "following": 533,
+        "likes": 15586,
+        "media_count": 2867,
+        "statuses": 15758,
+        "name": "Dmitriy Kovalenko",
+        "description": "Goose, James Goose. vi/vim\n\nMembering technical stuff at @openai\nMade some open source software you might already be using.",
+        "raw_description": {
+          "text": "Goose, James Goose. vi/vim\n\nMembering technical stuff at @openai\nMade some open source software you might already be using.",
+          "facets": [
+            {
+              "type": "mention",
+              "indices": [
+                57,
+                64
+              ],
+              "original": "openai",
+              "id": ""
+            }
+          ]
+        },
+        "location": "SF",
+        "banner_url": "https://pbs.twimg.com/profile_banners/1018840293901328384/1776876426",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1875534938289627136/UINQoJ24_200x200.jpg",
+        "joined": "Mon Jul 16 12:50:29 +0000 2018",
+        "protected": false,
+        "website": {
+          "url": "https://dmtrkovalenko.dev",
+          "display_url": "dmtrkovalenko.dev"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "type": "profile"
+      },
+      "replies": 31,
+      "reposts": 2,
+      "likes": 303,
+      "bookmarks": 14,
+      "quotes": 4,
+      "embed_card": "tweet",
+      "created_at": "Sat Jul 25 02:59:59 +0000 2026",
+      "created_timestamp": 1784948399,
+      "views": 425953,
+      "is_note_tweet": false,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "media": {},
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102284352801427520",
+    "id": "2102284352801427520",
+    "text": "@neogoose_btw Good choice, good choice",
+    "raw_text": {
+      "text": "@neogoose_btw Good choice, good choice",
+      "display_text_range": [
+        14,
+        38
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            13
+          ],
+          "original": "neogoose_btw",
+          "id": "1018840293901328384"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 23,
+    "reposts": 2,
+    "likes": 446,
+    "bookmarks": 5,
+    "quotes": 0,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 06:30:22 +0000 2026",
+    "created_timestamp": 1790058622,
+    "views": 58185,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "neogoose_btw",
+      "status": "2102123930807148894",
+      "url": "https://x.com/neogoose_btw/status/2102123930807148894",
+      "profile_url": "https://x.com/neogoose_btw"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102254445082116335",
+    "id": "2102254445082116335",
+    "text": "Ladies and gentlemen... start... your... ENGINES. We are almost Tuesday and I promised a reset for Tuesday. Among some other things. See you soon.",
+    "raw_text": {
+      "text": "Ladies and gentlemen... start... your... ENGINES. We are almost Tuesday and I promised a reset for Tuesday. Among some other things. See you soon.",
+      "display_text_range": [
+        0,
+        146
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 5568,
+    "reposts": 1362,
+    "likes": 27904,
+    "bookmarks": 1263,
+    "quotes": 1672,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 04:31:32 +0000 2026",
+    "created_timestamp": 1790051492,
+    "views": 5516840,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/prit4k/status/2102166742021890076",
+    "id": "2102166742021890076",
+    "text": "Instinct just admitted it leaked someone else's data to me \n\nIt described a financial document with details that weren’t mine, then claimed someone else’s photo had crossed into my chat.\n\nBut I never sent a photo\n\n@noahrshinn, was this a data leak or a hallucination?",
+    "raw_text": {
+      "text": "Instinct just admitted it leaked someone else's data to me \n\nIt described a financial document with details that weren’t mine, then claimed someone else’s photo had crossed into my chat.\n\nBut I never sent a photo\n\n@noahrshinn, was this a data leak or a hallucination? https://t.co/nev6t7w85k",
+      "display_text_range": [
+        0,
+        267
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            214,
+            225
+          ],
+          "original": "noahrshinn",
+          "id": "1797154805129113600"
+        },
+        {
+          "type": "media",
+          "indices": [
+            268,
+            291
+          ],
+          "id": "2102165861754945536",
+          "display": "pic.x.com/nev6t7w85k",
+          "original": "https://t.co/nev6t7w85k",
+          "replacement": "https://x.com/prit4k/status/2102166742021890076/photo/1"
+        },
+        {
+          "type": "media",
+          "indices": [
+            268,
+            291
+          ],
+          "id": "2102165916763160576",
+          "display": "pic.x.com/nev6t7w85k",
+          "original": "https://t.co/nev6t7w85k",
+          "replacement": "https://x.com/prit4k/status/2102166742021890076/photo/1"
+        },
+        {
+          "type": "media",
+          "indices": [
+            268,
+            291
+          ],
+          "id": "2102165963844317184",
+          "display": "pic.x.com/nev6t7w85k",
+          "original": "https://t.co/nev6t7w85k",
+          "replacement": "https://x.com/prit4k/status/2102166742021890076/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "prit4k",
+      "url": "https://x.com/prit4k",
+      "id": "1361365801190760454",
+      "followers": 275,
+      "following": 204,
+      "likes": 2857,
+      "media_count": 24,
+      "statuses": 389,
+      "name": "Pritak",
+      "description": "trying to keep up with the bubble\nvp, growth & services @merge_api",
+      "raw_description": {
+        "text": "trying to keep up with the bubble\nvp, growth & services @merge_api",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              56,
+              66
+            ],
+            "original": "merge_api",
+            "id": ""
+          }
+        ]
+      },
+      "location": "New York, NY",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1361365801190760454/1788914932",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1579528319653101568/-rP7ExCE_200x200.jpg",
+      "joined": "Mon Feb 15 17:24:43 +0000 2021",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 153,
+    "reposts": 54,
+    "likes": 1217,
+    "bookmarks": 576,
+    "quotes": 114,
+    "embed_card": "summary_large_image",
+    "created_at": "Mon Sep 21 22:43:02 +0000 2026",
+    "created_timestamp": 1790030582,
+    "possibly_sensitive": false,
+    "views": 581224,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2102165861754945536",
+          "url": "https://pbs.twimg.com/media/HSxktqjbQAAFnvW.jpg?name=orig",
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "type": "photo",
+          "id": "2102165916763160576",
+          "url": "https://pbs.twimg.com/media/HSxkw3eaAAAo2xS.jpg?name=orig",
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "type": "photo",
+          "id": "2102165963844317184",
+          "url": "https://pbs.twimg.com/media/HSxkzm3bcAAdsXg.jpg?name=orig",
+          "width": 1206,
+          "height": 2622
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2102165861754945536",
+          "url": "https://pbs.twimg.com/media/HSxktqjbQAAFnvW.jpg?name=orig",
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "type": "photo",
+          "id": "2102165916763160576",
+          "url": "https://pbs.twimg.com/media/HSxkw3eaAAAo2xS.jpg?name=orig",
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "type": "photo",
+          "id": "2102165963844317184",
+          "url": "https://pbs.twimg.com/media/HSxkzm3bcAAdsXg.jpg?name=orig",
+          "width": 1206,
+          "height": 2622
+        }
+      ],
+      "mosaic": {
+        "type": "mosaic_photo",
+        "formats": {
+          "jpeg": "https://mosaic.fxtwitter.com/jpeg/2102166742021890076/HSxktqjbQAAFnvW/HSxkw3eaAAAo2xS/HSxkzm3bcAAdsXg",
+          "webp": "https://mosaic.fxtwitter.com/webp/2102166742021890076/HSxktqjbQAAFnvW/HSxkw3eaAAAo2xS/HSxkzm3bcAAdsXg"
+        }
+      }
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2102253723879670183",
+    "id": "2102253723879670183",
+    "text": "@prit4k @noahrshinn Probably nothing, do not worry",
+    "raw_text": {
+      "text": "@prit4k @noahrshinn Probably nothing, do not worry",
+      "display_text_range": [
+        20,
+        50
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            7
+          ],
+          "original": "prit4k",
+          "id": "1361365801190760454"
+        },
+        {
+          "type": "mention",
+          "indices": [
+            8,
+            19
+          ],
+          "original": "noahrshinn",
+          "id": "1797154805129113600"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 32,
+    "reposts": 2,
+    "likes": 548,
+    "bookmarks": 10,
+    "quotes": 3,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 04:28:40 +0000 2026",
+    "created_timestamp": 1790051320,
+    "views": 94646,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "prit4k",
+      "status": "2102166742021890076",
+      "url": "https://x.com/prit4k/status/2102166742021890076",
+      "profile_url": "https://x.com/prit4k"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/melvindvivas/status/2101643731292258774",
+    "id": "2101643731292258774",
+    "text": "Are you happy with your Codex",
+    "raw_text": {
+      "text": "Are you happy with your Codex",
+      "display_text_range": [
+        0,
+        29
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "melvindvivas",
+      "url": "https://x.com/melvindvivas",
+      "id": "1946635320797347840",
+      "followers": 4104,
+      "following": 978,
+      "likes": 11986,
+      "media_count": 1173,
+      "statuses": 5971,
+      "name": "Melvin Vivas",
+      "description": "Local models, Agents, AI Engineering\nCoworker http://donvitocodes.com/coworker\nAstra Orchestrator http://github.com/donvito/codex-astra-luna-orchestrator\nLivestreaming in X",
+      "raw_description": {
+        "text": "Local models, Agents, AI Engineering\nCoworker https://t.co/UCRp7F3OOH\nAstra Orchestrator https://t.co/o6TKJAMsZY\nLivestreaming in X",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              46,
+              69
+            ],
+            "original": "https://t.co/UCRp7F3OOH",
+            "replacement": "http://donvitocodes.com/coworker",
+            "display": "donvitocodes.com/coworker"
+          },
+          {
+            "type": "url",
+            "indices": [
+              89,
+              112
+            ],
+            "original": "https://t.co/o6TKJAMsZY",
+            "replacement": "http://github.com/donvito/codex-astra-luna-orchestrator",
+            "display": "github.com/donvito/codex-…"
+          }
+        ]
+      },
+      "location": "Singapore",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1946635320797347840/1784610690",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2080587337994813440/rF40X6jM_200x200.jpg",
+      "joined": "Sat Jul 19 18:17:09 +0000 2025",
+      "protected": false,
+      "website": {
+        "url": "https://www.donvitocodes.com/",
+        "display_url": "donvitocodes.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 102,
+    "reposts": 1,
+    "likes": 204,
+    "bookmarks": 6,
+    "quotes": 3,
+    "embed_card": "tweet",
+    "created_at": "Sun Sep 20 12:04:46 +0000 2026",
+    "created_timestamp": 1789905886,
+    "views": 177550,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2101921202436702657",
+    "id": "2101921202436702657",
+    "text": "@melvindvivas 👁️codex👁️",
+    "raw_text": {
+      "text": "@melvindvivas 👁️codex👁️",
+      "display_text_range": [
+        14,
+        23
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            13
+          ],
+          "original": "melvindvivas",
+          "id": "1946635320797347840"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 732523,
+      "following": 72,
+      "likes": 9890,
+      "media_count": 138,
+      "statuses": 3022,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 171,
+    "reposts": 3,
+    "likes": 684,
+    "bookmarks": 8,
+    "quotes": 7,
+    "embed_card": "tweet",
+    "created_at": "Mon Sep 21 06:27:21 +0000 2026",
+    "created_timestamp": 1789972041,
+    "views": 178010,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "vi",
+    "replying_to": {
+      "screen_name": "melvindvivas",
+      "status": "2101643731292258774",
+      "url": "https://x.com/melvindvivas/status/2101643731292258774",
+      "profile_url": "https://x.com/melvindvivas"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/amorriscode/status/2102465453029236813",
+    "id": "2102465453029236813",
+    "text": "@thsottiaux congrats on the launch!",
+    "raw_text": {
+      "text": "@thsottiaux congrats on the launch!",
+      "display_text_range": [
+        12,
+        35
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            11
+          ],
+          "original": "thsottiaux",
+          "id": "1953337039510003712"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "amorriscode",
+      "url": "https://x.com/amorriscode",
+      "id": "73253803",
+      "followers": 38052,
+      "following": 2176,
+      "likes": 136643,
+      "media_count": 732,
+      "statuses": 12296,
+      "name": "Anthony Morris ツ",
+      "description": "claude code @anthropicAI | ex @stripe\n→ https://ezrasbookshelf.com",
+      "raw_description": {
+        "text": "claude code @anthropicAI | ex @stripe\n→ https://t.co/AjndW0qdf0",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              40,
+              63
+            ],
+            "original": "https://t.co/AjndW0qdf0",
+            "replacement": "https://ezrasbookshelf.com",
+            "display": "ezrasbookshelf.com"
+          }
+        ]
+      },
+      "location": "San Francisco",
+      "banner_url": "https://pbs.twimg.com/profile_banners/73253803/1761798871",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2094528522731823104/9TxOLK10_200x200.jpg",
+      "joined": "Thu Sep 10 23:41:21 +0000 2009",
+      "protected": false,
+      "website": {
+        "url": "https://anthonymorris.dev",
+        "display_url": "anthonymorris.dev"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 6,
+    "reposts": 0,
+    "likes": 439,
+    "bookmarks": 4,
+    "quotes": 0,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 18:30:00 +0000 2026",
+    "created_timestamp": 1790101800,
+    "views": 136122,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "thsottiaux",
+      "status": "2102463847714247142",
+      "url": "https://x.com/thsottiaux/status/2102463847714247142",
+      "profile_url": "https://x.com/thsottiaux"
+    },
+    "media": {},
+    "source": "Twitter for iPhone",
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/omarbnjl/status/2102466285804085362",
+    "id": "2102466285804085362",
+    "text": "nouveau banked reset on va tellement manger du riz ce soir",
+    "raw_text": {
+      "text": "nouveau banked reset on va tellement manger du riz ce soir",
+      "display_text_range": [
+        0,
+        58
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "omarbnjl",
+      "url": "https://x.com/omarbnjl",
+      "id": "3365725059",
+      "followers": 161,
+      "following": 1268,
+      "likes": 10065,
+      "media_count": 45,
+      "statuses": 908,
+      "name": "arom",
+      "description": "",
+      "raw_description": {
+        "text": "",
+        "facets": []
+      },
+      "location": "Marseille, France",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2099454703700787200/Mh5bGXZ2_200x200.jpg",
+      "joined": "Wed Jul 08 11:11:24 +0000 2015",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": false,
+        "verified_at": null,
+        "type": null
+      },
+      "type": "profile"
+    },
+    "replies": 5,
+    "reposts": 2,
+    "likes": 339,
+    "bookmarks": 3,
+    "quotes": 0,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 18:33:19 +0000 2026",
+    "created_timestamp": 1790101999,
+    "views": 91906,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "fr",
+    "replying_to": null,
+    "media": {},
+    "quote": {
+      "type": "status",
+      "url": "https://x.com/thsottiaux/status/2102463847714247142",
+      "id": "2102463847714247142",
+      "text": "GPT-6 Sol and Luna are out. Not only are they a very significant improvement across the board, but also in writing and general \"you know when you try it\" quality. \n\nWe are also permanently reducing the API price by 50% making both of them viable for a ton of new usecases and making your usage go further too, even on the subscriptions.\n\nAnd one more thing. We are loading a banked reset into all accounts of our Plus, Pro and Business users. Let's go!\n\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "raw_text": {
+        "text": "GPT-6 Sol and Luna are out. Not only are they a very significant improvement across the board, but also in writing and general \"you know when you try it\" quality. \n\nWe are also permanently reducing the API price by 50% making both of them viable for a ton of new usecases and making your usage go further too, even on the subscriptions.\n\nAnd one more thing. We are loading a banked reset into all accounts of our Plus, Pro and Business users. Let's go!\n\nhttps://t.co/00DRh1sRrO",
+        "display_text_range": [
+          0,
+          477
+        ],
+        "facets": [
+          {
+            "type": "bold",
+            "indices": [
+              375,
+              387
+            ]
+          },
+          {
+            "type": "url",
+            "indices": [
+              454,
+              477
+            ],
+            "original": "https://t.co/00DRh1sRrO",
+            "replacement": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+            "display": "openai.com/index/introduc…"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "thsottiaux",
+        "url": "https://x.com/thsottiaux",
+        "id": "1953337039510003712",
+        "followers": 732523,
+        "following": 72,
+        "likes": 9890,
+        "media_count": 138,
+        "statuses": 3022,
+        "name": "Tibo",
+        "description": "Codex & ChatGPT @OpenAI",
+        "raw_description": {
+          "text": "Codex & ChatGPT @OpenAI",
+          "facets": []
+        },
+        "location": "",
+        "banner_url": "",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+        "joined": "Thu Aug 07 06:07:07 +0000 2025",
+        "protected": false,
+        "website": null,
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "type": "profile"
+      },
+      "replies": 2962,
+      "reposts": 1589,
+      "likes": 24690,
+      "bookmarks": 1592,
+      "quotes": 936,
+      "embed_card": "tweet",
+      "created_at": "Tue Sep 22 18:23:37 +0000 2026",
+      "created_timestamp": 1790101417,
+      "views": 2821205,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "media": {},
+      "source": "Twitter Web App",
+      "card": {
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+        "title": "Introducing GPT-6 Sol and Luna",
+        "description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+        "domain": "openai.com",
+        "image": {
+          "width": 800,
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2102532885429596160/bVBep6k-?format=jpg&name=800x419",
+          "alt": "GPT-6 Sol and Luna, with a glowing sun and crescent moon against a dark star-filled sky."
+        }
+      },
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "source": "Twitter for iPhone",
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/TokenGremlin/status/2102451639437398080",
+    "id": "2102451639437398080",
+    "text": "Sam Altman @sama and Tibo @thsottiaux, you are officially forbidden from posting a tweet saying, “it took a little longer than we would’ve liked, and we’ll launch everything next week at DevDay.”",
+    "raw_text": {
+      "text": "Sam Altman @sama and Tibo @thsottiaux, you are officially forbidden from posting a tweet saying, “it took a little longer than we would’ve liked, and we’ll launch everything next week at DevDay.”",
+      "display_text_range": [
+        0,
+        195
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            11,
+            16
+          ],
+          "original": "sama",
+          "id": "1605"
+        },
+        {
+          "type": "mention",
+          "indices": [
+            26,
+            37
+          ],
+          "original": "thsottiaux",
+          "id": "1953337039510003712"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "TokenGremlin",
+      "url": "https://x.com/TokenGremlin",
+      "id": "1499460382158725120",
+      "followers": 8507,
+      "following": 1591,
+      "likes": 112411,
+      "media_count": 1088,
+      "statuses": 4958,
+      "name": "Token Gremlin",
+      "description": "Tracking the AI frontier: models, agents, research, leaks & pre-release signals. I test, investigate and build.",
+      "raw_description": {
+        "text": "Tracking the AI frontier: models, agents, research, leaks & pre-release signals. I test, investigate and build.",
+        "facets": []
+      },
+      "location": "Tips, leaks & collabs → DM",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1499460382158725120/1787261637",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2073095799462940672/YKuJiTq7_200x200.jpg",
+      "joined": "Thu Mar 03 19:03:30 +0000 2022",
+      "protected": false,
+      "website": {
+        "url": "https://discord.gg/z-ai",
+        "display_url": "discord.gg/z-ai"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 21,
+    "reposts": 6,
+    "likes": 797,
+    "bookmarks": 18,
+    "quotes": 1,
+    "embed_card": "tweet",
+    "created_at": "Tue Sep 22 17:35:07 +0000 2026",
+    "created_timestamp": 1790098507,
+    "views": 81567,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "source": "Twitter for Android",
+    "provider": "twitter",
+    "reposted_by": null
+  }
+]
