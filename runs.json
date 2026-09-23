@@ -18,5 +18,16 @@
     "events": 55,
     "newPosts": 0,
     "error": "Historical source unavailable"
+  },
+  {
+    "startedAt": "2026-09-23T16:36:51.268Z",
+    "finishedAt": "2026-09-23T16:36:52.103Z",
+    "status": "partial",
+    "checkedAt": "2026-09-23T16:36:51.268Z",
+    "posts": 139,
+    "events": 55,
+    "newPosts": 0,
+    "error": null,
+    "historyError": "Historical source unavailable: Error: Source returned 403"
   }
 ]
