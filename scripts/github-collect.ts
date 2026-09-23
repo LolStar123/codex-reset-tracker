@@ -17,7 +17,7 @@ const result = await collectSnapshot(before);
 const raw = new Map<string,unknown>((await read('raw-posts.json')).map((p: {id:string}) => [p.id,p]));
 for (const post of result.raw) raw.set(post.id,post);
 const receipt = {startedAt:result.snapshot.lastAttemptAt,finishedAt:new Date().toISOString(),status:result.status,checkedAt:result.snapshot.checkedAt,
-    posts:result.snapshot.posts.length,events:result.snapshot.events.length,newPosts:result.snapshot.posts.filter(p=>!before.posts.some(old=>old.id===p.id)).length,error:result.snapshot.error};
+    posts:result.snapshot.posts.length,events:result.snapshot.events.length,newPosts:result.snapshot.posts.filter(p=>!before.posts.some(old=>old.id===p.id)).length,error:result.snapshot.error,historyError:result.snapshot.historyError??null};
 await write('raw-posts.json',[...raw.values()]);
 await write('runs.json',[...(await read('runs.json')),receipt].slice(-2016));
 await write('snapshot.json',result.snapshot);

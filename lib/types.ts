@@ -16,4 +16,5 @@ export type Snapshot = {
     historyCheckedAt: string | null; coverageStart: string | null;
     replyCoverageStart: string | null; error: string | null;
     pendingCursor?: string | null; catchupBoundary?: string | null; lastAttemptAt?: string;
+    historyError?: string | null;
 };

@@ -42,5 +42,6 @@ test('history outage preserves current source updates and reports partial health
     const result=await collectSnapshot(seedSnapshot(),{timeline:async()=>page(),history:async()=>{throw Error('503');}},time);
     assert.equal(result.status,'partial');
     assert.equal(result.snapshot.checkedAt,time);
-    assert.match(result.snapshot.error,/Historical source unavailable/);
+    assert.equal(result.snapshot.error,null);
+    assert.match(result.snapshot.historyError,/Historical source unavailable.*503/);
 });

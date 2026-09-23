@@ -29,6 +29,8 @@ Open **Actions > Collect reset updates**. Open a run and its collection step for
 the timestamp, source status and counts. You can also open `monitor-data/runs.json`.
 `checkedAt` is the last successful timeline check, even when no new post was found.
 `lastAttemptAt` includes failed checks. A failure never advances `checkedAt`.
+`historyError` reports a failure of the supplementary historical archive separately;
+it does not suppress fresh Tibo updates or make live timeline collection appear stale.
 
 For an immediate server check: **Actions > Collect reset updates > Run workflow**.
 Refreshing the site afterward picks up the published result. A red run needs a look;
