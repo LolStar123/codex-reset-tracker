@@ -1,4 +1,5 @@
 'use client';
+import { assetUrl } from '@/lib/runtime';
 import { motion, useReducedMotion, type HTMLMotionProps } from 'motion/react';
 import { useEffect, useRef, useState } from 'react';
 import { RotateCcw, Volume2, VolumeX } from 'lucide-react';
@@ -45,7 +46,7 @@ export function ResetKey({ checking, failed, onCheck }: { checking: boolean; fai
     }
     function toggleSound() {setMuted(!muted);localStorage.setItem('reset-monitor-muted',String(!muted));}
     return <div className={`reset-toy ${checking ? 'is-checking' : ''} ${pressed?'is-pressed':''}`}>
-        <img className="tibo-key-buddy" src="/images/tibo-scribble.webp" alt="Abstract ink sketch of Tibo" width={400} height={600}/>
+        <img className="tibo-key-buddy" src={assetUrl("images/tibo-scribble.webp")} alt="Abstract ink sketch of Tibo" width={400} height={600}/>
         <div className="key-shadow" aria-hidden="true"/>
         {burst>0&&<div className="key-splash-stage" aria-hidden="true"><svg key={burst} data-burst={burst} className="key-splash" viewBox="0 0 320 300" fill="none" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round">
             <g className="splash-rays"><path d="m70 80-12-20m23 15-2-23M49 130l-20-5m24 17-13 5M236 76l9-20m2 30 22-14M263 136l24-8m-20 20 16 3M246 216l20 13m-28-3 5 18M80 228l-10 21m-1-30-20 11"/></g>

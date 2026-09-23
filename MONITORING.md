@@ -1,3 +1,5 @@
+> Historical Sites/PC deployment notes. The current GitHub setup is documented in [GITHUB.md](GITHUB.md).
+
 # Reset verification
 
 ## What is running

@@ -1,3 +1,4 @@
+import { assetUrl } from './runtime';
 // Recorded switch travel, self-hosted. Audio starts only inside a user gesture.
 type Stroke = 'press' | 'release';
 let context: AudioContext | null = null;
@@ -5,7 +6,7 @@ const files: Partial<Record<Stroke, Promise<ArrayBuffer>>> = {};
 const decoded: Partial<Record<Stroke, Promise<AudioBuffer>>> = {};
 
 function load(stroke: Stroke) {
-    return files[stroke] ??= fetch(`/audio/cream-${stroke}.mp3`).then(response => {
+    return files[stroke] ??= fetch(assetUrl(`audio/cream-${stroke}.mp3`)).then(response => {
         if (!response.ok) throw Error('Key sample unavailable');
         return response.arrayBuffer();
     }).catch(error => { delete files[stroke]; throw error; });

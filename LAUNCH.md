@@ -1,3 +1,5 @@
+> Historical Sites/PC deployment notes. The current GitHub setup is documented in [GITHUB.md](GITHUB.md).
+
 # Public launch: PC-driven Reset Monitor
 
 Checked 22 September 2026. The current site is hosted and owner-private. No domain has been purchased and public access has not been enabled.
