@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2102884039145521487",
+      "author": "thsottiaux",
+      "text": "@scottstts A bit harder to do when you have 1B users, but we are working to reduce this to only a few hours or minutes in the future",
+      "url": "https://x.com/thsottiaux/status/2102884039145521487",
+      "at": "2026-09-23T22:13:19.000Z",
+      "parentId": "2102706538133565648",
+      "parent": {
+        "author": "scottstts",
+        "text": "One thing I think OpenAI can learn from anthropic is the coordinated launch. Every time a new Claude model is out, it’s instantly available everywhere, and a reset (if they give it) is there already, so users can start using it right away\n\nYesterday I saw OpenAI announced the launch, but it took another hour to actually have the new models, and another hour for the reset to kick in. I couldn’t wait so just played with opus 5.5 instead\n\nAnd now gpt 6 sol is still not in chat yet",
+        "url": "https://x.com/scottstts/status/2102706538133565648"
+      },
+      "parentMissing": false,
+      "category": "clarification",
+      "summary": "A bit harder to do when you have 1B users, but we are working to reduce this to only a few hours or minutes in the future",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2102466463156285686",
       "author": "thsottiaux",
       "text": "@omarbnjl pizza plutot",
@@ -2601,8 +2619,8 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-09-23T20:15:36.053Z",
-  "lastAttemptAt": "2026-09-23T20:15:36.053Z",
+  "checkedAt": "2026-09-23T22:58:53.901Z",
+  "lastAttemptAt": "2026-09-23T22:58:53.901Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
