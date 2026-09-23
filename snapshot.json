@@ -30,7 +30,7 @@
         "url": "https://x.com/thsottiaux/status/2102440619616682120"
       },
       "parentMissing": false,
-      "category": "clarification",
+      "category": "scheduled",
       "summary": "We are loading a banked reset into all accounts of our Plus, Pro and Business users.",
       "resetType": "banked",
       "scope": "all accounts",
@@ -2591,8 +2591,8 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-09-23T16:41:06.108Z",
-  "lastAttemptAt": "2026-09-23T16:41:06.108Z",
+  "checkedAt": "2026-09-23T16:44:33.529Z",
+  "lastAttemptAt": "2026-09-23T16:44:33.529Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
