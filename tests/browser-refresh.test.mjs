@@ -3,8 +3,12 @@ import assert from 'node:assert/strict';
 import {checkLive,newestSnapshot} from '../lib/browser-refresh.ts';
 import {classify,deriveEvents} from '../lib/classify.ts';
 import {lastReset} from '../lib/reset-clocks.ts';
+import {directChecks} from '../lib/runtime.ts';
 const empty={posts:[],events:[],checkedAt:null,historyCheckedAt:null,coverageStart:null,replyCoverageStart:null,error:null};
 const raw=text=>({id:'sample-rollout',author:{screen_name:'thsottiaux'},text,url:'https://x.com/thsottiaux/status/sample-rollout',created_at:'2026-09-23T12:00:00Z'});
+test('the hosted key reads the shared collector instead of a browser-blocked upstream route',()=>{
+    assert.equal(directChecks,false);
+});
 test('manual check requests the live reply-inclusive source, derives an announcement and advances the displayed clock',async()=>{
     const original=globalThis.fetch;const requests=[];
     globalThis.fetch=async(url,options)=>{

@@ -2,7 +2,9 @@
 declare const __MONITOR_BASE__: string | undefined;
 declare const __MONITOR_ENDPOINT__: string | undefined;
 export const assetBase = typeof __MONITOR_BASE__ === 'undefined' ? '/' : __MONITOR_BASE__;
-export const directChecks = typeof __MONITOR_ENDPOINT__ !== 'undefined';
+// FxTwitter rejects browser-origin timeline requests. Hosted clients check the shared
+// snapshot; the five-minute GitHub collector is the only process that probes upstream.
+export const directChecks = false;
 export function assetUrl(path: string) { return assetBase + path.replace(/^\//, ''); }
 export function monitorUrl() {
     const endpoint = typeof __MONITOR_ENDPOINT__ === 'undefined' ? '/api/monitor' : __MONITOR_ENDPOINT__;
