@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2103963215885701493",
+      "author": "thsottiaux",
+      "text": "@giadotai Sorry Gia. More resets coming next week",
+      "url": "https://x.com/thsottiaux/status/2103963215885701493",
+      "at": "2026-09-26T21:41:35.000Z",
+      "parentId": "2103919273353830410",
+      "parent": {
+        "author": "giadotai",
+        "text": "The reset came right after my own reset, couldn’t be worse timing.",
+        "url": "https://x.com/giadotai/status/2103919273353830410"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "Sorry Gia. More resets coming next week",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2103911959544610829",
       "author": "thsottiaux",
       "text": "Resets all propagated. That will be all. Have a fantastic weekend.",
@@ -2649,8 +2667,8 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-09-26T20:54:08.591Z",
-  "lastAttemptAt": "2026-09-26T20:54:08.591Z",
+  "checkedAt": "2026-09-26T23:17:06.990Z",
+  "lastAttemptAt": "2026-09-26T23:17:06.990Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
