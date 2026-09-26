@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {lastResetOfType,elapsedParts} from '../lib/reset-clocks.ts';
+import {lastResetOfType,latestResetUpdate,elapsedParts} from '../lib/reset-clocks.ts';
 import {classify} from '../lib/classify.ts';
 
 test('new banked confirmation does not restart the full-reset clock',()=>{
@@ -9,6 +9,7 @@ test('new banked confirmation does not restart the full-reset clock',()=>{
  const promise={id:'3',category:'scheduled',resetType:'regular',at:'2026-09-22T06:00:00Z'};
  assert.equal(lastResetOfType([promise,bank,full],'regular').id,'1');
  assert.equal(lastResetOfType([promise,bank,full],'banked').id,'2');
+ assert.equal(latestResetUpdate([promise,bank,full]).id,'3');
  assert.deepEqual(elapsedParts(bank.at,Date.parse('2026-09-13T13:42:00Z')),{days:1,hours:2,minutes:2,seconds:0});
 });
 test('combined confirmation updates both clocks; absent banked history stays absent',()=>{
