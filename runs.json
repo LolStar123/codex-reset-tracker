@@ -293,5 +293,16 @@
     "newPosts": 0,
     "error": null,
     "historyError": "Historical source unavailable: Error: Source returned 403"
+  },
+  {
+    "startedAt": "2026-09-26T17:59:05.268Z",
+    "finishedAt": "2026-09-26T17:59:06.581Z",
+    "status": "partial",
+    "checkedAt": "2026-09-26T17:59:05.268Z",
+    "posts": 141,
+    "events": 56,
+    "newPosts": 0,
+    "error": null,
+    "historyError": "Historical source unavailable: Error: Source returned 403"
   }
 ]
