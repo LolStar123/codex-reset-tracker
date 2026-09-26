@@ -12,7 +12,7 @@
         "url": "https://x.com/thsottiaux/status/2103622639386574979"
       },
       "parentMissing": false,
-      "category": "clarification",
+      "category": "scheduled",
       "summary": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work",
       "resetType": "regular",
       "scope": "all paid users",
@@ -183,7 +183,7 @@
       "url": "https://x.com/thsottiaux/status/2098612714704891959",
       "at": "2026-09-12T03:20:36.000Z",
       "parentMissing": false,
-      "category": "clarification",
+      "category": "scheduled",
       "summary": "A reset and a quick update on quality issues that have been posted around.",
       "resetType": "regular",
       "provenance": "direct"
@@ -316,7 +316,7 @@
       "parentMissing": false,
       "category": "hint",
       "summary": "My condolences",
-      "resetType": "regular",
+      "resetType": "banked",
       "provenance": "direct"
     },
     {
@@ -665,7 +665,7 @@
       "url": "https://x.com/thsottiaux/status/2093801758665715784",
       "at": "2026-08-29T20:43:34.000Z",
       "parentMissing": false,
-      "category": "scheduled",
+      "category": "clarification",
       "summary": "We are reseting usage for all paid users of Codex and ChatGPT Work.",
       "resetType": "regular",
       "scope": "all paid users",
@@ -715,7 +715,7 @@
       "url": "https://x.com/thsottiaux/status/2093014447833116908",
       "at": "2026-08-27T16:35:05.000Z",
       "parentMissing": false,
-      "category": "scheduled",
+      "category": "clarification",
       "summary": "Never slept better and feeling reseted. Brand new me and brand new usage for all ChatGPT Work and Codex users. Regaining my youth one button press at a time.\n\nHappy Thursday",
       "resetType": "regular",
       "provenance": "direct",
@@ -835,7 +835,7 @@
         "url": "https://x.com/dtzy_88/status/2092265390948909194"
       },
       "parentMissing": false,
-      "category": "scheduled",
+      "category": "hint",
       "summary": "Ah yeah, forgot to say",
       "resetType": "regular",
       "provenance": "direct",
@@ -1393,7 +1393,7 @@
         "url": "https://x.com/blueemi99/status/2086902321108205926"
       },
       "parentMissing": false,
-      "category": "scheduled",
+      "category": "hint",
       "summary": "Hi.\n\nIt is done.",
       "resetType": "regular",
       "provenance": "direct",
@@ -1562,7 +1562,7 @@
         "url": "https://x.com/thsottiaux/status/2078310751878647932"
       },
       "parentMissing": false,
-      "category": "scheduled",
+      "category": "clarification",
       "summary": "Enjoy reset usage limits for all paid users for Codex and ChatGPT Work.",
       "resetType": "regular",
       "scope": "all paid users",
@@ -2637,8 +2637,8 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-09-26T05:45:09.323Z",
-  "lastAttemptAt": "2026-09-26T05:45:09.323Z",
+  "checkedAt": "2026-09-26T08:20:38.666Z",
+  "lastAttemptAt": "2026-09-26T08:20:38.666Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
