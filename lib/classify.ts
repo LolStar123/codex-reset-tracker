@@ -8,7 +8,7 @@ export type RawPost = {
 export function clean(text:string) { return text.replace(/https:\/\/t\.co\/\S+/g,'').replace(/^(?:@[\w]+\s*)+/,'').trim(); }
 const resetWord = /\bresets?\b|\bresetting\b|\breseting\b|\bbanked\b/i;
 const delivery = /\b(?:have|has|had|just) (?:now )?reset\b|\b(?:I|we)['’]ve (?:now )?reset\b|\b(?:limits|usage) (?:have been|has been|are|is) reset\b|\ball reset\b|\breset (?:all |has been |is )?propagated\b|\breset (?:has |have )?(?:landed|arrived)\b|\breset (?:is )?(?:done|complete|applied)\b|\bbutton pressed\b|\b(?:added|granted|credited) (?:a|one|another|an additional) banked reset\b|\bdid (?:a sneaky )?double reset\b/i;
-const future = /\b(?:will|going to|promis\w*|incoming|coming|tomorrow|tonight|later|next hour|next few hours|lands?|landing|tuesday|monday|wednesday|thursday|friday|saturday|sunday)\b/i;
+const future = /\b(?:will|going to|promis\w*|incoming|coming|tomorrow|tonight|later|next hour|next few hours|lands?|landing|tuesday|monday|wednesday|thursday|friday|saturday|sunday)\b|\b(?:I|we|you|they|it)['\u2019]ll\b/i;
 const denials = /\b(?:no|not|never|isn't|isn’t|wasn't|wasn’t|hasn't|hasn’t|haven't|haven’t|didn't|didn’t|won't|won’t)\b/i;
 
 function rolloutAnnounced(text:string) {
@@ -37,7 +37,7 @@ function delivered(text:string) {
 function scheduled(text:string,contextual:boolean) {
     return text.split(/(?<=[.!?])\s+|\n+/).some(sentence=>
         (resetWord.test(sentence)||contextual)&&
-        (future.test(sentence)&&/\b(?:will|promis\w*|coming|lands?|landing|tomorrow|tonight|tuesday|monday|wednesday|thursday|friday|saturday|sunday)\b/i.test(sentence)||
+        (future.test(sentence)&&(/\b(?:will|promis\w*|coming|lands?|landing|tomorrow|tonight|tuesday|monday|wednesday|thursday|friday|saturday|sunday)\b/i.test(sentence)||/\b(?:I|we|you|they|it)['\u2019]ll\b/i.test(sentence))||
         /\b(?:we are|we['’]re|I am|I['’]m) (?:loading|adding|granting) (?:a|one|another) banked reset\b/i.test(sentence))&&
         !/\b(?:might|maybe|perhaps|hope|wish|could|would|not|no|previously)\b/i.test(sentence));
 }
@@ -76,6 +76,22 @@ export function classify(raw:RawPost, parent?:RawPost):Post|null {
         parentId:raw.replying_to?.status,parent:parent?{author:parent.author.screen_name,text:parent.text,url:parent.url}:raw.quote?{author:raw.quote.author.screen_name,text:raw.quote.text,url:raw.quote.url}:undefined,
         parentMissing:!!raw.replying_to&&!parent,category,summary,resetType:inferResetType(typeText),scope:scopeMatch?.[0],timing,provenance:'direct',
         ...(category!=='correction'&&rolloutAnnounced(text)?{eventBasis:'announcement' as const}:{})};
+}
+
+// Re-run current rules over stored direct posts. Parser improvements then repair
+// already-ingested tweets even when the source does not return them again.
+export function reclassifyStoredPost(post:Post):Post {
+    if(post.provenance!=='direct')return post;
+    const parent:RawPost|undefined=post.parent?{
+        id:post.parentId??`parent-${post.id}`,text:post.parent.text,url:post.parent.url,created_at:post.at,
+        author:{screen_name:post.parent.author}
+    }:undefined;
+    const fresh=classify({
+        id:post.id,text:post.text,url:post.url,created_at:post.at,author:{screen_name:post.author},
+        replying_to:post.parentId?{status:post.parentId,screen_name:post.parent?.author??'',url:post.parent?.url}:null
+    },parent);
+    if(!fresh)return post;
+    return {...post,...fresh,eventId:post.eventId,eventBasis:fresh.eventBasis??post.eventBasis};
 }
 
 export function deriveEvents(posts:Post[]):ResetEvent[] {

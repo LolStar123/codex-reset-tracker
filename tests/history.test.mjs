@@ -46,6 +46,16 @@ test('existing database snapshots receive archive updates idempotently without f
     assert.equal(applyCorrections(old.posts)[0].resetType,'banked');
 });
 
+test('stored direct posts are reclassified when reset language rules improve',()=>{
+    const stale={id:'future-reset',author:'thsottiaux',at:'2026-09-26T00:07:13.000Z',
+        text:'o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work',
+        url:'https://x.com/thsottiaux/status/future-reset',summary:'stale',category:'clarification',resetType:'regular',provenance:'direct'};
+    const snapshot={posts:[stale],events:[],checkedAt:'2026-09-26T00:08:00Z',historyCheckedAt:null,coverageStart:null,replyCoverageStart:null,error:null};
+    const migrated=reconcileArchive(snapshot);
+    assert.equal(migrated.posts.find(p=>p.id===stale.id).category,'scheduled');
+    assert.equal(reconcileArchive(migrated).posts.find(p=>p.id===stale.id).category,'scheduled');
+});
+
 test('new banked delivery language confirms, while promises and hypothetical delivery do not',()=>{
     for(const text of ['We have added a banked reset to everyone.','Added a banked reset to 500k users. Tomorrow we will do another.','The banked reset has landed.','Reset has been propagated to accounts.',"I've reset usage limits."]){
         assert.equal(classify(raw(text)).category,'confirmed',text);

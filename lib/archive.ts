@@ -1,6 +1,6 @@
 import archive from '@/data/archive.json';
 import {applyCorrections} from './overrides';
-import {deriveEvents} from './classify';
+import {deriveEvents,reclassifyStoredPost} from './classify';
 import type {Post,Snapshot} from './types';
 
 // Reconcile bundled research into an already populated database as well as a fresh install.
@@ -12,7 +12,7 @@ export function reconcileArchive(snapshot:Snapshot):Snapshot {
         if(!existing||existing.provenance==='history')posts.set(post.id,post);
         else if(post.eventId)posts.set(post.id,{...existing,eventId:post.eventId});
     }
-    const ordered=applyCorrections([...posts.values()]).sort((a,b)=>b.at.localeCompare(a.at));
+    const ordered=applyCorrections([...posts.values()].map(reclassifyStoredPost)).sort((a,b)=>b.at.localeCompare(a.at));
     return {...snapshot,posts:ordered,events:deriveEvents(ordered),
         coverageStart:ordered.at(-1)?.at??snapshot.coverageStart,
         replyCoverageStart:[snapshot.replyCoverageStart,archive.timelineCoverageStart].filter((v):v is string=>!!v).sort()[0]??null};

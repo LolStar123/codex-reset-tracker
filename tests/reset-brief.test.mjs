@@ -54,3 +54,13 @@ test('replacement dates, uncertain delays and later cancellations stay distinct'
  assert.equal(resetBrief([cancelled,{...delay,text:'Reset delayed until tomorrow.'},promise],now).text,'reset cancelled');
  assert.equal(resetBrief([{...promise,id:'new',at:'2026-09-22T08:09:00Z',text:'Reset coming Thursday.'},cancelled],now).text,'reset expected thursday');
 });
+
+test('a contracted future reset promise updates the top outlook',()=>{
+ const announcement=classify({
+  id:'future-reset',author:{screen_name:'thsottiaux'},created_at:'2026-09-26T00:07:13.000Z',url:'https://x.com/thsottiaux/status/future-reset',
+  text:'o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work'
+ });
+ assert.equal(announcement.category,'scheduled');
+ assert.equal(resetBrief([announcement],Date.parse('2026-09-26T00:08:00Z')).text,'reset expected, timing undetermined');
+ assert.equal(lastReset([announcement]),undefined);
+});
