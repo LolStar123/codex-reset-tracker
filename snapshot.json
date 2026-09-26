@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2103637477760311522",
+      "author": "thsottiaux",
+      "text": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\n\nsorry about the brief disruption!\n\n(and yes we have a special spare codex when things are down to help us out)",
+      "url": "https://x.com/thsottiaux/status/2103637477760311522",
+      "at": "2026-09-26T00:07:13.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "o no :(",
+        "url": "https://x.com/thsottiaux/status/2103622639386574979"
+      },
+      "parentMissing": false,
+      "category": "clarification",
+      "summary": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work",
+      "resetType": "regular",
+      "scope": "all paid users",
+      "provenance": "direct"
+    },
+    {
       "id": "2102884039145521487",
       "author": "thsottiaux",
       "text": "@scottstts A bit harder to do when you have 1B users, but we are working to reduce this to only a few hours or minutes in the future",
@@ -2619,8 +2637,8 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-09-25T22:42:52.244Z",
-  "lastAttemptAt": "2026-09-25T22:42:52.244Z",
+  "checkedAt": "2026-09-26T00:54:52.354Z",
+  "lastAttemptAt": "2026-09-26T00:54:52.354Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
