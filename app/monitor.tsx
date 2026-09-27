@@ -62,7 +62,7 @@ export default function Monitor({ initial, renderedAt }: { initial: Snapshot; re
     async function refresh(live=false) {
         if (refreshLock.current) return;
         refreshLock.current = true; setRefreshing(true);
-        if(live)setCheckMessage('checking source?');
+        if(live)setCheckMessage(directChecks?'checking source...':'refreshing collected data...');
         try {
             let next:Snapshot;
             if(live&&directChecks) {
@@ -76,12 +76,16 @@ export default function Monitor({ initial, renderedAt }: { initial: Snapshot; re
             dataRef.current=next;setData(next);setRefreshError(false);setNow(Date.now());
             if(live) {
                 const time=new Date(next.checkedAt??Date.now()).toLocaleTimeString('en-GB');
-                setCheckMessage(next.error?'checked, some replies unavailable':`source checked ${time}`);
+                setCheckMessage(
+                    directChecks
+                        ? next.error?'checked, some replies unavailable':`source checked ${time}`
+                        : next.error?`latest collection ${time}, partial`:`latest collection ${time}`,
+                );
                 try { localStorage.setItem('reset-monitor-snapshot',JSON.stringify(next)); } catch { /* Storage can be disabled. */ }
             }
         } catch {
             setRefreshError(true);
-            if(live)setCheckMessage('source check failed ? try again');
+            if(live)setCheckMessage(directChecks?'source check failed · try again':'feed refresh failed · try again');
         } finally { refreshLock.current = false; setRefreshing(false); }
     }
     useEffect(() => {

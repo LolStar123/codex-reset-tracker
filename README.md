@@ -1,8 +1,8 @@
 # Codex Reset Tracker
 
-A small website that collects Codex reset announcements and replies from @thsottiaux, with a live check button and a reset calendar.
+A small website that collects Codex reset announcements and replies from @thsottiaux, with a mechanical refresh key and a reset calendar.
 
-[Live demo](https://lolstar123.github.io/codex-reset-tracker/) ? [Collection logs](https://github.com/LolStar123/codex-reset-tracker/actions/workflows/collect.yml) ? [Maintenance](GITHUB.md)
+[Live demo](https://lolstar123.github.io/codex-reset-tracker/) · [Collection logs](https://github.com/LolStar123/codex-reset-tracker/actions/workflows/collect.yml) · [Maintenance](GITHUB.md)
 
 The site puts the latest recorded reset above a GitHub-style activity calendar and a short source feed. The check button fetches current posts and replies directly, with a moving mechanical key, recorded switch audio and an ink splash when pressed.
 
@@ -11,17 +11,17 @@ The site puts the latest recorded reset above a GitHub-style activity calendar a
 - Collects public posts and replies from **@thsottiaux**, including parent context, and filters them for reset information.
 - Separates confirmed delivery, active rollout announcements, future promises, delays and hints. Announcements are labelled; a promised date passing never creates a completed reset.
 - Updates the clock, calendar and outlook from collected source data. Every feed entry links back to its source.
-- Keeps the last good data through source failures and prevents an older cached snapshot from overwriting a newer live check.
+- Keeps the last good data through source failures and prevents an older cached snapshot from overwriting newer data.
 
 The interface has light and dark themes, an abstract Tibo illustration and a clock that ticks in seconds. Sound is optional.
 
 ## How it works
 
-**TypeScript ? React ? Vite ? GitHub Actions ? GitHub Pages**
+**TypeScript · React · Vite · GitHub Actions · GitHub Pages**
 
-GitHub Actions schedules background collection every five minutes and saves the shared snapshot, public source records and health receipts on the `monitor-data` branch. GitHub Pages serves the frontend.
+GitHub Actions requests background collection every five minutes and saves the shared snapshot, public source records and health receipts on the `monitor-data` branch. GitHub schedules are best effort, so runs can arrive late. GitHub Pages serves the frontend.
 
-An open page reads the shared snapshot every 30 seconds and checks the public source directly on arrival and every five minutes while visible. Pressing **check** starts another direct source request. Browser checks are kept locally; the GitHub collector independently maintains the shared history.
+An open page reads the shared snapshot every 30 seconds. Pressing **check** immediately fetches the newest collected snapshot. Browsers do not query the upstream X mirror directly because it rejects browser-origin requests; the GitHub collector owns source collection and shared history.
 
 The source request includes replies. Missing parent posts are retrieved before classification, source IDs deduplicate records, and the same classification rules run in the browser and the background collector. The collector uses deterministic text rules.
 
@@ -47,7 +47,7 @@ npm run test:github
 npx tsc --noEmit
 ```
 
-Regression checks cover reply context, changed reset dates, banked grants, announcement versus delivery, duplicate events, stale snapshots and failed source requests. Browser checks also exercised repeated live key presses, failure recovery and background polling after a fresh check.
+Regression checks cover reply context, changed reset dates, banked grants, announcement versus delivery, duplicate events, stale snapshots and failed source requests. Browser checks also exercised repeated refresh-key presses, failure recovery and background polling.
 
 See [GITHUB.md](GITHUB.md) for collection receipts, operational limits and repairs.
 

@@ -7,21 +7,18 @@ Repository: https://github.com/LolStar123/codex-reset-tracker
 ## What runs where
 
 - GitHub Pages serves the existing interactive website, pictures and keyboard audio.
-- GitHub Actions schedules **Collect reset updates** every five minutes and runs
+- GitHub Actions requests **Collect reset updates** every five minutes and runs
   it when collector code changes. It fetches Tibo's public posts **and replies**, retrieves parent
   context, filters relevant updates and derives the feed, outlook and reset calendar.
 - The `monitor-data` branch holds the shared `snapshot.json`, retained public
   `raw-posts.json`, and the last 2,016 collection receipts in `runs.json`.
-- The **check key performs a fresh public-source collection in the visitor's
-  browser**, including replies and parent lookups. It displays the check time or
-  a failure. It never presents an old cached file as a successful source check.
-- Pages also perform a direct source check on arrival and every five minutes
-  while visible, plus read the shared GitHub snapshot every 30 seconds. This keeps
-  the page useful when GitHub's scheduler or raw-file cache is delayed. An older
-  shared result cannot overwrite a newer direct check. The clock ticks each second.
-- A direct check is saved in that browser's local storage, not written to GitHub.
-  Every visitor can make the same direct check; the GitHub collector independently
-  persists the shared history. No repository credential is shipped to visitors.
+- The **check key refreshes the shared snapshot** immediately and displays the
+  collection timestamp or a failure. Browsers do not query the upstream X mirror
+  because it rejects browser-origin timeline requests.
+- Pages read the shared GitHub snapshot every 30 seconds while visible. An older
+  cached result cannot overwrite newer browser data. The clock ticks each second.
+- The GitHub collector performs reply-inclusive source collection and persists
+  shared history. No repository credential is shipped to visitors.
 - Pushing changes to `main` tests and publishes the website automatically. Data
   checks do not rebuild the site, and failed source checks keep the last good data.
 
@@ -42,10 +39,9 @@ At launch, that archive returned HTTP 403 to GitHub's runner. The imported 55-ev
 history remains intact; new updates are collected directly from Tibo's timeline.
 
 The ordinary check key can be tested without signing in to GitHub: press it and
-look for `source checked HH:MM:SS`. Browser network tools should show a request to
-`api.fxtwitter.com/2/profile/thsottiaux/statuses` with `with_replies=true` on each
-press. A failed source request leaves the last good clock/feed/calendar intact
-and offers another press, rather than silently claiming success.
+look for `latest collection HH:MM:SS`. Browser network tools should show a request
+to `monitor-data/snapshot.json`. A failed refresh leaves the last good
+clock/feed/calendar intact and offers another press.
 
 Active banked grants such as "we are loading a banked reset" automatically become
 recorded announcements. The clock says **reset announced**, and the source remains
