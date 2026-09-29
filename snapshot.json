@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2104934849970913519",
+      "author": "thsottiaux",
+      "text": "@theo And then I ran to Theo and whispered in his right ear “wake up Theo, it’s DevDay today”",
+      "url": "https://x.com/thsottiaux/status/2104934849970913519",
+      "at": "2026-09-29T14:02:30.000Z",
+      "parentId": "2104846196338782292",
+      "parent": {
+        "author": "theo",
+        "text": "I saw Tibo at a grocery store in San Francisco yesterday. I told him how cool it was to meet him in person, but I didn’t want to be a douche and bother him and ask him for resets or anything.\n\nHe said, “Oh, like you’re doing now?”\n\nI was taken aback, and all I could say was “Huh?” but he kept cutting me off and going “huh? huh? huh?” and closing his hand shut in front of my face. I walked away and continued with my shopping, and I heard him chuckle as I walked off. When I came to pay for my stuff up front I saw him trying to walk out the doors with like fifteen Milky Ways in his hands without paying.\n\nThe girl at the counter was very nice about it and professional, and was like “Sir, you need to pay for those first.” At first he kept pretending to be tired and not hear her, but eventually turned back around and brought them to the counter.\n\nWhen she took one of the bars and started scanning it multiple times, he stopped her and told her to scan them each individually “to prevent any cache infetterence,” and then turned around and winked at me. I don’t even think that’s a word. After she scanned each bar and put them in a bag and started to say the price, he kept interrupting her by yawning really loudly.",
+        "url": "https://x.com/theo/status/2104846196338782292"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "And then I ran to Theo and whispered in his right ear “wake up Theo, it’s DevDay today”",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2104823812042940713",
       "author": "thsottiaux",
       "text": "Hi,\n\nTomorrow we are re-opening the Pro $200 subscriptions to new subscribers, but together with it we are also changing how we calculate the usage for it. In effect, if you do the math, it will net out at half the dollar in API spend compared to the old Pro $200 plan. \n\nNow that it's said, let me explain why this is happening and why you will still get more work done than if you were on the Pro $200 subscription one month ago.\n\n(a) We didn't want to compromise in other ways and are committing to not reintroducing the 5h limit, so that you can fully use the weekly usage when you want.\n(b) On the subscription, we guarantee that over time you always get more work done and with an increasing level of quality. This means that you will continue to get more value per dollar spent as a result of models getting more efficient and us passing down the improvements in the form of API price reductions.\n(c) We don't want to put an incentive on ourselves to artificially inflate the API list prices to make it look like you are getting a lot (and workaround it through discounts, etc). Instead we want to continue to both rapidly reduce prices and increase capabilities of models on the API. This week we introduced GPT-6 Sol and GPT-6 Luna at 50% of their previous price. Over time, we see prices go low enough that it makes sense for most to buy usage as needed without there being a significant gap between what you get in a subscription and what you get in the API for a dollar spent.\n(d) Tomorrow, we are adding more things to the subscription that won't draw on the usage, I won't reveal what that is yet.\n\nI wanted to be transparent before all the big announcements tomorrow. Lots of new exciting things are coming to the subscriptions that will make it super compelling, but I wanted to make sure to share this change ahead of time so you can all understand it before we shower you with good news.\n\nCodexingly,\nTibo",
@@ -2679,12 +2697,12 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-09-29T06:58:28.002Z",
-  "lastAttemptAt": "2026-09-29T13:52:46.803Z",
+  "checkedAt": "2026-09-29T18:58:33.523Z",
+  "lastAttemptAt": "2026-09-29T18:58:33.523Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": "Historical source unavailable: Error: Source returned 403"
