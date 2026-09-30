@@ -1,6 +1,41 @@
 {
   "posts": [
     {
+      "id": "2105102312167575701",
+      "author": "thsottiaux",
+      "text": "I got community noted, but the note is wrong 😅\n\nYour primary dot is included in your plan and will be available 24/7. If you ask it to create a codex task for you, that one will be drawing usage as usual. But when your dot does work directly, that uses nothing and is all on top of your plans usage. In the future you will be able to increase the speed and allow your dot to have more bandwidth, this will be a paid feature, but the baseline functionality will always just be included in your plan.",
+      "url": "https://x.com/thsottiaux/status/2105102312167575701",
+      "at": "2026-09-30T01:07:56.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Announcing dots. Dots work 24/7 for you, learn from your feedback, have their own computer, browser and can be connected to over 4k apps in our ecosystem.\n\nThey’re powered by Astra our best model yet. Included in your Pro plan, without drawing down on any of your usage. You can even call a dot while it’s working.\n\nWe’re getting you started with your primary dot today and soon you’ll be able to create entire teams of them.",
+        "url": "https://x.com/thsottiaux/status/2104981170685616361"
+      },
+      "parentMissing": false,
+      "category": "clarification",
+      "summary": "I got community noted, but the note is wrong 😅",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2105097443847332188",
+      "author": "thsottiaux",
+      "text": "@signulll Transparency is important to me",
+      "url": "https://x.com/thsottiaux/status/2105097443847332188",
+      "at": "2026-09-30T00:48:36.000Z",
+      "parentId": "2105017411556512022",
+      "parent": {
+        "author": "signulll",
+        "text": "can someone genuinely explain why you would announce something negative like cutting plan limits before your big highlight event esp when you’ve spent weeks promising a lot & the event itself doesn’t even fully land?\n\neven more confusing when your competitor currently has a better model with much more generous usage & the audience you’re broadcasting to is unusually obsessed with limits.\n\nyou’ve also spent months training everyone to care about the reset limits button. then right before the event you make the entire timeline about usage scarcity instead of what you’re about to ship.\n\nwhy not announce it a day or two later? or at minimum after the event?\n\ninstead you create the worst possible framing in which everyone watches the launch asking whether what you shipped justifies what you took away.\n\nmaybe i’m missing some sophisticated comms logic here. i’m obviously not a trained comms/pr person (i can’t believe there is training for this either) but i think about this stuff a lot & the sequencing makes zero sense to me. but whatever.",
+        "url": "https://x.com/signulll/status/2105017411556512022"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Transparency is important to me",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2104934849970913519",
       "author": "thsottiaux",
       "text": "@theo And then I ran to Theo and whispered in his right ear “wake up Theo, it’s DevDay today”",
@@ -2697,8 +2732,8 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-09-29T22:53:01.587Z",
-  "lastAttemptAt": "2026-09-29T22:53:01.587Z",
+  "checkedAt": "2026-09-30T01:44:20.366Z",
+  "lastAttemptAt": "2026-09-30T01:44:20.366Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
