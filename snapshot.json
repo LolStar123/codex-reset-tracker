@@ -1,6 +1,78 @@
 {
   "posts": [
     {
+      "id": "2105174607439544669",
+      "author": "thsottiaux",
+      "text": "@morganlinton You get it. It’s a little dot that could.",
+      "url": "https://x.com/thsottiaux/status/2105174607439544669",
+      "at": "2026-09-30T05:55:13.000Z",
+      "parentId": "2105138143913820457",
+      "parent": {
+        "author": "morganlinton",
+        "text": "Very cool, using my Dot to check on my benchmark running on Claude Code, on my Computer, totally seamless. \n\nI could quickly see my Dot becoming a core way I interface with everything on my computer.\n\nThe more I use it, the more I feel like the differentiator is going to be both the model, and just how darn good OpenAI is at Computer Use, it really can just do it all right out of the box.\n\nSo far very impressed, congrats to the whole team at OpenAI, and with unlimited usage in chat rn, I don't even have to bug @thsottiaux for resets 😅",
+        "url": "https://x.com/morganlinton/status/2105138143913820457"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "You get it. It’s a little dot that could.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2105173168281506088",
+      "author": "thsottiaux",
+      "text": "@kr0der Yes, check email",
+      "url": "https://x.com/thsottiaux/status/2105173168281506088",
+      "at": "2026-09-30T05:49:30.000Z",
+      "parentId": "2105157445857538064",
+      "parent": {
+        "author": "kr0der",
+        "text": "i randomly saw that i have 62,393 credits in Codex so i checked how much $ that would cost normally\n\n25,000 credits is $1.5k AUD so this is about $3.7k AUD (~$2.5k USD)\n\nthanks OpenAI for the free credits (is this due to the $200 plan change?) and also the extra banked reset 🫡",
+        "url": "https://x.com/kr0der/status/2105157445857538064"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Yes, check email",
+      "resetType": "banked",
+      "provenance": "direct"
+    },
+    {
+      "id": "2105120499177230798",
+      "author": "thsottiaux",
+      "text": "@nnennahacks @MaxHudlberger @OpenAIDevs @OpenAI 👋",
+      "url": "https://x.com/thsottiaux/status/2105120499177230798",
+      "at": "2026-09-30T02:20:12.000Z",
+      "parentId": "2105024449502482889",
+      "parent": {
+        "author": "nnennahacks",
+        "text": "Ran into Reset guy @thsottiaux and engineer @MaxHudlberger 🔥",
+        "url": "https://x.com/nnennahacks/status/2105024449502482889"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "👋",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2105120226027450685",
+      "author": "thsottiaux",
+      "text": "@theo Shhhhhh",
+      "url": "https://x.com/thsottiaux/status/2105120226027450685",
+      "at": "2026-09-30T02:19:07.000Z",
+      "parentId": "2105016954797072492",
+      "parent": {
+        "author": "theo",
+        "text": "My resets carried over :')",
+        "url": "https://x.com/theo/status/2105016954797072492"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Shhhhhh",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2105102312167575701",
       "author": "thsottiaux",
       "text": "I got community noted, but the note is wrong 😅\n\nYour primary dot is included in your plan and will be available 24/7. If you ask it to create a codex task for you, that one will be drawing usage as usual. But when your dot does work directly, that uses nothing and is all on top of your plans usage. In the future you will be able to increase the speed and allow your dot to have more bandwidth, this will be a paid feature, but the baseline functionality will always just be included in your plan.",
@@ -2732,8 +2804,8 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-09-30T01:44:20.366Z",
-  "lastAttemptAt": "2026-09-30T01:44:20.366Z",
+  "checkedAt": "2026-09-30T07:30:45.411Z",
+  "lastAttemptAt": "2026-09-30T07:30:45.411Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
