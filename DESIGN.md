@@ -1,44 +1,51 @@
-# Reset Monitor
+﻿# Reset tracker design
 
-The last reset is the headline. The reference is codex-resets.com: borrow its
-single large elapsed-days panel and keep the secondary history below it. The
-header contains the existing terminal mark and codex reset tracker wordmark. There is no
-separate hero title, tagline, audience label, monitoring badge or statistics row.
+## Job and hierarchy
 
-The main slate box says last reset was, followed by a large cobalt-highlighted
-number of days. HH:MM:SS ticks underneath. A single clock uses the newest
-confirmed reset of any type. Its source link exposes the exact type/date on hover.
-The smaller mechanical check key and abstract Tibo occupy the right corner.
-The keycap has angular sloping walls, a concave top, an exposed cream switch stem
-and a dark socket. It sits still until interaction, with the existing 17px press.
+An unofficial public-source monitor. The primary action retrieves the newest shared collection; the primary reading is the newest reset-related source update. Exact source time, event kind and collection freshness must be visible together. Delivery reports, plans, revisions and rollout announcements retain different labels. Account delivery is not verified here.
 
-One short source-based outlook types inside a crooked tinted rectangle in the
-main box, with a blinking underscore. Unknown timing says next reset undetermined.
-It is not an LLM-generated forecast: explicit hourly promises allow a remaining
-hours estimate; weekday-only promises retain the weekday with no invented time.
-Expired promises await confirmation. New banked delivery cannot erase a pending
-full reset. Reduced motion immediately reveals the whole sentence.
+The layout is an instrument panel: compact terminal wordmark, elapsed-update panel and physical check key, collection receipt, UTC activity calendar, then an expandable source feed. Maximum width is 960px. Desktop uses 38px panel padding; phone uses 18px and a two-column clock/key arrangement with a full-width outlook below. Older calendar months scroll inside their frame, never the document.
 
-The GitHub-style RareUI activity grid remains. Three notes show initially, with
-older notes behind more. Repeated author labels, reply captions, extra timestamps
-and feed subtitles are removed. Source/context links and filters still work.
-Coverage details stay collapsed in the footer.
+## Visual direction
 
-Palette: ink #11151f, silver #edf1fa, cobalt #92b1ff, slate #1a202d, amber #ffbd86.
-The light theme retains the same roles. Space Grotesk supplies the large day
-count and post text; IBM Plex Mono supplies the brief, time and metadata. Fonts
-remain self-hosted with their package licenses. Maximum content width is 900px.
+The inherited elapsed clock/calendar structure references codex-resets.com, inspected in an isolated browser during the original 22 September 2026 design pass. This redesign uses the project's own navy/cobalt vocabulary and existing physical key. The MIT Rare UI calendar is a code reference with local reset-specific semantics.
 
-The days label lifts and springs back on hover, respecting reduced motion.
-A thin warm contour makes Tibo visible against the dark background.
-Tibo is a sparse charcoal caricature with a split-profile face, angular nose,
-line limbs and a single blue laptop patch. The recorded press/release pair and
-520ms ink burst remain. Sound is gesture-only and mute persists locally. Keyboard
-activation is native. Reduced motion removes travel and shows a static burst.
+The signature is one blue mechanical key: angular sloping walls, concave top, exposed cream stem and dark socket. The rest of the interface stays flat and quiet. A two-pixel panel edge ties the key's blue to the latest-update instrument. Amber identifies banked records and incomplete/stale collection. The existing abstract Tibo sketch remains beside the key; it identifies the source author without becoming a hero illustration.
 
-Acceptance: one clock including seconds, newest reset of any type, no removed
-copy, three notes by default, accurate short outlook with typing, no overflow at
-320px, intact source/history interactions, and no hydration/runtime errors.
+## Tokens
 
-Reference inspected in an isolated browser on 22 September 2026:
-https://codex-resets.com/
+| Role | Dark | Light |
+| --- | --- | --- |
+| Page | `#141d29` | `#eef2f6` |
+| Panel | `#1b2839` | `#ffffff` |
+| Primary text | `#f0f3f7` | `#21334c` |
+| Secondary text | `#adbbcf` | `#586c84` |
+| Accent | `#abc7ff` | `#315fa6` |
+| Warm state | `#f1bd85` | `#855124` |
+| Borders | `#35465d` | `#ced9e6` |
+
+Small text uses the secondary token rather than faint opacity. Primary and secondary text pairs clear WCAG AA's 4.5:1 threshold against their panel backgrounds. Focus rings use the accent and four-pixel offset. Status, event type and selection also have text, labels or marker shapes, so colour is not the only signal.
+
+Space Grotesk Variable carries the wordmark, elapsed days, headings and source text. IBM Plex Mono carries time, provenance and control captions. Both are self-hosted Fontsource packages with OFL licences retained in the installed packages; no remote font provider is contacted. Display count is 80px maximum on desktop, 52px on phones; body records are 17px/1.6 and 16px/1.6 respectively. Utility type is 10-13px with readable line height. Controls use 36-44px targets except the calendar's inherently dense date grid, which also supports arrow-key navigation.
+
+## Components and states
+
+- **Clock:** ticks each second; label describes the latest relevant update. Exact source UTC time and reset kind remain visible. No decorative hover motion on the count.
+- **Check:** disables overlapping requests; feedback states collection time or retryable refresh failure. Source time never substitutes for collection time. A missing collection time says unavailable.
+- **Freshness:** muted source receipt when healthy; amber when older than 20 minutes, partial or failed. The separate 30-second refresh cadence describes the browser, not the upstream collector.
+- **Calendar:** solid blue full records, amber banked records with a centre cutout, dashed low-fill cells when the day includes an announcement, subdued cells outside coverage and an outlined selected day. Tooltips name source dates and announcement/report basis. The legend says no record.
+- **Feed:** three records initially; older updates reveal six more. Resets includes delivery, planned resets and timing revisions; Notes includes hints and clarifications. Expand shows original reply context and UTC time. Date and category filters combine and clear independently.
+- **Failure/empty:** retained records remain through a failed request. A filtered empty day explains how to clear it. Missing parent context is labelled. Source details remain available in the footer.
+- **Theme:** dark by default. Explicit light/dark preference and sound preference persist locally. The optional light palette retains identical hierarchy.
+
+## Assets and motion
+
+Keep the existing transparent ink sketch and profile image. Credits, generation provenance and audio licence remain in ASSETS.md. The terminal/favicon and short key burst are code-native SVG. The README preview is an actual rendered recorded-source view, with no invented live status.
+
+Only the cap travels 17px on a press. The recorded press/release pair requires a gesture; mute persists. The 520ms SVG burst, short source-outlook typing and spring control feedback are bounded. Reduced motion suppresses travel, blinking, transitions and cell scaling, reveals the whole outlook, and retains a static press burst. Native Enter/Space activation works.
+
+## Acceptance and review
+
+Frozen checklist: desktop 1280px; mobile 390px and 320px; optional light theme; exact time provenance; seconds tick; calendar/year/date filtering; feed/category/context/source links; refresh and background polling; failed refresh retains data and recovers; older data cannot replace newer data; reduced motion and keyboard focus; local image/font loading; no runtime errors or document overflow. Production build, typecheck and deterministic collector regressions are required.
+
+Review uses three sequential solo passes: functional coverage, token/system consistency, visual craft. At most three render rounds; evidence and review notes stay in ignored `output/redesign-qa/`. Browser checks use controlled snapshot responses, and do not claim a new upstream collection was made.

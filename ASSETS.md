@@ -1,5 +1,19 @@
 # Tibo artwork
 
+## Fonts and preview
+
+The interface self-hosts Space Grotesk Variable (`@fontsource-variable/space-grotesk`)
+and IBM Plex Mono regular (`@fontsource/ibm-plex-mono`). Both use the SIL Open Font
+License 1.1. Copies are served from `public/fonts/space-grotesk.LICENSE.txt` and
+`public/fonts/ibm-plex-mono.LICENSE.txt`; font files are bundled by Vite. No Google
+Fonts request is made.
+
+`docs/images/tracker-desktop.png` is a 1280px headless Chrome capture of the actual
+Pages frontend, using the checked-in recorded `data/bootstrap.json` snapshot.
+Its delayed source-check state is preserved. No invented source post or account
+delivery appears in the README image. The terminal favicon and key burst are
+local SVG geometry.
+
 Final website assets:
 
 - `public/images/tibo-chibi.webp`: generated fan illustration, 400 by 600 pixels,

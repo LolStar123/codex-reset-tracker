@@ -1,5 +1,33 @@
 # Verification
 
+## Public Pages redesign, 2 October 2026
+
+- Verified `npm run install:ci` with Node 24.12.0. An initial Windows native-module
+  lock was resolved by stopping abandoned tracker preview processes before retrying.
+- Forty-three deterministic `test:github` regressions passed. TypeScript, targeted
+  ESLint for the changed React components, Pages build and collector build passed.
+- Forty headless Chrome checks passed: desktop 1280px, mobile 390px/320px, dark default,
+  persistent light/mute preferences, source UTC/type provenance, seconds, feed/year/date
+  filters, empty-day recovery, reply context, source links, shared refresh, retained data
+  on failure, recovery, older-snapshot protection, announcement markers, the actual
+  30-second poll, reduced motion, assets, keyboard focus and mechanical key/audio.
+- Inspected final dark/light, phone, expanded context, date-filter, failed-refresh and
+  announcement-state screenshots. Replaced captures from an accelerated QA clock
+  that froze animation frames; the final evidence uses real browser time.
+- `npm run dev:pages` and `npm run preview:pages` served the expected repository path.
+  Browser checks used controlled shared-snapshot responses. No upstream source
+  collection, task installation, GitHub workflow dispatch or private account access
+  was performed. The README image uses the recorded bootstrap snapshot.
+- Main text contrast ratios against panels: dark primary 13.39:1, dark secondary
+  7.65:1, light primary 12.78:1, light secondary 5.39:1.
+- Remaining build warning: the initial JavaScript bundle is 613.17kB minified,
+  186.05kB gzip. Existing source/history coverage and scheduling limits remain.
+
+Local scripts, check receipts, copy audit and screenshots are retained in ignored
+`output/redesign-qa/`. The product preview is committed at
+`docs/images/tracker-desktop.png`. Older sections below are historical deployment
+and design evidence, not descriptions of the current public Pages deployment.
+
 ## Seconds, sound and Tibo artwork, 22 September 2026
 
 - Full and banked clocks now tick once per second in an isolated component,

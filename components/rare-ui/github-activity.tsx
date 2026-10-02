@@ -20,6 +20,7 @@ export type Contribution = {
   level: ContributionLevel;
   label?: string;
   banked?: boolean;
+  announced?: boolean;
   unavailable?: boolean;
 };
 
@@ -58,7 +59,6 @@ const CELL_FADE = { duration: 0.2, ease: EASE_OUT } as const;
 const TOOLTIP_FADE = { duration: 0.14, ease: EASE_OUT } as const;
 const TOOLTIP_EDGE = 8;
 const COLUMN_STAGGER = 0.012;
-const LABEL_BLUR = 6;
 const LABEL_REVEAL = { duration: 0.45, ease: EASE_OUT } as const;
 
 const LEVELS = [0, 1, 2, 3, 4] as const;
@@ -325,7 +325,7 @@ const ContributionGrid = ({
 }) => {
   const weeks = React.useMemo(() => toWeeks(contributions), [contributions]);
   const gap = gapFor(cellSize);
-  const [ref, columns] = useFittedColumns(cellSize, gap);
+  const [ref] = useFittedColumns(cellSize, gap);
   const [hovered, setHovered] = React.useState<HoveredDay>();
 
   const cap = Math.min(weeks.length, weeksFor(months));
@@ -395,7 +395,7 @@ const ContributionGrid = ({
                 key={day.date}
                 onPointerEnter={hover(day)}
                 tabIndex={0}
-                  className={cn("rare-cell shrink-0 rounded-[3px] bg-foreground/[0.08]", day.banked && "banked", selectedDate===day.date && "selected", day.unavailable && "unavailable")}
+                  className={cn("rare-cell shrink-0 rounded-[3px] bg-foreground/[0.08]", day.banked && "banked", day.announced && "announced", selectedDate===day.date && "selected", day.unavailable && "unavailable")}
                 style={{ width: cellSize, height: cellSize }}
                 initial={false}
                 animate={{ opacity: 1, scale: 1 }}
@@ -623,7 +623,7 @@ const GitHubActivity = ({
         cellSize={cellSize}
         months={months}
         showMonths={showMonths}
-        label={hideHeading ? "Confirmed reset activity, dates in UTC" : heading}
+        label={hideHeading ? "Recorded resets and rollout announcements, dates in UTC" : heading}
         reduceMotion={reduceMotion}
       />
 

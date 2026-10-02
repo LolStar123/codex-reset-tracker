@@ -39,14 +39,16 @@ At launch, that archive returned HTTP 403 to GitHub's runner. The imported 55-ev
 history remains intact; new updates are collected directly from Tibo's timeline.
 
 The ordinary check key can be tested without signing in to GitHub: press it and
-look for `latest collection HH:MM:SS`. Browser network tools should show a request
+look for `Collected <date> HH:MM:SS UTC`. Browser network tools should show a request
 to `monitor-data/snapshot.json`. A failed refresh leaves the last good
 clock/feed/calendar intact and offers another press.
 
 Active banked grants such as "we are loading a banked reset" automatically become
-recorded announcements. The clock says **reset announced**, and the source remains
-linked. A future promise, hypothetical statement or denial does not advance it.
+recorded announcements. The clock says **Reset announced**, and the source remains
+linked. Future promises remain planned; hypothetical statements and denials do not create delivery records.
 Delivery is still unconfirmed until source wording actually confirms it.
+The main clock measures elapsed time since the latest relevant source update, including
+a planned reset or timing revision. Its visible label and UTC source time identify that basis.
 
 For an immediate server check: **Actions > Collect reset updates > Run workflow**.
 Refreshing the site afterward picks up the published result. A red run needs a look;
