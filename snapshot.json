@@ -1,6 +1,55 @@
 {
   "posts": [
     {
+      "id": "2105863620433453166",
+      "author": "thsottiaux",
+      "text": "@hugospdx Wrong strategy?",
+      "url": "https://x.com/thsottiaux/status/2105863620433453166",
+      "at": "2026-10-02T03:33:06.000Z",
+      "parentId": "2105844830194839706",
+      "parent": {
+        "author": "hugospdx",
+        "text": "OpenAI’s strategy now is basically: model gets slow, everyone complains, Tibo drops a reset.",
+        "url": "https://x.com/hugospdx/status/2105844830194839706"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Wrong strategy?",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2105863294267560169",
+      "author": "thsottiaux",
+      "text": "@dextune Please bask",
+      "url": "https://x.com/thsottiaux/status/2105863294267560169",
+      "at": "2026-10-02T03:31:49.000Z",
+      "parentId": "2105863219550281970",
+      "parent": {
+        "author": "dextune",
+        "text": "Thanks for the reset, Tibo!\n\nBut tell me you’re not about to start capping my Dots usage… right?\n\nLet me bask in this luxury just a little longer.\n\nPretty please?",
+        "url": "https://x.com/dextune/status/2105863219550281970"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Please bask",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2105843926221660585",
+      "author": "thsottiaux",
+      "text": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.",
+      "url": "https://x.com/thsottiaux/status/2105843926221660585",
+      "at": "2026-10-02T02:14:51.000Z",
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts.",
+      "resetType": "regular",
+      "timing": "Reset expected tomorrow",
+      "provenance": "direct"
+    },
+    {
       "id": "2105672058269212820",
       "author": "thsottiaux",
       "text": "Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset. I need to come up with something new fast.",
@@ -2816,8 +2865,8 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-02T00:08:19.844Z",
-  "lastAttemptAt": "2026-10-02T00:08:19.844Z",
+  "checkedAt": "2026-10-02T05:30:19.698Z",
+  "lastAttemptAt": "2026-10-02T05:30:19.698Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
