@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2106131810921136451",
+      "author": "thsottiaux",
+      "text": "Reset all propagated. Enjoy.",
+      "url": "https://x.com/thsottiaux/status/2106131810921136451",
+      "at": "2026-10-02T21:18:48.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.",
+        "url": "https://x.com/thsottiaux/status/2105843926221660585"
+      },
+      "parentMissing": false,
+      "category": "confirmed",
+      "summary": "Reset all propagated. Enjoy.",
+      "resetType": "regular",
+      "provenance": "direct",
+      "eventBasis": "confirmation"
+    },
+    {
       "id": "2105863620433453166",
       "author": "thsottiaux",
       "text": "@hugospdx Wrong strategy?",
@@ -2863,10 +2881,19 @@
         "2102463847714247142"
       ],
       "basis": "announcement"
+    },
+    {
+      "id": "2106131810921136451",
+      "date": "2026-10-02",
+      "type": "regular",
+      "postIds": [
+        "2106131810921136451"
+      ],
+      "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-02T20:59:20.947Z",
-  "lastAttemptAt": "2026-10-02T20:59:20.947Z",
+  "checkedAt": "2026-10-03T00:20:18.886Z",
+  "lastAttemptAt": "2026-10-03T00:20:18.886Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
