@@ -1,6 +1,53 @@
 {
   "posts": [
     {
+      "id": "2106239912932692085",
+      "author": "thsottiaux",
+      "text": "@_architected Yeah no, that was my bad for not propagating it at 10am quite perfectly. This is something that will be better planned next time, apologies.",
+      "url": "https://x.com/thsottiaux/status/2106239912932692085",
+      "at": "2026-10-03T04:28:21.000Z",
+      "parentId": "2106083508267724809",
+      "parent": {
+        "author": "_architected",
+        "text": "i've started hating this reset bullshit so fucking much.\n\n- so i have a reset coming on Sunday anyway, with about 30% left.\n- they announce that the reset will happen on Friday @ 10 am.\n- ok, i don't want to lose my 30%, so i spin up Astra and use it for some big refactoring work i was planning to do over the weekend.\n- there's no reset @ 10 am because their compute power probably can't handle it right now, so they just go completely silent.",
+        "url": "https://x.com/_architected/status/2106083508267724809"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "Yeah no, that was my bad for not propagating it at 10am quite perfectly. This is something that will be better planned next time, apologies.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2106239435461579088",
+      "author": "thsottiaux",
+      "text": "All fixed. Surprising number of Pro 500 users on here.",
+      "url": "https://x.com/thsottiaux/status/2106239435461579088",
+      "at": "2026-10-03T04:26:28.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Seeing some reports that the Pro 500 didn’t get the reset as expected earlier. Investigating and will make up for it",
+        "url": "https://x.com/thsottiaux/status/2106233145163141249"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "All fixed. Surprising number of Pro 500 users on here.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2106233145163141249",
+      "author": "thsottiaux",
+      "text": "Seeing some reports that the Pro 500 didn’t get the reset as expected earlier. Investigating and will make up for it",
+      "url": "https://x.com/thsottiaux/status/2106233145163141249",
+      "at": "2026-10-03T04:01:28.000Z",
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Seeing some reports that the Pro 500 didn’t get the reset as expected earlier. Investigating and will make up for it",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2106131810921136451",
       "author": "thsottiaux",
       "text": "Reset all propagated. Enjoy.",
@@ -2892,8 +2939,8 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-03T00:20:18.886Z",
-  "lastAttemptAt": "2026-10-03T00:20:18.886Z",
+  "checkedAt": "2026-10-03T05:28:57.005Z",
+  "lastAttemptAt": "2026-10-03T05:28:57.005Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
