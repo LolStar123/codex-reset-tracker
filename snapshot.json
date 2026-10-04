@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "2106845241357824205",
+      "author": "thsottiaux",
+      "text": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.",
+      "url": "https://x.com/thsottiaux/status/2106845241357824205",
+      "at": "2026-10-04T20:33:43.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "All right, we’re locking in. Only things being worked on are simplifications, more efficiency for more usage, groundbreaking features or new models. \n\nSometimes you have to invest ahead of the curve, but feedback is clear that you all want things to get simpler. On it.",
+        "url": "https://x.com/thsottiaux/status/2106610099720720811"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2106609390577156384",
       "author": "thsottiaux",
       "text": "@hiarun02 There is a full usage dashboard in the app now! Let me know what’s missing if anything, will fix",
@@ -2957,8 +2974,8 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-04T18:49:39.507Z",
-  "lastAttemptAt": "2026-10-04T18:49:39.507Z",
+  "checkedAt": "2026-10-04T22:00:05.696Z",
+  "lastAttemptAt": "2026-10-04T22:00:05.696Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
