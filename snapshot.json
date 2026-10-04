@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2106609390577156384",
+      "author": "thsottiaux",
+      "text": "@hiarun02 There is a full usage dashboard in the app now! Let me know what’s missing if anything, will fix",
+      "url": "https://x.com/thsottiaux/status/2106609390577156384",
+      "at": "2026-10-04T04:56:32.000Z",
+      "parentId": "2106454561372459192",
+      "parent": {
+        "author": "hiarun02",
+        "text": "The one thing missing from Codex is transparency. I wanna know what’s actually eating my usage.",
+        "url": "https://x.com/hiarun02/status/2106454561372459192"
+      },
+      "parentMissing": false,
+      "category": "clarification",
+      "summary": "There is a full usage dashboard in the app now! Let me know what’s missing if anything, will fix",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2106239912932692085",
       "author": "thsottiaux",
       "text": "@_architected Yeah no, that was my bad for not propagating it at 10am quite perfectly. This is something that will be better planned next time, apologies.",
@@ -2939,12 +2957,12 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-03T23:59:37.129Z",
-  "lastAttemptAt": "2026-10-04T05:30:13.068Z",
+  "checkedAt": "2026-10-04T11:15:40.989Z",
+  "lastAttemptAt": "2026-10-04T11:15:40.989Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": "Historical source unavailable: Error: Source returned 403"
