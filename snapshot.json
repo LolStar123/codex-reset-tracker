@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2106967126250791091",
+      "author": "thsottiaux",
+      "text": "@hiarun02 Facts",
+      "url": "https://x.com/thsottiaux/status/2106967126250791091",
+      "at": "2026-10-05T04:38:03.000Z",
+      "parentId": "2106960991737311651",
+      "parent": {
+        "author": "hiarun02",
+        "text": "Wait what, Codex users get a free reset every day for 28 days if OpenAI doesn’t ship a meaningful update?",
+        "url": "https://x.com/hiarun02/status/2106960991737311651"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Facts",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2106845241357824205",
       "author": "thsottiaux",
       "text": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.",
@@ -2974,12 +2992,12 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-04T22:00:05.696Z",
-  "lastAttemptAt": "2026-10-05T00:42:51.936Z",
+  "checkedAt": "2026-10-05T06:15:45.565Z",
+  "lastAttemptAt": "2026-10-05T06:15:45.565Z",
   "historyCheckedAt": "2026-09-23T16:25:13.797Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": "Historical source unavailable: Error: Source returned 403"
