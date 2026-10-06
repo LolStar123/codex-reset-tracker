@@ -1,6 +1,78 @@
 {
   "posts": [
     {
+      "id": "2107320000554123426",
+      "author": "thsottiaux",
+      "text": "@poteto @bot Will be even more blissful to manage both",
+      "url": "https://x.com/thsottiaux/status/2107320000554123426",
+      "at": "2026-10-06T04:00:14.000Z",
+      "parentId": "2107310695373287731",
+      "parent": {
+        "author": "poteto",
+        "text": "@thsottiaux @bot Maybe you should let me poast while you focus on your 28 days of resets",
+        "url": "https://x.com/poteto/status/2107310695373287731"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "Will be even more blissful to manage both",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2107314411975381479",
+      "author": "thsottiaux",
+      "text": "@DhruvJain08 @poteto Let’s call upon the @poteto",
+      "url": "https://x.com/thsottiaux/status/2107314411975381479",
+      "at": "2026-10-06T03:38:02.000Z",
+      "parentId": "2107312311254065499",
+      "parent": {
+        "author": "DhruvJain08",
+        "text": "@thsottiaux waiting for @poteto to lurk in here and drop a meme rather than reset my grok bot usage or some credits instead. :///",
+        "url": "https://x.com/DhruvJain08/status/2107312311254065499"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Let’s call upon the @poteto",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2107301501215613206",
+      "author": "thsottiaux",
+      "text": "@kimmonismus You can be part of the judge panel for the 28 days",
+      "url": "https://x.com/thsottiaux/status/2107301501215613206",
+      "at": "2026-10-06T02:46:44.000Z",
+      "parentId": "2107159574474064141",
+      "parent": {
+        "author": "kimmonismus",
+        "text": "Fair enough, id take this update instead of a reset:\n\nGPT-6-Astra and GPT-6.1 Sol now reach 50 token per second instead of 30 token per second.",
+        "url": "https://x.com/kimmonismus/status/2107159574474064141"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "You can be part of the judge panel for the 28 days",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2107295089416708515",
+      "author": "thsottiaux",
+      "text": "@miu21590 We rolled out the Astra changes earlier. The 50 TPS is what you’re after",
+      "url": "https://x.com/thsottiaux/status/2107295089416708515",
+      "at": "2026-10-06T02:21:15.000Z",
+      "parentId": "2107211502835114019",
+      "parent": {
+        "author": "miu21590",
+        "text": "It's been 3 hours since Tibo promised to improve the speed for Astra and Sol 6.1 in Codex\n\nAs a result, Sol 6.1 really did get faster, but Astra 6 didn't\n\nSo either Tibo lied about the timing or about the model, either way we have the right to get a reset",
+        "url": "https://x.com/miu21590/status/2107211502835114019"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "We rolled out the Astra changes earlier. The 50 TPS is what you’re after",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2107158998495748264",
       "author": "thsottiaux",
       "text": "Day 1/\n\nWe have optimized the default speed to be ~50% faster across GPT-6 Astra and GPT-6.1 Sol through the subscription across all our products and partners using Sign in With ChatGPT (including OpenCode, Pi, Amp, Devin, ...).\n\nNo changes needed on your end and this should be felt within the next two hours.",
@@ -3009,9 +3081,9 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-06T01:55:23.041Z",
-  "lastAttemptAt": "2026-10-06T01:55:23.041Z",
-  "historyCheckedAt": "2026-10-06T01:52:40.284Z",
+  "checkedAt": "2026-10-06T08:29:10.604Z",
+  "lastAttemptAt": "2026-10-06T08:29:10.604Z",
+  "historyCheckedAt": "2026-10-06T08:25:24.068Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
