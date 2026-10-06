@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2107558288934216153",
+      "author": "thsottiaux",
+      "text": "@babayagatwt No dodge, just three updates today",
+      "url": "https://x.com/thsottiaux/status/2107558288934216153",
+      "at": "2026-10-06T19:47:07.000Z",
+      "parentId": "2107557816080953440",
+      "parent": {
+        "author": "babayagatwt",
+        "text": "2.1 saved you from giving us a reset\n\nI use it a lot and it was eating a real chunk of my usage. making that free is a real win for me.\n\nBut 2.2 was not a substantial improvement.\n\ndon't stretch the pledge into tiny wins just to dodge the reset.",
+        "url": "https://x.com/babayagatwt/status/2107557816080953440"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "No dodge, just three updates today",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2107320000554123426",
       "author": "thsottiaux",
       "text": "@poteto @bot Will be even more blissful to manage both",
@@ -3081,9 +3099,9 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-06T15:24:14.682Z",
-  "lastAttemptAt": "2026-10-06T15:24:14.682Z",
-  "historyCheckedAt": "2026-10-06T15:24:16.973Z",
+  "checkedAt": "2026-10-06T20:27:08.374Z",
+  "lastAttemptAt": "2026-10-06T20:27:08.374Z",
+  "historyCheckedAt": "2026-10-06T20:27:10.200Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
