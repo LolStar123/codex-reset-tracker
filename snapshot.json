@@ -1,6 +1,131 @@
 {
   "posts": [
     {
+      "id": "2107592473048715573",
+      "author": "thsottiaux",
+      "text": "@TokenGremlin I accept your vote",
+      "url": "https://x.com/thsottiaux/status/2107592473048715573",
+      "at": "2026-10-06T22:02:57.000Z",
+      "parentId": "2107558459713425516",
+      "parent": {
+        "author": "TokenGremlin",
+        "text": "Tibo would never let me be one of the judges for these “improvements” he keeps announcing, because I would’ve already voted for a reset today.",
+        "url": "https://x.com/TokenGremlin/status/2107558459713425516"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "I accept your vote",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2107592271952748814",
+      "author": "thsottiaux",
+      "text": "@adonis_singh Is this how the internet works 👀",
+      "url": "https://x.com/thsottiaux/status/2107592271952748814",
+      "at": "2026-10-06T22:02:09.000Z",
+      "parentId": "2107583320569819588",
+      "parent": {
+        "author": "adonis_singh",
+        "text": "it's a mistake to even ask this, everyone will vote for reset even they launch something insane lol",
+        "url": "https://x.com/adonis_singh/status/2107583320569819588"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Is this how the internet works 👀",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2107587334661378382",
+      "author": "thsottiaux",
+      "text": "@AionForge Feels right, but such is the game",
+      "url": "https://x.com/thsottiaux/status/2107587334661378382",
+      "at": "2026-10-06T21:42:32.000Z",
+      "parentId": "2107586415953391622",
+      "parent": {
+        "author": "AionForge",
+        "text": "You guys could ship Astra 502.1 and we’d still vote reset",
+        "url": "https://x.com/AionForge/status/2107586415953391622"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Feels right, but such is the game",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2107586622766366739",
+      "author": "thsottiaux",
+      "text": "@theo The math doesn’t math, but the rules are the rules",
+      "url": "https://x.com/thsottiaux/status/2107586622766366739",
+      "at": "2026-10-06T21:39:42.000Z",
+      "parentId": "2107581475755589952",
+      "parent": {
+        "author": "theo",
+        "text": "@thsottiaux Good day but I do need a reset",
+        "url": "https://x.com/theo/status/2107581475755589952"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "The math doesn’t math, but the rules are the rules",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2107579151322591412",
+      "author": "thsottiaux",
+      "text": "@MerkleGhost @SSHCodes OK fake tibo",
+      "url": "https://x.com/thsottiaux/status/2107579151322591412",
+      "at": "2026-10-06T21:10:01.000Z",
+      "parentId": "2107577110311362866",
+      "parent": {
+        "author": "MerkleGhost",
+        "text": "@thsottiaux @SSHCodes Great day, but a reset would be sick.",
+        "url": "https://x.com/MerkleGhost/status/2107577110311362866"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "OK fake tibo",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2107578625419866469",
+      "author": "thsottiaux",
+      "text": "Four updates or a reset. Or both. How was day 2.",
+      "url": "https://x.com/thsottiaux/status/2107578625419866469",
+      "at": "2026-10-06T21:07:55.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Vote",
+        "url": "https://x.com/thsottiaux/status/2107576143285219799"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Four updates or a reset. Or both. How was day 2.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2107577536779870210",
+      "author": "thsottiaux",
+      "text": "@The_Alex I do like giving resets",
+      "url": "https://x.com/thsottiaux/status/2107577536779870210",
+      "at": "2026-10-06T21:03:36.000Z",
+      "parentId": "2107574802534052325",
+      "parent": {
+        "author": "The_Alex",
+        "text": "Weighing these updates against a reset was a bad idea",
+        "url": "https://x.com/The_Alex/status/2107574802534052325"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "I do like giving resets",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2107558288934216153",
       "author": "thsottiaux",
       "text": "@babayagatwt No dodge, just three updates today",
@@ -3099,9 +3224,9 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-06T20:27:08.374Z",
-  "lastAttemptAt": "2026-10-06T20:27:08.374Z",
-  "historyCheckedAt": "2026-10-06T20:27:10.200Z",
+  "checkedAt": "2026-10-06T23:58:54.870Z",
+  "lastAttemptAt": "2026-10-06T23:58:54.870Z",
+  "historyCheckedAt": "2026-10-06T23:58:57.903Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
