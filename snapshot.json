@@ -1,6 +1,60 @@
 {
   "posts": [
     {
+      "id": "2107676653895967106",
+      "author": "thsottiaux",
+      "text": "Also! Good evening!!",
+      "url": "https://x.com/thsottiaux/status/2107676653895967106",
+      "at": "2026-10-07T03:37:27.000Z",
+      "parentId": "2107676072871600470",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset. I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment.\n\nTherefore ... the reset has been processed. Enjoy!",
+        "url": "https://x.com/thsottiaux/status/2107676072871600470"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Also! Good evening!!",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2107676261099426030",
+      "author": "thsottiaux",
+      "text": "And we won't unship the improvements. You get to have your cake and eat it too. See you tomorrow for Day 3!",
+      "url": "https://x.com/thsottiaux/status/2107676261099426030",
+      "at": "2026-10-07T03:35:54.000Z",
+      "parentId": "2107676072871600470",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset. I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment.\n\nTherefore ... the reset has been processed. Enjoy!",
+        "url": "https://x.com/thsottiaux/status/2107676072871600470"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "And we won't unship the improvements. You get to have your cake and eat it too. See you tomorrow for Day 3!",
+      "resetType": "regular",
+      "timing": "Reset expected tomorrow",
+      "provenance": "direct"
+    },
+    {
+      "id": "2107676072871600470",
+      "author": "thsottiaux",
+      "text": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset. I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment.\n\nTherefore ... the reset has been processed. Enjoy!",
+      "url": "https://x.com/thsottiaux/status/2107676072871600470",
+      "at": "2026-10-07T03:35:09.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Roundup of Day 2/\n\n2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you.\n2.2/ Simplified API for builders.\n2.3/ Meeting notes integrated.\n2.4/ Decisions API live for builders. Will use in the app to improve the experience.",
+        "url": "https://x.com/thsottiaux/status/2107575657014468879"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2107592473048715573",
       "author": "thsottiaux",
       "text": "@TokenGremlin I accept your vote",
@@ -3224,9 +3278,9 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-06T23:58:54.870Z",
-  "lastAttemptAt": "2026-10-06T23:58:54.870Z",
-  "historyCheckedAt": "2026-10-06T23:58:57.903Z",
+  "checkedAt": "2026-10-07T05:18:14.177Z",
+  "lastAttemptAt": "2026-10-07T05:18:14.177Z",
+  "historyCheckedAt": "2026-10-07T05:16:04.189Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
