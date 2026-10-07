@@ -1,6 +1,41 @@
 {
   "posts": [
     {
+      "id": "2107913738791596286",
+      "author": "thsottiaux",
+      "text": "Will be there by EOD PST.",
+      "url": "https://x.com/thsottiaux/status/2107913738791596286",
+      "at": "2026-10-07T19:19:33.000Z",
+      "parentId": "2107913674593644711",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Day 3/\n\nThe big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work.\n\nLoading a banked reset in everyone's paid accounts. See you again tomorrow!",
+        "url": "https://x.com/thsottiaux/status/2107913674593644711"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "Will be there by EOD PST.",
+      "resetType": "banked",
+      "provenance": "direct"
+    },
+    {
+      "id": "2107913674593644711",
+      "author": "thsottiaux",
+      "text": "Day 3/\n\nThe big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work.\n\nLoading a banked reset in everyone's paid accounts. See you again tomorrow!",
+      "url": "https://x.com/thsottiaux/status/2107913674593644711",
+      "at": "2026-10-07T19:19:17.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Roundup of Day 2/\n\n2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you.\n2.2/ Simplified API for builders.\n2.3/ Meeting notes integrated.\n2.4/ Decisions API live for builders. Will use in the app to improve the experience.",
+        "url": "https://x.com/thsottiaux/status/2107575657014468879"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Loading a banked reset in everyone's paid accounts.",
+      "resetType": "banked",
+      "provenance": "direct"
+    },
+    {
       "id": "2107676653895967106",
       "author": "thsottiaux",
       "text": "Also! Good evening!!",
@@ -3278,12 +3313,12 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-07T05:18:14.177Z",
-  "lastAttemptAt": "2026-10-07T17:59:19.960Z",
-  "historyCheckedAt": "2026-10-07T05:16:04.189Z",
+  "checkedAt": "2026-10-07T22:57:27.945Z",
+  "lastAttemptAt": "2026-10-07T22:57:27.945Z",
+  "historyCheckedAt": "2026-10-07T22:57:30.898Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
