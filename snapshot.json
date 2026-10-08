@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2108040921044639779",
+      "author": "thsottiaux",
+      "text": "Confirmed landed across all accounts. How are we doing so far?",
+      "url": "https://x.com/thsottiaux/status/2108040921044639779",
+      "at": "2026-10-08T03:44:55.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Day 3/\n\nThe big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work.\n\nLoading a banked reset in everyone's paid accounts. See you again tomorrow!",
+        "url": "https://x.com/thsottiaux/status/2107913674593644711"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Confirmed landed across all accounts. How are we doing so far?",
+      "resetType": "banked",
+      "scope": "all accounts",
+      "provenance": "direct"
+    },
+    {
       "id": "2107913738791596286",
       "author": "thsottiaux",
       "text": "Will be there by EOD PST.",
@@ -3313,9 +3331,9 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-08T02:35:18.275Z",
-  "lastAttemptAt": "2026-10-08T02:35:18.275Z",
-  "historyCheckedAt": "2026-10-08T02:34:09.778Z",
+  "checkedAt": "2026-10-08T09:26:07.770Z",
+  "lastAttemptAt": "2026-10-08T09:26:07.770Z",
+  "historyCheckedAt": "2026-10-08T09:24:34.742Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
