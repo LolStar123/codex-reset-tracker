@@ -3331,9 +3331,9 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-09T23:34:31.180Z",
-  "lastAttemptAt": "2026-10-09T23:34:31.180Z",
-  "historyCheckedAt": "2026-10-09T23:31:09.563Z",
+  "checkedAt": "2026-10-10T02:41:45.448Z",
+  "lastAttemptAt": "2026-10-10T02:41:45.448Z",
+  "historyCheckedAt": "2026-10-10T02:39:32.393Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
