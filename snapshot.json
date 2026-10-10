@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2108778939057664357",
+      "author": "thsottiaux",
+      "text": "@rohit3a Folks. Why do you think we picked 300k for context length for Codex. \n\nWe ran the numbers and it’s better. We can run it at 1M too but it would just cost more of the usage. Good defaults are important.",
+      "url": "https://x.com/thsottiaux/status/2108778939057664357",
+      "at": "2026-10-10T04:37:32.000Z",
+      "parentId": "2108277836285161798",
+      "parent": {
+        "author": "rohit3a",
+        "text": "Did some digging and apparently setting /autocompact to 400k would have saved me 29% of my weekly usage without lobotomizing Claude.",
+        "url": "https://x.com/rohit3a/status/2108277836285161798"
+      },
+      "parentMissing": false,
+      "category": "clarification",
+      "summary": "Folks. Why do you think we picked 300k for context length for Codex. \n\nWe ran the numbers and it’s better. We can run it at 1M too but it would just cost more of the usage. Good defaults are important.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2108040921044639779",
       "author": "thsottiaux",
       "text": "Confirmed landed across all accounts. How are we doing so far?",
@@ -3331,9 +3349,9 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-10T02:41:45.448Z",
-  "lastAttemptAt": "2026-10-10T02:41:45.448Z",
-  "historyCheckedAt": "2026-10-10T02:39:32.393Z",
+  "checkedAt": "2026-10-10T09:02:28.596Z",
+  "lastAttemptAt": "2026-10-10T09:02:28.596Z",
+  "historyCheckedAt": "2026-10-10T09:02:30.463Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
