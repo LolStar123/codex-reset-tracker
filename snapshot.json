@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2109142061014466866",
+      "author": "thsottiaux",
+      "text": "@SiftByte You are doing more math than I am",
+      "url": "https://x.com/thsottiaux/status/2109142061014466866",
+      "at": "2026-10-11T04:40:27.000Z",
+      "parentId": "2109140410723639741",
+      "parent": {
+        "author": "SiftByte",
+        "text": "OpenAI and Anthropic keep handing out free usage resets. I got curious about how much this actually costs them.\n\nLet's do some math.\n\nAt GPT-6 Sol / Claude Sonnet 5.5 API rates:\n→ 2M input tokens = $4\n→ 500K output tokens = $5\n→ That's $9 of API-equivalent usage per user.\n\nNow imagine 1M eligible accounts. 30% redeem their reset, and half that usage is genuinely additional.\n\nThat's $1.35M in API-equivalent usage, but NOT $1.35M in actual GPU costs.\n\nThose numbers aren't public.\n\nAnd there's another catch: OpenAI's banked reset moves your next weekly reset date. It's partly borrowing usage from the future.\n\nWhy give them away?\nBecause keeping developers building, reducing churn, and getting people hooked on new workflows can be worth more than the extra compute.\n\nIf the reset costs less than the subscriptions it saves, it's a pretty good trade.\n\nI'm curious: would you rather get a smarter model or more usage of the one you already have?",
+        "url": "https://x.com/SiftByte/status/2109140410723639741"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "You are doing more math than I am",
+      "resetType": "banked",
+      "provenance": "direct"
+    },
+    {
+      "id": "2109132167112782291",
+      "author": "thsottiaux",
+      "text": "Put the reset in the bag. All propagated.",
+      "url": "https://x.com/thsottiaux/status/2109132167112782291",
+      "at": "2026-10-11T04:01:09.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Global reset by EOD. May the tokens do good things for you.",
+        "url": "https://x.com/thsottiaux/status/2109045392684032299"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Put the reset in the bag. All propagated.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2109090080497508356",
+      "author": "thsottiaux",
+      "text": "The day we reach perfection it will be resets from there onwards",
+      "url": "https://x.com/thsottiaux/status/2109090080497508356",
+      "at": "2026-10-11T01:13:54.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Day 6/ Reset",
+        "url": "https://x.com/thsottiaux/status/2109045220411351517"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "The day we reach perfection it will be resets from there onwards",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2109045392684032299",
       "author": "thsottiaux",
       "text": "Global reset by EOD. May the tokens do good things for you.",
@@ -3379,12 +3431,12 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-10T22:40:55.750Z",
-  "lastAttemptAt": "2026-10-11T07:16:12.819Z",
-  "historyCheckedAt": "2026-10-10T22:37:04.445Z",
+  "checkedAt": "2026-10-11T14:07:50.544Z",
+  "lastAttemptAt": "2026-10-11T14:07:50.544Z",
+  "historyCheckedAt": "2026-10-11T14:05:31.410Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
