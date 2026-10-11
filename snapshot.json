@@ -3432,11 +3432,11 @@
     }
   ],
   "checkedAt": "2026-10-11T14:07:50.544Z",
-  "lastAttemptAt": "2026-10-11T14:07:50.544Z",
+  "lastAttemptAt": "2026-10-11T18:50:52.551Z",
   "historyCheckedAt": "2026-10-11T14:05:31.410Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": null,
+  "error": "Error: Source returned 404",
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
