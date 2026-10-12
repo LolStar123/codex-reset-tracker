@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2109491121441402912",
+      "author": "thsottiaux",
+      "text": "@AbdoKerdawy We made it cheaper and tuned it to the new recommended level. \n\nYou can always change settings, but defaults exist for a reason.",
+      "url": "https://x.com/thsottiaux/status/2109491121441402912",
+      "at": "2026-10-12T03:47:30.000Z",
+      "parentId": "2109433087192924554",
+      "parent": {
+        "author": "AbdoKerdawy",
+        "text": "WHAT ARE YOU ALL EXCITED ABOUT \n\nWE LITERALLY JUST GOT SCAMMED WTF\n\nIt has always been the case that we can edit the context window. \n\nAnd now instead of a reset we get \"default context lenght went up by 80%\"?\n\nIt was always editable bro...",
+        "url": "https://x.com/AbdoKerdawy/status/2109433087192924554"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "We made it cheaper and tuned it to the new recommended level. \n\nYou can always change settings, but defaults exist for a reason.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2109438305188327838",
       "author": "thsottiaux",
       "text": "@birdabo @poteto We're all proud of you @birdabo. Thank you for solving this one, hadn't thought about it",
@@ -3449,9 +3467,9 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-12T01:41:36.699Z",
-  "lastAttemptAt": "2026-10-12T01:41:36.699Z",
-  "historyCheckedAt": "2026-10-12T01:41:38.154Z",
+  "checkedAt": "2026-10-12T07:59:54.304Z",
+  "lastAttemptAt": "2026-10-12T07:59:54.304Z",
+  "historyCheckedAt": "2026-10-12T07:55:16.638Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
