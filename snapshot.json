@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "2109812360596865224",
+      "author": "thsottiaux",
+      "text": "Global reset landing by EOD PST time. Enjoy",
+      "url": "https://x.com/thsottiaux/status/2109812360596865224",
+      "at": "2026-10-13T01:03:59.000Z",
+      "parentId": "2109812216212099456",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Day 8/ Reset",
+        "url": "https://x.com/thsottiaux/status/2109812216212099456"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "Global reset landing by EOD PST time. Enjoy",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2109812216212099456",
+      "author": "thsottiaux",
+      "text": "Day 8/ Reset",
+      "url": "https://x.com/thsottiaux/status/2109812216212099456",
+      "at": "2026-10-13T01:03:25.000Z",
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Day 8/ Reset",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2109491121441402912",
       "author": "thsottiaux",
       "text": "@AbdoKerdawy We made it cheaper and tuned it to the new recommended level. \n\nYou can always change settings, but defaults exist for a reason.",
@@ -3467,9 +3497,9 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-12T23:46:54.769Z",
-  "lastAttemptAt": "2026-10-12T23:46:54.769Z",
-  "historyCheckedAt": "2026-10-12T23:46:56.534Z",
+  "checkedAt": "2026-10-13T03:56:28.267Z",
+  "lastAttemptAt": "2026-10-13T03:56:28.267Z",
+  "historyCheckedAt": "2026-10-13T03:51:37.205Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
