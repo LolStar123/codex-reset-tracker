@@ -1,6 +1,41 @@
 {
   "posts": [
     {
+      "id": "2109873307722121591",
+      "author": "thsottiaux",
+      "text": "Mashed @poteto on the house.",
+      "url": "https://x.com/thsottiaux/status/2109873307722121591",
+      "at": "2026-10-13T05:06:10.000Z",
+      "parentId": "2109873287853707513",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "What would you like with your side of reset? It's done.",
+        "url": "https://x.com/thsottiaux/status/2109873287853707513"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Mashed @poteto on the house.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2109873287853707513",
+      "author": "thsottiaux",
+      "text": "What would you like with your side of reset? It's done.",
+      "url": "https://x.com/thsottiaux/status/2109873287853707513",
+      "at": "2026-10-13T05:06:06.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Global reset landing by EOD PST time. Enjoy",
+        "url": "https://x.com/thsottiaux/status/2109812360596865224"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "What would you like with your side of reset? It's done.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2109812360596865224",
       "author": "thsottiaux",
       "text": "Global reset landing by EOD PST time. Enjoy",
@@ -3497,9 +3532,9 @@
       "basis": "confirmation"
     }
   ],
-  "checkedAt": "2026-10-13T03:56:28.267Z",
-  "lastAttemptAt": "2026-10-13T03:56:28.267Z",
-  "historyCheckedAt": "2026-10-13T03:51:37.205Z",
+  "checkedAt": "2026-10-13T11:25:42.776Z",
+  "lastAttemptAt": "2026-10-13T11:25:42.776Z",
+  "historyCheckedAt": "2026-10-13T11:24:38.714Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
