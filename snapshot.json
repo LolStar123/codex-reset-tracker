@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110618732666257557",
+      "author": "thsottiaux",
+      "at": "2026-10-15T06:28:13.000Z",
+      "text": "Done and dusted https://t.co/0fehr43VS4",
+      "url": "https://x.com/thsottiaux/status/2110618732666257557",
+      "summary": "Done and dusted",
+      "category": "confirmed",
+      "resetType": "regular",
+      "provenance": "history"
+    },
+    {
+      "id": "2110595554036400151",
+      "author": "thsottiaux",
+      "text": "Landing within the next 2 hours",
+      "url": "https://x.com/thsottiaux/status/2110595554036400151",
+      "at": "2026-10-15T04:56:07.000Z",
+      "parentId": "2110595484180214059",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "The reports of my reset button being lost are greatly exaggerated\n\nDay 10/ Reset",
+        "url": "https://x.com/thsottiaux/status/2110595484180214059"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "Landing within the next 2 hours",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2110595484180214059",
+      "author": "thsottiaux",
+      "text": "The reports of my reset button being lost are greatly exaggerated\n\nDay 10/ Reset",
+      "url": "https://x.com/thsottiaux/status/2110595484180214059",
+      "at": "2026-10-15T04:55:51.000Z",
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "The reports of my reset button being lost are greatly exaggerated\n\nDay 10/ Reset",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2109873307722121591",
       "author": "thsottiaux",
       "text": "Mashed @poteto on the house.",
@@ -3530,11 +3571,20 @@
         "2106131810921136451"
       ],
       "basis": "confirmation"
+    },
+    {
+      "id": "2110618732666257557",
+      "date": "2026-10-15",
+      "type": "regular",
+      "postIds": [
+        "2110618732666257557"
+      ],
+      "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-15T01:46:19.707Z",
-  "lastAttemptAt": "2026-10-15T01:46:19.707Z",
-  "historyCheckedAt": "2026-10-15T01:42:11.875Z",
+  "checkedAt": "2026-10-15T06:31:51.827Z",
+  "lastAttemptAt": "2026-10-15T06:31:51.827Z",
+  "historyCheckedAt": "2026-10-15T06:29:48.979Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
