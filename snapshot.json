@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2110951585983631505",
+      "author": "thsottiaux",
+      "text": "@maria_rcks Can’t argue with that, Let’s break the cycle.",
+      "url": "https://x.com/thsottiaux/status/2110951585983631505",
+      "at": "2026-10-16T04:30:52.000Z",
+      "parentId": "2110880198660882719",
+      "parent": {
+        "author": "maria_rcks",
+        "text": "I miss the old Tibo, reset the usage Tibo\nThe “oops, again” Tibo, back to a hundred Tibo\nI hate the new Tibo, arguing in quotes Tibo\nThe 28 days Tibo, beefing with poteto Tibo\nI miss the sweet Tibo, free weekend reset Tibo\nI gotta say, back then I’d never hit my weekly, Tibo\nSee I believed in Tibo, there weren’t any Tibos\nAnd now I look around and there's so many Tibos",
+        "url": "https://x.com/maria_rcks/status/2110880198660882719"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Can’t argue with that, Let’s break the cycle.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2110618732666257557",
       "author": "thsottiaux",
       "at": "2026-10-15T06:28:13.000Z",
@@ -3582,9 +3600,9 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-16T01:10:42.424Z",
-  "lastAttemptAt": "2026-10-16T01:10:42.424Z",
-  "historyCheckedAt": "2026-10-16T01:07:21.283Z",
+  "checkedAt": "2026-10-16T05:50:45.917Z",
+  "lastAttemptAt": "2026-10-16T05:50:45.917Z",
+  "historyCheckedAt": "2026-10-16T05:50:45.224Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
