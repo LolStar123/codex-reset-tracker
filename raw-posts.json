@@ -53886,7 +53886,7 @@
       "screen_name": "_simonsmith",
       "url": "https://x.com/_simonsmith",
       "id": "1693585632965148672",
-      "followers": 5581,
+      "followers": 5588,
       "following": 958,
       "likes": 3187,
       "media_count": 1764,
@@ -53895,7 +53895,17 @@
       "description": "EVP Generative AI @klickhealth",
       "raw_description": {
         "text": "EVP Generative AI @klickhealth",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              18,
+              30
+            ],
+            "original": "klickhealth",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "https://pbs.twimg.com/profile_banners/1693585632965148672/1740177505",
@@ -53910,15 +53920,15 @@
       },
       "type": "profile"
     },
-    "replies": 40,
+    "replies": 41,
     "reposts": 13,
-    "likes": 323,
-    "bookmarks": 115,
+    "likes": 337,
+    "bookmarks": 119,
     "quotes": 6,
     "embed_card": "tweet",
     "created_at": "Thu Oct 15 20:11:03 +0000 2026",
     "created_timestamp": 1792095063,
-    "views": 76464,
+    "views": 83357,
     "is_note_tweet": true,
     "community_note": null,
     "lang": "en",
@@ -53954,11 +53964,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -53990,13 +54000,13 @@
     },
     "replies": 36,
     "reposts": 1,
-    "likes": 210,
+    "likes": 217,
     "bookmarks": 8,
     "quotes": 0,
     "embed_card": "tweet",
     "created_at": "Thu Oct 15 22:59:20 +0000 2026",
     "created_timestamp": 1792105160,
-    "views": 54623,
+    "views": 57263,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -54027,11 +54037,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -54061,15 +54071,15 @@
       },
       "type": "profile"
     },
-    "replies": 449,
-    "reposts": 87,
-    "likes": 3995,
-    "bookmarks": 225,
+    "replies": 450,
+    "reposts": 89,
+    "likes": 4062,
+    "bookmarks": 233,
     "quotes": 20,
     "embed_card": "player",
     "created_at": "Thu Oct 15 22:45:14 +0000 2026",
     "created_timestamp": 1792104314,
-    "views": 750571,
+    "views": 835674,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "fr",
@@ -54104,7 +54114,7 @@
         "screen_name": "OpenAI",
         "url": "https://x.com/OpenAI",
         "id": "4398626122",
-        "followers": 5442799,
+        "followers": 5444889,
         "following": 4,
         "likes": 2535,
         "media_count": 746,
@@ -54142,16 +54152,16 @@
         },
         "type": "profile"
       },
-      "replies": 804,
-      "reposts": 778,
-      "likes": 10840,
-      "bookmarks": 1790,
-      "quotes": 538,
+      "replies": 812,
+      "reposts": 798,
+      "likes": 11030,
+      "bookmarks": 1814,
+      "quotes": 550,
       "embed_card": "player",
       "created_at": "Thu Oct 15 18:19:54 +0000 2026",
       "created_timestamp": 1792088394,
       "possibly_sensitive": false,
-      "views": 1702965,
+      "views": 1809731,
       "is_note_tweet": false,
       "community_note": null,
       "lang": "en",
@@ -54267,11 +54277,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -54301,15 +54311,15 @@
       },
       "type": "profile"
     },
-    "replies": 203,
+    "replies": 205,
     "reposts": 9,
-    "likes": 1303,
-    "bookmarks": 29,
+    "likes": 1346,
+    "bookmarks": 30,
     "quotes": 11,
     "embed_card": "tweet",
     "created_at": "Thu Oct 15 22:46:15 +0000 2026",
     "created_timestamp": 1792104375,
-    "views": 329920,
+    "views": 366220,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "fr",
@@ -54352,11 +54362,11 @@
       "screen_name": "maria_rcks",
       "url": "https://x.com/maria_rcks",
       "id": "2011873878440886275",
-      "followers": 25050,
-      "following": 189,
-      "likes": 11549,
+      "followers": 25068,
+      "following": 190,
+      "likes": 11552,
       "media_count": 1039,
-      "statuses": 4492,
+      "statuses": 4493,
       "name": "maria",
       "description": "doing something at @theo corp | @t3dotcodes",
       "raw_description": {
@@ -54398,16 +54408,16 @@
       },
       "type": "profile"
     },
-    "replies": 45,
+    "replies": 46,
     "reposts": 27,
-    "likes": 1248,
-    "bookmarks": 60,
+    "likes": 1274,
+    "bookmarks": 64,
     "quotes": 4,
     "embed_card": "summary_large_image",
     "created_at": "Thu Oct 15 23:47:12 +0000 2026",
     "created_timestamp": 1792108032,
     "possibly_sensitive": false,
-    "views": 170827,
+    "views": 182056,
     "is_note_tweet": true,
     "community_note": null,
     "lang": "en",
@@ -54462,11 +54472,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -54496,15 +54506,15 @@
       },
       "type": "profile"
     },
-    "replies": 103,
+    "replies": 109,
     "reposts": 14,
-    "likes": 1462,
-    "bookmarks": 28,
-    "quotes": 13,
+    "likes": 1510,
+    "bookmarks": 29,
+    "quotes": 14,
     "embed_card": "tweet",
     "created_at": "Fri Oct 16 04:30:52 +0000 2026",
     "created_timestamp": 1792125052,
-    "views": 268611,
+    "views": 289322,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -54564,11 +54574,11 @@
       "screen_name": "charlierguo",
       "url": "https://x.com/charlierguo",
       "id": "314348671",
-      "followers": 9524,
+      "followers": 9528,
       "following": 913,
       "likes": 2310,
       "media_count": 170,
-      "statuses": 1538,
+      "statuses": 1540,
       "name": "Charlie Guo",
       "description": "Developer Experience @OpenAI. Author of Artificial Ignorance, opinions are my own.",
       "raw_description": {
@@ -54601,15 +54611,15 @@
       },
       "type": "profile"
     },
-    "replies": 74,
+    "replies": 76,
     "reposts": 3,
-    "likes": 422,
-    "bookmarks": 30,
+    "likes": 442,
+    "bookmarks": 31,
     "quotes": 4,
     "embed_card": "tweet",
     "created_at": "Thu Oct 15 21:13:36 +0000 2026",
     "created_timestamp": 1792098816,
-    "views": 130901,
+    "views": 139966,
     "is_note_tweet": true,
     "community_note": null,
     "lang": "en",
@@ -54645,11 +54655,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -54679,15 +54689,15 @@
       },
       "type": "profile"
     },
-    "replies": 85,
-    "reposts": 4,
-    "likes": 472,
+    "replies": 86,
+    "reposts": 5,
+    "likes": 494,
     "bookmarks": 13,
     "quotes": 1,
     "embed_card": "tweet",
     "created_at": "Fri Oct 16 04:29:25 +0000 2026",
     "created_timestamp": 1792124965,
-    "views": 89814,
+    "views": 98100,
     "is_note_tweet": false,
     "community_note": null,
     "lang": null,
@@ -54718,11 +54728,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -54752,15 +54762,15 @@
       },
       "type": "profile"
     },
-    "replies": 3365,
-    "reposts": 305,
-    "likes": 12539,
-    "bookmarks": 393,
-    "quotes": 391,
+    "replies": 3547,
+    "reposts": 325,
+    "likes": 13302,
+    "bookmarks": 421,
+    "quotes": 417,
     "embed_card": "tweet",
     "created_at": "Fri Oct 16 05:51:55 +0000 2026",
     "created_timestamp": 1792129915,
-    "views": 1449830,
+    "views": 1824799,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -54786,11 +54796,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -54820,15 +54830,15 @@
       },
       "type": "profile"
     },
-    "replies": 74,
-    "reposts": 4,
-    "likes": 271,
-    "bookmarks": 9,
-    "quotes": 2,
+    "replies": 162,
+    "reposts": 13,
+    "likes": 682,
+    "bookmarks": 31,
+    "quotes": 13,
     "embed_card": "tweet",
     "created_at": "Sat Oct 17 00:15:54 +0000 2026",
     "created_timestamp": 1792196154,
-    "views": 58500,
+    "views": 254830,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -54871,11 +54881,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -54905,16 +54915,16 @@
       },
       "type": "profile"
     },
-    "replies": 260,
-    "reposts": 40,
-    "likes": 914,
-    "bookmarks": 145,
-    "quotes": 21,
+    "replies": 537,
+    "reposts": 84,
+    "likes": 2060,
+    "bookmarks": 361,
+    "quotes": 45,
     "embed_card": "player",
     "created_at": "Sat Oct 17 00:14:48 +0000 2026",
     "created_timestamp": 1792196088,
     "possibly_sensitive": false,
-    "views": 123137,
+    "views": 448006,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -55048,11 +55058,11 @@
       "screen_name": "codex_resets",
       "url": "https://x.com/codex_resets",
       "id": "2094439054205157376",
-      "followers": 14605,
+      "followers": 14682,
       "following": 11,
       "likes": 209,
       "media_count": 9,
-      "statuses": 128,
+      "statuses": 129,
       "name": "Codex Resets",
       "description": "We watch @thsottiaux for Codex reset announcements, so you don't have to. Not affiliated with OpenAI.",
       "raw_description": {
@@ -55085,16 +55095,16 @@
       },
       "type": "profile"
     },
-    "replies": 11,
+    "replies": 15,
     "reposts": 0,
-    "likes": 43,
-    "bookmarks": 1,
+    "likes": 87,
+    "bookmarks": 4,
     "quotes": 0,
     "embed_card": "tweet",
     "created_at": "Fri Oct 16 23:57:18 +0000 2026",
     "created_timestamp": 1792195038,
     "possibly_sensitive": false,
-    "views": 19356,
+    "views": 51518,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -55128,11 +55138,11 @@
         "screen_name": "thsottiaux",
         "url": "https://x.com/thsottiaux",
         "id": "1953337039510003712",
-        "followers": 879468,
-        "following": 75,
-        "likes": 10466,
-        "media_count": 152,
-        "statuses": 3332,
+        "followers": 882564,
+        "following": 76,
+        "likes": 10474,
+        "media_count": 153,
+        "statuses": 3338,
         "name": "Tibo",
         "description": "Codex & ChatGPT @OpenAI",
         "raw_description": {
@@ -55162,16 +55172,16 @@
         },
         "type": "profile"
       },
-      "replies": 44,
-      "reposts": 8,
-      "likes": 439,
-      "bookmarks": 19,
-      "quotes": 4,
+      "replies": 73,
+      "reposts": 10,
+      "likes": 780,
+      "bookmarks": 36,
+      "quotes": 6,
       "embed_card": "tweet",
       "created_at": "Fri Oct 16 23:57:00 +0000 2026",
       "created_timestamp": 1792195020,
       "possibly_sensitive": false,
-      "views": 87607,
+      "views": 229076,
       "is_note_tweet": false,
       "community_note": null,
       "lang": "en",
@@ -55230,11 +55240,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -55264,15 +55274,15 @@
       },
       "type": "profile"
     },
-    "replies": 18,
+    "replies": 27,
     "reposts": 1,
-    "likes": 93,
+    "likes": 156,
     "bookmarks": 5,
     "quotes": 0,
     "embed_card": "tweet",
     "created_at": "Sat Oct 17 00:01:09 +0000 2026",
     "created_timestamp": 1792195269,
-    "views": 14659,
+    "views": 35066,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "ro",
@@ -55303,11 +55313,11 @@
       "screen_name": "theo",
       "url": "https://x.com/theo",
       "id": "786375418685165568",
-      "followers": 407399,
+      "followers": 407536,
       "following": 4300,
-      "likes": 389098,
-      "media_count": 9410,
-      "statuses": 69084,
+      "likes": 389153,
+      "media_count": 9413,
+      "statuses": 69102,
       "name": "Theo - t3.gg",
       "description": "Full time CEO @t3dotcodes & @t3dotchat. Part time YouTuber, investor, and developer",
       "raw_description": {
@@ -55349,15 +55359,15 @@
       },
       "type": "profile"
     },
-    "replies": 315,
-    "reposts": 20,
-    "likes": 2751,
-    "bookmarks": 94,
-    "quotes": 15,
+    "replies": 365,
+    "reposts": 32,
+    "likes": 3759,
+    "bookmarks": 123,
+    "quotes": 22,
     "embed_card": "tweet",
     "created_at": "Fri Oct 16 18:23:08 +0000 2026",
     "created_timestamp": 1792174988,
-    "views": 114967,
+    "views": 222361,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -55393,11 +55403,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -55427,15 +55437,15 @@
       },
       "type": "profile"
     },
-    "replies": 17,
-    "reposts": 4,
-    "likes": 191,
-    "bookmarks": 2,
-    "quotes": 1,
+    "replies": 28,
+    "reposts": 5,
+    "likes": 623,
+    "bookmarks": 3,
+    "quotes": 2,
     "embed_card": "tweet",
     "created_at": "Fri Oct 16 23:59:51 +0000 2026",
     "created_timestamp": 1792195191,
-    "views": 18289,
+    "views": 64165,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -55466,11 +55476,11 @@
       "screen_name": "koltregaskes",
       "url": "https://x.com/koltregaskes",
       "id": "14069848",
-      "followers": 20862,
-      "following": 7164,
-      "likes": 207869,
+      "followers": 20868,
+      "following": 7166,
+      "likes": 207951,
       "media_count": 9415,
-      "statuses": 126301,
+      "statuses": 126310,
       "name": "Kol Tregaskes",
       "description": "UK-based AI commentary & culture. Big news, leaks, rumours, models, policy, AI tools, access & creative shifts.\n\n • Creative @Axylusion\n • News @koltregaskes2",
       "raw_description": {
@@ -55512,15 +55522,15 @@
       },
       "type": "profile"
     },
-    "replies": 27,
-    "reposts": 4,
-    "likes": 183,
-    "bookmarks": 28,
+    "replies": 32,
+    "reposts": 6,
+    "likes": 249,
+    "bookmarks": 38,
     "quotes": 1,
     "embed_card": "player",
     "created_at": "Fri Oct 16 14:27:01 +0000 2026",
     "created_timestamp": 1792160821,
-    "views": 20850,
+    "views": 36784,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -55555,7 +55565,7 @@
         "screen_name": "ChatGPT",
         "url": "https://x.com/ChatGPT",
         "id": "1714438092655149056",
-        "followers": 757475,
+        "followers": 758122,
         "following": 261,
         "likes": 1604,
         "media_count": 162,
@@ -55582,16 +55592,16 @@
         },
         "type": "profile"
       },
-      "replies": 365,
-      "reposts": 605,
-      "likes": 8714,
-      "bookmarks": 3149,
-      "quotes": 300,
+      "replies": 376,
+      "reposts": 629,
+      "likes": 8950,
+      "bookmarks": 3205,
+      "quotes": 314,
       "embed_card": "player",
       "created_at": "Thu Oct 15 20:02:51 +0000 2026",
       "created_timestamp": 1792094571,
       "possibly_sensitive": false,
-      "views": 1309596,
+      "views": 1363851,
       "is_note_tweet": true,
       "community_note": null,
       "lang": "en",
@@ -55729,11 +55739,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -55763,15 +55773,15 @@
       },
       "type": "profile"
     },
-    "replies": 5,
+    "replies": 8,
     "reposts": 0,
-    "likes": 45,
+    "likes": 84,
     "bookmarks": 2,
     "quotes": 0,
     "embed_card": "tweet",
     "created_at": "Fri Oct 16 23:58:33 +0000 2026",
     "created_timestamp": 1792195113,
-    "views": 8906,
+    "views": 17787,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -55802,11 +55812,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -55836,15 +55846,15 @@
       },
       "type": "profile"
     },
-    "replies": 897,
-    "reposts": 156,
-    "likes": 4714,
-    "bookmarks": 226,
-    "quotes": 168,
+    "replies": 1543,
+    "reposts": 278,
+    "likes": 9606,
+    "bookmarks": 444,
+    "quotes": 299,
     "embed_card": "tweet",
     "created_at": "Fri Oct 16 23:55:11 +0000 2026",
     "created_timestamp": 1792194911,
-    "views": 290514,
+    "views": 973285,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -55881,11 +55891,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -55915,16 +55925,16 @@
       },
       "type": "profile"
     },
-    "replies": 44,
-    "reposts": 8,
-    "likes": 439,
-    "bookmarks": 19,
-    "quotes": 4,
+    "replies": 73,
+    "reposts": 10,
+    "likes": 780,
+    "bookmarks": 36,
+    "quotes": 6,
     "embed_card": "summary_large_image",
     "created_at": "Fri Oct 16 23:57:00 +0000 2026",
     "created_timestamp": 1792195020,
     "possibly_sensitive": false,
-    "views": 87607,
+    "views": 229076,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -55964,9 +55974,9 @@
         "screen_name": "Gavmn",
         "url": "https://x.com/Gavmn",
         "id": "20938766",
-        "followers": 146806,
+        "followers": 146848,
         "following": 909,
-        "likes": 14200,
+        "likes": 14202,
         "media_count": 795,
         "statuses": 6660,
         "name": "Gavin Nelson",
@@ -56001,16 +56011,16 @@
         },
         "type": "profile"
       },
-      "replies": 86,
-      "reposts": 25,
-      "likes": 747,
-      "bookmarks": 100,
-      "quotes": 14,
+      "replies": 98,
+      "reposts": 29,
+      "likes": 858,
+      "bookmarks": 121,
+      "quotes": 17,
       "embed_card": "summary_large_image",
       "created_at": "Fri Oct 16 16:44:08 +0000 2026",
       "created_timestamp": 1792169048,
       "possibly_sensitive": false,
-      "views": 125595,
+      "views": 261439,
       "is_note_tweet": false,
       "community_note": null,
       "lang": "en",
@@ -56069,11 +56079,11 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 879468,
-      "following": 75,
-      "likes": 10466,
-      "media_count": 152,
-      "statuses": 3332,
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
       "name": "Tibo",
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
@@ -56103,16 +56113,16 @@
       },
       "type": "profile"
     },
-    "replies": 76,
-    "reposts": 17,
-    "likes": 759,
-    "bookmarks": 21,
-    "quotes": 7,
+    "replies": 132,
+    "reposts": 30,
+    "likes": 1440,
+    "bookmarks": 44,
+    "quotes": 15,
     "embed_card": "tweet",
     "created_at": "Fri Oct 16 23:56:37 +0000 2026",
     "created_timestamp": 1792194997,
     "possibly_sensitive": false,
-    "views": 98084,
+    "views": 296953,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -56140,7 +56150,7 @@
         "screen_name": "OpenAI",
         "url": "https://x.com/OpenAI",
         "id": "4398626122",
-        "followers": 5442799,
+        "followers": 5444889,
         "following": 4,
         "likes": 2535,
         "media_count": 746,
@@ -56178,15 +56188,15 @@
         },
         "type": "profile"
       },
-      "replies": 419,
-      "reposts": 344,
-      "likes": 6545,
-      "bookmarks": 700,
-      "quotes": 193,
+      "replies": 601,
+      "reposts": 504,
+      "likes": 9553,
+      "bookmarks": 1007,
+      "quotes": 292,
       "embed_card": "tweet",
       "created_at": "Fri Oct 16 20:27:13 +0000 2026",
       "created_timestamp": 1792182433,
-      "views": 634447,
+      "views": 1415849,
       "is_note_tweet": true,
       "community_note": null,
       "lang": "en",
@@ -56194,6 +56204,1125 @@
       "media": {},
       "provider": "twitter",
       "reposted_by": null
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2111338115667509490",
+    "id": "2111338115667509490",
+    "text": "@steipete is locked in",
+    "raw_text": {
+      "text": "@steipete is locked in",
+      "display_text_range": [
+        0,
+        22
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            9
+          ],
+          "original": "steipete",
+          "id": "25401953"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 435,
+    "reposts": 31,
+    "likes": 1878,
+    "bookmarks": 62,
+    "quotes": 24,
+    "embed_card": "tweet",
+    "created_at": "Sat Oct 17 06:06:48 +0000 2026",
+    "created_timestamp": 1792217208,
+    "views": 327091,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/steipete/status/2111340668190965818",
+    "id": "2111340668190965818",
+    "text": "@thsottiaux 🤫 we'll let the work do the talking",
+    "raw_text": {
+      "text": "@thsottiaux 🤫 we'll let the work do the talking",
+      "display_text_range": [
+        12,
+        47
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            11
+          ],
+          "original": "thsottiaux",
+          "id": "1953337039510003712"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "steipete",
+      "url": "https://x.com/steipete",
+      "id": "25401953",
+      "followers": 605556,
+      "following": 2504,
+      "likes": 64441,
+      "media_count": 8665,
+      "statuses": 143020,
+      "name": "Peter Steinberger 🦞",
+      "description": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "raw_description": {
+        "text": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              110,
+              119
+            ],
+            "original": "OpenClaw",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              123,
+              130
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "San Francisco, CA",
+      "banner_url": "https://pbs.twimg.com/profile_banners/25401953/1773684932",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1131851609774985216/OcsssQ9J_200x200.png",
+      "joined": "Thu Mar 19 22:54:05 +0000 2009",
+      "protected": false,
+      "website": {
+        "url": "https://steipete.me",
+        "display_url": "steipete.me"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 27,
+    "reposts": 4,
+    "likes": 500,
+    "bookmarks": 2,
+    "quotes": 2,
+    "embed_card": "tweet",
+    "created_at": "Sat Oct 17 06:16:56 +0000 2026",
+    "created_timestamp": 1792217816,
+    "views": 70203,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "thsottiaux",
+      "status": "2111338115667509490",
+      "url": "https://x.com/thsottiaux/status/2111338115667509490",
+      "profile_url": "https://x.com/thsottiaux"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2111341888322314672",
+    "id": "2111341888322314672",
+    "text": "@steipete 💀",
+    "raw_text": {
+      "text": "@steipete 💀",
+      "display_text_range": [
+        10,
+        11
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            9
+          ],
+          "original": "steipete",
+          "id": "25401953"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 20,
+    "reposts": 1,
+    "likes": 304,
+    "bookmarks": 0,
+    "quotes": 0,
+    "embed_card": "tweet",
+    "created_at": "Sat Oct 17 06:21:47 +0000 2026",
+    "created_timestamp": 1792218107,
+    "views": 68508,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": null,
+    "replying_to": {
+      "screen_name": "steipete",
+      "status": "2111340668190965818",
+      "url": "https://x.com/steipete/status/2111340668190965818",
+      "profile_url": "https://x.com/steipete"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/ai_funss/status/2111033706563641520",
+    "id": "2111033706563641520",
+    "text": "Tibo已经没招了，我来出几招\n\n1. plus取消5h限制\n2. dot给plus用户使用\n3. ultrafast改为提升15倍速度\n4. Pro20x的用量翻倍\n5. 提升6.1 Sol的TPS至少到50\n\n这已经够Tibo 5天的了🤓",
+    "raw_text": {
+      "text": "Tibo已经没招了，我来出几招\n\n1. plus取消5h限制\n2. dot给plus用户使用\n3. ultrafast改为提升15倍速度\n4. Pro20x的用量翻倍\n5. 提升6.1 Sol的TPS至少到50\n\n这已经够Tibo 5天的了🤓",
+      "display_text_range": [
+        0,
+        121
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "ai_funss",
+      "url": "https://x.com/ai_funss",
+      "id": "768746623627366400",
+      "followers": 3144,
+      "following": 2004,
+      "likes": 4766,
+      "media_count": 377,
+      "statuses": 4913,
+      "name": "AI Fun",
+      "description": "AI FUN !\n✨分享AI科技 | 🛠️开源工具 | 💡实用技巧\n独立开发者的免费开发工具集合：\nhttps://free-tier-index.pages.dev/",
+      "raw_description": {
+        "text": "AI FUN !\n✨分享AI科技 | 🛠️开源工具 | 💡实用技巧\n独立开发者的免费开发工具集合：\nhttps://t.co/wBo2XnOAwA",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              50,
+              73
+            ],
+            "original": "https://t.co/wBo2XnOAwA",
+            "replacement": "https://free-tier-index.pages.dev/",
+            "display": "free-tier-index.pages.dev"
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/768746623627366400/1788119816",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2080692256382889984/eoxkoYlK_200x200.jpg",
+      "joined": "Thu Aug 25 09:47:32 +0000 2016",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 126,
+    "reposts": 36,
+    "likes": 1983,
+    "bookmarks": 85,
+    "quotes": 14,
+    "embed_card": "tweet",
+    "created_at": "Fri Oct 16 09:57:11 +0000 2026",
+    "created_timestamp": 1792144631,
+    "views": 231432,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "zh",
+    "replying_to": null,
+    "media": {},
+    "quote": {
+      "type": "status",
+      "url": "https://x.com/thsottiaux/status/2110971985417441512",
+      "id": "2110971985417441512",
+      "text": "Either we are out of ideas or we are cooking. Time will tell",
+      "raw_text": {
+        "text": "Either we are out of ideas or we are cooking. Time will tell",
+        "display_text_range": [
+          0,
+          60
+        ],
+        "facets": []
+      },
+      "author": {
+        "screen_name": "thsottiaux",
+        "url": "https://x.com/thsottiaux",
+        "id": "1953337039510003712",
+        "followers": 882564,
+        "following": 76,
+        "likes": 10474,
+        "media_count": 153,
+        "statuses": 3338,
+        "name": "Tibo",
+        "description": "Codex & ChatGPT @OpenAI",
+        "raw_description": {
+          "text": "Codex & ChatGPT @OpenAI",
+          "facets": [
+            {
+              "type": "mention",
+              "indices": [
+                16,
+                23
+              ],
+              "original": "OpenAI",
+              "id": ""
+            }
+          ]
+        },
+        "location": "",
+        "banner_url": "",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+        "joined": "Thu Aug 07 06:07:07 +0000 2025",
+        "protected": false,
+        "website": null,
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "type": "profile"
+      },
+      "replies": 3547,
+      "reposts": 325,
+      "likes": 13302,
+      "bookmarks": 421,
+      "quotes": 417,
+      "embed_card": "tweet",
+      "created_at": "Fri Oct 16 05:51:55 +0000 2026",
+      "created_timestamp": 1792129915,
+      "views": 1824799,
+      "is_note_tweet": false,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "media": {},
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2111339932614861298",
+    "id": "2111339932614861298",
+    "text": "@ai_funss Working on two of these",
+    "raw_text": {
+      "text": "@ai_funss Working on two of these",
+      "display_text_range": [
+        10,
+        33
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            9
+          ],
+          "original": "ai_funss",
+          "id": "768746623627366400"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 327,
+    "reposts": 38,
+    "likes": 2063,
+    "bookmarks": 58,
+    "quotes": 50,
+    "embed_card": "tweet",
+    "created_at": "Sat Oct 17 06:14:01 +0000 2026",
+    "created_timestamp": 1792217641,
+    "views": 147452,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "ai_funss",
+      "status": "2111033706563641520",
+      "url": "https://x.com/ai_funss/status/2111033706563641520",
+      "profile_url": "https://x.com/ai_funss"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/poteto/status/2111133080526495985",
+    "id": "2111133080526495985",
+    "text": "how do you trust your agents' work more? copy this post/link and give it to your @bot or agent!\n\n1. codebase improvements: this is just good software engineering - better architecture, stronger types and invariants, clear boundaries. agents love to copy what exists and take the shortest path, so make the easy thing the right thing. categorically eliminate problems through code and you won't need to think about it again.\n2. static analysis: lint rules, tests, CI, verification (eg TLA+). very token efficient ways to catch issues ahead of time.\n3. prose: comments, rules, AGENTS.md, skills - anything that can't be enforced and requires agent judgment. use it minimally, but do use /create-verification-skill.\n4. human review: the hardest to scale. at the rate agents land code, it's pretty much impossible to thoroughly review every PR, so spend that effort on the highest leverage point, designing an environment where agents do the right thing by default.\n\nthis forms an inverse pyramid: you want most of your effort at the top, least at the bottom. codebase improvements are deterministic, making it more token efficient, and lets you sleep more soundly at night.\n\ninstall https://github.com/cursor/plugins/tree/main/pstack and create a new Project:\n1. look through my slack/chat messages and code review comments where i've given feedback on PRs, code, architecture\n2. use /recall on my past transcripts to learn how i steer agents\n3. /poteto-mode use /correct and /architect on past commits to find the most common pitfalls agents fall into, then propose a plan to rearchitect the code i own so it's more agent friendly. answer open questions with prototyping rather than defer to me, and back the plan with real data. \n4. before you begin, use /sharpen + /in-your-own-words and confirm this prompt with me",
+    "raw_text": {
+      "text": "how do you trust your agents' work more? copy this post/link and give it to your @bot or agent!\n\n1. codebase improvements: this is just good software engineering - better architecture, stronger types and invariants, clear boundaries. agents love to copy what exists and take the shortest path, so make the easy thing the right thing. categorically eliminate problems through code and you won't need to think about it again.\n2. static analysis: lint rules, tests, CI, verification (eg TLA+). very token efficient ways to catch issues ahead of time.\n3. prose: comments, rules, AGENTS.md, skills - anything that can't be enforced and requires agent judgment. use it minimally, but do use /create-verification-skill.\n4. human review: the hardest to scale. at the rate agents land code, it's pretty much impossible to thoroughly review every PR, so spend that effort on the highest leverage point, designing an environment where agents do the right thing by default.\n\nthis forms an inverse pyramid: you want most of your effort at the top, least at the bottom. codebase improvements are deterministic, making it more token efficient, and lets you sleep more soundly at night.\n\ninstall https://t.co/u9xIlN3eN0 and create a new Project:\n1. look through my slack/chat messages and code review comments where i've given feedback on PRs, code, architecture\n2. use /recall on my past transcripts to learn how i steer agents\n3. /poteto-mode use /correct and /architect on past commits to find the most common pitfalls agents fall into, then propose a plan to rearchitect the code i own so it's more agent friendly. answer open questions with prototyping rather than defer to me, and back the plan with real data. \n4. before you begin, use /sharpen + /in-your-own-words and confirm this prompt with me",
+      "display_text_range": [
+        0,
+        1788
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            81,
+            85
+          ],
+          "original": "bot",
+          "id": "2085838061347217408"
+        },
+        {
+          "type": "bold",
+          "indices": [
+            100,
+            122
+          ]
+        },
+        {
+          "type": "media",
+          "indices": [
+            279,
+            302
+          ],
+          "id": "2111132352542121984",
+          "display": "pic.x.com/ah9dbKnrWy",
+          "original": "https://t.co/ah9dbKnrWy",
+          "replacement": "https://x.com/poteto/status/2111133080526495985/photo/1"
+        },
+        {
+          "type": "bold",
+          "indices": [
+            427,
+            443
+          ]
+        },
+        {
+          "type": "bold",
+          "indices": [
+            551,
+            557
+          ]
+        },
+        {
+          "type": "bold",
+          "indices": [
+            716,
+            729
+          ]
+        },
+        {
+          "type": "url",
+          "indices": [
+            1180,
+            1203
+          ],
+          "original": "https://t.co/u9xIlN3eN0",
+          "replacement": "https://github.com/cursor/plugins/tree/main/pstack",
+          "display": "github.com/cursor/plugins…"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "poteto",
+      "url": "https://x.com/poteto",
+      "id": "2832427459",
+      "followers": 197776,
+      "following": 911,
+      "likes": 18831,
+      "media_count": 492,
+      "statuses": 7554,
+      "name": "lauren",
+      "description": "Grok @Bot at @SpaceXSI. Shipping with https://x.ai/bot/plugin/9717366?pstack. React compiler core team, prev cursor, meta, netflix",
+      "raw_description": {
+        "text": "Grok @Bot at @SpaceXSI. Shipping with https://t.co/FhHxHHdUAz. React compiler core team, prev cursor, meta, netflix",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              5,
+              9
+            ],
+            "original": "Bot",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              13,
+              22
+            ],
+            "original": "SpaceXSI",
+            "id": ""
+          },
+          {
+            "type": "url",
+            "indices": [
+              38,
+              61
+            ],
+            "original": "https://t.co/FhHxHHdUAz",
+            "replacement": "https://x.ai/bot/plugin/9717366?pstack",
+            "display": "x.ai/bot/plugin/971…"
+          }
+        ]
+      },
+      "location": "OC",
+      "banner_url": "https://pbs.twimg.com/profile_banners/2832427459/1760377968",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
+      "joined": "Fri Sep 26 01:06:36 +0000 2014",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 486,
+    "reposts": 363,
+    "likes": 5450,
+    "bookmarks": 10305,
+    "quotes": 78,
+    "embed_card": "summary_large_image",
+    "created_at": "Fri Oct 16 16:32:04 +0000 2026",
+    "created_timestamp": 1792168324,
+    "possibly_sensitive": false,
+    "views": 472411,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2111132352542121984",
+          "url": "https://pbs.twimg.com/media/HUw_sHsboAARf-5.jpg?name=orig",
+          "width": 1090,
+          "height": 819
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2111132352542121984",
+          "url": "https://pbs.twimg.com/media/HUw_sHsboAARf-5.jpg?name=orig",
+          "width": 1090,
+          "height": 819
+        }
+      ]
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2111337472349343856",
+    "id": "2111337472349343856",
+    "text": "@poteto @bot Small @poteto speaks big facts",
+    "raw_text": {
+      "text": "@poteto @bot Small @poteto speaks big facts",
+      "display_text_range": [
+        13,
+        43
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            7
+          ],
+          "original": "poteto",
+          "id": "2832427459"
+        },
+        {
+          "type": "mention",
+          "indices": [
+            8,
+            12
+          ],
+          "original": "bot",
+          "id": "2085838061347217408"
+        },
+        {
+          "type": "mention",
+          "indices": [
+            19,
+            26
+          ],
+          "original": "poteto",
+          "id": "2832427459"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 49,
+    "reposts": 4,
+    "likes": 372,
+    "bookmarks": 19,
+    "quotes": 8,
+    "embed_card": "tweet",
+    "created_at": "Sat Oct 17 06:04:14 +0000 2026",
+    "created_timestamp": 1792217054,
+    "views": 33829,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "poteto",
+      "status": "2111133080526495985",
+      "url": "https://x.com/poteto/status/2111133080526495985",
+      "profile_url": "https://x.com/poteto"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/_simonsmith/status/2111254820707348531",
+    "id": "2111254820707348531",
+    "text": "Dots are for doing.\n\nChat is for learning and discussing.\n\nWork is what you use if you have no Dot.",
+    "raw_text": {
+      "text": "Dots are for doing.\n\nChat is for learning and discussing.\n\nWork is what you use if you have no Dot.",
+      "display_text_range": [
+        0,
+        99
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "_simonsmith",
+      "url": "https://x.com/_simonsmith",
+      "id": "1693585632965148672",
+      "followers": 5588,
+      "following": 958,
+      "likes": 3187,
+      "media_count": 1764,
+      "statuses": 7976,
+      "name": "Simon Smith",
+      "description": "EVP Generative AI @klickhealth",
+      "raw_description": {
+        "text": "EVP Generative AI @klickhealth",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              18,
+              30
+            ],
+            "original": "klickhealth",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1693585632965148672/1740177505",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1893071963570012160/XJPttxhY_200x200.jpg",
+      "joined": "Mon Aug 21 11:28:16 +0000 2023",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 7,
+    "reposts": 3,
+    "likes": 121,
+    "bookmarks": 16,
+    "quotes": 0,
+    "embed_card": "tweet",
+    "created_at": "Sat Oct 17 00:35:49 +0000 2026",
+    "created_timestamp": 1792197349,
+    "views": 24459,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2111336070248026489",
+    "id": "2111336070248026489",
+    "text": "@_simonsmith Getting there",
+    "raw_text": {
+      "text": "@_simonsmith Getting there",
+      "display_text_range": [
+        13,
+        26
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            12
+          ],
+          "original": "_simonsmith",
+          "id": "1693585632965148672"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 36,
+    "reposts": 0,
+    "likes": 95,
+    "bookmarks": 2,
+    "quotes": 1,
+    "embed_card": "tweet",
+    "created_at": "Sat Oct 17 05:58:40 +0000 2026",
+    "created_timestamp": 1792216720,
+    "views": 21035,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": {
+      "screen_name": "_simonsmith",
+      "status": "2111254820707348531",
+      "url": "https://x.com/_simonsmith/status/2111254820707348531",
+      "profile_url": "https://x.com/_simonsmith"
+    },
+    "media": {},
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/StefanoGPT/status/2111093706220826802",
+    "id": "2111093706220826802",
+    "text": "See, @OpenAI? It’s fine to build hype.\n\nBut then you gotta deliver.\n\nSpot the difference.",
+    "raw_text": {
+      "text": "See, @OpenAI? It’s fine to build hype.\n\nBut then you gotta deliver.\n\nSpot the difference. https://t.co/TVoQu5iqLW",
+      "display_text_range": [
+        0,
+        89
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            5,
+            12
+          ],
+          "original": "OpenAI",
+          "id": "4398626122"
+        },
+        {
+          "type": "media",
+          "indices": [
+            90,
+            113
+          ],
+          "id": "2111093698071064576",
+          "display": "pic.x.com/TVoQu5iqLW",
+          "original": "https://t.co/TVoQu5iqLW",
+          "replacement": "https://x.com/StefanoGPT/status/2111093706220826802/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "StefanoGPT",
+      "url": "https://x.com/StefanoGPT",
+      "id": "2084385146099097600",
+      "followers": 2402,
+      "following": 337,
+      "likes": 716,
+      "media_count": 177,
+      "statuses": 1832,
+      "name": "Stefano",
+      "description": "Codex + Claude Code power user",
+      "raw_description": {
+        "text": "Codex + Claude Code power user",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/2084385146099097600/1791979909",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2110100268998078464/MbQOsSyY_200x200.jpg",
+      "joined": "Mon Aug 03 21:06:06 +0000 2026",
+      "protected": false,
+      "website": {
+        "url": "https://werate.ai",
+        "display_url": "werate.ai"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 92,
+    "reposts": 29,
+    "likes": 1855,
+    "bookmarks": 53,
+    "quotes": 11,
+    "embed_card": "summary_large_image",
+    "created_at": "Fri Oct 16 13:55:36 +0000 2026",
+    "created_timestamp": 1792158936,
+    "possibly_sensitive": false,
+    "views": 124446,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2111093698071064576",
+          "url": "https://pbs.twimg.com/media/HUwciIkXcAAebMG.jpg?name=orig",
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2111093698071064576",
+          "url": "https://pbs.twimg.com/media/HUwciIkXcAAebMG.jpg?name=orig",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  {
+    "type": "status",
+    "url": "https://x.com/thsottiaux/status/2111323620471632217",
+    "id": "2111323620471632217",
+    "text": "@StefanoGPT @OpenAI",
+    "raw_text": {
+      "text": "@StefanoGPT @OpenAI https://t.co/Qyskzehl84",
+      "display_text_range": [
+        19,
+        19
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            11
+          ],
+          "original": "StefanoGPT",
+          "id": "2084385146099097600"
+        },
+        {
+          "type": "mention",
+          "indices": [
+            12,
+            19
+          ],
+          "original": "OpenAI",
+          "id": "4398626122"
+        },
+        {
+          "type": "media",
+          "indices": [
+            20,
+            43
+          ],
+          "id": "2111323606030725120",
+          "display": "pic.x.com/Qyskzehl84",
+          "original": "https://t.co/Qyskzehl84",
+          "replacement": "https://x.com/thsottiaux/status/2111323620471632217/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 882564,
+      "following": 76,
+      "likes": 10474,
+      "media_count": 153,
+      "statuses": 3338,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "type": "profile"
+    },
+    "replies": 88,
+    "reposts": 19,
+    "likes": 952,
+    "bookmarks": 14,
+    "quotes": 10,
+    "embed_card": "summary_large_image",
+    "created_at": "Sat Oct 17 05:09:12 +0000 2026",
+    "created_timestamp": 1792213752,
+    "possibly_sensitive": false,
+    "views": 42879,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": null,
+    "replying_to": {
+      "screen_name": "StefanoGPT",
+      "status": "2111093706220826802",
+      "url": "https://x.com/StefanoGPT/status/2111093706220826802",
+      "profile_url": "https://x.com/StefanoGPT"
+    },
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2111323606030725120",
+          "url": "https://pbs.twimg.com/media/HUztoidbsAARrGF.jpg?name=orig",
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2111323606030725120",
+          "url": "https://pbs.twimg.com/media/HUztoidbsAARrGF.jpg?name=orig",
+          "width": 1672,
+          "height": 941
+        }
+      ]
     },
     "provider": "twitter",
     "reposted_by": null

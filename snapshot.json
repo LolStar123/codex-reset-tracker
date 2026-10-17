@@ -3630,12 +3630,12 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-17T01:39:16.678Z",
-  "lastAttemptAt": "2026-10-17T06:11:34.741Z",
-  "historyCheckedAt": "2026-10-17T01:36:30.206Z",
+  "checkedAt": "2026-10-17T10:43:53.878Z",
+  "lastAttemptAt": "2026-10-17T10:43:53.878Z",
+  "historyCheckedAt": "2026-10-17T10:43:38.375Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
