@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "2111492738025959922",
+      "author": "thsottiaux",
+      "text": "Landing sometime today by EOD PST",
+      "url": "https://x.com/thsottiaux/status/2111492738025959922",
+      "at": "2026-10-17T16:21:13.000Z",
+      "parentId": "2111492673890824348",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Day 13/ Le limit reset",
+        "url": "https://x.com/thsottiaux/status/2111492673890824348"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "Landing sometime today by EOD PST",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2111492673890824348",
+      "author": "thsottiaux",
+      "text": "Day 13/ Le limit reset",
+      "url": "https://x.com/thsottiaux/status/2111492673890824348",
+      "at": "2026-10-17T16:20:57.000Z",
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Day 13/ Le limit reset",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2111246098207813946",
       "author": "thsottiaux",
       "text": "@codex_resets Mehga ghud",
@@ -3630,12 +3660,12 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-17T13:57:32.692Z",
-  "lastAttemptAt": "2026-10-17T16:53:39.945Z",
-  "historyCheckedAt": "2026-10-17T13:57:34.296Z",
+  "checkedAt": "2026-10-17T18:57:04.065Z",
+  "lastAttemptAt": "2026-10-17T18:57:04.065Z",
+  "historyCheckedAt": "2026-10-17T18:54:17.128Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
