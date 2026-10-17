@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "2111246098207813946",
+      "author": "thsottiaux",
+      "text": "@codex_resets Mehga ghud",
+      "url": "https://x.com/thsottiaux/status/2111246098207813946",
+      "at": "2026-10-17T00:01:09.000Z",
+      "parentId": "2111245130116251847",
+      "parent": {
+        "author": "codex_resets",
+        "text": "Day 12: Dots on the Home Screen\n\nClear improvement, or meh? 👏 or 🤷 here:\nhttps://codex-resets.com/tibo-28\n\nhttps://x.com/thsottiaux/status/2111245052513259606",
+        "url": "https://x.com/codex_resets/status/2111245130116251847"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Mehga ghud",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2111244596131111253",
+      "author": "thsottiaux",
+      "text": "Day 12/\n\nWe’ve made improvements to Codex & Work that increase the effective usage you get. We achieved this by reusing context across subagents, keeping context cached longer, and improved request routing that allows us to increase cache hits.",
+      "url": "https://x.com/thsottiaux/status/2111244596131111253",
+      "at": "2026-10-16T23:55:11.000Z",
+      "parentMissing": false,
+      "category": "clarification",
+      "summary": "Day 12/",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2110951585983631505",
       "author": "thsottiaux",
       "text": "@maria_rcks Can’t argue with that, Let’s break the cycle.",
@@ -3600,9 +3630,9 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-16T23:51:14.030Z",
-  "lastAttemptAt": "2026-10-16T23:51:14.030Z",
-  "historyCheckedAt": "2026-10-16T23:46:22.324Z",
+  "checkedAt": "2026-10-17T01:39:16.678Z",
+  "lastAttemptAt": "2026-10-17T01:39:16.678Z",
+  "historyCheckedAt": "2026-10-17T01:36:30.206Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
