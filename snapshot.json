@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "2111566005684289735",
+      "author": "thsottiaux",
+      "at": "2026-10-17T21:12:21.000Z",
+      "text": "Done",
+      "url": "https://x.com/thsottiaux/status/2111566005684289735",
+      "summary": "Done",
+      "category": "confirmed",
+      "resetType": "regular",
+      "provenance": "history"
+    },
+    {
       "id": "2111492738025959922",
       "author": "thsottiaux",
       "text": "Landing sometime today by EOD PST",
@@ -3658,11 +3669,20 @@
         "2110618732666257557"
       ],
       "basis": "announcement"
+    },
+    {
+      "id": "2111566005684289735",
+      "date": "2026-10-17",
+      "type": "regular",
+      "postIds": [
+        "2111566005684289735"
+      ],
+      "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-17T18:57:04.065Z",
-  "lastAttemptAt": "2026-10-17T18:57:04.065Z",
-  "historyCheckedAt": "2026-10-17T18:54:17.128Z",
+  "checkedAt": "2026-10-17T21:16:32.569Z",
+  "lastAttemptAt": "2026-10-17T21:16:32.569Z",
+  "historyCheckedAt": "2026-10-17T21:14:26.618Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
