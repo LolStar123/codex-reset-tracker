@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "2111918768733753664",
+      "author": "thsottiaux",
+      "text": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
+      "url": "https://x.com/thsottiaux/status/2111918768733753664",
+      "at": "2026-10-18T20:34:06.000Z",
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2111918635849801739",
+      "author": "thsottiaux",
+      "text": "@littlelion_love We’ll see",
+      "url": "https://x.com/thsottiaux/status/2111918635849801739",
+      "at": "2026-10-18T20:33:34.000Z",
+      "parentId": "2111918435877720405",
+      "parent": {
+        "author": "littlelion_love",
+        "text": "When Tibo reaches 1M followers on X, will there be a reset?",
+        "url": "https://x.com/littlelion_love/status/2111918435877720405"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "We’ll see",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2111583927156760690",
       "author": "thsottiaux",
       "text": "@ananyairl Pot committed",
@@ -3698,9 +3728,9 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-18T19:18:14.751Z",
-  "lastAttemptAt": "2026-10-18T19:18:14.751Z",
-  "historyCheckedAt": "2026-10-18T19:18:15.953Z",
+  "checkedAt": "2026-10-18T21:35:24.212Z",
+  "lastAttemptAt": "2026-10-18T21:35:24.212Z",
+  "historyCheckedAt": "2026-10-18T21:33:04.748Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
