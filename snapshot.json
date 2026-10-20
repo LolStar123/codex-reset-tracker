@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "2112432076767289678",
+      "author": "thsottiaux",
+      "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "at": "2026-10-20T06:33:48.000Z",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Day 15/ We're cooked",
+        "url": "https://x.com/thsottiaux/status/2112268918681485431"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2111918768733753664",
       "author": "thsottiaux",
       "text": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
@@ -3728,9 +3745,9 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-20T01:47:50.968Z",
-  "lastAttemptAt": "2026-10-20T01:47:50.968Z",
-  "historyCheckedAt": "2026-10-20T01:44:41.536Z",
+  "checkedAt": "2026-10-20T06:43:04.042Z",
+  "lastAttemptAt": "2026-10-20T06:43:04.042Z",
+  "historyCheckedAt": "2026-10-20T06:38:55.642Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
