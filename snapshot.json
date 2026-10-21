@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2113029854417600834",
+      "author": "thsottiaux",
+      "text": "Fully included in the Pro plan, doesn't draw on your weekly usage.",
+      "url": "https://x.com/thsottiaux/status/2113029854417600834",
+      "at": "2026-10-21T22:09:10.000Z",
+      "parentId": "2113029655095836957",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Dot, Dotter, Dottest",
+        "url": "https://x.com/thsottiaux/status/2113029655095836957"
+      },
+      "parentMissing": false,
+      "category": "clarification",
+      "summary": "Fully included in the Pro plan, doesn't draw on your weekly usage.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2112906496736641416",
       "author": "thsottiaux",
       "text": "@JustLingonberry @sama is this true",
@@ -3781,9 +3799,9 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-21T20:49:34.592Z",
-  "lastAttemptAt": "2026-10-21T20:49:34.592Z",
-  "historyCheckedAt": "2026-10-21T20:49:18.083Z",
+  "checkedAt": "2026-10-21T23:44:38.984Z",
+  "lastAttemptAt": "2026-10-21T23:44:38.984Z",
+  "historyCheckedAt": "2026-10-21T23:43:53.260Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
