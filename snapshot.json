@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2112798407928713717",
+      "author": "thsottiaux",
+      "text": "@theo I demand a reset",
+      "url": "https://x.com/thsottiaux/status/2112798407928713717",
+      "at": "2026-10-21T06:49:29.000Z",
+      "parentId": "2112359232595165185",
+      "parent": {
+        "author": "theo",
+        "text": "T3 Connect has not been reliable today. Super sorry about that. Should be recovered now 🤞\n\nNerdy deets below for those who care:\n\nT3 Connect is our built-in alternative to Tailscale for remote connections on T3 Code.\n\nTurns out there's so many T3 Connect users that we are hitting some rate limits on Cloudflare's side! They have confirmed the issues on their end and are working on fixes.\n\nWe were unaware of these limits (seems like they were too). We're well under the limits we knew about, specifically the # of tunnels we can deploy to our users. The alerting on these failures was also pretty rough. CF has confirmed all of this and is working on fixes on their end 🙏\n\nCrazy to have a product so popular that it's taking down CloudFlare lol. We are working hard to prevent these types of regressions going forward.\n\nThis work is full of fun challenges. Once a thundering herd starts, we're a bit screwed since we can't control the code you're running on your end! We have to plan way in advance for changes because we can't guarantee that users are on the latest version at any given time.\n\nThanks for sticking through with us in the interim. If you want to maximize your uptime and minimize chances of connection loss like today, I will not be disappointed if you set up Tailscale as a fallback (I do this personally)",
+        "url": "https://x.com/theo/status/2112359232595165185"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "I demand a reset",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2112432076767289678",
       "author": "thsottiaux",
       "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
@@ -3745,9 +3763,9 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-21T06:38:31.019Z",
-  "lastAttemptAt": "2026-10-21T06:38:31.019Z",
-  "historyCheckedAt": "2026-10-21T06:35:19.137Z",
+  "checkedAt": "2026-10-21T12:23:53.372Z",
+  "lastAttemptAt": "2026-10-21T12:23:53.372Z",
+  "historyCheckedAt": "2026-10-21T12:23:54.823Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
