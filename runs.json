@@ -1976,5 +1976,16 @@
     "newPosts": 0,
     "error": null,
     "historyError": null
+  },
+  {
+    "startedAt": "2026-10-24T17:40:40.941Z",
+    "finishedAt": "2026-10-24T17:40:42.487Z",
+    "status": "ok",
+    "checkedAt": "2026-10-24T17:40:40.941Z",
+    "posts": 215,
+    "events": 59,
+    "newPosts": 1,
+    "error": null,
+    "historyError": null
   }
 ]

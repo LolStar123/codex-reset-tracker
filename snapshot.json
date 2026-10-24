@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2114037527598576003",
+      "author": "thsottiaux",
+      "text": "@vishalsingh2972 One day",
+      "url": "https://x.com/thsottiaux/status/2114037527598576003",
+      "at": "2026-10-24T16:53:18.000Z",
+      "parentId": "2114031587549659162",
+      "parent": {
+        "author": "vishalsingh2972",
+        "text": "@thsottiaux RESET PARK 😎",
+        "url": "https://x.com/vishalsingh2972/status/2114031587549659162"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "One day",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2113770862860222611",
       "author": "thsottiaux",
       "text": "On codex cli updates. We've added reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in. We've also fixed failures when resuming long sessions and added Windows corporate-proxy authentication.\n\nSurprisingly the CLI has grown 2X in usage since devday.",
@@ -3879,9 +3897,9 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-24T14:50:04.045Z",
-  "lastAttemptAt": "2026-10-24T14:50:04.045Z",
-  "historyCheckedAt": "2026-10-24T14:47:50.246Z",
+  "checkedAt": "2026-10-24T17:40:40.941Z",
+  "lastAttemptAt": "2026-10-24T17:40:40.941Z",
+  "historyCheckedAt": "2026-10-24T17:40:42.275Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
