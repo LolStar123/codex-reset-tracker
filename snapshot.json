@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2113770862860222611",
+      "author": "thsottiaux",
+      "text": "On codex cli updates. We've added reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in. We've also fixed failures when resuming long sessions and added Windows corporate-proxy authentication.\n\nSurprisingly the CLI has grown 2X in usage since devday.",
+      "url": "https://x.com/thsottiaux/status/2113770862860222611",
+      "at": "2026-10-23T23:13:40.000Z",
+      "parentId": "2113770573994299544",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Day 19/ Small updates. Calls connect much faster for dots, changing reasoning in codex & work mid conversation does not invalidate cache anymore and a we've also updated the codex cli.",
+        "url": "https://x.com/thsottiaux/status/2113770573994299544"
+      },
+      "parentMissing": false,
+      "category": "clarification",
+      "summary": "On codex cli updates.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2113492502355562875",
       "author": "thsottiaux",
       "text": "Landing tomorrow before 10am PST together with a small ship.",
@@ -3861,12 +3879,12 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-23T17:28:15.477Z",
-  "lastAttemptAt": "2026-10-23T23:28:07.217Z",
-  "historyCheckedAt": "2026-10-23T17:26:46.872Z",
+  "checkedAt": "2026-10-24T01:51:54.835Z",
+  "lastAttemptAt": "2026-10-24T01:51:54.835Z",
+  "historyCheckedAt": "2026-10-24T01:47:19.988Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
