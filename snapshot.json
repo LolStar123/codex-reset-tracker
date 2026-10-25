@@ -1,6 +1,35 @@
 {
   "posts": [
     {
+      "id": "2114237083652882932",
+      "author": "thsottiaux",
+      "at": "2026-10-25T06:06:16.000Z",
+      "text": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too. https://t.co/qOrzwSeIZZ https://t.co/xKaK95EAly",
+      "url": "https://x.com/thsottiaux/status/2114237083652882932",
+      "summary": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too.",
+      "category": "confirmed",
+      "resetType": "regular",
+      "provenance": "history"
+    },
+    {
+      "id": "2114228044072403055",
+      "author": "thsottiaux",
+      "text": "@theo Not a real improvement, put the reset in the bag",
+      "url": "https://x.com/thsottiaux/status/2114228044072403055",
+      "at": "2026-10-25T05:30:20.000Z",
+      "parentId": "2114219096128750008",
+      "parent": {
+        "author": "theo",
+        "text": "Just realized we've pretty much maintained pace with the \"28 days of improvements to Codex\". We've had at least one solid improvement every day of the month.\n\nLet's make it official. Gonna ship one meaningful improvement to T3 Code every day for however long I'm capable :)",
+        "url": "https://x.com/theo/status/2114219096128750008"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Not a real improvement, put the reset in the bag",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2114200291319124163",
       "author": "thsottiaux",
       "text": "By midnight PST",
@@ -3925,11 +3954,20 @@
         "2111566005684289735"
       ],
       "basis": "announcement"
+    },
+    {
+      "id": "2114237083652882932",
+      "date": "2026-10-25",
+      "type": "regular",
+      "postIds": [
+        "2114237083652882932"
+      ],
+      "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-25T04:39:20.314Z",
-  "lastAttemptAt": "2026-10-25T04:39:20.314Z",
-  "historyCheckedAt": "2026-10-25T04:35:18.176Z",
+  "checkedAt": "2026-10-25T09:24:50.960Z",
+  "lastAttemptAt": "2026-10-25T09:24:50.960Z",
+  "historyCheckedAt": "2026-10-25T09:21:54.319Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
