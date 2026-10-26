@@ -64222,7 +64222,7 @@
     "created_at": "Fri Oct 23 22:39:45 +0000 2026",
     "created_timestamp": 1792795185,
     "possibly_sensitive": false,
-    "views": 77987,
+    "views": 78239,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -64372,7 +64372,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -64381,7 +64381,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -64398,13 +64408,13 @@
     },
     "replies": 16,
     "reposts": 0,
-    "likes": 194,
+    "likes": 196,
     "bookmarks": 12,
     "quotes": 0,
     "embed_card": "tweet",
     "created_at": "Fri Oct 23 23:15:04 +0000 2026",
     "created_timestamp": 1792797304,
-    "views": 60741,
+    "views": 60953,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -64576,7 +64586,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -64585,7 +64595,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -64600,15 +64620,15 @@
       },
       "type": "profile"
     },
-    "replies": 1274,
-    "reposts": 446,
-    "likes": 10457,
-    "bookmarks": 823,
+    "replies": 1278,
+    "reposts": 447,
+    "likes": 10495,
+    "bookmarks": 826,
     "quotes": 267,
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 03:41:04 +0000 2026",
     "created_timestamp": 1792813264,
-    "views": 1247062,
+    "views": 1260302,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -64634,7 +64654,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -64643,7 +64663,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -64658,15 +64688,15 @@
       },
       "type": "profile"
     },
-    "replies": 1116,
+    "replies": 1118,
     "reposts": 87,
-    "likes": 5647,
-    "bookmarks": 261,
+    "likes": 5693,
+    "bookmarks": 267,
     "quotes": 74,
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 16:26:30 +0000 2026",
     "created_timestamp": 1792859190,
-    "views": 1066288,
+    "views": 1087709,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -64713,16 +64743,26 @@
       "screen_name": "vishalsingh2972",
       "url": "https://x.com/vishalsingh2972",
       "id": "1647076250782162946",
-      "followers": 13795,
+      "followers": 13847,
       "following": 692,
-      "likes": 46093,
+      "likes": 46100,
       "media_count": 149,
-      "statuses": 1885,
+      "statuses": 1892,
       "name": "Vishal Singh",
       "description": "Applied AI Engineer • DevRel 🥑\n\nDM for Work / Paid Collabs ☕\n\nI build Custom Voice AI & Agents for businesses\n\nShipping AI Products in Public @debugginglife25",
       "raw_description": {
         "text": "Applied AI Engineer • DevRel 🥑\n\nDM for Work / Paid Collabs ☕\n\nI build Custom Voice AI & Agents for businesses\n\nShipping AI Products in Public @debugginglife25",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              142,
+              158
+            ],
+            "original": "debugginglife25",
+            "id": ""
+          }
+        ]
       },
       "location": "Open to Work",
       "banner_url": "https://pbs.twimg.com/profile_banners/1647076250782162946/1785274857",
@@ -64742,14 +64782,14 @@
     },
     "replies": 19,
     "reposts": 6,
-    "likes": 1349,
+    "likes": 1353,
     "bookmarks": 13,
     "quotes": 4,
     "embed_card": "summary_large_image",
     "created_at": "Sat Oct 24 16:29:41 +0000 2026",
     "created_timestamp": 1792859381,
     "possibly_sensitive": false,
-    "views": 110586,
+    "views": 111304,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -64809,7 +64849,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -64818,7 +64858,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -64841,7 +64891,7 @@
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 16:53:18 +0000 2026",
     "created_timestamp": 1792860798,
-    "views": 100693,
+    "views": 101392,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -64872,7 +64922,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -64881,7 +64931,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -64896,15 +64956,15 @@
       },
       "type": "profile"
     },
-    "replies": 1941,
-    "reposts": 174,
-    "likes": 8145,
-    "bookmarks": 786,
-    "quotes": 209,
+    "replies": 1953,
+    "reposts": 176,
+    "likes": 8220,
+    "bookmarks": 794,
+    "quotes": 208,
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 19:21:45 +0000 2026",
     "created_timestamp": 1792869705,
-    "views": 1806483,
+    "views": 1871261,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -64940,16 +65000,26 @@
       "screen_name": "can",
       "url": "https://x.com/can",
       "id": "14911337",
-      "followers": 24829,
-      "following": 3031,
-      "likes": 11503,
+      "followers": 24843,
+      "following": 3033,
+      "likes": 11511,
       "media_count": 212,
       "statuses": 3159,
       "name": "can",
       "description": "doing stuff at @modal",
       "raw_description": {
         "text": "doing stuff at @modal",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              15,
+              21
+            ],
+            "original": "modal",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "https://pbs.twimg.com/profile_banners/14911337/1712255763",
@@ -64969,13 +65039,13 @@
     },
     "replies": 10,
     "reposts": 1,
-    "likes": 202,
+    "likes": 205,
     "bookmarks": 7,
-    "quotes": 0,
+    "quotes": 1,
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 16:24:32 +0000 2026",
     "created_timestamp": 1792859072,
-    "views": 124562,
+    "views": 127543,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -65020,7 +65090,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -65029,7 +65099,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -65046,13 +65126,13 @@
     },
     "replies": 67,
     "reposts": 2,
-    "likes": 421,
+    "likes": 428,
     "bookmarks": 9,
     "quotes": 0,
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 19:19:29 +0000 2026",
     "created_timestamp": 1792869569,
-    "views": 122556,
+    "views": 125479,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -65083,11 +65163,11 @@
       "screen_name": "TokenGremlin",
       "url": "https://x.com/TokenGremlin",
       "id": "1499460382158725120",
-      "followers": 14662,
+      "followers": 14668,
       "following": 1679,
-      "likes": 124355,
+      "likes": 124374,
       "media_count": 1524,
-      "statuses": 7482,
+      "statuses": 7484,
       "name": "Token Gremlin",
       "description": "Tracking the AI frontier: models, agents, research, leaks & pre-release signals. I test, investigate and build.",
       "raw_description": {
@@ -65112,13 +65192,13 @@
     },
     "replies": 45,
     "reposts": 10,
-    "likes": 585,
+    "likes": 588,
     "bookmarks": 31,
     "quotes": 2,
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 17:58:34 +0000 2026",
     "created_timestamp": 1792864714,
-    "views": 97527,
+    "views": 98654,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -65151,7 +65231,7 @@
         "screen_name": "ArfurGrok",
         "url": "https://x.com/ArfurGrok",
         "id": "2053001548335124480",
-        "followers": 13730,
+        "followers": 13753,
         "following": 7,
         "likes": 4,
         "media_count": 0,
@@ -65183,7 +65263,7 @@
       "embed_card": "tweet",
       "created_at": "Sat Oct 24 17:56:23 +0000 2026",
       "created_timestamp": 1792864583,
-      "views": 129081,
+      "views": 130489,
       "is_note_tweet": false,
       "community_note": null,
       "lang": "en",
@@ -65222,7 +65302,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -65231,7 +65311,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -65246,15 +65336,15 @@
       },
       "type": "profile"
     },
-    "replies": 73,
+    "replies": 74,
     "reposts": 5,
-    "likes": 792,
+    "likes": 799,
     "bookmarks": 11,
     "quotes": 3,
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 19:17:17 +0000 2026",
     "created_timestamp": 1792869437,
-    "views": 67694,
+    "views": 68713,
     "is_note_tweet": false,
     "community_note": null,
     "lang": null,
@@ -65285,11 +65375,11 @@
       "screen_name": "mitsuhiko",
       "url": "https://x.com/mitsuhiko",
       "id": "12963432",
-      "followers": 98596,
+      "followers": 98612,
       "following": 913,
       "likes": 15934,
       "media_count": 3494,
-      "statuses": 65191,
+      "statuses": 65192,
       "name": "Armin Ronacher ⇌",
       "description": "Creator of Flask. Building at http://earendil.com. Bypassing Permissions. Can hand crank. Husband and father of 3 — “more nuanced in person”",
       "raw_description": {
@@ -65324,14 +65414,14 @@
       "type": "profile"
     },
     "replies": 43,
-    "reposts": 59,
-    "likes": 2366,
-    "bookmarks": 48,
+    "reposts": 60,
+    "likes": 2404,
+    "bookmarks": 50,
     "quotes": 13,
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 18:50:42 +0000 2026",
     "created_timestamp": 1792867842,
-    "views": 149867,
+    "views": 152799,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -65354,7 +65444,7 @@
         "screen_name": "thsottiaux",
         "url": "https://x.com/thsottiaux",
         "id": "1953337039510003712",
-        "followers": 933034,
+        "followers": 933297,
         "following": 76,
         "likes": 10550,
         "media_count": 157,
@@ -65363,7 +65453,17 @@
         "description": "Codex & ChatGPT @OpenAI",
         "raw_description": {
           "text": "Codex & ChatGPT @OpenAI",
-          "facets": []
+          "facets": [
+            {
+              "type": "mention",
+              "indices": [
+                16,
+                23
+              ],
+              "original": "OpenAI",
+              "id": ""
+            }
+          ]
         },
         "location": "",
         "banner_url": "",
@@ -65378,15 +65478,15 @@
         },
         "type": "profile"
       },
-      "replies": 1116,
+      "replies": 1118,
       "reposts": 87,
-      "likes": 5647,
-      "bookmarks": 261,
+      "likes": 5693,
+      "bookmarks": 267,
       "quotes": 74,
       "embed_card": "tweet",
       "created_at": "Sat Oct 24 16:26:30 +0000 2026",
       "created_timestamp": 1792859190,
-      "views": 1066288,
+      "views": 1087709,
       "is_note_tweet": false,
       "community_note": null,
       "lang": "en",
@@ -65425,7 +65525,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -65434,7 +65534,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -65451,13 +65561,13 @@
     },
     "replies": 80,
     "reposts": 7,
-    "likes": 977,
+    "likes": 991,
     "bookmarks": 7,
     "quotes": 2,
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 22:44:22 +0000 2026",
     "created_timestamp": 1792881862,
-    "views": 74961,
+    "views": 76297,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -65498,16 +65608,35 @@
       "screen_name": "alexandr_wang",
       "url": "https://x.com/alexandr_wang",
       "id": "615818451",
-      "followers": 833422,
+      "followers": 833544,
       "following": 943,
-      "likes": 7574,
+      "likes": 7576,
       "media_count": 522,
       "statuses": 3646,
       "name": "Alexandr Wang",
       "description": "chief ai officer @meta, founder meta superintelligence labs, founder @scale_ai. give everyone the adulthood they dreamed of in childhood",
       "raw_description": {
         "text": "chief ai officer @meta, founder meta superintelligence labs, founder @scale_ai. give everyone the adulthood they dreamed of in childhood",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              17,
+              22
+            ],
+            "original": "meta",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              69,
+              78
+            ],
+            "original": "scale_ai",
+            "id": ""
+          }
+        ]
       },
       "location": "San Francisco, CA",
       "banner_url": "https://pbs.twimg.com/profile_banners/615818451/1791055220",
@@ -65525,15 +65654,15 @@
       },
       "type": "profile"
     },
-    "replies": 91,
-    "reposts": 33,
-    "likes": 3668,
-    "bookmarks": 91,
+    "replies": 92,
+    "reposts": 34,
+    "likes": 3697,
+    "bookmarks": 92,
     "quotes": 20,
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 20:27:24 +0000 2026",
     "created_timestamp": 1792873644,
-    "views": 813477,
+    "views": 819229,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -65574,7 +65703,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -65583,7 +65712,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -65598,15 +65737,15 @@
       },
       "type": "profile"
     },
-    "replies": 245,
+    "replies": 246,
     "reposts": 47,
-    "likes": 3776,
-    "bookmarks": 152,
+    "likes": 3806,
+    "bookmarks": 154,
     "quotes": 92,
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 22:42:03 +0000 2026",
     "created_timestamp": 1792881723,
-    "views": 584604,
+    "views": 591344,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -65649,9 +65788,9 @@
       "screen_name": "specialkdelslay",
       "url": "https://x.com/specialkdelslay",
       "id": "1460106145855520770",
-      "followers": 6974,
+      "followers": 6975,
       "following": 3869,
-      "likes": 581522,
+      "likes": 581509,
       "media_count": 20141,
       "statuses": 162910,
       "name": "special k | CEO of pumpkin spice oneshotted era 🍂",
@@ -65693,30 +65832,11 @@
     "created_at": "Sat Oct 24 15:16:35 +0000 2026",
     "created_timestamp": 1792854995,
     "possibly_sensitive": false,
-    "views": 121946,
+    "views": 122800,
     "is_note_tweet": false,
     "community_note": {
       "text": "The image attached to this post is a fabricated OpenAI email. Confirmed fake by an OpenAI employee.\n\nx.com/thsottiaux/sta…\nhelp.openai.com/en/articles/10…",
-      "facets": [
-        {
-          "type": "url",
-          "indices": [
-            101,
-            122
-          ],
-          "display": "x.com/thsottiaux/sta…",
-          "replacement": "https://x.com/thsottiaux/status/2114086171907428846"
-        },
-        {
-          "type": "url",
-          "indices": [
-            123,
-            154
-          ],
-          "display": "help.openai.com/en/articles/10…",
-          "replacement": "https://help.openai.com/en/articles/10562188-troubleshooting-openai-account-deactivation"
-        }
-      ]
+      "facets": []
     },
     "lang": "en",
     "replying_to": null,
@@ -65770,7 +65890,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -65779,7 +65899,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -65796,13 +65926,13 @@
     },
     "replies": 29,
     "reposts": 8,
-    "likes": 903,
+    "likes": 914,
     "bookmarks": 5,
     "quotes": 2,
     "embed_card": "tweet",
     "created_at": "Sat Oct 24 20:06:35 +0000 2026",
     "created_timestamp": 1792872395,
-    "views": 50315,
+    "views": 50873,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -65833,7 +65963,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -65842,7 +65972,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -65857,15 +65997,15 @@
       },
       "type": "profile"
     },
-    "replies": 1177,
-    "reposts": 463,
-    "likes": 11121,
+    "replies": 1186,
+    "reposts": 465,
+    "likes": 11250,
     "bookmarks": 262,
-    "quotes": 619,
+    "quotes": 625,
     "embed_card": "tweet",
     "created_at": "Sun Oct 25 03:39:31 +0000 2026",
     "created_timestamp": 1792899571,
-    "views": 1188978,
+    "views": 1237853,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -65891,7 +66031,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -65900,7 +66040,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -65915,15 +66065,15 @@
       },
       "type": "profile"
     },
-    "replies": 349,
+    "replies": 350,
     "reposts": 55,
-    "likes": 2056,
-    "bookmarks": 37,
-    "quotes": 73,
+    "likes": 2080,
+    "bookmarks": 38,
+    "quotes": 74,
     "embed_card": "tweet",
     "created_at": "Sun Oct 25 03:40:04 +0000 2026",
     "created_timestamp": 1792899604,
-    "views": 920296,
+    "views": 977436,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -65954,16 +66104,35 @@
       "screen_name": "alexandr_wang",
       "url": "https://x.com/alexandr_wang",
       "id": "615818451",
-      "followers": 833422,
+      "followers": 833544,
       "following": 943,
-      "likes": 7574,
+      "likes": 7576,
       "media_count": 522,
       "statuses": 3646,
       "name": "Alexandr Wang",
       "description": "chief ai officer @meta, founder meta superintelligence labs, founder @scale_ai. give everyone the adulthood they dreamed of in childhood",
       "raw_description": {
         "text": "chief ai officer @meta, founder meta superintelligence labs, founder @scale_ai. give everyone the adulthood they dreamed of in childhood",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              17,
+              22
+            ],
+            "original": "meta",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              69,
+              78
+            ],
+            "original": "scale_ai",
+            "id": ""
+          }
+        ]
       },
       "location": "San Francisco, CA",
       "banner_url": "https://pbs.twimg.com/profile_banners/615818451/1791055220",
@@ -65983,13 +66152,13 @@
     },
     "replies": 157,
     "reposts": 54,
-    "likes": 3589,
-    "bookmarks": 135,
+    "likes": 3674,
+    "bookmarks": 138,
     "quotes": 30,
     "embed_card": "tweet",
     "created_at": "Sun Oct 25 02:10:57 +0000 2026",
     "created_timestamp": 1792894257,
-    "views": 319127,
+    "views": 331865,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -66012,11 +66181,11 @@
         "screen_name": "usr_bin_roygbiv",
         "url": "https://x.com/usr_bin_roygbiv",
         "id": "1939421665781559296",
-        "followers": 9949,
-        "following": 935,
-        "likes": 60821,
+        "followers": 9951,
+        "following": 934,
+        "likes": 60857,
         "media_count": 902,
-        "statuses": 30814,
+        "statuses": 30824,
         "name": "Roy",
         "description": "Professional anon @ mum's basement",
         "raw_description": {
@@ -66041,18 +66210,26 @@
       },
       "replies": 19,
       "reposts": 6,
-      "likes": 742,
-      "bookmarks": 33,
-      "quotes": 2,
+      "likes": 760,
+      "bookmarks": 34,
+      "quotes": 3,
       "embed_card": "tweet",
       "created_at": "Sat Oct 24 23:09:21 +0000 2026",
       "created_timestamp": 1792883361,
-      "views": 363625,
+      "views": 374732,
       "is_note_tweet": false,
       "community_note": null,
       "lang": "en",
       "replying_to": null,
       "media": {},
+      "quote": {
+        "type": "tombstone",
+        "provider": "twitter",
+        "reason": "unavailable",
+        "message": "This post is unavailable",
+        "id": "2114125293124542632",
+        "url": "https://x.com/i/status/2114125293124542632"
+      },
       "provider": "twitter",
       "reposted_by": null
     },
@@ -66086,7 +66263,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -66095,7 +66272,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -66110,15 +66297,15 @@
       },
       "type": "profile"
     },
-    "replies": 65,
+    "replies": 66,
     "reposts": 1,
-    "likes": 845,
+    "likes": 861,
     "bookmarks": 12,
     "quotes": 6,
     "embed_card": "tweet",
     "created_at": "Sun Oct 25 03:34:59 +0000 2026",
     "created_timestamp": 1792899299,
-    "views": 64523,
+    "views": 66340,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -66149,7 +66336,7 @@
       "screen_name": "ScriptedAlchemy",
       "url": "https://x.com/ScriptedAlchemy",
       "id": "1006610672220889088",
-      "followers": 19243,
+      "followers": 19241,
       "following": 753,
       "likes": 13421,
       "media_count": 1908,
@@ -66158,7 +66345,50 @@
       "description": "Infra Architect @ ByteDance. Maintainer of @webpack @rspack_dev - creator of #ModuleFederation #auADHD #synesthesia own opinions.",
       "raw_description": {
         "text": "Infra Architect @ ByteDance. Maintainer of @webpack @rspack_dev - creator of #ModuleFederation #auADHD #synesthesia own opinions.",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              43,
+              51
+            ],
+            "original": "webpack",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              52,
+              63
+            ],
+            "original": "rspack_dev",
+            "id": ""
+          },
+          {
+            "type": "hashtag",
+            "indices": [
+              77,
+              94
+            ],
+            "original": "ModuleFederation"
+          },
+          {
+            "type": "hashtag",
+            "indices": [
+              95,
+              102
+            ],
+            "original": "auADHD"
+          },
+          {
+            "type": "hashtag",
+            "indices": [
+              103,
+              115
+            ],
+            "original": "synesthesia"
+          }
+        ]
       },
       "location": "San Jose, CA",
       "banner_url": "https://pbs.twimg.com/profile_banners/1006610672220889088/1624557946",
@@ -66178,13 +66408,13 @@
     },
     "replies": 8,
     "reposts": 3,
-    "likes": 129,
+    "likes": 132,
     "bookmarks": 2,
     "quotes": 2,
     "embed_card": "tweet",
     "created_at": "Sun Oct 25 00:53:52 +0000 2026",
     "created_timestamp": 1792889632,
-    "views": 88062,
+    "views": 92893,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "pl",
@@ -66220,7 +66450,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -66229,7 +66459,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -66246,13 +66486,13 @@
     },
     "replies": 53,
     "reposts": 2,
-    "likes": 391,
+    "likes": 407,
     "bookmarks": 8,
     "quotes": 5,
     "embed_card": "tweet",
     "created_at": "Sun Oct 25 06:07:41 +0000 2026",
     "created_timestamp": 1792908461,
-    "views": 140423,
+    "views": 162578,
     "is_note_tweet": false,
     "community_note": null,
     "lang": null,
@@ -66295,7 +66535,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -66304,7 +66544,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -66319,16 +66569,16 @@
       },
       "type": "profile"
     },
-    "replies": 821,
-    "reposts": 162,
-    "likes": 5053,
-    "bookmarks": 147,
-    "quotes": 122,
+    "replies": 840,
+    "reposts": 163,
+    "likes": 5187,
+    "bookmarks": 151,
+    "quotes": 127,
     "embed_card": "summary_large_image",
     "created_at": "Sun Oct 25 06:06:16 +0000 2026",
     "created_timestamp": 1792908376,
     "possibly_sensitive": false,
-    "views": 603556,
+    "views": 650119,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -66370,7 +66620,7 @@
         "screen_name": "thsottiaux",
         "url": "https://x.com/thsottiaux",
         "id": "1953337039510003712",
-        "followers": 933034,
+        "followers": 933297,
         "following": 76,
         "likes": 10550,
         "media_count": 157,
@@ -66379,7 +66629,17 @@
         "description": "Codex & ChatGPT @OpenAI",
         "raw_description": {
           "text": "Codex & ChatGPT @OpenAI",
-          "facets": []
+          "facets": [
+            {
+              "type": "mention",
+              "indices": [
+                16,
+                23
+              ],
+              "original": "OpenAI",
+              "id": ""
+            }
+          ]
         },
         "location": "",
         "banner_url": "",
@@ -66394,24 +66654,19 @@
         },
         "type": "profile"
       },
-      "replies": 349,
+      "replies": 350,
       "reposts": 55,
-      "likes": 2056,
-      "bookmarks": 37,
-      "quotes": 73,
+      "likes": 2080,
+      "bookmarks": 38,
+      "quotes": 74,
       "embed_card": "tweet",
       "created_at": "Sun Oct 25 03:40:04 +0000 2026",
       "created_timestamp": 1792899604,
-      "views": 920296,
+      "views": 977436,
       "is_note_tweet": false,
       "community_note": null,
       "lang": "en",
-      "replying_to": {
-        "screen_name": "thsottiaux",
-        "status": "2114200152701575656",
-        "url": "https://x.com/thsottiaux/status/2114200152701575656",
-        "profile_url": "https://x.com/thsottiaux"
-      },
+      "replying_to": null,
       "media": {},
       "provider": "twitter",
       "reposted_by": null
@@ -66438,9 +66693,9 @@
       "id": "2042826624488349696",
       "followers": 1142,
       "following": 480,
-      "likes": 5391,
+      "likes": 5393,
       "media_count": 519,
-      "statuses": 3247,
+      "statuses": 3249,
       "name": "Jaysen♨️",
       "description": "18 | SI (AI) enthusiast",
       "raw_description": {
@@ -66465,13 +66720,13 @@
     },
     "replies": 23,
     "reposts": 3,
-    "likes": 448,
+    "likes": 462,
     "bookmarks": 7,
     "quotes": 2,
     "embed_card": "tweet",
     "created_at": "Sun Oct 25 03:56:14 +0000 2026",
     "created_timestamp": 1792900574,
-    "views": 46767,
+    "views": 49626,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -66494,7 +66749,7 @@
         "screen_name": "thsottiaux",
         "url": "https://x.com/thsottiaux",
         "id": "1953337039510003712",
-        "followers": 933034,
+        "followers": 933297,
         "following": 76,
         "likes": 10550,
         "media_count": 157,
@@ -66503,7 +66758,17 @@
         "description": "Codex & ChatGPT @OpenAI",
         "raw_description": {
           "text": "Codex & ChatGPT @OpenAI",
-          "facets": []
+          "facets": [
+            {
+              "type": "mention",
+              "indices": [
+                16,
+                23
+              ],
+              "original": "OpenAI",
+              "id": ""
+            }
+          ]
         },
         "location": "",
         "banner_url": "",
@@ -66518,15 +66783,15 @@
         },
         "type": "profile"
       },
-      "replies": 1177,
-      "reposts": 463,
-      "likes": 11121,
+      "replies": 1186,
+      "reposts": 465,
+      "likes": 11250,
       "bookmarks": 262,
-      "quotes": 619,
+      "quotes": 625,
       "embed_card": "tweet",
       "created_at": "Sun Oct 25 03:39:31 +0000 2026",
       "created_timestamp": 1792899571,
-      "views": 1188978,
+      "views": 1237853,
       "is_note_tweet": false,
       "community_note": null,
       "lang": "en",
@@ -66576,7 +66841,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -66585,7 +66850,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -66602,14 +66877,14 @@
     },
     "replies": 50,
     "reposts": 4,
-    "likes": 1284,
+    "likes": 1343,
     "bookmarks": 16,
     "quotes": 3,
     "embed_card": "summary_large_image",
     "created_at": "Sun Oct 25 05:31:56 +0000 2026",
     "created_timestamp": 1792906316,
     "possibly_sensitive": false,
-    "views": 44718,
+    "views": 47395,
     "is_note_tweet": false,
     "community_note": null,
     "lang": null,
@@ -66659,16 +66934,35 @@
       "screen_name": "theo",
       "url": "https://x.com/theo",
       "id": "786375418685165568",
-      "followers": 413764,
+      "followers": 413804,
       "following": 4317,
-      "likes": 391600,
-      "media_count": 9493,
-      "statuses": 69661,
+      "likes": 391622,
+      "media_count": 9495,
+      "statuses": 69677,
       "name": "Theo - t3.gg",
       "description": "Full time CEO @t3dotcodes & @t3dotchat. Part time YouTuber, investor, and developer",
       "raw_description": {
         "text": "Full time CEO @t3dotcodes & @t3dotchat. Part time YouTuber, investor, and developer",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              14,
+              25
+            ],
+            "original": "t3dotcodes",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              28,
+              38
+            ],
+            "original": "t3dotchat",
+            "id": ""
+          }
+        ]
       },
       "location": "San Francisco, CA",
       "banner_url": "https://pbs.twimg.com/profile_banners/786375418685165568/1777524726",
@@ -66686,15 +66980,15 @@
       },
       "type": "profile"
     },
-    "replies": 112,
+    "replies": 114,
     "reposts": 13,
-    "likes": 1916,
-    "bookmarks": 61,
+    "likes": 1970,
+    "bookmarks": 66,
     "quotes": 14,
     "embed_card": "tweet",
     "created_at": "Sun Oct 25 04:54:47 +0000 2026",
     "created_timestamp": 1792904087,
-    "views": 195536,
+    "views": 214647,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -66730,7 +67024,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -66739,7 +67033,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -66755,14 +67059,14 @@
       "type": "profile"
     },
     "replies": 64,
-    "reposts": 14,
-    "likes": 1913,
-    "bookmarks": 20,
+    "reposts": 15,
+    "likes": 1968,
+    "bookmarks": 21,
     "quotes": 5,
     "embed_card": "tweet",
     "created_at": "Sun Oct 25 05:30:20 +0000 2026",
     "created_timestamp": 1792906220,
-    "views": 93464,
+    "views": 98498,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -66805,16 +67109,35 @@
       "screen_name": "theo",
       "url": "https://x.com/theo",
       "id": "786375418685165568",
-      "followers": 413764,
+      "followers": 413804,
       "following": 4317,
-      "likes": 391600,
-      "media_count": 9493,
-      "statuses": 69661,
+      "likes": 391622,
+      "media_count": 9495,
+      "statuses": 69677,
       "name": "Theo - t3.gg",
       "description": "Full time CEO @t3dotcodes & @t3dotchat. Part time YouTuber, investor, and developer",
       "raw_description": {
         "text": "Full time CEO @t3dotcodes & @t3dotchat. Part time YouTuber, investor, and developer",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              14,
+              25
+            ],
+            "original": "t3dotcodes",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              28,
+              38
+            ],
+            "original": "t3dotchat",
+            "id": ""
+          }
+        ]
       },
       "location": "San Francisco, CA",
       "banner_url": "https://pbs.twimg.com/profile_banners/786375418685165568/1777524726",
@@ -66832,16 +67155,16 @@
       },
       "type": "profile"
     },
-    "replies": 152,
+    "replies": 154,
     "reposts": 12,
-    "likes": 1531,
-    "bookmarks": 84,
-    "quotes": 4,
+    "likes": 1635,
+    "bookmarks": 91,
+    "quotes": 5,
     "embed_card": "summary_large_image",
     "created_at": "Sun Oct 25 13:48:20 +0000 2026",
     "created_timestamp": 1792936100,
     "possibly_sensitive": false,
-    "views": 91331,
+    "views": 100818,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -66896,7 +67219,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -66905,7 +67228,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -66921,14 +67254,14 @@
       "type": "profile"
     },
     "replies": 37,
-    "reposts": 0,
-    "likes": 401,
+    "reposts": 1,
+    "likes": 425,
     "bookmarks": 7,
     "quotes": 0,
     "embed_card": "tweet",
     "created_at": "Sun Oct 25 14:38:01 +0000 2026",
     "created_timestamp": 1792939081,
-    "views": 40950,
+    "views": 45061,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -66972,14 +67305,32 @@
       "id": "1749144460343246848",
       "followers": 3592,
       "following": 1210,
-      "likes": 14284,
+      "likes": 14285,
       "media_count": 482,
-      "statuses": 3526,
+      "statuses": 3525,
       "name": "hims",
       "description": "mts @mem0ai. i rant memory, harness and cloudnative. \n\n@cloudfluently(7k+) / http://moonlitgrid.com / http://posy.page\n@SpaceXAI, @awscloud, @ibm ambassador and 23",
       "raw_description": {
         "text": "mts @mem0ai. i rant memory, harness and cloudnative. \n\n@cloudfluently(7k+) / https://t.co/iq3zub4OP0 / https://t.co/nvVzjEHGNl\n@SpaceXAI, @awscloud, @ibm ambassador and 23",
         "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              4,
+              11
+            ],
+            "original": "mem0ai",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              55,
+              69
+            ],
+            "original": "cloudfluently",
+            "id": ""
+          },
           {
             "type": "url",
             "indices": [
@@ -66999,6 +67350,33 @@
             "original": "https://t.co/nvVzjEHGNl",
             "replacement": "http://posy.page",
             "display": "posy.page"
+          },
+          {
+            "type": "mention",
+            "indices": [
+              127,
+              136
+            ],
+            "original": "SpaceXAI",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              138,
+              147
+            ],
+            "original": "awscloud",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              149,
+              153
+            ],
+            "original": "ibm",
+            "id": ""
           }
         ]
       },
@@ -67020,14 +67398,14 @@
     },
     "replies": 10,
     "reposts": 0,
-    "likes": 183,
-    "bookmarks": 15,
+    "likes": 206,
+    "bookmarks": 16,
     "quotes": 1,
     "embed_card": "tweet",
     "created_at": "Sun Oct 25 08:51:02 +0000 2026",
     "created_timestamp": 1792918262,
     "possibly_sensitive": false,
-    "views": 71872,
+    "views": 90081,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -67060,7 +67438,7 @@
         "screen_name": "thsottiaux",
         "url": "https://x.com/thsottiaux",
         "id": "1953337039510003712",
-        "followers": 933034,
+        "followers": 933297,
         "following": 76,
         "likes": 10550,
         "media_count": 157,
@@ -67069,7 +67447,17 @@
         "description": "Codex & ChatGPT @OpenAI",
         "raw_description": {
           "text": "Codex & ChatGPT @OpenAI",
-          "facets": []
+          "facets": [
+            {
+              "type": "mention",
+              "indices": [
+                16,
+                23
+              ],
+              "original": "OpenAI",
+              "id": ""
+            }
+          ]
         },
         "location": "",
         "banner_url": "",
@@ -67086,22 +67474,17 @@
       },
       "replies": 53,
       "reposts": 2,
-      "likes": 391,
+      "likes": 407,
       "bookmarks": 8,
       "quotes": 5,
       "embed_card": "tweet",
       "created_at": "Sun Oct 25 06:07:41 +0000 2026",
       "created_timestamp": 1792908461,
-      "views": 140423,
+      "views": 162578,
       "is_note_tweet": false,
       "community_note": null,
       "lang": null,
-      "replying_to": {
-        "screen_name": "ScriptedAlchemy",
-        "status": "2114158466025853264",
-        "url": "https://x.com/ScriptedAlchemy/status/2114158466025853264",
-        "profile_url": "https://x.com/ScriptedAlchemy"
-      },
+      "replying_to": null,
       "media": {},
       "provider": "twitter",
       "reposted_by": null
@@ -67136,7 +67519,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -67145,7 +67528,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -67160,15 +67553,15 @@
       },
       "type": "profile"
     },
-    "replies": 26,
+    "replies": 30,
     "reposts": 2,
-    "likes": 116,
+    "likes": 152,
     "bookmarks": 2,
     "quotes": 0,
     "embed_card": "tweet",
     "created_at": "Sun Oct 25 19:16:11 +0000 2026",
     "created_timestamp": 1792955771,
-    "views": 19682,
+    "views": 29417,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
@@ -67211,7 +67604,7 @@
       "screen_name": "kirtandopamine",
       "url": "https://x.com/kirtandopamine",
       "id": "1791862295590572033",
-      "followers": 3896,
+      "followers": 3913,
       "following": 570,
       "likes": 25851,
       "media_count": 328,
@@ -67220,7 +67613,26 @@
       "description": "been on earth since 22 years, kinda mixed experience \nvibe swe | ai ex ml eng @Amazon, eng intern @lyft",
       "raw_description": {
         "text": "been on earth since 22 years, kinda mixed experience \nvibe swe | ai ex ml eng @Amazon, eng intern @lyft",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              78,
+              85
+            ],
+            "original": "Amazon",
+            "id": ""
+          },
+          {
+            "type": "mention",
+            "indices": [
+              98,
+              103
+            ],
+            "original": "lyft",
+            "id": ""
+          }
+        ]
       },
       "location": "nusa panida",
       "banner_url": "https://pbs.twimg.com/profile_banners/1791862295590572033/1792508763",
@@ -67238,18 +67650,21 @@
       },
       "type": "profile"
     },
-    "replies": 31,
-    "reposts": 4,
-    "likes": 603,
-    "bookmarks": 58,
-    "quotes": 2,
+    "replies": 35,
+    "reposts": 6,
+    "likes": 628,
+    "bookmarks": 63,
+    "quotes": 3,
     "embed_card": "summary_large_image",
     "created_at": "Sun Oct 25 08:08:35 +0000 2026",
     "created_timestamp": 1792915715,
     "possibly_sensitive": false,
-    "views": 106031,
+    "views": 130113,
     "is_note_tweet": false,
-    "community_note": null,
+    "community_note": {
+      "text": "Tibo posted a screenshot of the actual unaccepted DM request from this account, showing no reply. The Sydney Sweeney + Dots image matches one the same user posted earlier as an ad idea.\n\nx.com/thsottiaux/sta…\nx.com/kirtandopamine…",
+      "facets": []
+    },
     "lang": "en",
     "replying_to": null,
     "media": {
@@ -67289,7 +67704,7 @@
         "screen_name": "thsottiaux",
         "url": "https://x.com/thsottiaux",
         "id": "1953337039510003712",
-        "followers": 933034,
+        "followers": 933297,
         "following": 76,
         "likes": 10550,
         "media_count": 157,
@@ -67298,7 +67713,17 @@
         "description": "Codex & ChatGPT @OpenAI",
         "raw_description": {
           "text": "Codex & ChatGPT @OpenAI",
-          "facets": []
+          "facets": [
+            {
+              "type": "mention",
+              "indices": [
+                16,
+                23
+              ],
+              "original": "OpenAI",
+              "id": ""
+            }
+          ]
         },
         "location": "",
         "banner_url": "",
@@ -67313,15 +67738,15 @@
         },
         "type": "profile"
       },
-      "replies": 1941,
-      "reposts": 174,
-      "likes": 8145,
-      "bookmarks": 786,
-      "quotes": 209,
+      "replies": 1953,
+      "reposts": 176,
+      "likes": 8220,
+      "bookmarks": 794,
+      "quotes": 208,
       "embed_card": "tweet",
       "created_at": "Sat Oct 24 19:21:45 +0000 2026",
       "created_timestamp": 1792869705,
-      "views": 1806483,
+      "views": 1871261,
       "is_note_tweet": false,
       "community_note": null,
       "lang": "en",
@@ -67371,7 +67796,7 @@
       "screen_name": "thsottiaux",
       "url": "https://x.com/thsottiaux",
       "id": "1953337039510003712",
-      "followers": 933034,
+      "followers": 933297,
       "following": 76,
       "likes": 10550,
       "media_count": 157,
@@ -67380,7 +67805,17 @@
       "description": "Codex & ChatGPT @OpenAI",
       "raw_description": {
         "text": "Codex & ChatGPT @OpenAI",
-        "facets": []
+        "facets": [
+          {
+            "type": "mention",
+            "indices": [
+              16,
+              23
+            ],
+            "original": "OpenAI",
+            "id": ""
+          }
+        ]
       },
       "location": "",
       "banner_url": "",
@@ -67395,16 +67830,16 @@
       },
       "type": "profile"
     },
-    "replies": 59,
-    "reposts": 14,
-    "likes": 1411,
-    "bookmarks": 20,
-    "quotes": 3,
+    "replies": 73,
+    "reposts": 18,
+    "likes": 1707,
+    "bookmarks": 29,
+    "quotes": 4,
     "embed_card": "summary_large_image",
     "created_at": "Sun Oct 25 19:15:33 +0000 2026",
     "created_timestamp": 1792955733,
     "possibly_sensitive": false,
-    "views": 43249,
+    "views": 57278,
     "is_note_tweet": false,
     "community_note": null,
     "lang": "en",
