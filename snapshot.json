@@ -1,6 +1,88 @@
 {
   "posts": [
     {
+      "id": "2115330127886463244",
+      "author": "thsottiaux",
+      "at": "2026-10-28T06:29:38.000Z",
+      "text": "And it's done. See you tomorrow for some good news. https://t.co/WhJle2cWRG",
+      "url": "https://x.com/thsottiaux/status/2115330127886463244",
+      "summary": "And it's done. See you tomorrow for some good news.",
+      "category": "confirmed",
+      "resetType": "regular",
+      "provenance": "history"
+    },
+    {
+      "id": "2115290318652444729",
+      "author": "thsottiaux",
+      "text": "@AdamHoltererer Maybe it’s because I have bad long term memory.",
+      "url": "https://x.com/thsottiaux/status/2115290318652444729",
+      "at": "2026-10-28T03:51:26.000Z",
+      "parentId": "2115090264138395670",
+      "parent": {
+        "author": "AdamHoltererer",
+        "text": "OpenAI has reset Codex limits 11 times this month",
+        "url": "https://x.com/AdamHoltererer/status/2115090264138395670"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Maybe it’s because I have bad long term memory.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2115273253711409208",
+      "author": "thsottiaux",
+      "text": "Lands by midnight PST.",
+      "url": "https://x.com/thsottiaux/status/2115273253711409208",
+      "at": "2026-10-28T02:43:38.000Z",
+      "parentId": "2115273064481218829",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Day 23/ Much requested iCloud Main & Calendar plugins. Just kidding, today is a reset. Still much requested though!",
+        "url": "https://x.com/thsottiaux/status/2115273064481218829"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "Lands by midnight PST.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2115273064481218829",
+      "author": "thsottiaux",
+      "text": "Day 23/ Much requested iCloud Main & Calendar plugins. Just kidding, today is a reset. Still much requested though!",
+      "url": "https://x.com/thsottiaux/status/2115273064481218829",
+      "at": "2026-10-28T02:42:53.000Z",
+      "parent": {
+        "author": "ChatGPT",
+        "text": "Much requested, and now yours to connect: iCloud Mail and Calendar plugins are available in ChatGPT.\n\nAsk ChatGPT to find that email, catch up on your inbox, check what’s next, or update a calendar event. Phew.\n\nAvailable on all ChatGPT plans on web, desktop, and iOS.",
+        "url": "https://x.com/ChatGPT/status/2115139248458191070"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Day 23/ Much requested iCloud Main & Calendar plugins. Just kidding, today is a reset. Still much requested though!",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2115272201922572627",
+      "author": "thsottiaux",
+      "text": "@Xanderwow_A What's going on",
+      "url": "https://x.com/thsottiaux/status/2115272201922572627",
+      "at": "2026-10-28T02:39:27.000Z",
+      "parentId": "2115099787427242446",
+      "parent": {
+        "author": "Xanderwow_A",
+        "text": "Perhaps, in another universe, their story is about more than Reset, Bot, and Code.",
+        "url": "https://x.com/Xanderwow_A/status/2115099787427242446"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "What's going on",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2114599388454481930",
       "author": "thsottiaux",
       "text": "@larsencc @bot Not enough resets",
@@ -3993,14 +4075,23 @@
         "2114237083652882932"
       ],
       "basis": "announcement"
+    },
+    {
+      "id": "2115330127886463244",
+      "date": "2026-10-28",
+      "type": "regular",
+      "postIds": [
+        "2115330127886463244"
+      ],
+      "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-28T00:05:19.669Z",
-  "lastAttemptAt": "2026-10-28T05:29:56.269Z",
-  "historyCheckedAt": "2026-10-28T00:00:39.161Z",
+  "checkedAt": "2026-10-28T11:32:35.393Z",
+  "lastAttemptAt": "2026-10-28T11:32:35.393Z",
+  "historyCheckedAt": "2026-10-28T11:27:36.278Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
