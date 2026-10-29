@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "2115851621137784832",
+      "author": "thsottiaux",
+      "text": "Graduating from The Reset Company to The Token Company.",
+      "url": "https://x.com/thsottiaux/status/2115851621137784832",
+      "at": "2026-10-29T17:01:51.000Z",
+      "parentId": "2115850175868727621",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering extended limits for dots for now, and usage of your dot will still continue to be separate from your default usage.\n\nAnd we'll of course also keep shipping better models and other efficiency improvements that increase your effective usage over time.",
+        "url": "https://x.com/thsottiaux/status/2115850175868727621"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Graduating from The Reset Company to The Token Company.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2115850175868727621",
+      "author": "thsottiaux",
+      "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering extended limits for dots for now, and usage of your dot will still continue to be separate from your default usage.\n\nAnd we'll of course also keep shipping better models and other efficiency improvements that increase your effective usage over time.",
+      "url": "https://x.com/thsottiaux/status/2115850175868727621",
+      "at": "2026-10-29T16:56:07.000Z",
+      "parentMissing": false,
+      "category": "clarification",
+      "summary": "Day 25/",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2115330127886463244",
       "author": "thsottiaux",
       "at": "2026-10-28T06:29:38.000Z",
@@ -4086,9 +4116,9 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-29T14:21:48.975Z",
-  "lastAttemptAt": "2026-10-29T14:21:48.975Z",
-  "historyCheckedAt": "2026-10-29T14:21:49.958Z",
+  "checkedAt": "2026-10-29T19:44:15.131Z",
+  "lastAttemptAt": "2026-10-29T19:44:15.131Z",
+  "historyCheckedAt": "2026-10-29T19:44:16.644Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
