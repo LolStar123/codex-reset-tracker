@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2116045727642366367",
+      "author": "thsottiaux",
+      "text": "@blueemi99 Good list",
+      "url": "https://x.com/thsottiaux/status/2116045727642366367",
+      "at": "2026-10-30T05:53:10.000Z",
+      "parentId": "2115845891953213919",
+      "parent": {
+        "author": "blueemi99",
+        "text": "Here's my plan for how OpenAI could make a crazy comeback:\n\n- Pretty obvious, but release Astra 6.1. I'm sure it's ready, or almost ready. They HAVE to release it, make it better than Opus 5.5, and make it at least 50% cheaper/more efficient so $200 Pro users don't feel the nerfs as much.\n- Work on improving Dots. I think they're still pretty far behind Grok Bot, and just making something very similar to it would be the best move.\n- Revert the decision to nerf $200 Pro users' limits by 50%. This is CRAZY, and I think most paying Pro users are on the $200 tier, so a lot of people will be mad about it.\n- Make the Codex app good again. Personally, I think the Codex app's prime was around GPT-5.5's release. It's gotten more features since then, sure, but it's also become sloppier and more bloated.\n- Fix their uptime and backend issues. A lot of requests end in errors, on both ChatGPT and Codex. This is honestly unacceptable, and they should focus on fixing it as much as they can.\n\nGiving out resets every day won't fix these issues, and they can't keep doing that forever. I know these are basically the most well-known, common issues, but I hope someone sees this and actually fixes at least one of them.",
+        "url": "https://x.com/blueemi99/status/2115845891953213919"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Good list",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2115851621137784832",
       "author": "thsottiaux",
       "text": "Graduating from The Reset Company to The Token Company.",
@@ -4116,9 +4134,9 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-30T02:56:27.866Z",
-  "lastAttemptAt": "2026-10-30T02:56:27.866Z",
-  "historyCheckedAt": "2026-10-30T02:55:51.739Z",
+  "checkedAt": "2026-10-30T09:37:30.009Z",
+  "lastAttemptAt": "2026-10-30T09:37:30.009Z",
+  "historyCheckedAt": "2026-10-30T09:34:26.641Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
