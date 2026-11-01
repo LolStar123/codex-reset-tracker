@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "id": "2116692529970311254",
+      "author": "thsottiaux",
+      "text": "Banked 1/2",
+      "url": "https://x.com/thsottiaux/status/2116692529970311254",
+      "at": "2026-11-01T00:43:20.000Z",
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Banked 1/2",
+      "resetType": "banked",
+      "provenance": "direct"
+    },
+    {
       "id": "2116405414921384099",
       "author": "thsottiaux",
       "text": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.\n\nhttps://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
@@ -4164,9 +4176,9 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-10-31T23:06:32.920Z",
-  "lastAttemptAt": "2026-10-31T23:06:32.920Z",
-  "historyCheckedAt": "2026-10-31T23:06:33.957Z",
+  "checkedAt": "2026-11-01T02:08:41.717Z",
+  "lastAttemptAt": "2026-11-01T02:08:41.717Z",
+  "historyCheckedAt": "2026-11-01T02:05:41.989Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
