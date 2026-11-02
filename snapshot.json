@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "id": "2117035794678546764",
+      "author": "thsottiaux",
+      "text": "Day 28/ Banked 2/2",
+      "url": "https://x.com/thsottiaux/status/2117035794678546764",
+      "at": "2026-11-01T23:27:20.000Z",
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Day 28/ Banked 2/2",
+      "resetType": "banked",
+      "provenance": "direct"
+    },
+    {
       "id": "2116942192497533418",
       "author": "thsottiaux",
       "text": "@TokenGremlin I demand a banked reset",
@@ -4194,12 +4206,12 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-11-01T20:26:10.408Z",
-  "lastAttemptAt": "2026-11-01T23:45:09.804Z",
-  "historyCheckedAt": "2026-11-01T20:26:00.015Z",
+  "checkedAt": "2026-11-02T02:46:37.214Z",
+  "lastAttemptAt": "2026-11-02T02:46:37.214Z",
+  "historyCheckedAt": "2026-11-02T02:42:58.345Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
