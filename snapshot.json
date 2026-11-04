@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2118024737070957009",
+      "author": "thsottiaux",
+      "text": "@AnikaCodes I was moved to the basement yesterday",
+      "url": "https://x.com/thsottiaux/status/2118024737070957009",
+      "at": "2026-11-04T16:57:02.000Z",
+      "parentId": "2117923208934679021",
+      "parent": {
+        "author": "AnikaCodes",
+        "text": "Rumor is Tibo is getting moved to a new role, and honestly that thread looks exactly like a handover. Tibo says \"Please make the model better, it doesn’t yet do everything\" and Andrew Ambrosino replies \"will get right on that\". Felt a faint sadness reading it ngl.\n\nIf the rumor's true, Andrew, please drop a reset on day one. Then the whole timeline is yours 😭",
+        "url": "https://x.com/AnikaCodes/status/2117923208934679021"
+      },
+      "parentMissing": false,
+      "category": "correction",
+      "summary": "I was moved to the basement yesterday",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2117035794678546764",
       "author": "thsottiaux",
       "text": "Day 28/ Banked 2/2",
@@ -4206,9 +4224,9 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-11-04T09:46:51.926Z",
-  "lastAttemptAt": "2026-11-04T09:46:51.926Z",
-  "historyCheckedAt": "2026-11-04T09:44:02.812Z",
+  "checkedAt": "2026-11-04T17:35:28.736Z",
+  "lastAttemptAt": "2026-11-04T17:35:28.736Z",
+  "historyCheckedAt": "2026-11-04T17:32:21.948Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
