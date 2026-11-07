@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2119113859747426370",
+      "author": "thsottiaux",
+      "text": "@UFO2002616 Missed that you can dash",
+      "url": "https://x.com/thsottiaux/status/2119113859747426370",
+      "at": "2026-11-07T17:04:50.000Z",
+      "parentId": "2118989680381395314",
+      "parent": {
+        "author": "UFO2002616",
+        "text": "挑战全网最快！\n25s 带 Tibo 速通地下室👊👊👊\n  \n@thsottiaux  我拿到了 Reset 按钮，今天会 Reset 吗？😆\n  \n以下是一些小技巧：\n1. Tibo的脑袋是无敌的，只有身体判定伤害\n2. 长按跳跃键可以跳得更远\n3. 游戏一开始立马冲刺，可以找到很多机会\n4. 卡在砖块边缘跳跃，可以更好地控制落点",
+        "url": "https://x.com/UFO2002616/status/2118989680381395314"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Missed that you can dash",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2118931941907165401",
       "author": "thsottiaux",
       "text": "@johnsavage_ai Savage, John",
@@ -4242,9 +4260,9 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-11-07T15:49:57.086Z",
-  "lastAttemptAt": "2026-11-07T15:49:57.086Z",
-  "historyCheckedAt": "2026-11-07T15:49:16.568Z",
+  "checkedAt": "2026-11-07T19:41:23.438Z",
+  "lastAttemptAt": "2026-11-07T19:41:23.438Z",
+  "historyCheckedAt": "2026-11-07T19:40:50.135Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
   "error": null,
