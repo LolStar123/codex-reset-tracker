@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "id": "2118931941907165401",
+      "author": "thsottiaux",
+      "text": "@johnsavage_ai Savage, John",
+      "url": "https://x.com/thsottiaux/status/2118931941907165401",
+      "at": "2026-11-07T05:01:57.000Z",
+      "parentId": "2118745235983638810",
+      "parent": {
+        "author": "johnsavage_ai",
+        "text": "Hey OpenAI \n\nI dare you to drop GPT-6.2 today\n\notherwise I'm cancelling with full usage and 2 banked resets \n\nI don't care anymore",
+        "url": "https://x.com/johnsavage_ai/status/2118745235983638810"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Savage, John",
+      "resetType": "banked",
+      "provenance": "direct"
+    },
+    {
       "id": "2118024737070957009",
       "author": "thsottiaux",
       "text": "@AnikaCodes I was moved to the basement yesterday",
@@ -4224,12 +4242,12 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-11-07T02:53:43.307Z",
-  "lastAttemptAt": "2026-11-07T09:26:18.053Z",
-  "historyCheckedAt": "2026-11-07T02:53:35.162Z",
+  "checkedAt": "2026-11-07T15:49:57.086Z",
+  "lastAttemptAt": "2026-11-07T15:49:57.086Z",
+  "historyCheckedAt": "2026-11-07T15:49:16.568Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
