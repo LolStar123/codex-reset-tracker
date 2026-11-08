@@ -1,6 +1,54 @@
 {
   "posts": [
     {
+      "id": "2119308687676432672",
+      "author": "thsottiaux",
+      "text": "@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.",
+      "url": "https://x.com/thsottiaux/status/2119308687676432672",
+      "at": "2026-11-08T05:59:00.000Z",
+      "parentId": "2119185994326905218",
+      "parent": {
+        "author": "ForwardEditor",
+        "text": "I feel like it's necessary to have an X account to have ANY clue what's going on with AI and also why tf your Codex usage keeps getting reset randomly",
+        "url": "https://x.com/ForwardEditor/status/2119185994326905218"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2119296267545419987",
+      "author": "thsottiaux",
+      "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n✅ Pro 200 = 20X\n✅ Pro 500 = 50X, access to ultrafast",
+      "url": "https://x.com/thsottiaux/status/2119296267545419987",
+      "at": "2026-11-08T05:09:39.000Z",
+      "parentMissing": false,
+      "category": "clarification",
+      "summary": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n✅ Pro 200 = 20X\n✅ Pro 500 = 50X, access to ultrafast",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
+      "id": "2119232059537514598",
+      "author": "thsottiaux",
+      "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
+      "url": "https://x.com/thsottiaux/status/2119232059537514598",
+      "at": "2026-11-08T00:54:31.000Z",
+      "parentId": "2119150004426428901",
+      "parent": {
+        "author": "Tech_girl",
+        "text": "Has anyone else noticed that ever since Tibo stopped giving out resets, Codex usage limits seem to last longer?\n\nOr is it just me?",
+        "url": "https://x.com/Tech_girl/status/2119150004426428901"
+      },
+      "parentMissing": false,
+      "category": "clarification",
+      "summary": "We doubled the usage on Pro plans and Business 100",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2119113859747426370",
       "author": "thsottiaux",
       "text": "@UFO2002616 Missed that you can dash",
@@ -4260,12 +4308,12 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-11-07T23:02:00.512Z",
-  "lastAttemptAt": "2026-11-08T15:58:46.804Z",
-  "historyCheckedAt": "2026-11-07T22:57:18.479Z",
+  "checkedAt": "2026-11-08T20:18:53.064Z",
+  "lastAttemptAt": "2026-11-08T20:18:53.064Z",
+  "historyCheckedAt": "2026-11-08T20:16:27.863Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
