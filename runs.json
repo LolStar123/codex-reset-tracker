@@ -2812,5 +2812,16 @@
     "newPosts": 0,
     "error": "Error: Source returned 404",
     "historyError": null
+  },
+  {
+    "startedAt": "2026-11-09T21:30:05.510Z",
+    "finishedAt": "2026-11-09T21:30:08.831Z",
+    "status": "ok",
+    "checkedAt": "2026-11-09T21:30:05.510Z",
+    "posts": 240,
+    "events": 61,
+    "newPosts": 0,
+    "error": null,
+    "historyError": null
   }
 ]
