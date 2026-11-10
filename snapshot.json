@@ -4308,12 +4308,12 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-11-10T03:45:35.865Z",
-  "lastAttemptAt": "2026-11-10T11:50:15.289Z",
-  "historyCheckedAt": "2026-11-10T03:42:28.581Z",
+  "checkedAt": "2026-11-10T18:55:05.288Z",
+  "lastAttemptAt": "2026-11-10T18:55:05.288Z",
+  "historyCheckedAt": "2026-11-10T18:52:09.396Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
