@@ -1,6 +1,37 @@
 {
   "posts": [
     {
+      "id": "2120410480204525936",
+      "author": "thsottiaux",
+      "text": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
+      "url": "https://x.com/thsottiaux/status/2120410480204525936",
+      "at": "2026-11-11T06:57:08.000Z",
+      "parentId": "2120410006273380750",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "It’s been a while without resets. Maybe I should come back out of the basement",
+        "url": "https://x.com/thsottiaux/status/2120410006273380750"
+      },
+      "parentMissing": false,
+      "category": "scheduled",
+      "summary": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
+      "resetType": "banked",
+      "timing": "Thursday. Reset incoming.",
+      "provenance": "direct"
+    },
+    {
+      "id": "2120410006273380750",
+      "author": "thsottiaux",
+      "text": "It’s been a while without resets. Maybe I should come back out of the basement",
+      "url": "https://x.com/thsottiaux/status/2120410006273380750",
+      "at": "2026-11-11T06:55:15.000Z",
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "It’s been a while without resets. Maybe I should come back out of the basement",
+      "resetType": "regular",
+      "provenance": "direct"
+    },
+    {
       "id": "2119308687676432672",
       "author": "thsottiaux",
       "text": "@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.",
@@ -4308,12 +4339,12 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-11-10T23:51:52.352Z",
-  "lastAttemptAt": "2026-11-11T10:58:54.820Z",
-  "historyCheckedAt": "2026-11-10T23:50:55.057Z",
+  "checkedAt": "2026-11-11T18:30:01.598Z",
+  "lastAttemptAt": "2026-11-11T18:30:01.598Z",
+  "historyCheckedAt": "2026-11-11T18:28:15.351Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
