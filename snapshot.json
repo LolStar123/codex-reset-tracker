@@ -4357,11 +4357,11 @@
     }
   ],
   "checkedAt": "2026-11-13T10:06:29.252Z",
-  "lastAttemptAt": "2026-11-13T10:06:29.252Z",
+  "lastAttemptAt": "2026-11-13T17:40:36.947Z",
   "historyCheckedAt": "2026-11-13T10:05:16.253Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": null,
+  "error": "Error: Source returned 404",
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
