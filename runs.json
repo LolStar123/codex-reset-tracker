@@ -2988,5 +2988,16 @@
     "newPosts": 0,
     "error": null,
     "historyError": null
+  },
+  {
+    "startedAt": "2026-11-14T02:47:47.271Z",
+    "finishedAt": "2026-11-14T02:47:48.095Z",
+    "status": "ok",
+    "checkedAt": "2026-11-14T02:47:47.271Z",
+    "posts": 243,
+    "events": 61,
+    "newPosts": 0,
+    "error": null,
+    "historyError": null
   }
 ]
