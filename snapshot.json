@@ -4356,12 +4356,12 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-11-18T19:05:41.453Z",
-  "lastAttemptAt": "2026-11-19T01:07:14.735Z",
-  "historyCheckedAt": "2026-11-18T19:01:00.801Z",
+  "checkedAt": "2026-11-19T08:42:41.280Z",
+  "lastAttemptAt": "2026-11-19T08:42:41.280Z",
+  "historyCheckedAt": "2026-11-19T08:40:50.381Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
