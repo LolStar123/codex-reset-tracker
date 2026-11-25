@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "2125299467691987445",
+      "author": "thsottiaux",
+      "text": "Sign up for ChatGPT Business: https://chatgpt.com/pricing/?type=team",
+      "url": "https://x.com/thsottiaux/status/2125299467691987445",
+      "at": "2026-11-24T18:44:13.000Z",
+      "parentId": "2125299248782778588",
+      "parent": {
+        "author": "thsottiaux",
+        "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+        "url": "https://x.com/thsottiaux/status/2125299248782778588"
+      },
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "Sign up for ChatGPT Business: https://chatgpt.com/pricing/?type=team",
+      "resetType": "banked",
+      "provenance": "direct"
+    },
+    {
+      "id": "2125299248782778588",
+      "author": "thsottiaux",
+      "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+      "url": "https://x.com/thsottiaux/status/2125299248782778588",
+      "at": "2026-11-24T18:43:21.000Z",
+      "parentMissing": false,
+      "category": "hint",
+      "summary": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+      "resetType": "banked",
+      "provenance": "direct"
+    },
+    {
       "id": "2120999993079451919",
       "author": "thsottiaux",
       "text": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
@@ -4356,12 +4386,12 @@
       "basis": "announcement"
     }
   ],
-  "checkedAt": "2026-11-24T10:14:16.354Z",
-  "lastAttemptAt": "2026-11-24T20:40:53.088Z",
-  "historyCheckedAt": "2026-11-24T10:13:09.253Z",
+  "checkedAt": "2026-11-25T03:45:07.452Z",
+  "lastAttemptAt": "2026-11-25T03:45:07.452Z",
+  "historyCheckedAt": "2026-11-25T03:41:19.084Z",
   "coverageStart": "2025-09-17T04:02:52.000Z",
   "replyCoverageStart": "2026-08-10T13:01:17.000Z",
-  "error": "Error: Source returned 404",
+  "error": null,
   "pendingCursor": null,
   "catchupBoundary": null,
   "historyError": null
